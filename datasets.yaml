@@ -1681,6 +1681,15 @@ MuonEmbedding_Run2018B-UL2018:
   nick: MuonEmbedding_Run2018B-UL2018
   sample_type: embedding
   xsec: 1.0
+MuonEmbedding_Run2018B-better-cleaning-UL2018:
+  dbs: /sample/not/published
+  era: 2018
+  generator_weight: 1.0
+  nevents: 9301756
+  nfiles: 94
+  nick: MuonEmbedding_Run2018B-better-cleaning-UL2018
+  sample_type: embedding
+  xsec: 1.0
 MuonEmbedding_Run2018C-UL2018:
   dbs: /sample/not/published
   era: 2018
@@ -3605,6 +3614,15 @@ TauEmbedding-MuTauFinalState_Run2018B-UL2018:
   nevents: 5888849
   nfiles: 59
   nick: TauEmbedding-MuTauFinalState_Run2018B-UL2018
+  sample_type: embedding
+  xsec: 1.0
+TauEmbedding-MuTauFinalState_Run2018B-better-cleaning-UL2018:
+  dbs: /sample/not/published
+  era: 2018
+  generator_weight: 1.0
+  nevents: 5890225
+  nfiles: 59
+  nick: TauEmbedding-MuTauFinalState_Run2018B-better-cleaning-UL2018
   sample_type: embedding
   xsec: 1.0
 TauEmbedding-MuTauFinalState_Run2018C-UL2018:
