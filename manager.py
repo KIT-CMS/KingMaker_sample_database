@@ -135,8 +135,9 @@ class DASQuery(object):
         return nick
 
     def _get_era(self, nick):
+        # possible eras are formatted as Run20XX or as 20ULXX
         # regex search for a year in the nick
-        m = re.search("20[0-9]{2}", nick)
+        m = re.search("20(?:UL)?\d{2}", nick)
         if m:
             return int(m.group(0))
 
@@ -446,11 +447,28 @@ def finding_and_adding_sample(database):
         questionary.print("DAS nick is already in database")
         database.print_by_das(nick)
         return
-    results = DASQuery(nick=nick, type="search_dataset").result
+    query_results = DASQuery(nick=nick, type="search_dataset").result
+    # now omit results that are already in the database
+    already_in_database = []
+    results = []
+    for result in query_results:
+        if result["dataset"] in database.dasnicks:
+            already_in_database.append(result)
+        else:
+            results.append(result)
+    if len(already_in_database) > 0:
+        questionary.print(
+            f"Found {len(already_in_database)} results that are already in the database, omitting them from the results"
+        )
+        questionary.print(f"Results that are already in the database:")
+        for result in already_in_database:
+            questionary.print(result['dataset'])
     if len(results) == 0:
-        questionary.print("No results found")
+        questionary.print("No new samples found")
         return
-    elif len(results) >= 1:
+    if len(results) > 40:
+        questionary.print("Too many new samples found, only showing the first 40")
+    if len(results) >= 1:
         options = []
         for result in results:
             options.append(
