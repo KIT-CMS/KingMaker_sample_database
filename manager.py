@@ -136,7 +136,7 @@ class DASQuery(object):
 
     def _get_era(self, nick):
         # regex search for a year in the nick
-        m = re.search("20[0-9]{2}", nick)
+        m = re.search("20[1-9]{2}", nick)
         if m:
             return int(m.group(0))
 
@@ -230,6 +230,10 @@ class DASQuery(object):
             ]
         ):
             return "rem_hbb"
+        elif any(name.lower() in process for name in ["NMSSM_XToYHTo2B2Tau"]):
+            return "nmssm_Ybb"
+        elif any(name.lower() in process for name in ["NMSSM_XToYHTo2Tau2B"]):
+            return "nmssm_Ytautau"
         else:
             sampletype = questionary.text(
                 f"No automatic sampletype found - Set sampletype for {nick} manually: ",
