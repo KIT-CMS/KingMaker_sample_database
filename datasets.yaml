@@ -574,6 +574,15 @@ DoubleMuon_Run2017B-UL2017:
   nick: DoubleMuon_Run2017B-UL2017
   sample_type: data
   xsec: 1.0
+DoubleMuon_Run2017B-UL_DZ:
+  dbs: DoubleMuon_Run2017B-UL_DZ
+  era: '2017'
+  generator_weight: 1.0
+  nevents: 14501767
+  nfiles: 146
+  nick: DoubleMuon_Run2017B-UL_DZ
+  sample_type: data
+  xsec: 1.0
 DoubleMuon_Run2017C-UL2017:
   dbs: /DoubleMuon/Run2017C-UL2017_MiniAODv2_NanoAODv9-v1/NANOAOD
   era: 2017
@@ -581,6 +590,15 @@ DoubleMuon_Run2017C-UL2017:
   nevents: 49636525
   nfiles: 29
   nick: DoubleMuon_Run2017C-UL2017
+  sample_type: data
+  xsec: 1.0
+DoubleMuon_Run2017C-UL_DZ:
+  dbs: DoubleMuon_Run2017C-UL_DZ
+  era: '2017'
+  generator_weight: 1.0
+  nevents: 49636525
+  nfiles: 497
+  nick: DoubleMuon_Run2017C-UL_DZ
   sample_type: data
   xsec: 1.0
 DoubleMuon_Run2017D-UL2017:
@@ -592,6 +610,15 @@ DoubleMuon_Run2017D-UL2017:
   nick: DoubleMuon_Run2017D-UL2017
   sample_type: data
   xsec: 1.0
+DoubleMuon_Run2017D-UL_DZ:
+  dbs: DoubleMuon_Run2017D-UL_DZ
+  era: '2017'
+  generator_weight: 1.0
+  nevents: 23075733
+  nfiles: 231
+  nick: DoubleMuon_Run2017D-UL_DZ
+  sample_type: data
+  xsec: 1.0
 DoubleMuon_Run2017E-UL2017:
   dbs: /DoubleMuon/Run2017E-UL2017_MiniAODv2_NanoAODv9-v1/NANOAOD
   era: 2017
@@ -601,6 +628,15 @@ DoubleMuon_Run2017E-UL2017:
   nick: DoubleMuon_Run2017E-UL2017
   sample_type: data
   xsec: 1.0
+DoubleMuon_Run2017E-UL_DZ:
+  dbs: DoubleMuon_Run2017E-UL_DZ
+  era: '2017'
+  generator_weight: 1.0
+  nevents: 51531477
+  nfiles: 516
+  nick: DoubleMuon_Run2017E-UL_DZ
+  sample_type: data
+  xsec: 1.0
 DoubleMuon_Run2017F-UL2017:
   dbs: /DoubleMuon/Run2017F-UL2017_MiniAODv2_NanoAODv9-v1/NANOAOD
   era: 2017
@@ -608,6 +644,15 @@ DoubleMuon_Run2017F-UL2017:
   nevents: 79756560
   nfiles: 60
   nick: DoubleMuon_Run2017F-UL2017
+  sample_type: data
+  xsec: 1.0
+DoubleMuon_Run2017F-UL_DZ:
+  dbs: DoubleMuon_Run2017F-UL_DZ
+  era: '2017'
+  generator_weight: 1.0
+  nevents: 79756560
+  nfiles: 798
+  nick: DoubleMuon_Run2017F-UL_DZ
   sample_type: data
   xsec: 1.0
 DoubleMuon_Run2018A-UL2018:
