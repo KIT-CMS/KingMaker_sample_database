@@ -1,0 +1,11 @@
+dbs: /sample/not/published
+era: 2016postVFP
+filelist:
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/ST_tW_antitop_5f_InclusiveDecays/nanoHTT_0.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/ST_tW_antitop_5f_InclusiveDecays/nanoHTT_1.root
+generator_weight: 1.0
+nevents: 925035
+nfiles: 2
+nick: ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODv12-106X
+sample_type: singletop
+xsec: 39.65

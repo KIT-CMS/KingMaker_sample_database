@@ -1,0 +1,16 @@
+dbs: /sample/not/published
+era: 2016postVFP
+filelist:
+-  root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WZTo2Q2L/nanoHTT_0.root
+-  root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WZTo2Q2L/nanoHTT_1.root
+-  root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WZTo2Q2L/nanoHTT_2.root
+-  root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WZTo2Q2L/nanoHTT_3.root
+-  root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WZTo2Q2L/nanoHTT_4.root
+-  root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WZTo2Q2L/nanoHTT_5.root
+-  root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WZTo2Q2L/nanoHTT_6.root
+generator_weight: 1.0
+nevents: 6148260
+nfiles: 7
+nick: WZTo2Q2L_mllmin4p0_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL16NanoAODv12-106X
+sample_type: diboson
+xsec: 

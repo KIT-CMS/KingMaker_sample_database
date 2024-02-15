@@ -1,0 +1,24 @@
+dbs: /sample/not/published
+era: 2016postVFP
+filelist:
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_0.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_1.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_2.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_3.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_4.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_5.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_6.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_7.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_8.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_9.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_10.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_11.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_12.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_13.root
+- root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2016/WJetsToLNu/nanoHTT_14.root
+generator_weight: 1.0
+nevents: 5875256
+nfiles: 15
+nick: WJetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8_RunIISummer20UL16NanoAODv12-106X
+sample_type: wjets
+xsec: 61526.7
