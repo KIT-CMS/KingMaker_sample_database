@@ -1,7 +1,5 @@
 import json
 import subprocess
-# import ROOT
-import time
 import uproot
 from rich.progress import Progress
 import numpy as np
@@ -86,22 +84,20 @@ def calculate_genweight_uproot(dataset):
         genweight = 1 - 2 * negfrac
         print(f"Final genweight: {genweight}")
         return genweight
-    
-def calculate_genweight_local_files():
-    loc_file = "sample_database/local_config.yaml"
 
-    if os.path.isfile(loc_file) and os.path.getsize(loc_file) > 0:  
-        print("it exists")
+
+def calculate_genweight_from_local_file(loc_file):
+    if not (os.path.isfile(loc_file) and os.path.getsize(loc_file) > 0):
+        print(f"File {loc_file} does not exist or is empty, your weight is 0.0")
+    else:
         with open(loc_file, "r") as f:
-            local_config = yaml.safe_load(f)  
+            local_config = yaml.safe_load(f)
             filelist = local_config["filelist"]
-            # print(filelist)
             negative = 0
             positive = 0
             # set a threshold that if more than 10% of the files fail, the function returns None
             threshold = len(filelist) // 10
             fails = 0
-
             print(f"Threshold for failed files: {threshold}")
             print(f"Number of files: {len(filelist)}")
             # loop over all files and count the number of negative and positive genweights
@@ -128,6 +124,3 @@ def calculate_genweight_local_files():
                 genweight = 1 - 2 * negfrac
                 print(f"Final genweight: {genweight}")
                 return genweight
-    else:
-        print("No local_config.yaml found, your weight is 0.0")
-        return 0.0
