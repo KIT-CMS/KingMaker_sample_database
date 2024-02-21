@@ -76,6 +76,13 @@ class SampleDatabase(object):
             json.dump(self.database, stream, indent=4)
         return
 
+    def database_maintainance(self):
+        for sample in self.database:
+            # remove the filelist entry from the dictionary
+            if "filelist" in self.database[sample]:
+                del self.database[sample]["filelist"]
+        self.save_database()
+
     def close_database(self):
         # remove the working database
         os.system(f"rm {self.working_database_path}")

@@ -266,6 +266,8 @@ class SampleManager(object):
                 os.remove(filelist_yaml)
             else:
                 pass
+        questionary.print("Running database maintainance")
+        self.database.database_maintainance()
 
 
 if __name__ == "__main__":
