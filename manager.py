@@ -6,7 +6,7 @@ import json
 import subprocess
 from datetime import datetime
 import re
-from calculate_genweights import calculate_genweight_uproot
+from calculate_genweights import calculate_genweight_uproot, calculate_genweight_local_files
 from questionary import Style
 
 custom_style = Style(
@@ -582,6 +582,9 @@ def create_production_file(database):
     )
     return
 
+def genweights_from_local_files():
+    calculate_genweight_local_files()
+
 
 def startup():
     args = parse_args()
@@ -599,8 +602,9 @@ def startup():
         "Print details of a sample",  # Task 5
         "Create a production file",  # Task 6
         "Update genweight",  # Task 7
-        "Save and Exit",  # Task 8
-        "Exit without Save",  # Task 9
+        "Get genweights from local files",  # Task 8
+        "Save and Exit",  # Task 9
+        "Exit without Save",  # Task 10
     ]
     while processing:
         answer = questionary.select(
@@ -636,10 +640,12 @@ def startup():
             update_genweight(db)
             continue
         if task == 8:
+            calculate_genweight_local_files()
+        if task == 9:
             db.save_database()
             db.close_database()
             exit()
-        elif task == 9:
+        elif task == 10:
             db.close_database()
             exit()
 
