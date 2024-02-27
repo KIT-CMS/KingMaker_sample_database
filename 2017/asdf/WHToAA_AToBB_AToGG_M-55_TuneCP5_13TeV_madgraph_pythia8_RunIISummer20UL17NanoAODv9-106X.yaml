@@ -1,0 +1,11 @@
+dbs: /WHToAA_AToBB_AToGG_M-55_TuneCP5_13TeV_madgraph_pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v2/NANOAODSIM
+era: 2017
+filelist:
+- root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/WHToAA_AToBB_AToGG_M-55_TuneCP5_13TeV_madgraph_pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/70000/932FCE9D-FCB0-E740-B340-5DEE44E46F29.root
+- root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/WHToAA_AToBB_AToGG_M-55_TuneCP5_13TeV_madgraph_pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/70000/C224CA48-61E6-664A-932B-A484EFE81923.root
+generator_weight: 1.0
+nevents: 991000
+nfiles: 2
+nick: WHToAA_AToBB_AToGG_M-55_TuneCP5_13TeV_madgraph_pythia8_RunIISummer20UL17NanoAODv9-106X
+sample_type: asdf
+xsec: 1.0
