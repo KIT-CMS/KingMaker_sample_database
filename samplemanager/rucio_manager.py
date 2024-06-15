@@ -22,13 +22,9 @@ class RucioManager(object):
                 cert = os.environ["X509_USER_PROXY"]
             dn = subprocess.check_output(["grid-proxy-info", "-identity"]).strip()
             dn = dn.decode("utf-8")
-            os.environ["RUCIO_ACCOUNT"] = os.environ.get("USER", "")
-            # url = "http://cms-cric.cern.ch/api/accounts/user/query/?json&preset=people"
-            # result = readJSON(url, params=None, cert=cert, method="GET")
-            # for person in result["result"]:
-            #     if person[4] == dn:
-            #         os.environ["RUCIO_ACCOUNT"] = person[0]
-            #         break
+            print(f"Proxy with identity {dn} found.")
+            rucio_name = input("RUCIO_ACCOUNT env variable not set. Please provide your cern username:")
+            os.environ["RUCIO_ACCOUNT"] = rucio_name
 
         # warn if account not found
         if "RUCIO_ACCOUNT" not in os.environ:
