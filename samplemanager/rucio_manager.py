@@ -20,9 +20,10 @@ class RucioManager(object):
         if "RUCIO_ACCOUNT" not in os.environ:
             dn = subprocess.check_output(["grid-proxy-info", "-identity"]).strip()
             dn = dn.decode("utf-8")
-            os.environ["RUCIO_ACCOUNT"] = os.environ.get("USER", "")
+            guess_user = os.environ.get("USER", "")
+            os.environ["RUCIO_ACCOUNT"] = guess_user
             print(
-                f"Warning! 'RUCIO_ACCOUNT' was set to {os.environ.get("USER", "")}. This might be wrong."
+                f"Warning! 'RUCIO_ACCOUNT' was set to {guess_user}. This might be wrong."
                 "Set the 'RUCIO_ACCOUNT' env variable to the correct name if it is different."
             )
 
