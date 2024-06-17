@@ -13,18 +13,19 @@ class RucioManager(object):
         self.client = Client()
         self.scope = "cms"
 
-    def setup_rucio_account(self, cert=None):
+    def setup_rucio_account(self):
         os.environ["RUCIO_CONFIG"] = os.path.join(
             os.path.dirname(os.path.abspath(__file__)), "rucio.cfg"
         )
         if "RUCIO_ACCOUNT" not in os.environ:
-            if not cert:
-                cert = os.environ["X509_USER_PROXY"]
             dn = subprocess.check_output(["grid-proxy-info", "-identity"]).strip()
             dn = dn.decode("utf-8")
-            print(f"Proxy with identity {dn} found.")
-            rucio_name = input("RUCIO_ACCOUNT env variable not set. Please provide your cern username:")
-            os.environ["RUCIO_ACCOUNT"] = rucio_name
+            os.environ["RUCIO_ACCOUNT"] = os.environ.get("USER", "")
+            print(
+                f"Warning! 'RUCIO_ACCOUNT' was set to {os.environ.get("USER", "")}. This might be wrong."
+                "Set the 'RUCIO_ACCOUNT' env variable to the correct name if it is different."
+            )
+
 
         # warn if account not found
         if "RUCIO_ACCOUNT" not in os.environ:
