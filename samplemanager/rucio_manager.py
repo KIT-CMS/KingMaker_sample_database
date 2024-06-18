@@ -13,22 +13,20 @@ class RucioManager(object):
         self.client = Client()
         self.scope = "cms"
 
-    def setup_rucio_account(self, cert=None):
+    def setup_rucio_account(self):
         os.environ["RUCIO_CONFIG"] = os.path.join(
             os.path.dirname(os.path.abspath(__file__)), "rucio.cfg"
         )
         if "RUCIO_ACCOUNT" not in os.environ:
-            if not cert:
-                cert = os.environ["X509_USER_PROXY"]
             dn = subprocess.check_output(["grid-proxy-info", "-identity"]).strip()
             dn = dn.decode("utf-8")
-            os.environ["RUCIO_ACCOUNT"] = os.environ.get("USER", "")
-            # url = "http://cms-cric.cern.ch/api/accounts/user/query/?json&preset=people"
-            # result = readJSON(url, params=None, cert=cert, method="GET")
-            # for person in result["result"]:
-            #     if person[4] == dn:
-            #         os.environ["RUCIO_ACCOUNT"] = person[0]
-            #         break
+            guess_user = os.environ.get("USER", "")
+            os.environ["RUCIO_ACCOUNT"] = guess_user
+            print(
+                f"Warning! 'RUCIO_ACCOUNT' was set to {guess_user}. This might be wrong."
+                "Set the 'RUCIO_ACCOUNT' env variable to the correct name if it is different."
+            )
+
 
         # warn if account not found
         if "RUCIO_ACCOUNT" not in os.environ:
