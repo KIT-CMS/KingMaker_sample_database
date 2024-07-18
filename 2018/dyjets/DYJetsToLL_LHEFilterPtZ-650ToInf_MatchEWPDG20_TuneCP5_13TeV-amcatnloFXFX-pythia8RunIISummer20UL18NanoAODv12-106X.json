@@ -6,11 +6,11 @@
     "nfiles": 4,
     "nick": "DYJetsToLL_LHEFilterPtZ-650ToInf_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8RunIISummer20UL18NanoAODv12-106X",
     "sample_type": "dyjets",
-    "xsec": 0.0475,
+    "xsec": 1.0,
     "filelist": [
-        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018foldernanoHTT_0.root",
-        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018foldernanoHTT_1.root",
-        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018foldernanoHTT_2.root",
-        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018foldernanoHTT_3.root"
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2018/DYJetsToLL_LHEFilterPtZ-650ToInf-amcatnloFXFX/nanoHTT_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2018/DYJetsToLL_LHEFilterPtZ-650ToInf-amcatnloFXFX/nanoHTT_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2018/DYJetsToLL_LHEFilterPtZ-650ToInf-amcatnloFXFX/nanoHTT_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2018/DYJetsToLL_LHEFilterPtZ-650ToInf-amcatnloFXFX/nanoHTT_3.root"
     ]
 }

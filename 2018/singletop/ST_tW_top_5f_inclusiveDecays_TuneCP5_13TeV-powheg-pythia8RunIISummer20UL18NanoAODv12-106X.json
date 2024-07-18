@@ -8,9 +8,9 @@
     "sample_type": "singletop",
     "xsec": 35.85,
     "filelist": [
-        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_tW_top_5f_InclusiveDecaysnanoHTT_0.root",
-        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_tW_top_5f_InclusiveDecaysnanoHTT_1.root",
-        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_tW_top_5f_InclusiveDecaysnanoHTT_2.root",
-        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_tW_top_5f_InclusiveDecaysnanoHTT_3.root"
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2018/ST_tW_top_5f_InclusiveDecays/nanoHTT_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2018/ST_tW_top_5f_InclusiveDecays/nanoHTT_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2018/ST_tW_top_5f_InclusiveDecays/nanoHTT_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1/Run2_2018/ST_tW_top_5f_InclusiveDecays/nanoHTT_3.root"
     ]
 }
