@@ -1,0 +1,29 @@
+{
+    "era": "2018",
+    "dbs": "/sample/not/published",
+    "generator_weight": 1.0,
+    "nevents": 4950094,
+    "nfiles": 17,
+    "nick": "DYJetsToLL_M-10to50_TuneCP5_13TeV-amcatnloFXFX-pythia8RunIISummer20UL18NanoAODv12-106X",
+    "sample_type": "dyjets",
+    "xsec": 20460.0,
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_9.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_11.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_12.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_13.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_14.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_15.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018DYJetsToLL_M-10to50-amcatnloFXFXnanoHTT_16.root"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "era": "2018",
+    "dbs": "/sample/not/published",
+    "generator_weight": 1.0,
+    "nevents": 26153206,
+    "nfiles": 12,
+    "nick": "SingleMuonRun2018B-UL2018",
+    "sample_type": "data",
+    "xsec": 1.0,
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018SingleMuon_Run2018BnanoHTT_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018SingleMuon_Run2018BnanoHTT_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018SingleMuon_Run2018BnanoHTT_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018SingleMuon_Run2018BnanoHTT_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018SingleMuon_Run2018BnanoHTT_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018SingleMuon_Run2018BnanoHTT_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018SingleMuon_Run2018BnanoHTT_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018SingleMuon_Run2018BnanoHTT_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018SingleMuon_Run2018BnanoHTT_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018SingleMuon_Run2018BnanoHTT_9.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018SingleMuon_Run2018BnanoHTT_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018SingleMuon_Run2018BnanoHTT_11.root"
+    ]
+}

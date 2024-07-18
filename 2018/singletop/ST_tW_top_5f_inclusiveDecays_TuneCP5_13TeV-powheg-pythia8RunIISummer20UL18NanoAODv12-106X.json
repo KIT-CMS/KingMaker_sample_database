@@ -1,0 +1,16 @@
+{
+    "era": "2018",
+    "dbs": "/sample/not/published",
+    "generator_weight": 1.0,
+    "nevents": 3017972,
+    "nfiles": 4,
+    "nick": "ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8RunIISummer20UL18NanoAODv12-106X",
+    "sample_type": "singletop",
+    "xsec": 35.85,
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_tW_top_5f_InclusiveDecaysnanoHTT_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_tW_top_5f_InclusiveDecaysnanoHTT_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_tW_top_5f_InclusiveDecaysnanoHTT_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_tW_top_5f_InclusiveDecaysnanoHTT_3.root"
+    ]
+}

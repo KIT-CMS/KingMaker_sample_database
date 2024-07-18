@@ -1,0 +1,25 @@
+{
+    "era": "2018",
+    "dbs": "/sample/not/published",
+    "generator_weight": 1.0,
+    "nevents": 7246037,
+    "nfiles": 13,
+    "nick": "ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_erdON_13TeV-powheg-madspin-pythia8RunIISummer20UL18NanoAODv12-106X",
+    "sample_type": "singletop",
+    "xsec": 1.0,
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_t-channel_antitop_4f_InclusiveDecays_erdONnanoHTT_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_t-channel_antitop_4f_InclusiveDecays_erdONnanoHTT_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_t-channel_antitop_4f_InclusiveDecays_erdONnanoHTT_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_t-channel_antitop_4f_InclusiveDecays_erdONnanoHTT_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_t-channel_antitop_4f_InclusiveDecays_erdONnanoHTT_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_t-channel_antitop_4f_InclusiveDecays_erdONnanoHTT_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_t-channel_antitop_4f_InclusiveDecays_erdONnanoHTT_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_t-channel_antitop_4f_InclusiveDecays_erdONnanoHTT_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_t-channel_antitop_4f_InclusiveDecays_erdONnanoHTT_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_t-channel_antitop_4f_InclusiveDecays_erdONnanoHTT_9.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_t-channel_antitop_4f_InclusiveDecays_erdONnanoHTT_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_t-channel_antitop_4f_InclusiveDecays_erdONnanoHTT_11.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/HTT_skim_v1Run2_2018ST_t-channel_antitop_4f_InclusiveDecays_erdONnanoHTT_12.root"
+    ]
+}
