@@ -50679,16 +50679,6 @@
         "sample_type": "wjets",
         "xsec": 53330.0
     },
-    "WJetsToLNu_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL17NanoAODv9-106X": {
-        "dbs": "/WJetsToLNu_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1/NANOAODSIM",
-        "era": 2017,
-        "generator_weight": 0.8021497029207967,
-        "nevents": 168622690,
-        "nfiles": 119,
-        "nick": "WJetsToLNu_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL17NanoAODv9-106X",
-        "sample_type": "wjets",
-        "xsec": 53330.0
-    },
     "WJetsToLNu_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL18NanoAODv9-106X": {
         "dbs": "/WJetsToLNu_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM",
         "era": 2018,
@@ -50706,16 +50696,6 @@
         "nevents": 173468850,
         "nfiles": 114,
         "nick": "WJetsToLNu_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL16NanoAODAPVv9-106X",
-        "sample_type": "wjets",
-        "xsec": 8875.0
-    },
-    "WJetsToLNu_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL16NanoAODv9-106X": {
-        "dbs": "/WJetsToLNu_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1/NANOAODSIM",
-        "era": "2016postVFP",
-        "generator_weight": 0.48539760374805563,
-        "nevents": 167292982,
-        "nfiles": 117,
-        "nick": "WJetsToLNu_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL16NanoAODv9-106X",
         "sample_type": "wjets",
         "xsec": 8875.0
     },
@@ -50756,16 +50736,6 @@
         "nevents": 85825681,
         "nfiles": 63,
         "nick": "WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL16NanoAODv9-106X",
-        "sample_type": "wjets",
-        "xsec": 3338.0
-    },
-    "WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL17NanoAODv9-106X": {
-        "dbs": "/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1/NANOAODSIM",
-        "era": 2017,
-        "generator_weight": 0.31224203016785024,
-        "nevents": 96032711,
-        "nfiles": 71,
-        "nick": "WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL17NanoAODv9-106X",
         "sample_type": "wjets",
         "xsec": 3338.0
     },
@@ -51788,5 +51758,35 @@
         "nick": "ttZJets_TuneCP5_13TeV_madgraphMLM_pythia8_RunIISummer20UL18NanoAODv9-106X",
         "sample_type": "rem_ttbar",
         "xsec": 0.5407
+    },
+    "WJetsToLNu_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL16NanoAODv9-106X": {
+        "nick": "WJetsToLNu_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL16NanoAODv9-106X",
+        "dbs": "/WJetsToLNu_1J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v2/NANOAODSIM",
+        "era": "2016postVFP",
+        "nevents": 167715035,
+        "nfiles": 92,
+        "sample_type": "wjets",
+        "xsec": 8875.0,
+        "generator_weight": 1.0
+    },
+    "WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL17NanoAODv9-106X": {
+        "nick": "WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL17NanoAODv9-106X",
+        "dbs": "/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v2/NANOAODSIM",
+        "era": 2017,
+        "nevents": 96032711,
+        "nfiles": 68,
+        "sample_type": "wjets",
+        "xsec": 3338.0,
+        "generator_weight": 1.0
+    },
+    "WJetsToLNu_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL17NanoAODv9-106X": {
+        "nick": "WJetsToLNu_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL17NanoAODv9-106X",
+        "dbs": "/WJetsToLNu_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v2/NANOAODSIM",
+        "era": 2017,
+        "nevents": 160150804,
+        "nfiles": 80,
+        "sample_type": "wjets",
+        "xsec": 53330.0,
+        "generator_weight": 1.0
     }
 }
