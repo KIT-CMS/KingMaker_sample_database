@@ -74,6 +74,7 @@ class SampleManager(object):
                 continue
             if task == 9:
                 self.database.save_database()
+                self.database.database_maintainance()
                 self.database.close_database()
                 exit()
             elif task == 10:
