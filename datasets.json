@@ -50369,7 +50369,7 @@
         "sample_type": "data",
         "xsec": 1.0
     },
-        "Tau_Run2018A-UL2018": {
+    "Tau_Run2018A-UL2018": {
         "dbs": "/Tau/Run2018A-UL2018_MiniAODv2_NanoAODv9-v2/NANOAOD",
         "era": 2018,
         "generator_weight": 1.0,
@@ -52617,6 +52617,86 @@
         "nfiles": 48,
         "sample_type": "ttbar",
         "xsec": 365.35,
+        "generator_weight": 1.0
+    },
+    "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL18NanoAODv9-106X_ext1": {
+        "nick": "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL18NanoAODv9-106X_ext1",
+        "dbs": "/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v1/NANOAODSIM",
+        "era": 2018,
+        "nevents": 238513000,
+        "nfiles": 359,
+        "sample_type": "wjets",
+        "xsec": 65200.0,
+        "generator_weight": 1.0
+    },
+    "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL18NanoAODv9-106X": {
+        "nick": "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL18NanoAODv9-106X",
+        "dbs": "/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM",
+        "era": 2018,
+        "nevents": 159724000,
+        "nfiles": 186,
+        "sample_type": "wjets",
+        "xsec": 65200.0,
+        "generator_weight": 1.0
+    },
+    "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL16NanoAODv9-106X_ext1": {
+        "nick": "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL16NanoAODv9-106X_ext1",
+        "dbs": "/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17_ext1-v1/NANOAODSIM",
+        "era": "2016postVFP",
+        "nevents": 112968000,
+        "nfiles": 178,
+        "sample_type": "wjets",
+        "xsec": 65200.0,
+        "generator_weight": 1.0
+    },
+    "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL16NanoAODv9-106X": {
+        "nick": "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL16NanoAODv9-106X",
+        "dbs": "/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1/NANOAODSIM",
+        "era": "2016postVFP",
+        "nevents": 75503798,
+        "nfiles": 127,
+        "sample_type": "wjets",
+        "xsec": 65200.0,
+        "generator_weight": 1.0
+    },
+    "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL16NanoAODAPVv9-106X_ext1": {
+        "nick": "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL16NanoAODAPVv9-106X_ext1",
+        "dbs": "/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/RunIISummer20UL16NanoAODAPVv9-106X_mcRun2_asymptotic_preVFP_v11_ext1-v1/NANOAODSIM",
+        "era": "2016preVFP",
+        "nevents": 118732000,
+        "nfiles": 190,
+        "sample_type": "wjets",
+        "xsec": 65200.0,
+        "generator_weight": 1.0
+    },
+    "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL16NanoAODAPVv9-106X": {
+        "nick": "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL16NanoAODAPVv9-106X",
+        "dbs": "/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/RunIISummer20UL16NanoAODAPVv9-106X_mcRun2_asymptotic_preVFP_v11-v1/NANOAODSIM",
+        "era": "2016preVFP",
+        "nevents": 75126000,
+        "nfiles": 76,
+        "sample_type": "wjets",
+        "xsec": 65200.0,
+        "generator_weight": 1.0
+    },
+    "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL17NanoAODv9-106X_ext1": {
+        "nick": "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL17NanoAODv9-106X_ext1",
+        "dbs": "/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9_ext1-v1/NANOAODSIM",
+        "era": 2017,
+        "nevents": 234454000,
+        "nfiles": 212,
+        "sample_type": "wjets",
+        "xsec": 65200.0,
+        "generator_weight": 1.0
+    },
+    "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL17NanoAODv9-106X": {
+        "nick": "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL17NanoAODv9-106X",
+        "dbs": "/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1/NANOAODSIM",
+        "era": 2017,
+        "nevents": 158554000,
+        "nfiles": 161,
+        "sample_type": "wjets",
+        "xsec": 65200.0,
         "generator_weight": 1.0
     }
 }
