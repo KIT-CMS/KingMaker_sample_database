@@ -46,7 +46,7 @@ class DASQuery(object):
             self.run_query()
             self.parse_sample_details_with_filelist()
         elif self.querytype == "filelist":
-            print("Querying details with filelist")
+            print("Querying filelist")
             self.query = "file dataset={}".format(self.nick)
             self.run_query()
             self.parse_sample_details_with_filelist()
