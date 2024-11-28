@@ -72,6 +72,7 @@ class SampleManager(object):
                 continue
             if task == 9:
                 self.database.save_database()
+                self.database.database_maintainance()
                 self.database.close_database()
                 exit()
             elif task == 10:
@@ -142,7 +143,7 @@ class SampleManager(object):
         if not os.path.exists(os.path.dirname(outputfile)):
             os.makedirs(os.path.dirname(outputfile))
         with open(outputfile, "w") as f:
-            json.dump(details, f)
+            json.dump(details, f, indent=4, sort_keys=True)
 
     def delete_sample(self):
         nick = questionary.text("Enter a nick to remove").ask()
