@@ -2,7 +2,6 @@ import questionary
 import json
 import yaml
 import os
-from rucio_manager import RucioManager
 from das_manager import DASQuery
 from database import SampleDatabase
 from helpers import custom_style, parse_args, filelist_path, filelist_path_yaml
@@ -13,7 +12,6 @@ class SampleManager(object):
         self.args = parse_args()
         self.redirector = "root://xrootd-cms.infn.it//"
         questionary.print("Starting up RucioManager")
-        self.rucio_manager = RucioManager()
         self.database_folder = os.path.abspath(self.args.database_folder)
         self.database_file = os.path.join(self.database_folder, self.args.database_file)
         questionary.print("Starting up Datasetmanager")
@@ -74,7 +72,6 @@ class SampleManager(object):
                 continue
             if task == 9:
                 self.database.save_database()
-                self.database.database_maintainance()
                 self.database.close_database()
                 exit()
             elif task == 10:
@@ -122,7 +119,6 @@ class SampleManager(object):
                     details = DASQuery(
                         nick=results[task]["dataset"],
                         type="details_with_filelist",
-                        rucio_manager=self.rucio_manager,
                         database_folder=self.database_folder,
                         redirector=self.redirector,
                     ).result
@@ -146,7 +142,7 @@ class SampleManager(object):
         if not os.path.exists(os.path.dirname(outputfile)):
             os.makedirs(os.path.dirname(outputfile))
         with open(outputfile, "w") as f:
-            json.dump(details, f, indent=4, sort_keys=True)
+            json.dump(details, f)
 
     def delete_sample(self):
         nick = questionary.text("Enter a nick to remove").ask()
@@ -251,12 +247,12 @@ class SampleManager(object):
             if not os.path.isfile(filelist_yaml) and not os.path.isfile(filelist_json):
                 questionary.print(f"Creating detailed filelist for {sample}")
                 # first run the query
-                sampledata["filelist"] = [
-                    self.redirector + filepath
-                    for filepath in self.rucio_manager.get_rucio_blocks(
-                        sampledata["dbs"]
-                    )
-                ]
+                sampledata["filelist"] = DASQuery(
+                    nick=sampledata["dbs"],
+                    type="details_with_filelist",
+                    database_folder=self.database_folder,
+                    redirector=self.redirector,
+                ).result["filelist"]
                 self.generate_detailed_filelist(sampledata)
             elif os.path.isfile(filelist_yaml) and not os.path.isfile(filelist_json):
                 questionary.print(f"Converting {filelist_yaml} to json")
