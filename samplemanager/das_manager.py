@@ -12,6 +12,7 @@ class DASQuery(object):
         nick,
         type,
         database_folder,
+        rucio_manager=None,
         redirector="root://xrootd-cms.infn.it//",
     ):
         self.database_folder = database_folder
@@ -22,6 +23,7 @@ class DASQuery(object):
         self.querytype = type
         self.response = {}
         self.result = {}
+        self.rucio_manager = rucio_manager
         self.redirector = redirector
 
         # run the query and parse the result
@@ -42,13 +44,6 @@ class DASQuery(object):
             self.query = "dataset={}".format(self.nick)
             self.run_query()
             self.parse_sample_details()
-            self.query = "file dataset={}".format(self.nick)
-            self.run_query()
-            self.parse_sample_details_with_filelist()
-        elif self.querytype == "filelist":
-            print("Querying filelist")
-            self.query = "file dataset={}".format(self.nick)
-            self.run_query()
             self.parse_sample_details_with_filelist()
 
         else:
@@ -93,8 +88,12 @@ class DASQuery(object):
         self.result = template
 
     def parse_sample_details_with_filelist(self):
-        # get the filelist from query
-        self.result["filelist"] = [res["file"][0]["name"] for res in self.response]
+        # get the filelist from rucio
+        if self.rucio_manager is not None:
+            self.result["filelist"] = [
+                self.redirector + filepath
+                for filepath in self.rucio_manager.get_rucio_blocks(self.nick)
+            ]
 
     def _fill_xsec(self, nick):
         xsec = questionary.text(
