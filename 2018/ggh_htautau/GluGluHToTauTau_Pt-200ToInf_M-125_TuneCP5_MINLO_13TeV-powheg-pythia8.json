@@ -1,0 +1,18 @@
+{
+    "nevents": 500000,
+    "nfiles": 5,
+    "dbs": "/GluGluHToTauTau_Pt-200ToInf_M-125_TuneCP5_MINLO_13TeV-powheg-pythia8/olavoryk-mc_2018UL_ggh_GluGluHToTauTau_Pt-200ToInf_1736936542-00000000000000000000000000000000/USER",
+    "era": "2018",
+    "generator_weight": 0.99978,
+    "sample_type": "ggh_htautau",
+    "nick": "GluGluHToTauTau_Pt-200ToInf_M-125_TuneCP5_MINLO_13TeV-powheg-pythia8",
+    "xsec": 0.4716,
+    "filelist": [
+        
+        "root://cmsdcache-kit-disk.gridka.de//store/user/olavoryk/GluGluHToTauTau_Pt-200ToInf_M-125_TuneCP5_MINLO_13TeV-powheg-pythia8/mc_2018UL_ggh_GluGluHToTauTau_Pt-200ToInf_1736936542/250115_103834/0000/nanosim_1.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/olavoryk/GluGluHToTauTau_Pt-200ToInf_M-125_TuneCP5_MINLO_13TeV-powheg-pythia8/mc_2018UL_ggh_GluGluHToTauTau_Pt-200ToInf_1736936542/250115_103834/0000/nanosim_2.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/olavoryk/GluGluHToTauTau_Pt-200ToInf_M-125_TuneCP5_MINLO_13TeV-powheg-pythia8/mc_2018UL_ggh_GluGluHToTauTau_Pt-200ToInf_1736936542/250115_103834/0000/nanosim_3.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/olavoryk/GluGluHToTauTau_Pt-200ToInf_M-125_TuneCP5_MINLO_13TeV-powheg-pythia8/mc_2018UL_ggh_GluGluHToTauTau_Pt-200ToInf_1736936542/250115_103834/0000/nanosim_4.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/olavoryk/GluGluHToTauTau_Pt-200ToInf_M-125_TuneCP5_MINLO_13TeV-powheg-pythia8/mc_2018UL_ggh_GluGluHToTauTau_Pt-200ToInf_1736936542/250115_103834/0000/nanosim_5.root"
+    ]
+}
