@@ -94,7 +94,7 @@ class DASQuery(object):
 
     def parse_sample_details_with_filelist(self):
         # get the filelist from query
-        self.result["filelist"] = [res["file"][0]["name"] for res in self.response]
+        self.result["filelist"] = [self.redirector + res["file"][0]["name"] for res in self.response]
 
     def _fill_xsec(self, nick):
         xsec = questionary.text(
