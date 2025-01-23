@@ -49,7 +49,7 @@ class SampleDatabase(object):
             # dumop the database to a json file
             questionary.print("Converting database to json...")
             with open(self.working_database_path.replace(".yaml", ".json"), "w") as f:
-                json.dump(self.database, f)
+                json.dump(self.database, f, indent=4, sort_keys=True)
             self.working_database_path = self.working_database_path.replace(
                 ".yaml", ".json"
             )
@@ -73,7 +73,7 @@ class SampleDatabase(object):
     def save_database(self):
         questionary.print("Saving database...")
         with open(self.database_file, "w") as stream:
-            json.dump(self.database, stream, indent=4)
+            json.dump(self.database, stream, indent=4, sort_keys=True)
         return
 
     def database_maintainance(self):

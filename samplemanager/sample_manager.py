@@ -265,7 +265,7 @@ class SampleManager(object):
                 with open(filelist_yaml, "r") as f:
                     data = yaml.safe_load(f)
                 with open(filelist_json, "w") as f:
-                    json.dump(data, f, indent=4)
+                    json.dump(data, f, indent=4, sort_keys=True)
                 os.remove(filelist_yaml)
             else:
                 pass
