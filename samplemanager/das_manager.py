@@ -9,6 +9,7 @@ from datetime import datetime
 class DASQuery(object):
     def __init__(
         self,
+        instance,
         nick,
         type,
         database_folder,
@@ -16,6 +17,7 @@ class DASQuery(object):
     ):
         self.database_folder = database_folder
         self.client = "/cvmfs/cms.cern.ch/common/dasgoclient"
+        self.instance = instance
         self.nick = nick
         self.query = ""
         self.cmd = "{client} --query '{query}' --json"
@@ -29,25 +31,25 @@ class DASQuery(object):
 
     def query_and_parse(self):
         if self.querytype == "search_dataset":
-            self.query = "dataset={}".format(self.nick)
+            self.query = "dataset={} instance={}".format(self.nick, self.instance)
             self.run_query()
             self.parse_search()
         elif self.querytype == "details":
             print("Querying details")
-            self.query = "dataset={}".format(self.nick)
+            self.query = "dataset={} instance={}".format(self.nick, self.instance)
             self.run_query()
             self.parse_sample_details()
         elif self.querytype == "details_with_filelist":
             print("Querying details with filelist")
-            self.query = "dataset={}".format(self.nick)
+            self.query = "dataset={} instance={}".format(self.nick, self.instance)
             self.run_query()
             self.parse_sample_details()
-            self.query = "file dataset={}".format(self.nick)
+            self.query = "file dataset={} instance={}".format(self.nick, self.instance)
             self.run_query()
             self.parse_sample_details_with_filelist()
         elif self.querytype == "filelist":
             print("Querying filelist")
-            self.query = "file dataset={}".format(self.nick)
+            self.query = "file dataset={} instance={}".format(self.nick, self.instance)
             self.run_query()
             self.parse_sample_details_with_filelist()
 
