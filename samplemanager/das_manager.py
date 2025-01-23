@@ -118,6 +118,11 @@ class DASQuery(object):
             return float(gen_weight)
 
     def _build_nick(self, nick):
+        # User-produced samples, so need to something different and more general
+        if nick.endswith("USER"):
+            # Remove first "/", remove "USER", unify split parts with "_"
+            nick = "_".join(nick.strip("/").split("/")[:2])
+            return nick
         if "_ext" in nick:
             ext_v = "_ext" + nick[nick.find("_ext") + 4]
         else:
@@ -133,7 +138,15 @@ class DASQuery(object):
         # regex search for a year in the nick
         m = re.search("20[1-9]{2}", nick)
         if m:
-            return int(m.group(0))
+            # Do era-specific modifications
+            era = m.group(0)
+            # take both data (HIPM) and MC/USER-produced (preVFP) DAS nick specifics into account for 2016
+            if ("HIPM" in nick or "preVFP" in nick) and era == "2016":
+                return era + "preVFP"
+            elif era == "2016":
+                return era + "postVFP"
+            else:
+                return era
 
     def _build_sampletype(self, nick):
         process = "/" + nick.split("/")[1].lower()
