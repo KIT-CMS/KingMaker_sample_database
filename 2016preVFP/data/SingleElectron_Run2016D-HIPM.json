@@ -70,6 +70,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2016D/SingleElectron/NANOAOD/HIPM_UL2016_MiniAODv2_NanoAODv9-v2/2530000/3F68C60A-022B-0541-9611-4AAA864E00CC.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 148167727,
     "nfiles": 66,
     "nick": "SingleElectron_Run2016D-HIPM",

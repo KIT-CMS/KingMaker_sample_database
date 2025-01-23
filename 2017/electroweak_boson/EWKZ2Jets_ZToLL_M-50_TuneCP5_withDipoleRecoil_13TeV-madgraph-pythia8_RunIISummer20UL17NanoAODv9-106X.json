@@ -23,6 +23,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/EWKZ2Jets_ZToLL_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/30000/30706821-8744-0042-BF05-971646C7DAEE.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 579000,
     "nfiles": 19,
     "nick": "EWKZ2Jets_ZToLL_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8_RunIISummer20UL17NanoAODv9-106X",

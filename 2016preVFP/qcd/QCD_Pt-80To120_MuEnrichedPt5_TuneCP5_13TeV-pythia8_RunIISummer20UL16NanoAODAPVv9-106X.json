@@ -59,6 +59,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/QCD_Pt-80To120_MuEnrichedPt5_TuneCP5_13TeV-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11-v2/40000/14532DB4-6620-784E-8943-C8E7EF629C0E.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 21978558,
     "nfiles": 55,
     "nick": "QCD_Pt-80To120_MuEnrichedPt5_TuneCP5_13TeV-pythia8_RunIISummer20UL16NanoAODAPVv9-106X",

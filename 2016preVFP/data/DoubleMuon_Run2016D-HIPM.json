@@ -26,6 +26,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2016D/DoubleMuon/NANOAOD/HIPM_UL2016_MiniAODv2_NanoAODv9-v2/50000/733E5968-4F5B-F54C-8C6B-8B1D382270AF.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 33861745,
     "nfiles": 22,
     "nick": "DoubleMuon_Run2016D-HIPM",

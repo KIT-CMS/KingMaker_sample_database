@@ -64,6 +64,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/30000/8B750BF8-2237-A944-AABD-056FD516275B.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 69793000,
     "nfiles": 60,
     "nick": "ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8_RunIISummer20UL17NanoAODv9-106X",

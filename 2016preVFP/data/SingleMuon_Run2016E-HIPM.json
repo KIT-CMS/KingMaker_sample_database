@@ -51,6 +51,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2016E/SingleMuon/NANOAOD/HIPM_UL2016_MiniAODv2_NanoAODv9-v2/24310000/84EF0031-60C5-4D40-B7C6-6430AF85BF2F.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 90984718,
     "nfiles": 47,
     "nick": "SingleMuon_Run2016E-HIPM",

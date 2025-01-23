@@ -1,12 +1,6 @@
 {
-    "nick": "JetHT_Run2018C-UL2018",
     "dbs": "/JetHT/Run2018C-UL2018_MiniAODv2_NanoAODv9-v1/NANOAOD",
     "era": 2018,
-    "nevents": 70027804,
-    "nfiles": 57,
-    "sample_type": "data",
-    "xsec": 1.0,
-    "generator_weight": 1.0,
     "filelist": [
         "root://xrootd-cms.infn.it///store/data/Run2018C/JetHT/NANOAOD/UL2018_MiniAODv2_NanoAODv9-v1/280000/5D15D530-CFBF-0D47-A073-53CD9800204A.root",
         "root://xrootd-cms.infn.it///store/data/Run2018C/JetHT/NANOAOD/UL2018_MiniAODv2_NanoAODv9-v1/280000/91667DB6-1D54-4B4F-B5F8-37BA4407F4E2.root",
@@ -65,5 +59,12 @@
         "root://xrootd-cms.infn.it///store/data/Run2018C/JetHT/NANOAOD/UL2018_MiniAODv2_NanoAODv9-v1/130000/2287E4B0-2FA3-C94D-9C1C-B9FA710D5214.root",
         "root://xrootd-cms.infn.it///store/data/Run2018C/JetHT/NANOAOD/UL2018_MiniAODv2_NanoAODv9-v1/280000/717D6CA6-B2AF-0E4F-9657-440C291FB402.root",
         "root://xrootd-cms.infn.it///store/data/Run2018C/JetHT/NANOAOD/UL2018_MiniAODv2_NanoAODv9-v1/130000/82A2A20D-9BA3-7F46-A231-257FDEBA67B8.root"
-    ]
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 70027804,
+    "nfiles": 57,
+    "nick": "JetHT_Run2018C-UL2018",
+    "sample_type": "data",
+    "xsec": 1.0
 }

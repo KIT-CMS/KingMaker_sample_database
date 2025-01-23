@@ -260,6 +260,7 @@
         "root://cmsdcache-kit-disk.gridka.de//store/user/mmolch/ul_embedding_nanoaod/v7/nanoaod_data_2017/TauEmbedding_data_2017_MuTau_nanoaod_Run2017F/56/merged_nano_255.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 10768596,
     "nfiles": 256,
     "nick": "TauEmbedding-MuTauFinalState_Run2017F-UL2017",

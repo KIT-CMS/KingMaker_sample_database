@@ -1,12 +1,6 @@
 {
-    "nick": "SingleMuon_Run2018B-UL2018_GT36",
     "dbs": "/SingleMuon/Run2018B-UL2018_MiniAODv2_NanoAODv9_GT36-v1/NANOAOD",
     "era": 2018,
-    "nevents": 119918017,
-    "nfiles": 52,
-    "sample_type": "data",
-    "xsec": 1.0,
-    "generator_weight": 1.0,
     "filelist": [
         "root://xrootd-cms.infn.it///store/data/Run2018B/SingleMuon/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/2430000/87FA9714-D8D3-1345-BFF5-3B417B1ADC64.root",
         "root://xrootd-cms.infn.it///store/data/Run2018B/SingleMuon/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/2430000/238FAA4B-71AB-BA46-B634-EECEBFCAFC3E.root",
@@ -60,5 +54,12 @@
         "root://xrootd-cms.infn.it///store/data/Run2018B/SingleMuon/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/2430000/F8FAD1F6-1D68-9344-9A57-4F77B0E4EA9E.root",
         "root://xrootd-cms.infn.it///store/data/Run2018B/SingleMuon/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/2430000/FCC90ED8-6A9D-7348-9052-7C6E207CDFEA.root",
         "root://xrootd-cms.infn.it///store/data/Run2018B/SingleMuon/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/2430000/FF1ED2B3-B150-714C-A087-0F07C49617C3.root"
-    ]
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 119918017,
+    "nfiles": 52,
+    "nick": "SingleMuon_Run2018B-UL2018_GT36",
+    "sample_type": "data",
+    "xsec": 1.0
 }

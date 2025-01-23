@@ -18,6 +18,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2016C/MuonEG/NANOAOD/HIPM_UL2016_MiniAODv2_NanoAODv9-v2/40000/EF083F06-A2FC-3B4C-9D83-E607BE3C8AB6.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 15405678,
     "nfiles": 14,
     "nick": "MuonEG_Run2016C-HIPM",

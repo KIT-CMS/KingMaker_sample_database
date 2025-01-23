@@ -1,12 +1,6 @@
 {
-    "nick": "Tau_Run2018D-UL2018_GT36",
     "dbs": "/Tau/Run2018D-UL2018_MiniAODv2_NanoAODv9_GT36-v1/NANOAOD",
     "era": 2018,
-    "nevents": 167852084,
-    "nfiles": 87,
-    "sample_type": "data",
-    "xsec": 1.0,
-    "generator_weight": 1.0,
     "filelist": [
         "root://xrootd-cms.infn.it///store/data/Run2018D/Tau/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/2520000/090199DA-B2DE-9B4E-A82B-436E10399A6A.root",
         "root://xrootd-cms.infn.it///store/data/Run2018D/Tau/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/2520000/2738FA75-D613-E24F-91C3-26231BB51E40.root",
@@ -95,5 +89,12 @@
         "root://xrootd-cms.infn.it///store/data/Run2018D/Tau/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/2530000/4BCB28FE-3F51-D94A-93BA-9D19A05FF0D1.root",
         "root://xrootd-cms.infn.it///store/data/Run2018D/Tau/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/2530000/9F5D3F10-7463-4942-BAE5-189111F86C83.root",
         "root://xrootd-cms.infn.it///store/data/Run2018D/Tau/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/2530000/CDC18129-8856-8C4E-95AA-01612A290A7D.root"
-    ]
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 167852084,
+    "nfiles": 87,
+    "nick": "Tau_Run2018D-UL2018_GT36",
+    "sample_type": "data",
+    "xsec": 1.0
 }

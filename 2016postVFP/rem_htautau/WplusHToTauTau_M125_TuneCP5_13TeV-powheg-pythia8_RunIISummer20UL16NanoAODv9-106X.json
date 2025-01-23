@@ -11,6 +11,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/WplusHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v2/250000/A833FEED-3DC8-E243-BA4D-72BC0B4972D5.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 2000000,
     "nfiles": 7,
     "nick": "WplusHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODv9-106X",

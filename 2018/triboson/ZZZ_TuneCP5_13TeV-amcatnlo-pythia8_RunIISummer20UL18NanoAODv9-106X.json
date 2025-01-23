@@ -18,6 +18,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/280000/6CB37F73-28E8-5242-AF7F-2EFD96E5D06B.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 250000,
     "nfiles": 14,
     "nick": "ZZZ_TuneCP5_13TeV-amcatnlo-pythia8_RunIISummer20UL18NanoAODv9-106X",

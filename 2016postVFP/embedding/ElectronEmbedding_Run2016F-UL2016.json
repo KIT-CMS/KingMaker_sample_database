@@ -8,6 +8,7 @@
         "root://xrootd-cms.infn.it///store/user/sbrommer/ul_embedding_nanoaod/v3/nanoaod_data_2016/ElEmbedding_data_2016_ElEmb_nanoaod_Run2016_F/4/merged_nano_3.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 346019,
     "nfiles": 4,
     "nick": "ElectronEmbedding_Run2016F-UL2016",

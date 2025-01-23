@@ -56,6 +56,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2016E/Tau/NANOAOD/HIPM_UL2016_MiniAODv2_NanoAODv9-v2/40000/5E876CF8-00D1-2A45-A9A3-DE0F881D6F3A.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 58343324,
     "nfiles": 52,
     "nick": "Tau_Run2016E-HIPM",
