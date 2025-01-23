@@ -11,6 +11,8 @@ class SampleManager(object):
     def __init__(self):
         self.args = parse_args()
         self.default_instance = "prod/global"
+        self.instance_choices = ["prod/global", "prod/phys03"]
+        assert(self.default_instance in self.instance_choices)
         self.redirector = "root://xrootd-cms.infn.it//"
         questionary.print("Starting up RucioManager")
         self.database_folder = os.path.abspath(self.args.database_folder)
@@ -81,7 +83,7 @@ class SampleManager(object):
                 exit()
 
     def finding_and_adding_sample(self):
-        instance = questionary.text("Enter the DAS instance for the search", style=custom_style, default=self.default_instance).ask()
+        instance = questionary.select("Select the DAS instance for the search", choices=self.instance_choices, style=custom_style, default=self.default_instance).ask()
         nick = questionary.text("Enter a DAS nick to add", style=custom_style).ask()
         if nick in self.database.dasnicks:
             questionary.print("DAS nick is already in self.")
