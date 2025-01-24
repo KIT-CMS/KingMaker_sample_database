@@ -87,7 +87,7 @@ class DASQuery(object):
         template["nick"] = self._build_nick(self.nick)
         template["era"] = self._get_era(self.nick)
         template["nevents"] = details["nevents"]
-        template["instance"] = details["instance"]
+        template["instance"] = self.instance
         template["nfiles"] = details["nfiles"]
         template["sample_type"] = self._build_sampletype(self.nick)
         if template["sample_type"] != "data" and template["sample_type"] != "emb":
