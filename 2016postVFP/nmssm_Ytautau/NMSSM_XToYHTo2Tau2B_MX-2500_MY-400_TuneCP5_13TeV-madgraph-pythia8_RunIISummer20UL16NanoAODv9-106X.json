@@ -1,13 +1,14 @@
 {
-    "nick": "NMSSM_XToYHTo2Tau2B_MX-2500_MY-400_TuneCP5_13TeV-madgraph-pythia8_RunIISummer20UL16NanoAODv9-106X",
     "dbs": "/NMSSM_XToYHTo2Tau2B_MX-2500_MY-400_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1/NANOAODSIM",
     "era": "2016postVFP",
-    "nevents": 184000,
-    "nfiles": 1,
-    "sample_type": "nmssm_Ytautau",
-    "xsec": 1.0,
-    "generator_weight": 1.0,
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/NMSSM_XToYHTo2Tau2B_MX-2500_MY-400_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v1/2550000/80CFDF8C-11E0-BC4A-B5A1-1FAE30CC0FFE.root"
-    ]
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 184000,
+    "nfiles": 1,
+    "nick": "NMSSM_XToYHTo2Tau2B_MX-2500_MY-400_TuneCP5_13TeV-madgraph-pythia8_RunIISummer20UL16NanoAODv9-106X",
+    "sample_type": "nmssm_Ytautau",
+    "xsec": 1.0
 }

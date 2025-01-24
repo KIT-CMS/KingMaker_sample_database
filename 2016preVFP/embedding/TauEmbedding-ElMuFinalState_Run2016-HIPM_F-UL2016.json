@@ -20,6 +20,7 @@
         "root://xrootd-cms.infn.it///store/user/sbrommer/ul_embedding_nanoaod/v3/nanoaod_data_2016-HIPM/TauEmbedding_data_2016-HIPM_ElMu_nanoaod_Run2016-HIPM_F/16/merged_nano_15.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 1570276,
     "nfiles": 16,
     "nick": "TauEmbedding-ElMuFinalState_Run2016-HIPM_F-UL2016",

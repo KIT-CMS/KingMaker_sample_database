@@ -55,6 +55,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2017E/SingleElectron/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/120000/81FD2F79-4827-204B-8BF2-D59C2FF55BDF.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 102122055,
     "nfiles": 51,
     "nick": "SingleElectron_Run2017E-UL2017",

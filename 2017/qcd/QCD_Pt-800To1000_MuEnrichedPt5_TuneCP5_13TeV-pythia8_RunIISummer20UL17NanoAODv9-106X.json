@@ -105,6 +105,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/QCD_Pt-800To1000_MuEnrichedPt5_TuneCP5_13TeV-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/50000/0F0DF541-A9F5-1F4D-A383-2F6F1E082308.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 78215559,
     "nfiles": 101,
     "nick": "QCD_Pt-800To1000_MuEnrichedPt5_TuneCP5_13TeV-pythia8_RunIISummer20UL17NanoAODv9-106X",

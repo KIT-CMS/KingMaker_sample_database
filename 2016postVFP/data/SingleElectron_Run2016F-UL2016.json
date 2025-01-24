@@ -9,6 +9,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2016F/SingleElectron/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v1/130000/5FC6D4C8-7C25-0D4B-9802-C89AA5F298AA.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 8858206,
     "nfiles": 5,
     "nick": "SingleElectron_Run2016F-UL2016",

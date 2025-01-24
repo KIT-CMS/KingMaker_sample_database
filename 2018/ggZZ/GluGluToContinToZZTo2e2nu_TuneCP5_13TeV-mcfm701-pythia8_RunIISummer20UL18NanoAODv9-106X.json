@@ -8,6 +8,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/GluGluToContinToZZTo2e2nu_TuneCP5_13TeV-mcfm701-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2500000/13CD9CFA-6E9B-C94B-AC1D-3C71C7CD5769.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 500000,
     "nfiles": 4,
     "nick": "GluGluToContinToZZTo2e2nu_TuneCP5_13TeV-mcfm701-pythia8_RunIISummer20UL18NanoAODv9-106X",

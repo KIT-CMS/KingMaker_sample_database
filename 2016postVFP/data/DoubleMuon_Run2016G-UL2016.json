@@ -33,6 +33,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2016G/DoubleMuon/NANOAOD/UL2016_MiniAODv2_NanoAODv9-v2/2430000/ED3359B9-BF1E-044C-8418-ACDDE2B11FF0.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 45235604,
     "nfiles": 29,
     "nick": "DoubleMuon_Run2016G-UL2016",

@@ -343,6 +343,7 @@
         "root://xrootd-cms.infn.it///store/user/amonsch/gc_storage/PrivateNanoAODProduction/ReReco-Run2016D-DoubleMuon-HIPM_UL2016_MiniAODv2_NanoAODv9-00004/ReReco-Run2016D-DoubleMuon-HIPM_UL2016_MiniAODv2_NanoAODv9-00004/39/ReReco-Run2016D-DoubleMuon-HIPM_UL2016_MiniAODv2_NanoAODv9-00004_338.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 33861745,
     "nfiles": 339,
     "nick": "DoubleMuon_Run2016D-HIPM-UL_DZ",

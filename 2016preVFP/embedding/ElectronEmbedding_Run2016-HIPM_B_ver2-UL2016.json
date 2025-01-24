@@ -47,6 +47,7 @@
         "root://xrootd-cms.infn.it///store/user/sbrommer/ul_embedding_nanoaod/v3/nanoaod_data_2016-HIPM/ElEmbedding_data_2016-HIPM_ElEmb_nanoaod_Run2016-HIPM_B_ver2/43/merged_nano_42.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 4291406,
     "nfiles": 43,
     "nick": "ElectronEmbedding_Run2016-HIPM_B_ver2-UL2016",

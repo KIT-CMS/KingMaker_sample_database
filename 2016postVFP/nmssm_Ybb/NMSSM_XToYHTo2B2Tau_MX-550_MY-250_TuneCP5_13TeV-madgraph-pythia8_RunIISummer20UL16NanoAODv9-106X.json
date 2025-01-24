@@ -1,1 +1,16 @@
-{"dbs": "/NMSSM_XToYHTo2B2Tau_MX-550_MY-250_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v2/NANOAODSIM", "era": "2016postVFP", "generator_weight": 1.0, "nevents": 184000, "nfiles": 3, "nick": "NMSSM_XToYHTo2B2Tau_MX-550_MY-250_TuneCP5_13TeV-madgraph-pythia8_RunIISummer20UL16NanoAODv9-106X", "sample_type": "nmssm_Ybb", "xsec": 1.0, "filelist": ["root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/NMSSM_XToYHTo2B2Tau_MX-550_MY-250_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v2/2520000/802558B5-83FC-234A-8218-B9EA0CBBE030.root", "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/NMSSM_XToYHTo2B2Tau_MX-550_MY-250_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v2/2520000/51D331A4-BCEE-9942-BB99-9BBBFCBEDCB3.root", "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/NMSSM_XToYHTo2B2Tau_MX-550_MY-250_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v2/2520000/0B899189-3158-4D40-883B-165E493A51B1.root"]}
+{
+    "dbs": "/NMSSM_XToYHTo2B2Tau_MX-550_MY-250_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v2/NANOAODSIM",
+    "era": "2016postVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/NMSSM_XToYHTo2B2Tau_MX-550_MY-250_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v2/2520000/802558B5-83FC-234A-8218-B9EA0CBBE030.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/NMSSM_XToYHTo2B2Tau_MX-550_MY-250_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v2/2520000/51D331A4-BCEE-9942-BB99-9BBBFCBEDCB3.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/NMSSM_XToYHTo2B2Tau_MX-550_MY-250_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v2/2520000/0B899189-3158-4D40-883B-165E493A51B1.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 184000,
+    "nfiles": 3,
+    "nick": "NMSSM_XToYHTo2B2Tau_MX-550_MY-250_TuneCP5_13TeV-madgraph-pythia8_RunIISummer20UL16NanoAODv9-106X",
+    "sample_type": "nmssm_Ybb",
+    "xsec": 1.0
+}

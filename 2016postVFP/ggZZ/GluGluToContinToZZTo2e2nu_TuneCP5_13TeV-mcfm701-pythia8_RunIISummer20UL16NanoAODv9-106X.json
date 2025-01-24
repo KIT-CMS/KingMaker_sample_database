@@ -15,6 +15,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/GluGluToContinToZZTo2e2nu_TuneCP5_13TeV-mcfm701-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/6DC731E9-B3F0-154C-A111-F3C4A53A4E74.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 500000,
     "nfiles": 11,
     "nick": "GluGluToContinToZZTo2e2nu_TuneCP5_13TeV-mcfm701-pythia8_RunIISummer20UL16NanoAODv9-106X",

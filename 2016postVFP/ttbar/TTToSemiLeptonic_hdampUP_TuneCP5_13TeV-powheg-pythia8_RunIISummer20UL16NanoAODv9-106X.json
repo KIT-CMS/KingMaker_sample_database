@@ -62,6 +62,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/TTToSemiLeptonic_hdampUP_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v1/270000/FE161BBE-B7A5-C240-970B-728124CFE7F9.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 60762000,
     "nfiles": 58,
     "nick": "TTToSemiLeptonic_hdampUP_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODv9-106X",

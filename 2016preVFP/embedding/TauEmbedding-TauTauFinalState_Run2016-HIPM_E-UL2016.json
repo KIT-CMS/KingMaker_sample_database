@@ -25,6 +25,7 @@
         "root://xrootd-cms.infn.it///store/user/sbrommer/ul_embedding_nanoaod/v3/nanoaod_data_2016-HIPM/TauEmbedding_data_2016-HIPM_TauTau_nanoaod_Run2016-HIPM_E/21/merged_nano_20.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 2024212,
     "nfiles": 21,
     "nick": "TauEmbedding-TauTauFinalState_Run2016-HIPM_E-UL2016",

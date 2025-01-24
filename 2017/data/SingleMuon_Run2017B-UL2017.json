@@ -83,6 +83,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2017B/SingleMuon/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/70000/0C1D3206-324A-374F-AE3E-DAA44C3F0908.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 136300266,
     "nfiles": 79,
     "nick": "SingleMuon_Run2017B-UL2017",

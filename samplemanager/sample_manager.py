@@ -10,6 +10,9 @@ from helpers import custom_style, parse_args, filelist_path, filelist_path_yaml
 class SampleManager(object):
     def __init__(self):
         self.args = parse_args()
+        self.default_instance = "prod/global"
+        self.instance_choices = ["prod/global", "prod/phys03"]
+        assert(self.default_instance in self.instance_choices)
         self.redirector = "root://xrootd-cms.infn.it//"
         questionary.print("Starting up RucioManager")
         self.database_folder = os.path.abspath(self.args.database_folder)
@@ -80,12 +83,14 @@ class SampleManager(object):
                 exit()
 
     def finding_and_adding_sample(self):
+        instance = questionary.select("Select the DAS instance for the search", choices=self.instance_choices, style=custom_style, default=self.default_instance).ask()
         nick = questionary.text("Enter a DAS nick to add", style=custom_style).ask()
         if nick in self.database.dasnicks:
             questionary.print("DAS nick is already in self.")
             self.database.print_by_das(nick)
             return
         results = DASQuery(
+            instance=instance,
             nick=nick,
             type="search_dataset",
             database_folder=self.database_folder,
@@ -118,6 +123,7 @@ class SampleManager(object):
                 for answer in answers:
                     task = options.index(answer)
                     details = DASQuery(
+                        instance=instance,
                         nick=results[task]["dataset"],
                         type="details_with_filelist",
                         database_folder=self.database_folder,
@@ -249,6 +255,7 @@ class SampleManager(object):
                 questionary.print(f"Creating detailed filelist for {sample}")
                 # first run the query
                 sampledata["filelist"] = DASQuery(
+                    instance=sampledata["instance"],
                     nick=sampledata["dbs"],
                     type="details_with_filelist",
                     database_folder=self.database_folder,
@@ -260,7 +267,7 @@ class SampleManager(object):
                 with open(filelist_yaml, "r") as f:
                     data = yaml.safe_load(f)
                 with open(filelist_json, "w") as f:
-                    json.dump(data, f, indent=4)
+                    json.dump(data, f, indent=4, sort_keys=True)
                 os.remove(filelist_yaml)
             else:
                 pass

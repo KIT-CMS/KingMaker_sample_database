@@ -97,6 +97,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/TTToHadronic_hdampUP_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/250000/F635DC3E-85FE-0948-B988-F4525AE6ECDD.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 99000000,
     "nfiles": 93,
     "nick": "TTToHadronic_hdampUP_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17NanoAODv9-106X",

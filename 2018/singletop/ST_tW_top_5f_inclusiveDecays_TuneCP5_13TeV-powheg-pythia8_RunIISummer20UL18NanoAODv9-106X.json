@@ -56,6 +56,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/260000/D8917B00-A5D4-8E4F-94D6-B7ECEE9BFA20.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 7956000,
     "nfiles": 52,
     "nick": "ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv9-106X",

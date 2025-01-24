@@ -1,12 +1,6 @@
 {
-    "nick": "EGamma_Run2018D-UL2018_GT36",
     "dbs": "/EGamma/Run2018D-UL2018_MiniAODv2_NanoAODv9_GT36-v1/NANOAOD",
     "era": 2018,
-    "nevents": 752061412,
-    "nfiles": 465,
-    "sample_type": "data",
-    "xsec": 1.0,
-    "generator_weight": 1.0,
     "filelist": [
         "root://xrootd-cms.infn.it///store/data/Run2018D/EGamma/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/40000/030EA808-3040-FA47-8114-48BC9815DDF2.root",
         "root://xrootd-cms.infn.it///store/data/Run2018D/EGamma/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/40000/088641FF-964E-1F44-A1C6-A85938305EEA.root",
@@ -473,5 +467,12 @@
         "root://xrootd-cms.infn.it///store/data/Run2018D/EGamma/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/2520000/2206A328-607D-E649-B7B5-D40103E6F5EF.root",
         "root://xrootd-cms.infn.it///store/data/Run2018D/EGamma/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/2520000/ABC30167-9FFC-804A-8473-02C207AB90F5.root",
         "root://xrootd-cms.infn.it///store/data/Run2018D/EGamma/NANOAOD/UL2018_MiniAODv2_NanoAODv9_GT36-v1/2520000/D0E8719E-5F6B-C041-820C-E7610D7576E5.root"
-    ]
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 752061412,
+    "nfiles": 465,
+    "nick": "EGamma_Run2018D-UL2018_GT36",
+    "sample_type": "data",
+    "xsec": 1.0
 }

@@ -27,6 +27,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2017F/MuonEG/NANOAOD/UL2017_MiniAODv2_NanoAODv9-v1/280000/C7619A2B-E091-2643-960D-C68A7FEF7169.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 25776363,
     "nfiles": 23,
     "nick": "MuonEG_Run2017F-UL2017",

@@ -1,1 +1,16 @@
-{"dbs": "/NMSSM_XToYHTo2Tau2B_MX-1800_MY-700_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODAPVv9-106X_mcRun2_asymptotic_preVFP_v11-v1/NANOAODSIM", "era": "2016preVFP", "generator_weight": 1.0, "nevents": 216000, "nfiles": 3, "nick": "NMSSM_XToYHTo2Tau2B_MX-1800_MY-700_TuneCP5_13TeV-madgraph-pythia8_RunIISummer20UL16NanoAODAPVv9-106X", "sample_type": "nmssm_Ytautau", "xsec": 1.0, "filelist": ["root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/NMSSM_XToYHTo2Tau2B_MX-1800_MY-700_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11-v1/60000/7ADDE1FF-32EF-7443-B93C-E48BF99AFF7C.root", "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/NMSSM_XToYHTo2Tau2B_MX-1800_MY-700_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11-v1/60000/6A991AD4-C2FC-F546-9682-0E026FC4D274.root", "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/NMSSM_XToYHTo2Tau2B_MX-1800_MY-700_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11-v1/60000/33798B4F-C8AF-804E-8D1B-BA56732D6DD5.root"]}
+{
+    "dbs": "/NMSSM_XToYHTo2Tau2B_MX-1800_MY-700_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODAPVv9-106X_mcRun2_asymptotic_preVFP_v11-v1/NANOAODSIM",
+    "era": "2016preVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/NMSSM_XToYHTo2Tau2B_MX-1800_MY-700_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11-v1/60000/7ADDE1FF-32EF-7443-B93C-E48BF99AFF7C.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/NMSSM_XToYHTo2Tau2B_MX-1800_MY-700_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11-v1/60000/6A991AD4-C2FC-F546-9682-0E026FC4D274.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/NMSSM_XToYHTo2Tau2B_MX-1800_MY-700_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11-v1/60000/33798B4F-C8AF-804E-8D1B-BA56732D6DD5.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 216000,
+    "nfiles": 3,
+    "nick": "NMSSM_XToYHTo2Tau2B_MX-1800_MY-700_TuneCP5_13TeV-madgraph-pythia8_RunIISummer20UL16NanoAODAPVv9-106X",
+    "sample_type": "nmssm_Ytautau",
+    "xsec": 1.0
+}

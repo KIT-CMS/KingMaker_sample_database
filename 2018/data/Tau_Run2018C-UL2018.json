@@ -34,6 +34,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2018C/Tau/NANOAOD/UL2018_MiniAODv2_NanoAODv9-v1/120000/F0DB2E6C-EE94-B040-A9A6-0AFE7E5ABFDC.root"
     ],
     "generator_weight": 1.0,
+    "instance": "prod/global",
     "nevents": 31974422,
     "nfiles": 30,
     "nick": "Tau_Run2018C-UL2018",
