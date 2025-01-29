@@ -252,6 +252,94 @@
         "sample_type": "ttbar",
         "xsec": 88.29
     },
+    "TTWH_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWH_1736873492-00000000000000000000000000000000": {
+        "dbs": "/TTWH_TuneCP5_13TeV-madgraph-pythia8/sdaigler-mc_2018UL_Other_TTWH_1736873492-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 497000,
+        "nfiles": 2,
+        "nick": "TTWH_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWH_1736873492-00000000000000000000000000000000",
+        "sample_type": "other",
+        "xsec": 0.00158
+    },
+    "TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8_sdaigler-mc_2018UL_Other_TTWJetsToLNu_1734539918-00000000000000000000000000000000": {
+        "dbs": "/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/sdaigler-mc_2018UL_Other_TTWJetsToLNu_1734539918-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 0.5422713719371619,
+        "instance": "prod/phys03",
+        "nevents": 10516349,
+        "nfiles": 22,
+        "nick": "TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8_sdaigler-mc_2018UL_Other_TTWJetsToLNu_1734539918-00000000000000000000000000000000",
+        "sample_type": "rem_ttbar",
+        "xsec": 0.2043
+    },
+    "TTWJetsToQQ_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8_sdaigler-mc_2018UL_Other_TTWJetsToQQ_1734539918-00000000000000000000000000000000": {
+        "dbs": "/TTWJetsToQQ_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/sdaigler-mc_2018UL_Other_TTWJetsToQQ_1734539918-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 0.5466279933909104,
+        "instance": "prod/phys03",
+        "nevents": 970179,
+        "nfiles": 3,
+        "nick": "TTWJetsToQQ_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8_sdaigler-mc_2018UL_Other_TTWJetsToQQ_1734539918-00000000000000000000000000000000",
+        "sample_type": "rem_ttbar",
+        "xsec": 0.4062
+    },
+    "TTWW_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWW_1737472169-00000000000000000000000000000000": {
+        "dbs": "/TTWW_TuneCP5_13TeV-madgraph-pythia8/sdaigler-mc_2018UL_Other_TTWW_1737472169-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 944000,
+        "nfiles": 7,
+        "nick": "TTWW_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWW_1737472169-00000000000000000000000000000000",
+        "sample_type": "other",
+        "xsec": 0.00698
+    },
+    "TTWW_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWW_Ext1_1734539918-00000000000000000000000000000000": {
+        "dbs": "/TTWW_TuneCP5_13TeV-madgraph-pythia8/sdaigler-mc_2018UL_Other_TTWW_Ext1_1734539918-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 11910000,
+        "nfiles": 49,
+        "nick": "TTWW_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWW_Ext1_1734539918-00000000000000000000000000000000",
+        "sample_type": "other",
+        "xsec": 0.00698
+    },
+    "TTWZ_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWZ_1734539918-00000000000000000000000000000000": {
+        "dbs": "/TTWZ_TuneCP5_13TeV-madgraph-pythia8/sdaigler-mc_2018UL_Other_TTWZ_1734539918-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 498000,
+        "nfiles": 2,
+        "nick": "TTWZ_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWZ_1734539918-00000000000000000000000000000000",
+        "sample_type": "other",
+        "xsec": 0.002441
+    },
+    "TTZH_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTZH_1736873492-00000000000000000000000000000000": {
+        "dbs": "/TTZH_TuneCP5_13TeV-madgraph-pythia8/sdaigler-mc_2018UL_Other_TTZH_1736873492-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 500000,
+        "nfiles": 8,
+        "nick": "TTZH_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTZH_1736873492-00000000000000000000000000000000",
+        "sample_type": "other",
+        "xsec": 0.00154
+    },
+    "TTZToLLNuNu_M-10_TuneCP5_13TeV-amcatnlo-pythia8_sdaigler-mc_2018UL_Other_TTZToLLNuNu_1734539918-00000000000000000000000000000000": {
+        "dbs": "/TTZToLLNuNu_M-10_TuneCP5_13TeV-amcatnlo-pythia8/sdaigler-mc_2018UL_Other_TTZToLLNuNu_1734539918-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 0.4922395960832313,
+        "instance": "prod/phys03",
+        "nevents": 19608000,
+        "nfiles": 40,
+        "nick": "TTZToLLNuNu_M-10_TuneCP5_13TeV-amcatnlo-pythia8_sdaigler-mc_2018UL_Other_TTZToLLNuNu_1734539918-00000000000000000000000000000000",
+        "sample_type": "other",
+        "xsec": 0.2529
+    },
     "TTZToQQ_TuneCP5_13TeV_amcatnlo-pythia8_sdaigler-mc_2018UL_Other_TTZToQQ_1734539918-00000000000000000000000000000000": {
         "dbs": "/TTZToQQ_TuneCP5_13TeV_amcatnlo-pythia8/sdaigler-mc_2018UL_Other_TTZToQQ_1734539918-00000000000000000000000000000000/USER",
         "era": "2018",
