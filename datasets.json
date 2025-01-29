@@ -241,6 +241,50 @@
         "sample_type": "data",
         "xsec": 1.0
     },
+    "ST_t-channel_antitop_5f_InclusiveDecays_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_ST_ST_t-channel_antitop_1734539918-00000000000000000000000000000000": {
+        "dbs": "/ST_t-channel_antitop_5f_InclusiveDecays_TuneCP5_13TeV-powheg-pythia8/sdaigler-mc_2018UL_ST_ST_t-channel_antitop_1734539918-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 99264000,
+        "nfiles": 200,
+        "nick": "ST_t-channel_antitop_5f_InclusiveDecays_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_ST_ST_t-channel_antitop_1734539918-00000000000000000000000000000000",
+        "sample_type": "singletop",
+        "xsec": 80.95
+    },
+    "ST_t-channel_top_5f_InclusiveDecays_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_ST_ST_t-channel_top_1734539918-00000000000000000000000000000000": {
+        "dbs": "/ST_t-channel_top_5f_InclusiveDecays_TuneCP5_13TeV-powheg-pythia8/sdaigler-mc_2018UL_ST_ST_t-channel_top_1734539918-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 198569000,
+        "nfiles": 409,
+        "nick": "ST_t-channel_top_5f_InclusiveDecays_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_ST_ST_t-channel_top_1734539918-00000000000000000000000000000000",
+        "sample_type": "singletop",
+        "xsec": 136.02
+    },
+    "ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_aakhmets-mc_2018UL_singletop_ST_tW_antitop_5f_inclusiveDecays_1729599421-00000000000000000000000000000000": {
+        "dbs": "/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/aakhmets-mc_2018UL_singletop_ST_tW_antitop_5f_inclusiveDecays_1729599421-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 7749000,
+        "nfiles": 12,
+        "nick": "ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_aakhmets-mc_2018UL_singletop_ST_tW_antitop_5f_inclusiveDecays_1729599421-00000000000000000000000000000000",
+        "sample_type": "singletop",
+        "xsec": 35.85
+    },
+    "ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_aakhmets-mc_2018UL_singletop_ST_tW_top_5f_inclusiveDecays_1729599421-00000000000000000000000000000000/USER": {
+        "dbs": "/ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/aakhmets-mc_2018UL_singletop_ST_tW_top_5f_inclusiveDecays_1729599421-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 7956000,
+        "nfiles": 15,
+        "nick": "ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_aakhmets-mc_2018UL_singletop_ST_tW_top_5f_inclusiveDecays_1729599421-00000000000000000000000000000000",
+        "sample_type": "singletop",
+        "xsec": 35.85
+    },
     "TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8_aakhmets-mc_2018UL_ttbar_TTTo2L2Nu_1729599001-00000000000000000000000000000000": {
         "dbs": "/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/aakhmets-mc_2018UL_ttbar_TTTo2L2Nu_1729599001-00000000000000000000000000000000/USER",
         "era": "2018",
