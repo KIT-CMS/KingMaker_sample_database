@@ -252,6 +252,28 @@
         "sample_type": "ttbar",
         "xsec": 88.29
     },
+    "TTToHadronic_TuneCP5_13TeV-powheg-pythia8_aakhmets-mc_2018UL_ttbar_TTToHadronic_1729599001-00000000000000000000000000000000": {
+        "dbs": "/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/aakhmets-mc_2018UL_ttbar_TTToHadronic_1729599001-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 0.9919210774716822,
+        "instance": "prod/phys03",
+        "nevents": 343248000,
+        "nfiles": 347,
+        "nick": "TTToHadronic_TuneCP5_13TeV-powheg-pythia8_aakhmets-mc_2018UL_ttbar_TTToHadronic_1729599001-00000000000000000000000000000000",
+        "sample_type": "ttbar",
+        "xsec": 377.96
+    },
+    "TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8_aakhmets-mc_2018UL_ttbar_TTToSemiLeptonic_1729530171-00000000000000000000000000000000": {
+        "dbs": "/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/aakhmets-mc_2018UL_ttbar_TTToSemiLeptonic_1729530171-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 0.9919185981936691,
+        "instance": "prod/phys03",
+        "nevents": 478982000,
+        "nfiles": 484,
+        "nick": "TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8_aakhmets-mc_2018UL_ttbar_TTToSemiLeptonic_1729530171-00000000000000000000000000000000",
+        "sample_type": "ttbar",
+        "xsec": 365.34
+    },
     "TTWH_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWH_1736873492-00000000000000000000000000000000": {
         "dbs": "/TTWH_TuneCP5_13TeV-madgraph-pythia8/sdaigler-mc_2018UL_Other_TTWH_1736873492-00000000000000000000000000000000/USER",
         "era": "2018",
