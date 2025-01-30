@@ -200,7 +200,7 @@
     "ST_t-channel_antitop_5f_InclusiveDecays_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_ST_ST_t-channel_antitop_1734539918-00000000000000000000000000000000": {
         "dbs": "/ST_t-channel_antitop_5f_InclusiveDecays_TuneCP5_13TeV-powheg-pythia8/sdaigler-mc_2018UL_ST_ST_t-channel_antitop_1734539918-00000000000000000000000000000000/USER",
         "era": "2018",
-        "generator_weight": 1.0,
+        "generator_weight": 0.9945630440038685,
         "instance": "prod/phys03",
         "nevents": 99264000,
         "nfiles": 200,
@@ -211,7 +211,7 @@
     "ST_t-channel_top_5f_InclusiveDecays_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_ST_ST_t-channel_top_1734539918-00000000000000000000000000000000": {
         "dbs": "/ST_t-channel_top_5f_InclusiveDecays_TuneCP5_13TeV-powheg-pythia8/sdaigler-mc_2018UL_ST_ST_t-channel_top_1734539918-00000000000000000000000000000000/USER",
         "era": "2018",
-        "generator_weight": 1.0,
+        "generator_weight": 0.9942462217163807,
         "instance": "prod/phys03",
         "nevents": 198569000,
         "nfiles": 409,
