@@ -934,6 +934,17 @@
         "sample_type": "triboson",
         "xsec": 0.0147
     },
+    "ttHToNonbb_M125_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_Higgs_ttHToNonbb_1736873492-00000000000000000000000000000000": {
+        "dbs": "/ttHToNonbb_M125_TuneCP5_13TeV-powheg-pythia8/sdaigler-mc_2018UL_Higgs_ttHToNonbb_1736873492-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 0.979206693197824,
+        "instance": "prod/phys03",
+        "nevents": 7328993,
+        "nfiles": 21,
+        "nick": "ttHToNonbb_M125_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_Higgs_ttHToNonbb_1736873492-00000000000000000000000000000000",
+        "sample_type": "ttH",
+        "xsec": 0.17996
+    },
     "ttHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_Higgs_ttHToTauTau_1736873492-00000000000000000000000000000000": {
         "dbs": "/ttHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/sdaigler-mc_2018UL_Higgs_ttHToTauTau_1736873492-00000000000000000000000000000000/USER",
         "era": "2018",
@@ -944,5 +955,16 @@
         "nick": "ttHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_Higgs_ttHToTauTau_1736873492-00000000000000000000000000000000",
         "sample_type": "rem_htautau",
         "xsec": 0.031805
+    },
+    "ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_Higgs_ttHTobb_1736873492-00000000000000000000000000000000": {
+        "dbs": "/ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8/sdaigler-mc_2018UL_Higgs_ttHTobb_1736873492-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 0.9792330451088656,
+        "instance": "prod/phys03",
+        "nevents": 9599000,
+        "nfiles": 26,
+        "nick": "ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_Higgs_ttHTobb_1736873492-00000000000000000000000000000000",
+        "sample_type": "rem_hbb",
+        "xsec": 0.2953
     }
 }
