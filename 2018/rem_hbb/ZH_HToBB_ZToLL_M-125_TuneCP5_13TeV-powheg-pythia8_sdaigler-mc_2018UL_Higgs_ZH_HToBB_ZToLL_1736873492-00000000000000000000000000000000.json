@@ -1,0 +1,28 @@
+{
+    "dbs": "/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/sdaigler-mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492-00000000000000000000000000000000/USER",
+    "era": "2018",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_6.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_8.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_13.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_7.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_14.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_10.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_11.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_12.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_15.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_9.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_2.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_1.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_5.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_4.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492/250114_165607/0000/nanosim_3.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/phys03",
+    "nevents": 4885835,
+    "nfiles": 15,
+    "nick": "ZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_Higgs_ZH_HToBB_ZToLL_1736873492-00000000000000000000000000000000",
+    "sample_type": "rem_hbb",
+    "xsec": 0.052
+}

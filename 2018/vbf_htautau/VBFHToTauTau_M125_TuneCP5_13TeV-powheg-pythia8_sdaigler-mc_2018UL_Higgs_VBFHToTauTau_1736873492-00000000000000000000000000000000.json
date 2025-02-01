@@ -1,0 +1,24 @@
+{
+    "dbs": "/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/sdaigler-mc_2018UL_Higgs_VBFHToTauTau_1736873492-00000000000000000000000000000000/USER",
+    "era": "2018",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/user/sdaigler/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_VBFHToTauTau_1736873492/250114_165553/0000/nanosim_8.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_VBFHToTauTau_1736873492/250114_165553/0000/nanosim_11.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_VBFHToTauTau_1736873492/250114_165553/0000/nanosim_9.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_VBFHToTauTau_1736873492/250114_165553/0000/nanosim_6.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_VBFHToTauTau_1736873492/250114_165553/0000/nanosim_10.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_VBFHToTauTau_1736873492/250114_165553/0000/nanosim_7.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_VBFHToTauTau_1736873492/250114_165553/0000/nanosim_5.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_VBFHToTauTau_1736873492/250114_165553/0000/nanosim_2.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_VBFHToTauTau_1736873492/250114_165553/0000/nanosim_4.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_VBFHToTauTau_1736873492/250114_165553/0000/nanosim_3.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_Higgs_VBFHToTauTau_1736873492/250114_165553/0000/nanosim_1.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/phys03",
+    "nevents": 2987000,
+    "nfiles": 11,
+    "nick": "VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_Higgs_VBFHToTauTau_1736873492-00000000000000000000000000000000",
+    "sample_type": "vbf_htautau",
+    "xsec": 0.237
+}
