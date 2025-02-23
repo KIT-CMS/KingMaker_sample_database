@@ -524,7 +524,7 @@
         "nevents": 497000,
         "nfiles": 2,
         "nick": "TTWH_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWH_1736873492-00000000000000000000000000000000",
-        "sample_type": "other",
+        "sample_type": "rem_ttbar",
         "xsec": 0.00158
     },
     "TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8_sdaigler-mc_2018UL_Other_TTWJetsToLNu_1734539918-00000000000000000000000000000000": {
@@ -557,7 +557,7 @@
         "nevents": 944000,
         "nfiles": 7,
         "nick": "TTWW_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWW_1737472169-00000000000000000000000000000000",
-        "sample_type": "other",
+        "sample_type": "rem_ttbar",
         "xsec": 0.00698
     },
     "TTWW_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWW_Ext1_1734539918-00000000000000000000000000000000": {
@@ -568,7 +568,7 @@
         "nevents": 11910000,
         "nfiles": 49,
         "nick": "TTWW_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWW_Ext1_1734539918-00000000000000000000000000000000",
-        "sample_type": "other",
+        "sample_type": "rem_ttbar",
         "xsec": 0.00698
     },
     "TTWZ_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWZ_1734539918-00000000000000000000000000000000": {
@@ -579,7 +579,7 @@
         "nevents": 498000,
         "nfiles": 2,
         "nick": "TTWZ_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTWZ_1734539918-00000000000000000000000000000000",
-        "sample_type": "other",
+        "sample_type": "rem_ttbar",
         "xsec": 0.002441
     },
     "TTZH_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTZH_1736873492-00000000000000000000000000000000": {
@@ -590,7 +590,7 @@
         "nevents": 500000,
         "nfiles": 8,
         "nick": "TTZH_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTZH_1736873492-00000000000000000000000000000000",
-        "sample_type": "other",
+        "sample_type": "rem_ttbar",
         "xsec": 0.00154
     },
     "TTZToLLNuNu_M-10_TuneCP5_13TeV-amcatnlo-pythia8_sdaigler-mc_2018UL_Other_TTZToLLNuNu_1734539918-00000000000000000000000000000000": {
@@ -601,7 +601,7 @@
         "nevents": 19608000,
         "nfiles": 40,
         "nick": "TTZToLLNuNu_M-10_TuneCP5_13TeV-amcatnlo-pythia8_sdaigler-mc_2018UL_Other_TTZToLLNuNu_1734539918-00000000000000000000000000000000",
-        "sample_type": "other",
+        "sample_type": "rem_ttbar",
         "xsec": 0.2529
     },
     "TTZToQQ_TuneCP5_13TeV_amcatnlo-pythia8_sdaigler-mc_2018UL_Other_TTZToQQ_1734539918-00000000000000000000000000000000": {
@@ -612,7 +612,7 @@
         "nevents": 59446657,
         "nfiles": 133,
         "nick": "TTZToQQ_TuneCP5_13TeV_amcatnlo-pythia8_sdaigler-mc_2018UL_Other_TTZToQQ_1734539918-00000000000000000000000000000000",
-        "sample_type": "other",
+        "sample_type": "rem_ttbar",
         "xsec": 0.5297
     },
     "TTZZ_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTZZ_1736873492-00000000000000000000000000000000": {
@@ -623,7 +623,7 @@
         "nevents": 498000,
         "nfiles": 7,
         "nick": "TTZZ_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTZZ_1736873492-00000000000000000000000000000000",
-        "sample_type": "other",
+        "sample_type": "rem_ttbar",
         "xsec": 0.001386
     },
     "VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_Higgs_VBFHToTauTau_1736873492-00000000000000000000000000000000": {
