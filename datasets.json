@@ -208,6 +208,50 @@
         "sample_type": "dyjets",
         "xsec": 6077.22
     },
+    "EGamma_aakhmets-data_2018UL_singleelectron_EGamma_Run2018A_1732626664-00000000000000000000000000000000": {
+        "dbs": "/EGamma/aakhmets-data_2018UL_singleelectron_EGamma_Run2018A_1732626664-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 339013231,
+        "nfiles": 344,
+        "nick": "EGamma_aakhmets-data_2018UL_singleelectron_EGamma_Run2018A_1732626664-00000000000000000000000000000000",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma_aakhmets-data_2018UL_singleelectron_EGamma_Run2018B_1732626664-00000000000000000000000000000000": {
+        "dbs": "/EGamma/aakhmets-data_2018UL_singleelectron_EGamma_Run2018B_1732626664-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 153822427,
+        "nfiles": 158,
+        "nick": "EGamma_aakhmets-data_2018UL_singleelectron_EGamma_Run2018B_1732626664-00000000000000000000000000000000",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma_aakhmets-data_2018UL_singleelectron_EGamma_Run2018C_1732626664-00000000000000000000000000000000": {
+        "dbs": "/EGamma/aakhmets-data_2018UL_singleelectron_EGamma_Run2018C_1732626664-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 147827904,
+        "nfiles": 152,
+        "nick": "EGamma_aakhmets-data_2018UL_singleelectron_EGamma_Run2018C_1732626664-00000000000000000000000000000000",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma_aakhmets-data_2018UL_singleelectron_EGamma_Run2018D_1734519534-00000000000000000000000000000000": {
+        "dbs": "/EGamma/aakhmets-data_2018UL_singleelectron_EGamma_Run2018D_1734519534-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 752926853,
+        "nfiles": 2632,
+        "nick": "EGamma_aakhmets-data_2018UL_singleelectron_EGamma_Run2018D_1734519534-00000000000000000000000000000000",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
     "EWKWMinus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_EWK_EWKWMinus2Jets_1737472169-00000000000000000000000000000000": {
         "dbs": "/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/sdaigler-mc_2018UL_EWK_EWKWMinus2Jets_1737472169-00000000000000000000000000000000/USER",
         "era": "2018",
@@ -625,6 +669,50 @@
         "nick": "TTZZ_TuneCP5_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_Other_TTZZ_1736873492-00000000000000000000000000000000",
         "sample_type": "rem_ttbar",
         "xsec": 0.001386
+    },
+    "Tau_aakhmets-data_2018UL_tau_Tau_Run2018A_1732626664-00000000000000000000000000000000": {
+        "dbs": "/Tau/aakhmets-data_2018UL_tau_Tau_Run2018A_1732626664-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 63214407,
+        "nfiles": 68,
+        "nick": "Tau_aakhmets-data_2018UL_tau_Tau_Run2018A_1732626664-00000000000000000000000000000000",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Tau_aakhmets-data_2018UL_tau_Tau_Run2018B_1732626664-00000000000000000000000000000000": {
+        "dbs": "/Tau/aakhmets-data_2018UL_tau_Tau_Run2018B_1732626664-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 32678961,
+        "nfiles": 35,
+        "nick": "Tau_aakhmets-data_2018UL_tau_Tau_Run2018B_1732626664-00000000000000000000000000000000",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Tau_aakhmets-data_2018UL_tau_Tau_Run2018C_1732626664-00000000000000000000000000000000": {
+        "dbs": "/Tau/aakhmets-data_2018UL_tau_Tau_Run2018C_1732626664-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 31974422,
+        "nfiles": 36,
+        "nick": "Tau_aakhmets-data_2018UL_tau_Tau_Run2018C_1732626664-00000000000000000000000000000000",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Tau_aakhmets-data_2018UL_tau_Tau_Run2018D_1734106865-00000000000000000000000000000000": {
+        "dbs": "/Tau/aakhmets-data_2018UL_tau_Tau_Run2018D_1734106865-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 167852084,
+        "nfiles": 683,
+        "nick": "Tau_aakhmets-data_2018UL_tau_Tau_Run2018D_1734106865-00000000000000000000000000000000",
+        "sample_type": "data",
+        "xsec": 1.0
     },
     "VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_Higgs_VBFHToTauTau_1736873492-00000000000000000000000000000000": {
         "dbs": "/VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8/sdaigler-mc_2018UL_Higgs_VBFHToTauTau_1736873492-00000000000000000000000000000000/USER",
