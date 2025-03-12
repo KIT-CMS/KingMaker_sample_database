@@ -1,5 +1,4 @@
 import os
-import yaml
 import json
 import questionary
 from helpers import custom_style, filelist_path
@@ -42,17 +41,6 @@ class SampleDatabase(object):
         else:
             questionary.print("Preparing working version of the database")
             os.system(f"cp {self.database_file} {self.working_database_path}")
-        if self.working_database_path.endswith(".yaml.working"):
-            # if the file is empty load an empty dict
-            with open(self.working_database_path) as f:
-                self.database = yaml.safe_load(f) or {}
-            # dumop the database to a json file
-            questionary.print("Converting database to json...")
-            with open(self.working_database_path.replace(".yaml", ".json"), "w") as f:
-                json.dump(self.database, f, indent=4, sort_keys=True)
-            self.working_database_path = self.working_database_path.replace(
-                ".yaml", ".json"
-            )
         with open(self.working_database_path) as f:
             self.database = json.load(f) or {}
 

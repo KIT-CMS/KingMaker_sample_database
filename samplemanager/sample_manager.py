@@ -1,10 +1,9 @@
 import questionary
 import json
-import yaml
 import os
 from das_manager import DASQuery
 from database import SampleDatabase
-from helpers import custom_style, parse_args, filelist_path, filelist_path_yaml
+from helpers import custom_style, parse_args, filelist_path
 
 
 class SampleManager(object):
@@ -198,6 +197,10 @@ class SampleManager(object):
         if nick in self.database.dasnicks:
             self.database.genweight_by_das(nick)
             return
+        
+    def update_xsec(self):
+        #TODO: add xsec update
+        return
 
     def find_samples_by_das(self):
         nick = questionary.autocomplete(
@@ -245,13 +248,12 @@ class SampleManager(object):
 
     def run_maintainance(self):
         questionary.print("Running maintainance")
-        # we check, if all samples have a dedicated filelist file, that is in json format
+        # we check, if all samples have a dedicated filelist file
         # if not, we generate the filelist from the database information
         for sample in self.database.database:
             sampledata = self.database.database[sample]
-            filelist_yaml = filelist_path_yaml(self.database_folder, sampledata)
             filelist_json = filelist_path(self.database_folder, sampledata)
-            if not os.path.isfile(filelist_yaml) and not os.path.isfile(filelist_json):
+            if  not os.path.isfile(filelist_json):
                 questionary.print(f"Creating detailed filelist for {sample}")
                 # first run the query
                 sampledata["filelist"] = DASQuery(
@@ -262,13 +264,6 @@ class SampleManager(object):
                     redirector=self.redirector,
                 ).result["filelist"]
                 self.generate_detailed_filelist(sampledata)
-            elif os.path.isfile(filelist_yaml) and not os.path.isfile(filelist_json):
-                questionary.print(f"Converting {filelist_yaml} to json")
-                with open(filelist_yaml, "r") as f:
-                    data = yaml.safe_load(f)
-                with open(filelist_json, "w") as f:
-                    json.dump(data, f, indent=4, sort_keys=True)
-                os.remove(filelist_yaml)
             else:
                 pass
         questionary.print("Running database maintainance")
