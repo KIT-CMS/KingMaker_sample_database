@@ -4,7 +4,6 @@ import uproot
 from rich.progress import Progress
 import numpy as np
 import os
-import yaml
 
 
 def read_filelist_from_das(dbs):
@@ -91,7 +90,7 @@ def calculate_genweight_from_local_file(loc_file):
         print(f"File {loc_file} does not exist or is empty, your weight is 0.0")
     else:
         with open(loc_file, "r") as f:
-            local_config = yaml.safe_load(f)
+            local_config = json.load(f)
             filelist = local_config["filelist"]
             negative = 0
             positive = 0

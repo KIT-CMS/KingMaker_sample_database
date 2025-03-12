@@ -36,15 +36,6 @@ def filelist_path(database_folder, sampledata):
     )
 
 
-def filelist_path_yaml(database_folder, sampledata):
-    return os.path.join(
-        database_folder,
-        str(sampledata["era"]),
-        sampledata["sample_type"],
-        sampledata["nick"] + ".yaml",
-    )
-
-
 def default_entry():
     return {
         "nick": "",
