@@ -1,0 +1,25 @@
+{
+    "dbs": "/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/sdaigler-mc_2018UL_EWK_EWKWPlus2Jets_1734539918-00000000000000000000000000000000/USER",
+    "era": "2018",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/user/sdaigler/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/mc_2018UL_EWK_EWKWPlus2Jets_1734539918/241218_164124/0000/nanosim_12.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/mc_2018UL_EWK_EWKWPlus2Jets_1734539918/241218_164124/0000/nanosim_6.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/mc_2018UL_EWK_EWKWPlus2Jets_1734539918/241218_164124/0000/nanosim_10.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/mc_2018UL_EWK_EWKWPlus2Jets_1734539918/241218_164124/0000/nanosim_8.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/mc_2018UL_EWK_EWKWPlus2Jets_1734539918/241218_164124/0000/nanosim_9.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/mc_2018UL_EWK_EWKWPlus2Jets_1734539918/241218_164124/0000/nanosim_11.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/mc_2018UL_EWK_EWKWPlus2Jets_1734539918/241218_164124/0000/nanosim_4.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/mc_2018UL_EWK_EWKWPlus2Jets_1734539918/241218_164124/0000/nanosim_3.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/mc_2018UL_EWK_EWKWPlus2Jets_1734539918/241218_164124/0000/nanosim_2.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/mc_2018UL_EWK_EWKWPlus2Jets_1734539918/241218_164124/0000/nanosim_1.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/mc_2018UL_EWK_EWKWPlus2Jets_1734539918/241218_164124/0000/nanosim_7.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/mc_2018UL_EWK_EWKWPlus2Jets_1734539918/241218_164124/0000/nanosim_5.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/phys03",
+    "nevents": 4488000,
+    "nfiles": 12,
+    "nick": "EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8_sdaigler-mc_2018UL_EWK_EWKWPlus2Jets_1734539918-00000000000000000000000000000000",
+    "sample_type": "electroweak_boson",
+    "xsec": 25.62
+}
