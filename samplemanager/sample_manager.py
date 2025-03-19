@@ -3,7 +3,8 @@ import json
 import os
 from das_manager import DASQuery
 from database import SampleDatabase
-from helpers import custom_style, parse_args, filelist_path
+from helpers import custom_style, parse_args, filelist_path, database_folder_path
+from nanoAOD_versions import nanoAOD_versions
 
 
 class SampleManager(object):
@@ -14,7 +15,15 @@ class SampleManager(object):
         assert(self.default_instance in self.instance_choices)
         self.redirector = "root://xrootd-cms.infn.it//"
         questionary.print("Starting up RucioManager")
-        self.database_folder = os.path.abspath(self.args.database_folder)
+
+        self.nanoAOD_version: int = questionary.select(
+            "Select a nanoAOD version", 
+            choices=nanoAOD_versions, 
+            style=custom_style, 
+            default=nanoAOD_versions[0]).ask()
+
+        base_folder = os.path.abspath(self.args.database_folder)
+        self.database_folder = database_folder_path(base_folder, self.nanoAOD_version)
         self.database_file = os.path.join(self.database_folder, self.args.database_file)
         questionary.print("Starting up Datasetmanager")
         self.database = SampleDatabase(self.database_folder, self.database_file)
@@ -22,17 +31,17 @@ class SampleManager(object):
         self.database.status()
         self.processing = True
         self.available_tasks = [
-            "Add a new sample",  # Task 0
-            "Edit a sample (not implemented yet)",  # Task 1
-            "Delete a sample",  # Task 2
-            "Find samples (by nick)",  # Task 3
-            "Find samples (by DAS name)",  # Task 4
-            "Print details of a sample",  # Task 5
-            "Create a production file",  # Task 6
-            "Update genweight",  # Task 7
-            "Maintainance",  # Task 8
-            "Save and Exit",  # Task 9
-            "Exit without Save",  # Task 10
+            "Add a new sample",             # Task 0
+            "Delete a sample",              # Task 1
+            "Find samples (by nick)",       # Task 2
+            "Find samples (by DAS name)",   # Task 3
+            "Print details of a sample",    # Task 4
+            "Create a production file",     # Task 5
+            "Update genweight",             # Task 6
+            "Update xsec",                  # Task 7
+            "Maintainance",                 # Task 8
+            "Save and Exit",                # Task 9
+            "Exit without Save",            # Task 10
         ]
 
     def run(self):
@@ -50,29 +59,29 @@ class SampleManager(object):
                 self.finding_and_adding_sample()
                 continue
             elif task == 1:
-                questionary.print("Editing not implemented yet")
-                continue
-            elif task == 2:
                 self.delete_sample()
                 continue
-            elif task == 3:
+            elif task == 2:
                 self.find_samples_by_nick()
                 continue
-            elif task == 4:
+            elif task == 3:
                 self.find_samples_by_das()
                 continue
-            elif task == 5:
+            elif task == 4:
                 self.print_sample()
                 continue
-            elif task == 6:
+            elif task == 5:
                 self.create_production_file()
-            elif task == 7:
+            elif task == 6:
                 self.update_genweight()
+                continue
+            elif task == 7:
+                self.update_xsec()
                 continue
             elif task == 8:
                 self.run_maintainance()
                 continue
-            if task == 9:
+            elif task == 9:
                 self.database.save_database()
                 self.database.database_maintainance()
                 self.database.close_database()
