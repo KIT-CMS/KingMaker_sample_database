@@ -204,12 +204,23 @@ class SampleManager(object):
             self.database.genweight_by_nick(nick)
             return
         if nick in self.database.dasnicks:
-            self.database.genweight_by_das(nick)
+            nick = self.database.get_nick_by_das(nick)
+            self.database.genweight_by_nick(nick)
             return
         
     def update_xsec(self):
-        #TODO: add xsec update
-        return
+        nick = questionary.autocomplete(
+            "Enter a sample nick to search for",
+            list(self.database.samplenicks),
+            style=custom_style,
+        ).ask()
+        if nick in self.database.samplenicks:
+            self.database.xsec_by_nick(nick)
+            return
+        if nick in self.database.dasnicks:
+            nick = self.database.get_nick_by_das(nick)
+            self.database.xsec_by_nick(nick)
+            return
 
     def find_samples_by_das(self):
         nick = questionary.autocomplete(

@@ -127,11 +127,30 @@ class SampleDatabase(object):
                 self.database[nick] = sample
                 self.save_database()
 
-    def genweight_by_das(self, dasnick):
-        for sample in self.database:
-            if self.database[sample]["dbs"] == dasnick:
-                self.genweight_by_nick(sample)
+    def xsec_by_nick(self, nick, ask_for_update=True):
+        sample = self.database[nick]
+        questionary.print(f"--- {nick} ---", style="bold")
+        questionary.print(f"Current xsec: {sample['xsec']}")
+        new_xsec = questionary.text("Enter new xsec: ", default=str(sample["xsec"])).ask()
+        sample["xsec"] = float(new_xsec)
+        if ask_for_update:
+            answer = questionary.confirm(
+                "Do you want to update the database?", style=custom_style
+            ).ask()
+            if answer:
+                sample["xsec"] = float(new_xsec)
+                self.database[nick] = sample
+                self.save_database()
+        else:
+            sample["xsec"] = float(new_xsec)
+            self.database[nick] = sample
+            self.save_database()
 
+    def get_nick_by_das(self, dasnick):
+        for nick in self.database:
+            if self.database[nick]["dbs"] == dasnick:
+                return nick
+            
     def delete_by_nick(self, nick):
         for sample in self.database:
             if sample == nick:
