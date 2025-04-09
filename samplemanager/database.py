@@ -10,7 +10,9 @@ class SampleDatabase(object):
         self.database_folder = database_folder
         self.database_file = database_file
         self.working_database_path = f"{self.database_file}.working"
+        self.details_database_path = None
         self.database = {}
+        self.details_database = {}
         self.dasnicks = set()
         self.samplenicks = set()
         self.eras = set()
@@ -44,6 +46,15 @@ class SampleDatabase(object):
         with open(self.working_database_path) as f:
             self.database = json.load(f) or {}
 
+    def load_details_database(self):
+        if os.path.exists(self.details_database_path):
+            with open(self.details_database_path) as f:
+                self.details_database = json.load(f) or {}
+        else:
+            raise FileNotFoundError(
+                f"{self.details_database_path} does not exist .."
+            )
+
     def parse_database(self):
         for sample in self.database:
             if self.database[sample]["dbs"] is None:
@@ -62,6 +73,12 @@ class SampleDatabase(object):
         questionary.print("Saving database...")
         with open(self.database_file, "w") as stream:
             json.dump(self.database, stream, indent=4, sort_keys=True)
+        return
+    
+    def save_details_database(self):
+        questionary.print("Saving details database...")
+        with open(self.details_database_path, "w") as stream:
+            json.dump(self.details_database, stream, indent=4, sort_keys=True)
         return
 
     def database_maintainance(self):
@@ -101,6 +118,9 @@ class SampleDatabase(object):
 
     def genweight_by_nick(self, nick, ask_for_update=True):
         sample = self.database[nick]
+        self.details_database_path = filelist_path(
+            self.database_folder, sample
+        )
         questionary.print(f"--- {nick} ---", style="bold")
         questionary.print(f"Current generator_weight: {sample['generator_weight']}")
         questionary.print(
@@ -122,13 +142,23 @@ class SampleDatabase(object):
                     sample["generator_weight"] = new_genweight
                     self.database[nick] = sample
                     self.save_database()
+                    if self.details_database_path and self.details_database:
+                        self.details_database["generator_weight"] = new_genweight
+                        self.save_details_database()
             else:
                 sample["generator_weight"] = new_genweight
                 self.database[nick] = sample
                 self.save_database()
+                if self.details_database_path and self.details_database:
+                    self.details_database["generator_weight"] = new_genweight
+                    self.save_details_database()
 
     def xsec_by_nick(self, nick, ask_for_update=True):
         sample = self.database[nick]
+        self.details_database_path = filelist_path(
+            self.database_folder, sample
+        )
+        self.load_details_database()
         questionary.print(f"--- {nick} ---", style="bold")
         questionary.print(f"Current xsec: {sample['xsec']}")
         new_xsec = questionary.text("Enter new xsec: ", default=str(sample["xsec"])).ask()
@@ -141,10 +171,16 @@ class SampleDatabase(object):
                 sample["xsec"] = float(new_xsec)
                 self.database[nick] = sample
                 self.save_database()
+                if self.details_database_path and self.details_database:
+                    self.details_database["xec"] = float(new_xsec)
+                    self.save_details_database()
         else:
             sample["xsec"] = float(new_xsec)
             self.database[nick] = sample
             self.save_database()
+            if self.details_database_path and self.details_database:
+                self.details_database["xec"] = float(new_xsec)
+                self.save_details_database()
 
     def get_nick_by_das(self, dasnick):
         for nick in self.database:

@@ -29,7 +29,7 @@ def parse_args():
 def database_folder_path(base_folder: str, nanoAOD_version: str):
     return os.path.join(base_folder, nanoAOD_version_str(nanoAOD_version))
 
-def filelist_path(nanoAOD_version: int, database_folder: str, sampledata: dict):
+def filelist_path(database_folder: str, sampledata: dict):
     return os.path.join(
         database_folder,
         str(sampledata["era"]),
