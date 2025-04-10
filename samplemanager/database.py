@@ -153,7 +153,7 @@ class SampleDatabase(object):
                     self.details_database["generator_weight"] = new_genweight
                     self.save_details_database()
 
-    def xsec_by_nick(self, nick, ask_for_update=True):
+    def xsec_by_nick(self, nick):
         sample = self.database[nick]
         self.details_database_path = filelist_path(
             self.database_folder, sample
@@ -163,24 +163,11 @@ class SampleDatabase(object):
         questionary.print(f"Current xsec: {sample['xsec']}")
         new_xsec = questionary.text("Enter new xsec: ", default=str(sample["xsec"])).ask()
         sample["xsec"] = float(new_xsec)
-        if ask_for_update:
-            answer = questionary.confirm(
-                "Do you want to update the database?", style=custom_style
-            ).ask()
-            if answer:
-                sample["xsec"] = float(new_xsec)
-                self.database[nick] = sample
-                self.save_database()
-                if self.details_database_path and self.details_database:
-                    self.details_database["xec"] = float(new_xsec)
-                    self.save_details_database()
-        else:
-            sample["xsec"] = float(new_xsec)
-            self.database[nick] = sample
-            self.save_database()
-            if self.details_database_path and self.details_database:
-                self.details_database["xec"] = float(new_xsec)
-                self.save_details_database()
+        self.database[nick] = sample
+        self.save_database()
+        if self.details_database_path and self.details_database:
+            self.details_database["xsec"] = float(new_xsec)
+            self.save_details_database()
 
     def get_nick_by_das(self, dasnick):
         for nick in self.database:
