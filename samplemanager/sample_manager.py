@@ -14,7 +14,6 @@ class SampleManager(object):
         self.instance_choices = ["prod/global", "prod/phys03"]
         assert(self.default_instance in self.instance_choices)
         self.redirector = "root://xrootd-cms.infn.it//"
-        questionary.print("Starting up RucioManager")
 
         self.nanoAOD_version: int = questionary.select(
             "Select a nanoAOD version", 
