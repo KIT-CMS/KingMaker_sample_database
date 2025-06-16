@@ -1,0 +1,15 @@
+{
+    "dbs": "/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin101_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1/NANOAODSIM",
+    "era": null,
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin101_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v1/30000/6265AC15-EB68-D049-8A43-EADA3AABC5CB.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin101_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v1/30000/237C247E-A343-0046-99E7-43DFFC277B6A.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 1093494,
+    "nfiles": 2,
+    "nick": "GluGluHToTauTau_HTXSFilter_STXS1p1_Bin101_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODv9-106X",
+    "sample_type": "ggh_htautau",
+    "xsec": 0.031658
+}
