@@ -1,8 +1,8 @@
 import json
 import multiprocessing as mp
-from itertools import count
 import os
 import subprocess
+from itertools import count
 
 import numpy as np
 import uproot
@@ -64,37 +64,59 @@ def _process_file_worker_for_genweight(args):
                 False,  # failed_status
             )
         except Exception as e:
-            print(f"Worker: Attempt {attempt + 1}/{max_retries + 1} failed for {filepath}: {e}")
             if attempt < max_retries:
-                print(f"Worker: Retrying {filepath}...")
                 continue
             else:
+                print(f"Failed to process {filepath} after {max_retries} attempts: {e}")
                 return 0, 0, True
 
 
-def calculate_genweight_uproot_mp(dataset, num_workers=4, max_retries=5, timeout=30):
-    print(f"Counting negative and positive genweights for {dataset['nick']}...")
-    filelist = read_filelist_from_das(dataset["dbs"])
+def _calculate_genweight_uproot_mp(
+    dataset=None,
+    loc_file=None,
+    num_workers=4,
+    max_retries=5,
+    timeout=30,
+):
+
+    assert (dataset is not None) ^ (loc_file is not None)
+
+    if dataset is not None:
+        print(f"Counting negative and positive genweights for {dataset['nick']}...")
+        filelist = read_filelist_from_das(dataset["dbs"])
+    if loc_file is not None:
+        print(f"Counting negative and positive genweights from local file {loc_file}...")
+        with open(loc_file, "r") as f:
+            local_config = json.load(f)
+            filelist = local_config["filelist"]
+
     threshold, fails = len(filelist) // 10, 0
     negative, positive = 0, 0
 
     print(f"Total files to process: {len(filelist)}. Failure threshold: {threshold} files.")
-    tasks_for_pool = [(f"{path}:Events", max_retries, timeout) for path in filelist]
+    tasks = [(f"{path}:Events", max_retries, timeout) for path in filelist]
 
     with Progress() as progress_bar:
-        task_id = progress_bar.add_task(f"[cyan]Processing {dataset['nick']}", total=len(tasks_for_pool))
+        task = progress_bar.add_task("Files read ", total=len(filelist))
         with mp.Pool(processes=num_workers) as pool:
-            results_iterator = pool.imap_unordered(_process_file_worker_for_genweight, tasks_for_pool)
-            for pos_count, neg_count, failed in results_iterator:
+            for pos_count, neg_count, failed in pool.imap_unordered(
+                _process_file_worker_for_genweight,
+                tasks,
+            ):
                 fails += int(failed)
+
+                if fails > threshold:
+                    print(
+                        f"Too many files failed ({fails}/{len(filelist)}), exceeding "
+                        f"threshold of {threshold}. Genweight calculation aborted, "
+                        "returning None."
+                    )
+                    return None
+
                 negative += neg_count
                 positive += pos_count
-                progress_bar.update(task_id, advance=1)
-    print(f"Processed files: {len(tasks_for_pool) - fails}, Failed files: {fails}")
-
-    if fails > threshold:
-        print(f"Error: Too many files failed ({fails}/{len(filelist)}), exceeding threshold of {threshold}. Genweight calculation aborted, returning None.")
-        return None
+                progress_bar.update(task, advance=1)
+    print(f"Processed files: {len(tasks) - fails}, Failed files: {fails}")
 
     negfrac = negative / (negative + positive)
     genweight = 1.0 - 2.0 * negfrac
@@ -103,7 +125,37 @@ def calculate_genweight_uproot_mp(dataset, num_workers=4, max_retries=5, timeout
     return genweight
 
 
-def calculate_genweight_uproot_single(dataset):
+def calculate_genweights_uproot_mp_dataset(
+    dataset,
+    num_workers=4,
+    max_retries=5,
+    timeout=30,
+):
+    return _calculate_genweight_uproot_mp(
+        dataset=dataset,
+        loc_file=None,
+        num_workers=num_workers,
+        max_retries=max_retries,
+        timeout=timeout,
+    )
+
+
+def calculate_genweights_uproot_mp_locfile(
+    loc_file,
+    num_workers=4,
+    max_retries=5,
+    timeout=30,
+):
+    return _calculate_genweight_uproot_mp(
+        dataset=None,
+        loc_file=loc_file,
+        num_workers=num_workers,
+        max_retries=max_retries,
+        timeout=timeout,
+    )
+
+
+def calculate_genweight_uproot_sequential(dataset):
     print(f"Counting negative and positive genweights for {dataset['nick']}...")
     filelist = read_filelist_from_das(dataset["dbs"])
     negative = 0
@@ -140,10 +192,7 @@ def calculate_genweight_uproot_single(dataset):
         return genweight
 
 
-calculate_genweight_uproot = calculate_genweight_uproot_mp
-
-
-def calculate_genweight_from_local_file(loc_file):
+def calculate_genweight_from_local_file_sequential(loc_file):
     if not (os.path.isfile(loc_file) and os.path.getsize(loc_file) > 0):
         print(f"File {loc_file} does not exist or is empty, your weight is 0.0")
     else:
@@ -181,3 +230,7 @@ def calculate_genweight_from_local_file(loc_file):
                 genweight = 1 - 2 * negfrac
                 print(f"Final genweight: {genweight}")
                 return genweight
+
+
+calculate_genweight_uproot = calculate_genweights_uproot_mp_dataset
+calculate_genweight_from_local_file = calculate_genweights_uproot_mp_locfile
