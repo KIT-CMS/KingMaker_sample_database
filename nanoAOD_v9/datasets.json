@@ -56828,7 +56828,7 @@
     "VBFHToTauTau_HTXSFilter_STXS1p1_Bin203to205_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17NanoAODv9-106X_ext1": {
         "dbs": "/VBFHToTauTau_HTXSFilter_STXS1p1_Bin203to205_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9_ext1-v2/NANOAODSIM",
         "era": "2017",
-        "generator_weight": 1.0,
+        "generator_weight": 0.9989307603542404,
         "instance": "prod/global",
         "nevents": 20085840,
         "nfiles": 175,
@@ -56850,7 +56850,7 @@
     "VBFHToTauTau_HTXSFilter_STXS1p1_Bin203to205_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv9-106X_ext1": {
         "dbs": "/VBFHToTauTau_HTXSFilter_STXS1p1_Bin203to205_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM",
         "era": "2018",
-        "generator_weight": 1.0,
+        "generator_weight": 0.9989206730313508,
         "instance": "prod/global",
         "nevents": 21046449,
         "nfiles": 236,
@@ -56927,7 +56927,7 @@
     "VBFHToTauTau_HTXSFilter_STXS1p1_Bin206_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv9-106X": {
         "dbs": "/VBFHToTauTau_HTXSFilter_STXS1p1_Bin206_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM",
         "era": "2018",
-        "generator_weight": 1.0,
+        "generator_weight": 0.9995643184548515,
         "instance": "prod/global",
         "nevents": 775796,
         "nfiles": 2,
@@ -56938,7 +56938,7 @@
     "VBFHToTauTau_HTXSFilter_STXS1p1_Bin206_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv9-106X_ext1": {
         "dbs": "/VBFHToTauTau_HTXSFilter_STXS1p1_Bin206_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM",
         "era": "2018",
-        "generator_weight": 1.0,
+        "generator_weight": 0.9995745019136058,
         "instance": "prod/global",
         "nevents": 3962415,
         "nfiles": 170,
