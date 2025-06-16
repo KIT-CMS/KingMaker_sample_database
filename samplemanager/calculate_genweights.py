@@ -1,9 +1,12 @@
 import json
+import multiprocessing as mp
+from itertools import count
+import os
 import subprocess
+
+import numpy as np
 import uproot
 from rich.progress import Progress
-import numpy as np
-import os
 
 
 def read_filelist_from_das(dbs):
@@ -48,7 +51,59 @@ def read_filelist_from_das(dbs):
 #         return 1.0
 
 
-def calculate_genweight_uproot(dataset):
+def _process_file_worker_for_genweight(args):
+    filepath, max_retries, timeout = args
+    retries = count(0)
+    while True:
+        attempt = next(retries)
+        try:
+            array = uproot.open(filepath, timeout=timeout)["genWeight"].array(library="np")
+            return (
+                np.count_nonzero(array >= 0),  # positive_count
+                np.count_nonzero(array < 0),  # negative_count
+                False,  # failed_status
+            )
+        except Exception as e:
+            print(f"Worker: Attempt {attempt + 1}/{max_retries + 1} failed for {filepath}: {e}")
+            if attempt < max_retries:
+                print(f"Worker: Retrying {filepath}...")
+                continue
+            else:
+                return 0, 0, True
+
+
+def calculate_genweight_uproot_mp(dataset, num_workers=4, max_retries=5, timeout=30):
+    print(f"Counting negative and positive genweights for {dataset['nick']}...")
+    filelist = read_filelist_from_das(dataset["dbs"])
+    threshold, fails = len(filelist) // 10, 0
+    negative, positive = 0, 0
+
+    print(f"Total files to process: {len(filelist)}. Failure threshold: {threshold} files.")
+    tasks_for_pool = [(f"{path}:Events", max_retries, timeout) for path in filelist]
+
+    with Progress() as progress_bar:
+        task_id = progress_bar.add_task(f"[cyan]Processing {dataset['nick']}", total=len(tasks_for_pool))
+        with mp.Pool(processes=num_workers) as pool:
+            results_iterator = pool.imap_unordered(_process_file_worker_for_genweight, tasks_for_pool)
+            for pos_count, neg_count, failed in results_iterator:
+                fails += int(failed)
+                negative += neg_count
+                positive += pos_count
+                progress_bar.update(task_id, advance=1)
+    print(f"Processed files: {len(tasks_for_pool) - fails}, Failed files: {fails}")
+
+    if fails > threshold:
+        print(f"Error: Too many files failed ({fails}/{len(filelist)}), exceeding threshold of {threshold}. Genweight calculation aborted, returning None.")
+        return None
+
+    negfrac = negative / (negative + positive)
+    genweight = 1.0 - 2.0 * negfrac
+
+    print(f"Final genweight: {genweight}")
+    return genweight
+
+
+def calculate_genweight_uproot_single(dataset):
     print(f"Counting negative and positive genweights for {dataset['nick']}...")
     filelist = read_filelist_from_das(dataset["dbs"])
     negative = 0
@@ -83,6 +138,9 @@ def calculate_genweight_uproot(dataset):
         genweight = 1 - 2 * negfrac
         print(f"Final genweight: {genweight}")
         return genweight
+
+
+calculate_genweight_uproot = calculate_genweight_uproot_mp
 
 
 def calculate_genweight_from_local_file(loc_file):
