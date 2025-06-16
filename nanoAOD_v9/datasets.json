@@ -1476,7 +1476,7 @@
     "GluGluHToTauTau_HTXSFilter_STXS1p1_Bin104to105_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17NanoAODv9-106X_ext1": {
         "dbs": "/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin104to105_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9_ext1-v2/NANOAODSIM",
         "era": "2017",
-        "generator_weight": 1.0,
+        "generator_weight": 0.9930591841864206,
         "instance": "prod/global",
         "nevents": 69394908,
         "nfiles": 342,
