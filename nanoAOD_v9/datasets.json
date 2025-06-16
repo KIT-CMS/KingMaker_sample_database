@@ -1399,7 +1399,7 @@
     "GluGluHToTauTau_HTXSFilter_STXS1p1_Bin101_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv9-106X": {
         "dbs": "/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin101_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM",
         "era": "2018",
-        "generator_weight": 1.0,
+        "generator_weight": 0.9992812759371005,
         "instance": "prod/global",
         "nevents": 2228950,
         "nfiles": 4,
@@ -1520,7 +1520,7 @@
     "GluGluHToTauTau_HTXSFilter_STXS1p1_Bin106_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODAPVv9-106X_ext1": {
         "dbs": "/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin106_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODAPVv9-106X_mcRun2_asymptotic_preVFP_v11_ext1-v2/NANOAODSIM",
         "era": "2016preVFP",
-        "generator_weight": 1.0,
+        "generator_weight": 0.9934517400672596,
         "instance": "prod/global",
         "nevents": 9825511,
         "nfiles": 80,
@@ -1674,7 +1674,7 @@
     "GluGluHToTauTau_HTXSFilter_STXS1p1_Bin107to109_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv9-106X_ext1": {
         "dbs": "/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin107to109_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM",
         "era": "2018",
-        "generator_weight": 1.0,
+        "generator_weight": 0.9950608886456274,
         "instance": "prod/global",
         "nevents": 20518986,
         "nfiles": 202,
@@ -1740,7 +1740,7 @@
     "GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17NanoAODv9-106X_ext1": {
         "dbs": "/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9_ext1-v2/NANOAODSIM",
         "era": "2017",
-        "generator_weight": 1.0,
+        "generator_weight": 0.9960901152034332,
         "instance": "prod/global",
         "nevents": 30074010,
         "nfiles": 157,
@@ -56960,7 +56960,7 @@
     "VBFHToTauTau_HTXSFilter_STXS1p1_Bin207to210_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODAPVv9-106X_ext1": {
         "dbs": "/VBFHToTauTau_HTXSFilter_STXS1p1_Bin207to210_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODAPVv9-106X_mcRun2_asymptotic_preVFP_v11_ext1-v2/NANOAODSIM",
         "era": "2016preVFP",
-        "generator_weight": 1.0,
+        "generator_weight": 0.9995065322185264,
         "instance": "prod/global",
         "nevents": 9390684,
         "nfiles": 100,
@@ -57026,7 +57026,7 @@
     "VBFHToTauTau_HTXSFilter_STXS1p1_Bin207to210_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv9-106X_ext1": {
         "dbs": "/VBFHToTauTau_HTXSFilter_STXS1p1_Bin207to210_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM",
         "era": "2018",
-        "generator_weight": 1.0,
+        "generator_weight": 0.9995119806888324,
         "instance": "prod/global",
         "nevents": 19114184,
         "nfiles": 173,
