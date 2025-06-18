@@ -121,6 +121,7 @@ class SampleDatabase(object):
         self.details_database_path = filelist_path(
             self.database_folder, sample
         )
+        self.load_details_database()
         questionary.print(f"--- {nick} ---", style="bold")
         questionary.print(f"Current generator_weight: {sample['generator_weight']}")
         questionary.print(
@@ -174,7 +175,7 @@ class SampleDatabase(object):
         for nick in self.database:
             if self.database[nick]["dbs"] == dasnick:
                 return nick
-            
+
     def delete_by_nick(self, nick):
         for sample in self.database:
             if sample == nick:
