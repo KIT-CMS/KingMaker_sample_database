@@ -321,6 +321,10 @@ class SampleManager(object):
 
                 progress_bar.update(task, advance=1)
 
+            # reset state of details database
+            self.database.details_database_path = None
+            self.database.details_database = {}
+
         questionary.print("Running database maintainance")
         self.database.database_maintainance()
 
