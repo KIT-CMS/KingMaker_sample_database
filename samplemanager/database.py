@@ -116,7 +116,7 @@ class SampleDatabase(object):
             if self.database[sample]["dbs"] == dasnick:
                 self.print_by_nick(sample)
 
-    def genweight_by_nick(self, nick, ask_for_update=True):
+    def genweight_by_nick(self, nick, ask_for_update=True, num_workers=1):
         sample = self.database[nick]
         self.details_database_path = filelist_path(
             self.database_folder, sample
@@ -128,7 +128,8 @@ class SampleDatabase(object):
         )
         # get the generator weight
         new_genweight = calculate_genweight_from_local_file(
-            filelist_path(self.database_folder, sample)
+            filelist_path(self.database_folder, sample),
+            num_workers=num_workers,
         )
         if new_genweight is None:
             questionary.print("Error when calculating genweights, no updates done.")

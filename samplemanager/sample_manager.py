@@ -199,14 +199,22 @@ class SampleManager(object):
             list(self.database.samplenicks),
             style=custom_style,
         ).ask()
+        num_workers = questionary.text(
+            "Use number of workers for parallel processing",
+            default="1",
+            style=custom_style,
+        ).ask()
+        if not num_workers.isdigit() or not int(num_workers) > 0:
+            questionary.print("Number of workers must be a positive integer")
+            return
         if nick in self.database.samplenicks:
-            self.database.genweight_by_nick(nick)
+            self.database.genweight_by_nick(nick, num_workers=int(num_workers))
             return
         if nick in self.database.dasnicks:
             nick = self.database.get_nick_by_das(nick)
-            self.database.genweight_by_nick(nick)
+            self.database.genweight_by_nick(nick, num_workers=int(num_workers))
             return
-        
+
     def update_xsec(self):
         nick = questionary.autocomplete(
             "Enter a sample nick to search for",
