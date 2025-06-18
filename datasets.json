@@ -219,6 +219,61 @@
         "nick": "QCD_Pt_800to1000_TuneCP5_13TeV_pythia8",
         "xsec": 26.25
     },
+    "QCD_Pt_15to30_TuneCP5_13TeV_pythia8_aakhmets-mc_2018UL_qcd_QCD_Pt_15to30_1737556550-00000000000000000000000000000000": {
+        "dbs": "/QCD_Pt_15to30_TuneCP5_13TeV_pythia8/aakhmets-mc_2018UL_qcd_QCD_Pt_15to30_1737556550-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 19991000,
+        "nfiles": 45,
+        "nick": "QCD_Pt_15to30_TuneCP5_13TeV_pythia8_aakhmets-mc_2018UL_qcd_QCD_Pt_15to30_1737556550-00000000000000000000000000000000",
+        "sample_type": "qcd",
+        "xsec": 1244000000.0
+    },
+    "QCD_Pt_30to50_TuneCP5_13TeV_pythia8_aakhmets-mc_2018UL_qcd_QCD_Pt_30to50_1737116378-00000000000000000000000000000000": {
+        "dbs": "/QCD_Pt_30to50_TuneCP5_13TeV_pythia8/aakhmets-mc_2018UL_qcd_QCD_Pt_30to50_1737116378-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 19988000,
+        "nfiles": 44,
+        "nick": "QCD_Pt_30to50_TuneCP5_13TeV_pythia8_aakhmets-mc_2018UL_qcd_QCD_Pt_30to50_1737116378-00000000000000000000000000000000",
+        "sample_type": "qcd",
+        "xsec": 106500000.0
+    },
+    "QCD_Pt_50to80_TuneCP5_13TeV_pythia8_aakhmets-mc_2018UL_qcd_QCD_Pt_50to80_1737116378-00000000000000000000000000000000": {
+        "dbs": "/QCD_Pt_50to80_TuneCP5_13TeV_pythia8/aakhmets-mc_2018UL_qcd_QCD_Pt_50to80_1737116378-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 19493000,
+        "nfiles": 44,
+        "nick": "QCD_Pt_50to80_TuneCP5_13TeV_pythia8_aakhmets-mc_2018UL_qcd_QCD_Pt_50to80_1737116378-00000000000000000000000000000000",
+        "sample_type": "qcd",
+        "xsec": 15700000.0
+    },
+    "QCD_Pt_80to120_TuneCP5_13TeV_pythia8_aakhmets-mc_2018UL_qcd_QCD_Pt_80to120_1737116378-00000000000000000000000000000000": {
+        "dbs": "/QCD_Pt_80to120_TuneCP5_13TeV_pythia8/aakhmets-mc_2018UL_qcd_QCD_Pt_80to120_1737116378-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 29685000,
+        "nfiles": 60,
+        "nick": "QCD_Pt_80to120_TuneCP5_13TeV_pythia8_aakhmets-mc_2018UL_qcd_QCD_Pt_80to120_1737116378-00000000000000000000000000000000",
+        "sample_type": "qcd",
+        "xsec": 2346000.0
+    },
+    "QCD_Pt_120to170_TuneCP5_13TeV_pythia8_aakhmets-mc_2018UL_qcd_QCD_Pt_120to170_1737116378-00000000000000000000000000000000": {
+        "dbs": "/QCD_Pt_120to170_TuneCP5_13TeV_pythia8/aakhmets-mc_2018UL_qcd_QCD_Pt_120to170_1737116378-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 29949000,
+        "nfiles": 64,
+        "nick": "QCD_Pt_120to170_TuneCP5_13TeV_pythia8_aakhmets-mc_2018UL_qcd_QCD_Pt_120to170_1737116378-00000000000000000000000000000000",
+        "sample_type": "qcd",
+        "xsec": 407700.0
+    },
     "ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8": {
         "nevents": 95833000,
         "nfiles": 103,
