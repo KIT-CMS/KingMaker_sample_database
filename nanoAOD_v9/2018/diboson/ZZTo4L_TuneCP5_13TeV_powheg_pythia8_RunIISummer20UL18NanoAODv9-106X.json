@@ -147,11 +147,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/ZZTo4L_TuneCP5_13TeV_powheg_pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/260000/73EB1608-F9A9-DF4C-B305-935DCD1CB8CA.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/ZZTo4L_TuneCP5_13TeV_powheg_pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/270000/6F7FB5B1-8A17-8243-97C9-23EAC8DBC5F0.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.9898860798438346,
     "instance": "prod/global",
     "nevents": 98488000,
     "nfiles": 144,
     "nick": "ZZTo4L_TuneCP5_13TeV_powheg_pythia8_RunIISummer20UL18NanoAODv9-106X",
     "sample_type": "diboson",
-    "xsec": 1.26
+    "xsec": 1.325
 }

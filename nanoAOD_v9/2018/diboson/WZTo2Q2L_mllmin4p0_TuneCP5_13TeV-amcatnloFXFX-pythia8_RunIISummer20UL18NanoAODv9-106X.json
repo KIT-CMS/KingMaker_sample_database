@@ -25,11 +25,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/WZTo2Q2L_mllmin4p0_TuneCP5_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/80000/361357BD-A471-D440-8429-292F51AB6F13.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/WZTo2Q2L_mllmin4p0_TuneCP5_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/80000/61B15CAF-469A-A34D-AE27-9200A9307927.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.6235859780363198,
     "instance": "prod/global",
     "nevents": 28576996,
     "nfiles": 22,
     "nick": "WZTo2Q2L_mllmin4p0_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL18NanoAODv9-106X",
     "sample_type": "diboson",
-    "xsec": 1.0
+    "xsec": 6.565
 }
