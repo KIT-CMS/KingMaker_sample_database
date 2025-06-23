@@ -73,11 +73,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/280000/6C5F6C0F-AB91-A641-A15D-68544CBF0150.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/280000/3BDF7D9D-CE4D-7241-9C2C-0A5778FC36D2.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.8039660138736273,
     "instance": "prod/global",
     "nevents": 86443196,
     "nfiles": 70,
     "nick": "DYJetsToLL_0J_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL18NanoAODv9-106X",
     "sample_type": "dyjets",
-    "xsec": 1.0
+    "xsec": 5129.0
 }

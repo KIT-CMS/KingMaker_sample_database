@@ -1,8 +1,9 @@
-import os
 import json
+import os
+
 import questionary
-from helpers import custom_style, filelist_path
 from calculate_genweights import calculate_genweight_from_local_file
+from helpers import custom_style, filelist_path
 
 
 class SampleDatabase(object):
@@ -47,13 +48,13 @@ class SampleDatabase(object):
             self.database = json.load(f) or {}
 
     def load_details_database(self):
-        if os.path.exists(self.details_database_path):
-            with open(self.details_database_path) as f:
-                self.details_database = json.load(f) or {}
-        else:
-            raise FileNotFoundError(
-                f"{self.details_database_path} does not exist .."
-            )
+        try:
+            with open(self.details_database_path, "r") as file:
+                self.details_database = json.load(file)
+        except FileNotFoundError:
+            raise FileNotFoundError(f"{self.details_database_path} does not exist ..")
+        except json.JSONDecodeError:
+            self.details_database = {}
 
     def parse_database(self):
         for sample in self.database:
@@ -74,9 +75,10 @@ class SampleDatabase(object):
         with open(self.database_file, "w") as stream:
             json.dump(self.database, stream, indent=4, sort_keys=True)
         return
-    
-    def save_details_database(self):
-        questionary.print("Saving details database...")
+
+    def save_details_database(self, verbose=True):
+        if verbose:
+            questionary.print("Saving details database...")
         with open(self.details_database_path, "w") as stream:
             json.dump(self.details_database, stream, indent=4, sort_keys=True)
         return
@@ -116,11 +118,12 @@ class SampleDatabase(object):
             if self.database[sample]["dbs"] == dasnick:
                 self.print_by_nick(sample)
 
-    def genweight_by_nick(self, nick, ask_for_update=True):
+    def genweight_by_nick(self, nick, ask_for_update=True, num_workers=1):
         sample = self.database[nick]
         self.details_database_path = filelist_path(
             self.database_folder, sample
         )
+        self.load_details_database()
         questionary.print(f"--- {nick} ---", style="bold")
         questionary.print(f"Current generator_weight: {sample['generator_weight']}")
         questionary.print(
@@ -128,7 +131,8 @@ class SampleDatabase(object):
         )
         # get the generator weight
         new_genweight = calculate_genweight_from_local_file(
-            filelist_path(self.database_folder, sample)
+            filelist_path(self.database_folder, sample),
+            num_workers=num_workers,
         )
         if new_genweight is None:
             questionary.print("Error when calculating genweights, no updates done.")
@@ -173,7 +177,7 @@ class SampleDatabase(object):
         for nick in self.database:
             if self.database[nick]["dbs"] == dasnick:
                 return nick
-            
+
     def delete_by_nick(self, nick):
         for sample in self.database:
             if sample == nick:

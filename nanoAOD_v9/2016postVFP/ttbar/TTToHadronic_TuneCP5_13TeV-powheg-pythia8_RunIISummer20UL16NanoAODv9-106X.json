@@ -149,11 +149,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/56846E45-8873-0041-8580-B08F8E042B76.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17-v1/130000/8B1ACFF3-4443-F74C-B359-BA5EE89168C4.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.9919077738586317,
     "instance": "prod/global",
     "nevents": 107067000,
     "nfiles": 146,
     "nick": "TTToHadronic_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODv9-106X",
     "sample_type": "ttbar",
-    "xsec": 379.05
+    "xsec": 378.93
 }

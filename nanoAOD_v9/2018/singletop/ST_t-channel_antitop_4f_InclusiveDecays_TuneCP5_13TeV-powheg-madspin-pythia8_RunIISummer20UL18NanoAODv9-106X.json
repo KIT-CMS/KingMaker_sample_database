@@ -133,11 +133,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/2550000/DE6096A0-13C3-9548-B113-5F369E01E84E.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/2550000/C1D07240-2B3C-824F-AEA2-28D60E19C3D0.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.9413902068683301,
     "instance": "prod/global",
     "nevents": 95627000,
     "nfiles": 130,
     "nick": "ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8_RunIISummer20UL18NanoAODv9-106X",
     "sample_type": "singletop",
-    "xsec": 1.0
+    "xsec": 80.0
 }

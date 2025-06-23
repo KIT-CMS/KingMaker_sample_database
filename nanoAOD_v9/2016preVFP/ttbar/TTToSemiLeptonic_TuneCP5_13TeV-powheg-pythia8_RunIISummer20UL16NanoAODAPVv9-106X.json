@@ -120,11 +120,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11-v1/270000/8B311D33-2D18-C34C-A0B5-ED5BE3A093F4.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11-v1/280000/958DA73D-E7EB-F04B-8735-CB6F654C573D.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.9918955893365862,
     "instance": "prod/global",
     "nevents": 132178000,
     "nfiles": 117,
     "nick": "TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODAPVv9-106X",
     "sample_type": "ttbar",
-    "xsec": 366.34
+    "xsec": 366.29
 }
