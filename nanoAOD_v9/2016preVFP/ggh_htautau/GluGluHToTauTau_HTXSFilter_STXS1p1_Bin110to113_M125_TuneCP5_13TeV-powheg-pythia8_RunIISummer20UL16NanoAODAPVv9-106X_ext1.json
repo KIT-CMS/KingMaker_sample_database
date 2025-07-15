@@ -27,7 +27,6 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11_ext1-v2/120000/656AEA29-27DF-5249-98F8-30F990A953BB.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11_ext1-v2/120000/97BDBE48-52F0-B948-9CAF-C6A2BC0FD2DF.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11_ext1-v2/120000/4C63C6B4-B57B-FC44-A9CC-73ADFCD44B6E.root",
-        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11_ext1-v2/120000/57C35F65-BAD0-A94F-AF5C-FF419BC90677.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11_ext1-v2/120000/CC1B87BB-0C51-AE41-9A70-BBE46634268D.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11_ext1-v2/120000/042ED71F-FB05-AA4A-AAB5-B301139DAB32.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11_ext1-v2/120000/BC9EFFF1-355F-6E41-80BE-A65ED0557499.root",
@@ -137,10 +136,10 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11_ext1-v2/2820000/54DEEE1E-B7FC-5846-BBC1-0C58988D83A1.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_preVFP_v11_ext1-v2/2820000/B4CC7AFA-0DC0-A44D-8E44-7EDED732B0D4.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.9960758698202951,
     "instance": "prod/global",
-    "nevents": 14551693,
-    "nfiles": 134,
+    "nevents": 14530099,
+    "nfiles": 133,
     "nick": "GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODAPVv9-106X_ext1",
     "sample_type": "ggh_htautau",
     "xsec": 0.24115
