@@ -31,8 +31,9 @@ class SampleDatabase(object):
             if not answer:
                 raise FileNotFoundError(f"{self.database_file} does not exist ..")
             else:
-                open(self.database_file, mode="a").close()
-        # now copy a work verison of the database to use for edits
+                with open(self.database_file, "w") as file:
+                    file.write("{}")
+        # now copy a work version of the database to use for edits
 
         if os.path.exists(self.working_database_path):
             questionary.print(" A working version of the database exists")
