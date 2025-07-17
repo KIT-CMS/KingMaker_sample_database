@@ -196,6 +196,19 @@ class SampleManager(object):
             self.database.print_by_das(nick)
             return
 
+    def find_samples_by_das(self):
+        nick = questionary.autocomplete(
+            "Enter a sample nick to search for",
+            list(self.database.dasnicks),
+            style=custom_style,
+        ).ask()
+        print(nick)
+        if nick == "None":
+            return
+        if nick in self.database.dasnicks:
+            self.database.print_by_das(nick)
+            return
+
     def update_genweight(self):
         nick = questionary.autocomplete(
             "Enter a sample nick to search for",
@@ -230,19 +243,6 @@ class SampleManager(object):
         if nick in self.database.dasnicks:
             nick = self.database.get_nick_by_das(nick)
             self.database.xsec_by_nick(nick)
-            return
-
-    def find_samples_by_das(self):
-        nick = questionary.autocomplete(
-            "Enter a sample nick to search for",
-            list(self.database.dasnicks),
-            style=custom_style,
-        ).ask()
-        print(nick)
-        if nick == "None":
-            return
-        if nick in self.database.dasnicks:
-            self.database.print_by_das(nick)
             return
 
     def create_production_file(self):
@@ -309,7 +309,7 @@ class SampleManager(object):
                 sampledata = self.database.database[sample]
                 filelist_json = filelist_path(self.database_folder, sampledata)
 
-                self.database.details_database_path = filelist_path(self.database_folder, sampledata)
+                self.database.details_database_file = filelist_path(self.database_folder, sampledata)
                 self.database.load_details_database()
 
                 _dict = deepcopy(self.database.details_database)
@@ -322,7 +322,7 @@ class SampleManager(object):
                 progress_bar.update(task, advance=1)
 
             # reset state of details database
-            self.database.details_database_path = None
+            self.database.details_database_file = None
             self.database.details_database = {}
 
         questionary.print("Running database maintainance")
