@@ -36,12 +36,12 @@ class SampleDatabase(object):
         # now copy a work version of the database to use for edits
 
         if os.path.exists(self.working_database_path):
-            questionary.print(" A working version of the database exists")
+            questionary.print("A working version of the database exists")
             answer = questionary.confirm(
                 "Load working version of database ?", style=custom_style
             ).ask()
-            if answer:
-                self.working_database_path = self.database_file
+            if not answer:
+                os.system(f"cp {self.database_file} {self.working_database_path}")
         else:
             questionary.print("Preparing working version of the database")
             os.system(f"cp {self.database_file} {self.working_database_path}")
