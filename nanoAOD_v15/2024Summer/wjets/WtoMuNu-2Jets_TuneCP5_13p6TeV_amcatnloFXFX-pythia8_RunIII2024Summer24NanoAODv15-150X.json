@@ -1,6 +1,6 @@
 {
     "dbs": "/WtoMuNu-2Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
-    "era": "2024",
+    "era": "2024Summer",
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/WtoMuNu-2Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v3/2540000/99b1ab6b-6845-4513-9211-08277fcc9c8f.root",
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/WtoMuNu-2Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v3/2540000/e8ab6ed8-1837-428c-84a0-65ba9f60d899.root",
@@ -2971,5 +2971,5 @@
     "nfiles": 2962,
     "nick": "WtoMuNu-2Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X",
     "sample_type": "wjets",
-    "xsec": 22666.0
+    "xsec": 21079.38
 }
