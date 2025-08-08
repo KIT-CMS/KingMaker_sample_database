@@ -1,0 +1,16 @@
+{
+    "dbs": "/TTLNu-1Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v15-v2/NANOAODSIM",
+    "era": "2023preBPix",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/TTLNu-1Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v15-v2/140000/8d69f79a-6aee-485e-8116-b263b7078b83.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/TTLNu-1Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v15-v2/140000/c44d1524-c0c8-448b-bca9-d548d6b50084.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/TTLNu-1Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v15-v2/140000/ee4fccfc-b7af-43c9-b270-5b65afa56f57.root"
+    ],
+    "generator_weight": null,
+    "instance": "prod/global",
+    "nevents": 460305,
+    "nfiles": 3,
+    "nick": "TTLNu-1Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer23NanoAODv12-130X",
+    "sample_type": "rem_ttbar",
+    "xsec": 0.2505
+}
