@@ -101,20 +101,20 @@ class DASQuery(object):
 
     def _fill_xsec(self, nick):
         xsec = questionary.text(
-            f"Set xsec for {nick}. Leave blank for value of 1.0"
+            f"Set xsec for {nick}. Leave blank for value of 0.0"
         ).ask()
         if xsec == "" or xsec is None:
-            return 1.0
+            return 0.0
         else:
             return float(xsec)
 
     def _fill_generator_weight(self, nick):
         gen_weight = questionary.text(
-            f"Set generator_weight for {nick}. Leave blank for value of 1.0",
+            f"Set generator_weight for {nick}. Leave blank for value of 0.0",
             style=custom_style,
         ).ask()
         if gen_weight == "" or gen_weight is None:
-            return 1.0
+            return 0.0
         else:
             return float(gen_weight)
 
