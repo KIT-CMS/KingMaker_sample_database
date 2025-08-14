@@ -1,0 +1,21 @@
+{
+    "dbs": "/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1/NANOAODSIM",
+    "era": "2017",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/30000/8862B1B3-8F98-B24B-8977-BFC4DA4FEFB0.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/30000/59A02DD7-502F-8147-8092-93ABBFEBA4DA.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/30000/C55D43E1-FC6F-1346-947A-D856F890CCF2.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/30000/436579C1-3EA1-7446-A45A-10E3C9705E94.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2530000/E69AF95A-CB77-9543-8268-92B31B3DB6DD.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2530000/63967F02-069B-F249-9E03-C390C69DD0A4.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2530000/719E0D9C-4E3F-0243-97EB-D4B25CD092E3.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v1/2530000/B982FEA6-8CA9-AF46-8712-EBCA02F8E30D.root"
+    ],
+    "generator_weight": 0.9961280313732818,
+    "instance": "prod/global",
+    "nevents": 6037239,
+    "nfiles": 8,
+    "nick": "GluGluHToTauTau_HTXSFilter_STXS1p1_Bin110to113_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17NanoAODv9-106X",
+    "sample_type": "ggh_htautau",
+    "xsec": 0.24115
+}

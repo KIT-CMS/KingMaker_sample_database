@@ -1,9 +1,12 @@
 import json
+import multiprocessing as mp
+import os
 import subprocess
+from contextlib import nullcontext
+
+import numpy as np
 import uproot
 from rich.progress import Progress
-import numpy as np
-import os
 
 
 def read_filelist_from_das(dbs):
@@ -24,102 +27,89 @@ def read_filelist_from_das(dbs):
     ]
 
 
-# # # main function with RDF
-# def calculate_genweight(dataset):
-#     ROOT.EnableImplicitMT(2)
-#     start = time.time()
-#     filelist = read_filelist_from_das(dataset["dbs"])
-#     # add the treename to each element in the filelist
-#     try:
-#         d = ROOT.RDataFrame("Events", filelist)
-#         cuts = {"negative": "(genWeight<0)*1", "positive": "(genWeight>=0)*1"}
-#         negative_d = d.Filter(cuts["negative"]).Count()
-#         positive_d = d.Filter(cuts["positive"]).Count()
-#         negative = negative_d.GetValue()
-#         positive = positive_d.GetValue()
-#         negfrac = negative / (negative + positive)
-#         genweight = 1 - 2 * negfrac
-#         print(f"Final genweight: {genweight}")
-#         end = time.time()
-#         print(f"Time: {end - start}")
-#         return genweight
-#     except:
-#         print("Error when reading input files")
-#         return 1.0
+def _process_file(args):
+    filepath, max_retries, timeout = args
+    exception = None
+    for _ in range(max_retries + 1):
+        try:
+            with uproot.open(filepath, timeout=timeout) as file:
+                array = file["genWeight"].array(library="np")
+            return (
+                np.count_nonzero(array >= 0),  # positive_count
+                np.count_nonzero(array < 0),  # negative_count
+                False,  # failed_status
+            )
+        except Exception as e:
+            exception = e
+
+    print(f"Failed to process {filepath} after {max_retries} attempts: {exception}")
+    return 0, 0, True
 
 
-def calculate_genweight_uproot(dataset):
+def _calculate_genweight_uproot(
+    filelist,
+    num_workers=4,
+    max_retries=5,
+    timeout=30,
+    fail_threshold_percent=10,
+    **kwargs,
+):
+    threshold, fails = len(filelist) // fail_threshold_percent, 0
+    negative, positive = 0, 0
+
+    print(f"Total files to process: {len(filelist)}. Failure threshold: {threshold} files.")
+    tasks = [(f"{path}:Events", max_retries, timeout) for path in filelist]
+
+    with Progress() as progress_bar:
+        task = progress_bar.add_task("Files read ", total=len(filelist))
+
+        with mp.Pool(num_workers) if num_workers > 1 else nullcontext() as context:
+            for pos_count, neg_count, failed in (
+                context.imap_unordered(_process_file, tasks)
+                if context
+                else map(_process_file, tasks)
+            ):
+                fails += int(failed)
+
+                if fails > threshold:
+                    print(
+                        f"Too many files failed ({fails}/{len(filelist)}), exceeding "
+                        f"threshold of {threshold}. Genweight calculation aborted, "
+                        "returning None."
+                    )
+                    return None
+
+                negative += neg_count
+                positive += pos_count
+                progress_bar.update(task, advance=1)
+
+    print(f"Processed files: {len(tasks) - fails}, Failed files: {fails}")
+
+    negfrac = negative / (negative + positive)
+    genweight = 1.0 - 2.0 * negfrac
+
+    print(f"Final genweight: {genweight}")
+    return genweight
+
+
+def calculate_genweight_uproot(dataset, num_workers=1, **kwargs):
     print(f"Counting negative and positive genweights for {dataset['nick']}...")
-    filelist = read_filelist_from_das(dataset["dbs"])
-    negative = 0
-    positive = 0
-    # set a threshold that if more than 10% of the files fail, the function returns None
-    threshold = len(filelist) // 10
-    fails = 0
 
-    print(f"Threshold for failed files: {threshold}")
-    print(f"Number of files: {len(filelist)}")
-    # loop over all files and count the number of negative and positive genweights
-    with Progress() as progress:
-        task = progress.add_task("Files read ", total=len(filelist))
-        filelist = [file + ":Events" for file in filelist]
-        for i, file in enumerate(filelist):
-            try:
-                events = uproot.open(file, timeout=5)
-                array = events["genWeight"].array(library="np")
-                negative += np.count_nonzero(array < 0)
-                positive += np.count_nonzero(array >= 0)
-                # print(f"File {i+1}/{len(filelist)} of {dataset['nick']} read")
-                progress.update(task, advance=1)
-            except Exception as e:
-                print("Error when reading input file")
-                print(e)
-                fails += 1
-            if fails > threshold:
-                print("Too many files failed, returning None")
-                return None
-        print(f"Negative: {negative} // Positive: {positive}")
-        negfrac = negative / (negative + positive)
-        genweight = 1 - 2 * negfrac
-        print(f"Final genweight: {genweight}")
-        return genweight
+    return _calculate_genweight_uproot(
+        filelist=read_filelist_from_das(dataset["dbs"]),
+        num_workers=num_workers,
+        **kwargs,
+    )
 
 
-def calculate_genweight_from_local_file(loc_file):
-    if not (os.path.isfile(loc_file) and os.path.getsize(loc_file) > 0):
-        print(f"File {loc_file} does not exist or is empty, your weight is 0.0")
-    else:
-        with open(loc_file, "r") as f:
-            local_config = json.load(f)
-            filelist = local_config["filelist"]
-            negative = 0
-            positive = 0
-            # set a threshold that if more than 10% of the files fail, the function returns None
-            threshold = len(filelist) // 10
-            fails = 0
-            print(f"Threshold for failed files: {threshold}")
-            print(f"Number of files: {len(filelist)}")
-            # loop over all files and count the number of negative and positive genweights
-            with Progress() as progress:
-                task = progress.add_task("Files read ", total=len(filelist))
-                filelist = [file + ":Events" for file in filelist]
-                for i, file in enumerate(filelist):
-                    try:
-                        events = uproot.open(file, timeout=5)
-                        array = events["genWeight"].array(library="np")
-                        negative += np.count_nonzero(array < 0)
-                        positive += np.count_nonzero(array >= 0)
-                        # print(f"File {i+1}/{len(filelist)} of {dataset['nick']} read")
-                        progress.update(task, advance=1)
-                    except Exception as e:
-                        print("Error when reading input file")
-                        print(e)
-                        fails += 1
-                    if fails > threshold:
-                        print("Too many files failed, returning None")
-                        return None
-                print(f"Negative: {negative} // Positive: {positive}")
-                negfrac = negative / (negative + positive)
-                genweight = 1 - 2 * negfrac
-                print(f"Final genweight: {genweight}")
-                return genweight
+def calculate_genweight_from_local_file(loc_file, num_workers=1, **kwargs):
+    print(f"Counting negative and positive genweights from local file {loc_file}...")
+
+    with open(loc_file, "r") as f:
+        config = json.load(f)
+
+    return _calculate_genweight_uproot(
+        filelist=config["filelist"],
+        num_workers=num_workers,
+        **kwargs,
+    )
