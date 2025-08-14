@@ -175,8 +175,8 @@ class SampleDatabase(object):
         )
         self.load_details_database()
         questionary.print(f"--- {nick} ---", style="bold")
-        questionary.print(f"Current cross section: {sample['xsec']}")
-        new_xsec = questionary.text("Enter new cross section: ", default=str(sample["xsec"])).ask()
+        questionary.print(f"Current cross section in pb: {sample['xsec']}")
+        new_xsec = questionary.text("Enter new cross section in pb: ", default=str(sample["xsec"])).ask()
         if ask_for_update:
             answer = questionary.confirm(
                 "Do you want to update the working database ?", style=custom_style

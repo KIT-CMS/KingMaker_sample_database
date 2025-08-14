@@ -101,7 +101,7 @@ class DASQuery(object):
 
     def _fill_xsec(self, nick):
         xsec = questionary.text(
-            f"Set xsec for {nick}. Leave blank for value of 0.0"
+            f"Set xsec for {nick} in pb. Leave blank for value of 0.0"
         ).ask()
         if xsec == "" or xsec is None:
             return 0.0
