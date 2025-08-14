@@ -127,11 +127,11 @@
         "root://xrootd-cms.infn.it///store/data/Run2022C/Muon/NANOAOD/22Sep2023-v1/50000/edb51905-88b7-4eed-aecb-5b29ce7ca96d.root",
         "root://xrootd-cms.infn.it///store/data/Run2022C/Muon/NANOAOD/22Sep2023-v1/50000/ffad8310-8bee-4828-97ce-7938c2d7779d.root"
     ],
-    "generator_weight": null,
+    "generator_weight": 0.0,
     "instance": "prod/global",
     "nevents": 138427345,
     "nfiles": 124,
     "nick": "Muon_Run2022C-22Sep2023-v1",
     "sample_type": "data",
-    "xsec": null
+    "xsec": 0.0
 }
