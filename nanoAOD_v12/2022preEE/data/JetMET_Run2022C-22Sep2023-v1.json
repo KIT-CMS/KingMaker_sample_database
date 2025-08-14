@@ -209,11 +209,11 @@
         "root://xrootd-cms.infn.it///store/data/Run2022C/JetMET/NANOAOD/22Sep2023-v1/50000/f50f5af4-d772-4331-befc-3ff05a109bbf.root",
         "root://xrootd-cms.infn.it///store/data/Run2022C/JetMET/NANOAOD/22Sep2023-v1/50000/fbfb2d7b-ae12-4a3c-8baf-4699ccebb040.root"
     ],
-    "generator_weight": null,
+    "generator_weight": 0.0,
     "instance": "prod/global",
     "nevents": 169187457,
     "nfiles": 206,
     "nick": "JetMET_Run2022C-22Sep2023-v1",
     "sample_type": "data",
-    "xsec": null
+    "xsec": 0.0
 }
