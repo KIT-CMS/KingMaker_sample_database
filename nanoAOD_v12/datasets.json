@@ -365,35 +365,35 @@
     "DYto2L-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/DYto2L-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.8986,
         "instance": "prod/global",
         "nevents": 95530246,
         "nfiles": 159,
         "nick": "DYto2L-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 0.0
+        "xsec": 5378.0
     },
     "DYto2L-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/DYto2L-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.7339,
         "instance": "prod/global",
         "nevents": 97575902,
         "nfiles": 193,
         "nick": "DYto2L-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 0.0
+        "xsec": 1017.0
     },
     "DYto2L-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/DYto2L-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.6527,
         "instance": "prod/global",
         "nevents": 52013685,
         "nfiles": 131,
         "nick": "DYto2L-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 0.0
+        "xsec": 385.5
     },
     "DYto2L-2Jets_MLL-50_PTLL-100to200_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/DYto2L-2Jets_MLL-50_PTLL-100to200_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v1/NANOAODSIM",
@@ -574,24 +574,24 @@
     "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.8376,
         "instance": "prod/global",
         "nevents": 65997137,
         "nfiles": 115,
         "nick": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 0.0
+        "xsec": 6688.0
     },
     "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1": {
         "dbs": "/DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5_ext1-v1/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.8376,
         "instance": "prod/global",
         "nevents": 97500666,
         "nfiles": 259,
         "nick": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 0.0
+        "xsec": 6688.0
     },
     "DYto2L-4Jets_MLL-10to50_TuneCP5_13p6TeV_madgraphMLM-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/DYto2L-4Jets_MLL-10to50_TuneCP5_13p6TeV_madgraphMLM-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v1/NANOAODSIM",
@@ -992,7 +992,7 @@
     "DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v1/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 1.0,
+        "generator_weight": 0.8986,
         "instance": "prod/global",
         "nevents": 39627426,
         "nfiles": 25,
@@ -1003,18 +1003,18 @@
     "DYto2Tau-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/DYto2Tau-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v1/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 1.0,
+        "generator_weight": 0.7339,
         "instance": "prod/global",
         "nevents": 56687827,
         "nfiles": 38,
         "nick": "DYto2Tau-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 1.0
+        "xsec": 339.0
     },
     "DYto2Tau-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/DYto2Tau-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v1/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 1.0,
+        "generator_weight": 0.6527,
         "instance": "prod/global",
         "nevents": 106481565,
         "nfiles": 76,
@@ -8384,7 +8384,7 @@
     "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.996333,
         "instance": "prod/global",
         "nevents": 23778148,
         "nfiles": 67,
@@ -8395,7 +8395,7 @@
     "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22NanoAODv12-130X_ext1": {
         "dbs": "/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5_ext1-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.996333,
         "instance": "prod/global",
         "nevents": 24047488,
         "nfiles": 319,
@@ -8406,7 +8406,7 @@
     "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/TTto4Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.996146,
         "instance": "prod/global",
         "nevents": 53605620,
         "nfiles": 114,
@@ -8417,7 +8417,7 @@
     "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22NanoAODv12-130X_ext1": {
         "dbs": "/TTto4Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5_ext1-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.996146,
         "instance": "prod/global",
         "nevents": 51819730,
         "nfiles": 498,
@@ -8428,7 +8428,7 @@
     "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.996134,
         "instance": "prod/global",
         "nevents": 49771670,
         "nfiles": 125,
@@ -8439,7 +8439,7 @@
     "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22NanoAODv12-130X_ext1": {
         "dbs": "/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5_ext1-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.996134,
         "instance": "prod/global",
         "nevents": 76955324,
         "nfiles": 716,
@@ -9297,35 +9297,35 @@
     "WtoLNu-2Jets_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/WtoLNu-2Jets_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v3/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.8969,
         "instance": "prod/global",
         "nevents": 192985602,
         "nfiles": 1546,
         "nick": "WtoLNu-2Jets_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
         "sample_type": "wjets_amcatnlo",
-        "xsec": 0.0
+        "xsec": 55760.0
     },
     "WtoLNu-2Jets_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/WtoLNu-2Jets_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.7415,
         "instance": "prod/global",
         "nevents": 141406789,
         "nfiles": 1145,
         "nick": "WtoLNu-2Jets_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
         "sample_type": "wjets_amcatnlo",
-        "xsec": 0.0
+        "xsec": 9529
     },
     "WtoLNu-2Jets_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/WtoLNu-2Jets_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.653,
         "instance": "prod/global",
         "nevents": 102791770,
         "nfiles": 999,
         "nick": "WtoLNu-2Jets_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
         "sample_type": "wjets_amcatnlo",
-        "xsec": 0.0
+        "xsec": 3532.0
     },
     "WtoLNu-2Jets_PTLNu-100to200_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/WtoLNu-2Jets_PTLNu-100to200_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v1/NANOAODSIM",
@@ -9506,13 +9506,13 @@
     "WtoLNu-2Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/WtoLNu-2Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 0.0,
+        "generator_weight": 0.8406,
         "instance": "prod/global",
         "nevents": 84739011,
         "nfiles": 148,
         "nick": "WtoLNu-2Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
         "sample_type": "wjets_amcatnlo",
-        "xsec": 0.0
+        "xsec": 67710.0
     },
     "WtoLNu-4Jets_1J_TuneCP5_13p6TeV_madgraphMLM-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/WtoLNu-4Jets_1J_TuneCP5_13p6TeV_madgraphMLM-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v1/NANOAODSIM",
