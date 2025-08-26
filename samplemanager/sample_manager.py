@@ -1,10 +1,13 @@
-import questionary
 import json
 import os
+from copy import deepcopy
+
+import questionary
 from das_manager import DASQuery
 from database import SampleDatabase
-from helpers import custom_style, parse_args, filelist_path, database_folder_path
+from helpers import custom_style, database_folder_path, filelist_path, parse_args
 from nanoAOD_versions import nanoAOD_versions
+from rich.progress import Progress
 
 
 class SampleManager(object):
@@ -12,9 +15,8 @@ class SampleManager(object):
         self.args = parse_args()
         self.default_instance = "prod/global"
         self.instance_choices = ["prod/global", "prod/phys03"]
-        assert(self.default_instance in self.instance_choices)
+        assert self.default_instance in self.instance_choices
         self.redirector = "root://xrootd-cms.infn.it//"
-        questionary.print("Starting up RucioManager")
 
         self.nanoAOD_version: int = questionary.select(
             "Select a nanoAOD version", 
@@ -194,20 +196,41 @@ class SampleManager(object):
             self.database.print_by_das(nick)
             return
 
+    def find_samples_by_das(self):
+        nick = questionary.autocomplete(
+            "Enter a sample nick to search for",
+            list(self.database.dasnicks),
+            style=custom_style,
+        ).ask()
+        print(nick)
+        if nick == "None":
+            return
+        if nick in self.database.dasnicks:
+            self.database.print_by_das(nick)
+            return
+
     def update_genweight(self):
         nick = questionary.autocomplete(
             "Enter a sample nick to search for",
             list(self.database.samplenicks),
             style=custom_style,
         ).ask()
+        num_workers = questionary.text(
+            "Use number of workers for parallel processing",
+            default="1",
+            style=custom_style,
+        ).ask()
+        if not num_workers.isdigit() or not int(num_workers) > 0:
+            questionary.print("Number of workers must be a positive integer")
+            return
         if nick in self.database.samplenicks:
-            self.database.genweight_by_nick(nick)
+            self.database.genweight_by_nick(nick, num_workers=int(num_workers))
             return
         if nick in self.database.dasnicks:
             nick = self.database.get_nick_by_das(nick)
-            self.database.genweight_by_nick(nick)
+            self.database.genweight_by_nick(nick, num_workers=int(num_workers))
             return
-        
+
     def update_xsec(self):
         nick = questionary.autocomplete(
             "Enter a sample nick to search for",
@@ -220,19 +243,6 @@ class SampleManager(object):
         if nick in self.database.dasnicks:
             nick = self.database.get_nick_by_das(nick)
             self.database.xsec_by_nick(nick)
-            return
-
-    def find_samples_by_das(self):
-        nick = questionary.autocomplete(
-            "Enter a sample nick to search for",
-            list(self.database.dasnicks),
-            style=custom_style,
-        ).ask()
-        print(nick)
-        if nick == "None":
-            return
-        if nick in self.database.dasnicks:
-            self.database.print_by_das(nick)
             return
 
     def create_production_file(self):
@@ -270,22 +280,51 @@ class SampleManager(object):
         questionary.print("Running maintainance")
         # we check, if all samples have a dedicated filelist file
         # if not, we generate the filelist from the database information
-        for sample in self.database.database:
-            sampledata = self.database.database[sample]
-            filelist_json = filelist_path(self.database_folder, sampledata)
-            if  not os.path.isfile(filelist_json):
-                questionary.print(f"Creating detailed filelist for {sample}")
-                # first run the query
-                sampledata["filelist"] = DASQuery(
-                    instance=sampledata["instance"],
-                    nick=sampledata["dbs"],
-                    type="details_with_filelist",
-                    database_folder=self.database_folder,
-                    redirector=self.redirector,
-                ).result["filelist"]
-                self.generate_detailed_filelist(sampledata)
-            else:
-                pass
+        questionary.print("Checking if all samples have a filelist file")
+        with Progress() as progress_bar:
+            task = progress_bar.add_task("Samples read ", total=len(self.database.database))
+            for sample in self.database.database:
+                sampledata = self.database.database[sample]
+                filelist_json = filelist_path(self.database_folder, sampledata)
+                if not os.path.isfile(filelist_json):
+                    questionary.print(f"Creating detailed filelist for {sample}")
+                    # first run the query
+                    sampledata["filelist"] = DASQuery(
+                        instance=sampledata["instance"],
+                        nick=sampledata["dbs"],
+                        type="details_with_filelist",
+                        database_folder=self.database_folder,
+                        redirector=self.redirector,
+                    ).result["filelist"]
+                    self.generate_detailed_filelist(sampledata)
+                else:
+                    pass
+                progress_bar.update(task, advance=1)
+        # we further check, if the details database is up to date
+        # if not, we update it
+        questionary.print("Checking if details database is up to date")
+        with Progress() as progress_bar:
+            task = progress_bar.add_task("Samples read ", total=len(self.database.database))
+            for sample in self.database.database:
+                sampledata = self.database.database[sample]
+                filelist_json = filelist_path(self.database_folder, sampledata)
+
+                self.database.details_database_file = filelist_path(self.database_folder, sampledata)
+                self.database.load_details_database()
+
+                _dict = deepcopy(self.database.details_database)
+                _dict.pop("filelist", None)
+
+                if set(tuple(self.database.database[sample].items())) - set(tuple(_dict.items())):
+                    self.database.details_database.update(self.database.database[sample])
+                    self.database.save_details_database(verbose=False)
+
+                progress_bar.update(task, advance=1)
+
+            # reset state of details database
+            self.database.details_database_file = None
+            self.database.details_database = {}
+
         questionary.print("Running database maintainance")
         self.database.database_maintainance()
 

@@ -49,8 +49,8 @@ def default_entry():
         "nevents": -1,
         "nfiles": -1,
         "sample_type": "None",
-        "xsec": 1.0,
-        "generator_weight": 1.0,
+        "xsec": 0.0,
+        "generator_weight": 0.0,
     }
 
 

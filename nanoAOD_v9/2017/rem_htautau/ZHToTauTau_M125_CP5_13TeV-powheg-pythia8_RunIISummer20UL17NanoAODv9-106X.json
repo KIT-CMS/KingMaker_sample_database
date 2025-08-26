@@ -72,11 +72,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/ZHToTauTau_M125_CP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/2430000/ABEA9D3F-DBA5-0F44-ADFC-7CAE61A30937.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/ZHToTauTau_M125_CP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mc2017_realistic_v9-v2/40000/D3DF7C78-EAC1-9341-BB79-17B006D7106F.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.9416820199355465,
     "instance": "prod/global",
     "nevents": 4992629,
     "nfiles": 69,
     "nick": "ZHToTauTau_M125_CP5_13TeV-powheg-pythia8_RunIISummer20UL17NanoAODv9-106X",
     "sample_type": "rem_htautau",
-    "xsec": 0.04683
+    "xsec": 0.0545
 }
