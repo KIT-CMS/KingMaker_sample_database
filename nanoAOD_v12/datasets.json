@@ -562,7 +562,7 @@
     },
     "EGamma_Run2022C-22Sep2023-v1": {
         "dbs": "/EGamma/Run2022C-22Sep2023-v1/NANOAOD",
-        "era": "2022",
+        "era": "2022preEE",
         "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 263689151,
@@ -573,7 +573,7 @@
     },
     "EGamma_Run2022D-22Sep2023-v1": {
         "dbs": "/EGamma/Run2022D-22Sep2023-v1/NANOAOD",
-        "era": "2022",
+        "era": "2022preEE",
         "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 89134996,
@@ -815,7 +815,7 @@
     },
     "Muon_Run2022C-22Sep2023-v1": {
         "dbs": "/Muon/Run2022C-22Sep2023-v1/NANOAOD",
-        "era": "2022",
+        "era": "2022preEE",
         "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 138427345,
@@ -826,7 +826,7 @@
     },
     "Muon_Run2022D-22Sep2023-v1": {
         "dbs": "/Muon/Run2022D-22Sep2023-v1/NANOAOD",
-        "era": "2022",
+        "era": "2022preEE",
         "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 75468381,
@@ -1266,7 +1266,7 @@
     },
     "Tau_Run2022C-22Sep2023-v1": {
         "dbs": "/Tau/Run2022C-22Sep2023-v1/NANOAOD",
-        "era": "2022",
+        "era": "2022preEE",
         "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 25875389,
@@ -1277,7 +1277,7 @@
     },
     "Tau_Run2022D-22Sep2023-v1": {
         "dbs": "/Tau/Run2022D-22Sep2023-v1/NANOAOD",
-        "era": "2022",
+        "era": "2022preEE",
         "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 16686692,
