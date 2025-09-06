@@ -890,27 +890,60 @@
         "sample_type": "dyjets_powheg",
         "xsec": 0.0179
     },
-    "EGamma_Run2022C-22Sep2023-v1": {
-        "dbs": "/EGamma/Run2022C-22Sep2023-v1/NANOAOD",
+    "EGamma_Run2022C-16Dec2023-v1": {
+        "dbs": "/EGamma/Run2022C-16Dec2023-v1/NANOAOD",
         "era": "2022preEE",
-        "generator_weight": 1.0,
+        "generator_weight": 0.0,
         "instance": "prod/global",
-        "nevents": 263689151,
-        "nfiles": 313,
-        "nick": "EGamma_Run2022C-22Sep2023-v1",
+        "nevents": 263549470,
+        "nfiles": 182,
+        "nick": "EGamma_Run2022C-16Dec2023-v1",
         "sample_type": "data",
-        "xsec": 1.0
+        "xsec": 0.0
     },
-    "EGamma_Run2022D-22Sep2023-v1": {
-        "dbs": "/EGamma/Run2022D-22Sep2023-v1/NANOAOD",
+    "EGamma_Run2022D-16Dec2023-v1": {
+        "dbs": "/EGamma/Run2022D-16Dec2023-v1/NANOAOD",
         "era": "2022preEE",
-        "generator_weight": 1.0,
+        "generator_weight": 0.0,
         "instance": "prod/global",
-        "nevents": 89134996,
-        "nfiles": 109,
-        "nick": "EGamma_Run2022D-22Sep2023-v1",
+        "nevents": 89103530,
+        "nfiles": 62,
+        "nick": "EGamma_Run2022D-16Dec2023-v1",
         "sample_type": "data",
-        "xsec": 1.0
+        "xsec": 0.0
+    },
+    "EGamma_Run2022E-16Dec2023-v1": {
+        "dbs": "/EGamma/Run2022E-16Dec2023-v1/NANOAOD",
+        "era": "2022postEE",
+        "generator_weight": 0.0,
+        "instance": "prod/global",
+        "nevents": 148601587,
+        "nfiles": 122,
+        "nick": "EGamma_Run2022E-16Dec2023-v1",
+        "sample_type": "data",
+        "xsec": 0.0
+    },
+    "EGamma_Run2022F-19Dec2023-v1": {
+        "dbs": "/EGamma/Run2022F-19Dec2023-v1/NANOAOD",
+        "era": "2022postEE",
+        "generator_weight": 0.0,
+        "instance": "prod/global",
+        "nevents": 463389499,
+        "nfiles": 555,
+        "nick": "EGamma_Run2022F-19Dec2023-v1",
+        "sample_type": "data",
+        "xsec": 0.0
+    },
+    "EGamma_Run2022G-16Dec2023-v1": {
+        "dbs": "/EGamma/Run2022G-16Dec2023-v1/NANOAOD",
+        "era": "2022postEE",
+        "generator_weight": 0.0,
+        "instance": "prod/global",
+        "nevents": 76724231,
+        "nfiles": 58,
+        "nick": "EGamma_Run2022G-16Dec2023-v1",
+        "sample_type": "data",
+        "xsec": 0.0
     },
     "EGamma_aakhmets-data_2018UL_singleelectron_EGamma_Run2018A_1732626664-00000000000000000000000000000000": {
         "dbs": "/EGamma/aakhmets-data_2018UL_singleelectron_EGamma_Run2018A_1732626664-00000000000000000000000000000000/USER",
@@ -1143,27 +1176,60 @@
         "sample_type": "hh2b2tau",
         "xsec": 1.0
     },
-    "Muon_Run2022C-22Sep2023-v1": {
-        "dbs": "/Muon/Run2022C-22Sep2023-v1/NANOAOD",
+    "Muon_Run2022C-16Dec2023-v1": {
+        "dbs": "/Muon/Run2022C-16Dec2023-v1/NANOAOD",
         "era": "2022preEE",
-        "generator_weight": 1.0,
+        "generator_weight": 0.0,
         "instance": "prod/global",
-        "nevents": 138427345,
-        "nfiles": 124,
-        "nick": "Muon_Run2022C-22Sep2023-v1",
+        "nevents": 138281764,
+        "nfiles": 91,
+        "nick": "Muon_Run2022C-16Dec2023-v1",
         "sample_type": "data",
-        "xsec": 1.0
+        "xsec": 0.0
     },
-    "Muon_Run2022D-22Sep2023-v1": {
-        "dbs": "/Muon/Run2022D-22Sep2023-v1/NANOAOD",
+    "Muon_Run2022D-16Dec2023-v1": {
+        "dbs": "/Muon/Run2022D-16Dec2023-v1/NANOAOD",
         "era": "2022preEE",
-        "generator_weight": 1.0,
+        "generator_weight": 0.0,
         "instance": "prod/global",
-        "nevents": 75468381,
-        "nfiles": 82,
-        "nick": "Muon_Run2022D-22Sep2023-v1",
+        "nevents": 75336535,
+        "nfiles": 47,
+        "nick": "Muon_Run2022D-16Dec2023-v1",
         "sample_type": "data",
-        "xsec": 1.0
+        "xsec": 0.0
+    },
+    "Muon_Run2022E-16Dec2023-v1": {
+        "dbs": "/Muon/Run2022E-16Dec2023-v1/NANOAOD",
+        "era": "2022postEE",
+        "generator_weight": 0.0,
+        "instance": "prod/global",
+        "nevents": 141480973,
+        "nfiles": 98,
+        "nick": "Muon_Run2022E-16Dec2023-v1",
+        "sample_type": "data",
+        "xsec": 0.0
+    },
+    "Muon_Run2022F-19Dec2023-v1": {
+        "dbs": "/Muon/Run2022F-19Dec2023-v1/NANOAOD",
+        "era": "2022postEE",
+        "generator_weight": 0.0,
+        "instance": "prod/global",
+        "nevents": 449188966,
+        "nfiles": 506,
+        "nick": "Muon_Run2022F-19Dec2023-v1",
+        "sample_type": "data",
+        "xsec": 0.0
+    },
+    "Muon_Run2022G-19Dec2023-v2": {
+        "dbs": "/Muon/Run2022G-19Dec2023-v2/NANOAOD",
+        "era": "2022postEE",
+        "generator_weight": 0.0,
+        "instance": "prod/global",
+        "nevents": 76479102,
+        "nfiles": 100,
+        "nick": "Muon_Run2022G-19Dec2023-v2",
+        "sample_type": "data",
+        "xsec": 0.0
     },
     "QCD_Pt_1000to1400_TuneCP5_13TeV_pythia8_aakhmets-mc_2018UL_qcd_QCD_Pt_1000to1400_1729599421-00000000000000000000000000000000": {
         "dbs": "/QCD_Pt_1000to1400_TuneCP5_13TeV_pythia8/aakhmets-mc_2018UL_qcd_QCD_Pt_1000to1400_1729599421-00000000000000000000000000000000/USER",

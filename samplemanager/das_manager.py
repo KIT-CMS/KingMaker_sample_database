@@ -148,7 +148,7 @@ class DASQuery(object):
                 else:
                     return era + "postVFP"
             elif era == "2022":
-                if "postEE" in nick:
+                if "postEE" in nick or "Run2022E" in nick or "Run2022F" in nick or "Run2022G" in nick:
                     return era + "postEE"
                 else:
                     return era + "preEE"
