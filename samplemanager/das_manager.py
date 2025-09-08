@@ -153,7 +153,7 @@ class DASQuery(object):
                 else:
                     return era + "preEE"
             elif era == "2023":
-                if "postBPix" in nick:
+                if "postBPix" in nick or "Run2023D" in nick:
                     return era + "postBPix"
                 else:
                     return era + "preBPix"
