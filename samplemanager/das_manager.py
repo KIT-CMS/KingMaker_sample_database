@@ -206,6 +206,7 @@ class DASQuery(object):
                 "/Tau",
                 "/Zerobias",
                 "/EGamma",
+                "/ParkingVBF",
             ]
         ):
             return "data"
