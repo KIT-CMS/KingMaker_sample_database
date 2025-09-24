@@ -168,9 +168,9 @@ class DASQuery(object):
             return "dyjets"
         elif "TTT".lower() in process:
             return "ttbar"
-        elif "ST_t".lower() in process:
+        elif any(name.lower() in process for name in ["ST_t", "TBbar", "TbarB", "TWminus", "TbarWplus",]):
             return "singletop"
-        elif any(name.lower() in process for name in ["/WZ_", "/WW_", "/ZZ_", "/WWto", ]):
+        elif any(name.lower() in process for name in ["/WZ_", "/WW_", "/ZZ_", "/WWto", "/WZto", "/ZZto",]):
             return "diboson"
         elif any(
             name.lower() in process for name in ["/WWW_", "/WWZ_", "/WZZ_", "/ZZZ_"]
