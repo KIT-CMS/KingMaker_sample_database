@@ -136,18 +136,34 @@ class DASQuery(object):
         return nick
 
     def _get_era(self, nick):
-        # regex search for a year in the nick
-        m = re.search("20[1-9]{2}", nick)
+        # regex search for run2 UL eras
+        m = re.search("UL16|UL17|UL18|UL2016|UL2017|UL2018|2016UL|2017UL|2018UL", nick)
         if m:
-            # Do era-specific modifications
-            era = m.group(0)
-            # take both data (HIPM) and MC/USER-produced (preVFP) DAS nick specifics into account for 2016
-            if ("HIPM" in nick or "preVFP" in nick) and era == "2016":
-                return era + "preVFP"
-            elif era == "2016":
-                return era + "postVFP"
+            if "16" in m.group(0):
+                if any(t in nick for t in ("preVFP", "HIPM", "APV")):
+                    return "2016preVFP"
+                else:
+                    return "2016postVFP"
+            elif "17" in m.group(0):
+                return "2017"
+            elif "18" in m.group(0):
+                return "2018"
+            
+        # regex search for run3 eras
+        m = re.search("2022|2023|2024|2025|2026", nick)
+        if m:
+            if "2022" in m.group(0):
+                if "postEE" in nick:
+                    return "2022postEE"
+                else:
+                    return "2022preEE"
+            elif "2023" in m.group(0):
+                if "postBPix" in nick:
+                    return "2023postBPix"
+                else:                    
+                    return "2023preBPix"
             else:
-                return era
+                return f"{m.group(0)}"
 
     def _build_sampletype(self, nick):
         process = "/" + nick.split("/")[1].lower()
