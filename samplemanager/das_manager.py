@@ -142,10 +142,21 @@ class DASQuery(object):
             # Do era-specific modifications
             era = m.group(0)
             # take both data (HIPM) and MC/USER-produced (preVFP) DAS nick specifics into account for 2016
-            if ("HIPM" in nick or "preVFP" in nick) and era == "2016":
-                return era + "preVFP"
-            elif era == "2016":
-                return era + "postVFP"
+            if era == "2016":
+                if "HIPM" in nick or "preVFP" in nick:
+                    return era + "preVFP"
+                else:
+                    return era + "postVFP"
+            elif era == "2022":
+                if "postEE" in nick or "Run2022E" in nick or "Run2022F" in nick or "Run2022G" in nick:
+                    return era + "postEE"
+                else:
+                    return era + "preEE"
+            elif era == "2023":
+                if "postBPix" in nick or "Run2023D" in nick:
+                    return era + "postBPix"
+                else:
+                    return era + "preBPix"
             else:
                 return era
 
@@ -157,9 +168,9 @@ class DASQuery(object):
             return "dyjets"
         elif "TTT".lower() in process:
             return "ttbar"
-        elif "ST_t".lower() in process:
+        elif any(name.lower() in process for name in ["ST_t", "TBbar", "TbarB", "TWminus", "TbarWplus",]):
             return "singletop"
-        elif any(name.lower() in process for name in ["/WZ_", "/WW_", "/ZZ_"]):
+        elif any(name.lower() in process for name in ["/WZ_", "/WW_", "/ZZ_", "/WWto", "/WZto", "/ZZto",]):
             return "diboson"
         elif any(
             name.lower() in process for name in ["/WWW_", "/WWZ_", "/WZZ_", "/ZZZ_"]
@@ -169,7 +180,7 @@ class DASQuery(object):
             return "electroweak_boson"
         elif any(
             name.lower() in process
-            for name in ["/wjet", "/w1jet", "/w2jet", "/w3jet", "/w4jet"]
+            for name in ["/wjet", "/w1jet", "/w2jet", "/w3jet", "/w4jet", "/Wto"]
         ):
             return "wjets"
         elif any(
@@ -188,12 +199,14 @@ class DASQuery(object):
                 "/MinimumBias",
                 "/MuOnia",
                 "/MuonEG",
+                "/Muon",
                 "/SingleElectron",
                 "/SingleMuon",
                 "/SinglePhoton",
                 "/Tau",
                 "/Zerobias",
                 "/EGamma",
+                "/ParkingVBF",
             ]
         ):
             return "data"
