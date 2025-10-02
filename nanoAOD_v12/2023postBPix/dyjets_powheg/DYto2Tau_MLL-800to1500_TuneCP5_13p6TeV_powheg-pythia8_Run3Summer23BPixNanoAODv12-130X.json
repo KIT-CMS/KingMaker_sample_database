@@ -2,12 +2,12 @@
     "dbs": "/DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v3/NANOAODSIM",
     "era": "2023postBPix",
     "filelist": [
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/2530000/b8ea5a54-a8aa-431b-96b9-ebb257e5110e.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/2530000/5f19df2d-18f1-4ffe-a1b4-9eff62fb0914.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/2530000/c0e9e0ad-baaf-4394-87fa-20f5a176074d.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/2530000/df353988-8092-44e1-8ba3-5adea5279485.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/2530000/8b4f229b-453e-410d-aa0d-e5a811112723.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/2530000/e35254ae-0788-49a3-b2eb-50a3e25073aa.root"
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer23BPixNanoAODv12/DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/2530000/b8ea5a54-a8aa-431b-96b9-ebb257e5110e.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer23BPixNanoAODv12/DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/2530000/5f19df2d-18f1-4ffe-a1b4-9eff62fb0914.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer23BPixNanoAODv12/DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/2530000/c0e9e0ad-baaf-4394-87fa-20f5a176074d.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer23BPixNanoAODv12/DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/2530000/df353988-8092-44e1-8ba3-5adea5279485.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer23BPixNanoAODv12/DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/2530000/8b4f229b-453e-410d-aa0d-e5a811112723.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer23BPixNanoAODv12/DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v3/2530000/e35254ae-0788-49a3-b2eb-50a3e25073aa.root"
     ],
     "generator_weight": 1.0,
     "instance": "prod/global",
