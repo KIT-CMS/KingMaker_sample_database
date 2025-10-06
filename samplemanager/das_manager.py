@@ -84,12 +84,12 @@ class DASQuery(object):
             return
         template = default_entry()
         template["dbs"] = self.nick
-        template["nick"] = self._build_nick(self.nick)
         template["era"] = self._get_era(self.nick)
         template["nevents"] = details["nevents"]
         template["instance"] = self.instance
         template["nfiles"] = details["nfiles"]
         template["sample_type"] = self._build_sampletype(self.nick)
+        template["nick"] = self._build_nick(self.nick)
         if template["sample_type"] != "data" and template["sample_type"] != "emb":
             template["xsec"] = self._fill_xsec(self.nick)
             template["generator_weight"] = self._fill_generator_weight(self.nick)
@@ -129,10 +129,17 @@ class DASQuery(object):
         else:
             ext_v = ""
         parts = nick.split("/")[1:]
-        # nick is the first part of the DAS sting + the second part till the first "_"
+        # Extract version (e.g., v1, v2, v2-v1, etc.) from the third part if present
+        version = ""
+        if len(parts) > 2:
+            import re
+            # Match v1, v2, v2-v1, v3-v2, etc.
+            match = re.search(r"(v[0-9]+(-v[0-9]+)*)", parts[1])
+            if match:
+                version = "_" + match.group(1)
+        # nick is the first part of the DAS string + the second part till the first "_"
         # if there is no "_" in the second part, the whole second part is used
-        nick = parts[0] + "_" + parts[1].split("_")[0] + ext_v
-
+        nick = parts[0] + "_" + parts[1].split("_")[0] + ext_v + version
         return nick
 
     def _get_era(self, nick):
