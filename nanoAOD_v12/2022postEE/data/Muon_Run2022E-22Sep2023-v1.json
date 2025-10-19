@@ -150,7 +150,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2022E/Muon/NANOAOD/22Sep2023-v1/40000/19ad937b-86d2-459b-9495-fd86792727f2.root",
         "root://xrootd-cms.infn.it///store/data/Run2022E/Muon/NANOAOD/22Sep2023-v1/40000/cb3afe1f-699f-4be6-a1ed-dd6fd0b2ca81.root"
     ],
-    "generator_weight": null,
+    "generator_weight": 1.0,
     "instance": "prod/global",
     "nevents": 141460608,
     "nfiles": 147,

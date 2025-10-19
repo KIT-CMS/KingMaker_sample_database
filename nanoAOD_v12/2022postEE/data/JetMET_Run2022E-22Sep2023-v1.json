@@ -151,7 +151,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2022E/JetMET/NANOAOD/22Sep2023-v1/50000/a054a15a-d10b-4d83-b510-dc94413c8b44.root",
         "root://xrootd-cms.infn.it///store/data/Run2022E/JetMET/NANOAOD/22Sep2023-v1/50000/775b6a17-0035-472a-be26-f11940adda7e.root"
     ],
-    "generator_weight": null,
+    "generator_weight": 1.0,
     "instance": "prod/global",
     "nevents": 138985608,
     "nfiles": 148,

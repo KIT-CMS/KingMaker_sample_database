@@ -90,7 +90,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/70000/73239860-5c98-4b4e-8d94-206587ff661f.root",
         "root://xrootd-cms.infn.it///store/data/Run2022G/EGamma/NANOAOD/22Sep2023-v2/80000/4630fcad-899f-4ece-bc34-46affd20f268.root"
     ],
-    "generator_weight": null,
+    "generator_weight": 1.0,
     "instance": "prod/global",
     "nevents": 76807350,
     "nfiles": 87,

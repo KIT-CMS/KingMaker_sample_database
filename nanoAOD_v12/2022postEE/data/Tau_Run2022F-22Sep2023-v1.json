@@ -236,7 +236,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2022F/Tau/NANOAOD/22Sep2023-v1/60000/73ac4d7a-1f70-42db-bbdb-16d052926114.root",
         "root://xrootd-cms.infn.it///store/data/Run2022F/Tau/NANOAOD/22Sep2023-v1/60000/47e680fb-866e-44ad-8749-dc8183ad5e3d.root"
     ],
-    "generator_weight": null,
+    "generator_weight": 1.0,
     "instance": "prod/global",
     "nevents": 115472800,
     "nfiles": 233,
