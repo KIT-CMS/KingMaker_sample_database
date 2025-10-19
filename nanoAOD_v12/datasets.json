@@ -2021,7 +2021,7 @@
         "nfiles": 188,
         "nick": "EGamma_Run2022E-22Sep2023-v1",
         "sample_type": "data",
-        "xsec": null
+        "xsec": 1.0
     },
     "EGamma_Run2022F-22Sep2023-v1": {
         "dbs": "/EGamma/Run2022F-22Sep2023-v1/NANOAOD",
@@ -2032,7 +2032,7 @@
         "nfiles": 490,
         "nick": "EGamma_Run2022F-22Sep2023-v1",
         "sample_type": "data",
-        "xsec": null
+        "xsec": 1.0
     },
     "EGamma_Run2022G-22Sep2023-v2": {
         "dbs": "/EGamma/Run2022G-22Sep2023-v2/NANOAOD",
@@ -2043,7 +2043,7 @@
         "nfiles": 87,
         "nick": "EGamma_Run2022G-22Sep2023-v2",
         "sample_type": "data",
-        "xsec": null
+        "xsec": 1.0
     },
     "EGamma_aakhmets-data_2018UL_singleelectron_EGamma_Run2018A_1732626664-00000000000000000000000000000000": {
         "dbs": "/EGamma/aakhmets-data_2018UL_singleelectron_EGamma_Run2018A_1732626664-00000000000000000000000000000000/USER",
@@ -2527,7 +2527,7 @@
         "nfiles": 148,
         "nick": "JetMET_Run2022E-22Sep2023-v1",
         "sample_type": "data",
-        "xsec": null
+        "xsec": 1.0
     },
     "JetMET_Run2022F-22Sep2023-v2": {
         "dbs": "/JetMET/Run2022F-22Sep2023-v2/NANOAOD",
@@ -2538,7 +2538,7 @@
         "nfiles": 476,
         "nick": "JetMET_Run2022F-22Sep2023-v2",
         "sample_type": "data",
-        "xsec": null
+        "xsec": 1.0
     },
     "JetMET_Run2022G-22Sep2023-v2": {
         "dbs": "/JetMET/Run2022G-22Sep2023-v2/NANOAOD",
@@ -2549,7 +2549,7 @@
         "nfiles": 107,
         "nick": "JetMET_Run2022G-22Sep2023-v2",
         "sample_type": "data",
-        "xsec": null
+        "xsec": 1.0
     },
     "Muon_Run2022C-22Sep2023-v1": {
         "dbs": "/Muon/Run2022C-22Sep2023-v1/NANOAOD",
@@ -2582,7 +2582,7 @@
         "nfiles": 147,
         "nick": "Muon_Run2022E-22Sep2023-v1",
         "sample_type": "data",
-        "xsec": null
+        "xsec": 1.0
     },
     "Muon_Run2022F-22Sep2023-v2": {
         "dbs": "/Muon/Run2022F-22Sep2023-v2/NANOAOD",
@@ -2593,7 +2593,7 @@
         "nfiles": 359,
         "nick": "Muon_Run2022F-22Sep2023-v2",
         "sample_type": "data",
-        "xsec": null
+        "xsec": 1.0
     },
     "Muon_Run2022G-22Sep2023-v1": {
         "dbs": "/Muon/Run2022G-22Sep2023-v1/NANOAOD",
@@ -2604,7 +2604,7 @@
         "nfiles": 88,
         "nick": "Muon_Run2022G-22Sep2023-v1",
         "sample_type": "data",
-        "xsec": null
+        "xsec": 1.0
     },
     "NMSSM_XtoYHto2B2Tau_MX-1000_MY-100_TuneCP5_13p6TeV_madgraph-pythia8_Run3Summer22EENanoAODv12-130X": {
         "dbs": "/NMSSM_XtoYHto2B2Tau_MX-1000_MY-100_TuneCP5_13p6TeV_madgraph-pythia8/Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v2/NANOAODSIM",
@@ -16123,7 +16123,7 @@
         "nfiles": 48,
         "nick": "Tau_Run2022E-22Sep2023-v1",
         "sample_type": "data",
-        "xsec": null
+        "xsec": 1.0
     },
     "Tau_Run2022F-22Sep2023-v1": {
         "dbs": "/Tau/Run2022F-22Sep2023-v1/NANOAOD",
@@ -16134,7 +16134,7 @@
         "nfiles": 233,
         "nick": "Tau_Run2022F-22Sep2023-v1",
         "sample_type": "data",
-        "xsec": null
+        "xsec": 1.0
     },
     "Tau_Run2022G-22Sep2023-v1": {
         "dbs": "/Tau/Run2022G-22Sep2023-v1/NANOAOD",
@@ -16145,7 +16145,7 @@
         "nfiles": 36,
         "nick": "Tau_Run2022G-22Sep2023-v1",
         "sample_type": "data",
-        "xsec": null
+        "xsec": 1.0
     },
     "Tau_aakhmets-data_2018UL_tau_Tau_Run2018A_1732626664-00000000000000000000000000000000": {
         "dbs": "/Tau/aakhmets-data_2018UL_tau_Tau_Run2018A_1732626664-00000000000000000000000000000000/USER",
