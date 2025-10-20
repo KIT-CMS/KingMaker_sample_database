@@ -153,12 +153,12 @@ class DASQuery(object):
         m = re.search("2022|2023|2024|2025|2026", nick)
         if m:
             if "2022" in m.group(0):
-                if "postEE" in nick:
+                if any(t in nick for t in ("postEE", "2022E", "2022F", "2022G")):
                     return "2022postEE"
                 else:
                     return "2022preEE"
             elif "2023" in m.group(0):
-                if "postBPix" in nick:
+                if any(t in nick for t in ("postBPix", "2023D")):
                     return "2023postBPix"
                 else:                    
                     return "2023preBPix"
