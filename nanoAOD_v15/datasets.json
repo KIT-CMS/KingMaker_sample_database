@@ -2,7 +2,7 @@
     "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.666889229123586,
+        "generator_weight": 0.666882068182812,
         "instance": "prod/global",
         "nevents": 486448139,
         "nfiles": 2990,
@@ -13,7 +13,7 @@
     "DYto2E_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2E_Bin-MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 1.0,
+        "generator_weight": 0.917451450188014,
         "instance": "prod/global",
         "nevents": 348121585,
         "nfiles": 395,
@@ -112,7 +112,7 @@
     "DYto2E_Bin-MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2E_Bin-MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9997617074181516,
+        "generator_weight": 0.9997602618987661,
         "instance": "prod/global",
         "nevents": 992750,
         "nfiles": 25,

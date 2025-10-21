@@ -213,10 +213,10 @@ class SampleManager(object):
         # Ask if user wants single or multiple sample mode
         mode = questionary.select(
             "Update genweight for one sample or multiple samples?",
-            choices=["One sample", "Multiple samples"],
+            choices=["Search by single nick", "Search by era (multiple selection)"],
             style=custom_style,
         ).ask()
-        if mode == "One sample":
+        if mode == "Search by single nick":
             nick = questionary.autocomplete(
                 "Enter a sample nick to search for",
                 list(self.database.samplenicks),
@@ -254,20 +254,7 @@ class SampleManager(object):
             questionary.print("Number of workers must be a positive integer")
             return
         for nick in nicks:
-            filelist_json = filelist_path(self.database_folder, self.database.database[nick])
-            with open(filelist_json, "r") as f:
-                config = json.load(f)
-            all_files = config["filelist"]
-            if not all_files:
-                questionary.print(f"No files found for {nick}.")
-                continue
-            questionary.print(f"Calculating genweight for {nick} with {len(all_files)} files...")
-            from calculate_genweights import _calculate_genweight_uproot
-            genweight = _calculate_genweight_uproot(
-                filelist=all_files,
-                num_workers=int(num_workers),
-            )
-            questionary.print(f"Genweight for {nick}: {genweight}")
+            self.database.genweight_by_nick(nick, ask_for_update=False, num_workers=int(num_workers))
 
     def update_xsec(self):
         nick = questionary.autocomplete(
