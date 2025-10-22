@@ -1,0 +1,20 @@
+{
+    "dbs": "/WminusHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v2/NANOAODSIM",
+    "era": "2022postEE",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/WminusHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/c451a043-617c-496a-bc66-ae7ffc2c1eb7.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/WminusHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/2cbc147c-592c-49c1-8ec0-57580d797b69.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/WminusHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/8870d209-0c0c-423f-aecf-0bea49da231e.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/WminusHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/3423a755-6791-40ff-a410-65f5938779bf.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/WminusHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/8fe4cbaf-880f-4834-9bbb-94a60988d6ab.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/WminusHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/6e6e2b17-e33e-4016-bcbc-e677bd713415.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/WminusHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2550000/31a298cb-b220-4680-a2a4-cb3e30d247ac.root"
+    ],
+    "generator_weight": 0.9456939923054158,
+    "instance": "prod/global",
+    "nevents": 67580,
+    "nfiles": 7,
+    "nick": "WminusHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8_Run3Summer22EENanoAODv12-130X",
+    "sample_type": "rem_htautau",
+    "xsec": 0.03561
+}
