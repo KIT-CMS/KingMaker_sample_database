@@ -253,8 +253,11 @@ class SampleManager(object):
         if not num_workers.isdigit() or not int(num_workers) > 0:
             questionary.print("Number of workers must be a positive integer")
             return
-        for nick in nicks:
-            self.database.genweight_by_nick(nick, ask_for_update=False, num_workers=int(num_workers))
+        if len(nicks) == 1:
+            self.database.genweight_by_nick(nicks[0], ask_for_update=True, num_workers=int(num_workers))
+        else:
+            for nick in nicks:
+                self.database.genweight_by_nick(nick, ask_for_update=False, num_workers=int(num_workers))
 
     def update_xsec(self):
         nick = questionary.autocomplete(
