@@ -129,10 +129,17 @@ class DASQuery(object):
         else:
             ext_v = ""
         parts = nick.split("/")[1:]
-        # nick is the first part of the DAS sting + the second part till the first "_"
+        # Extract version (e.g., v1, v2, v2-v1, etc.) from the third part if present
+        version = ""
+        if len(parts) > 2:
+            import re
+            # Match v1, v2, v2-v1, v3-v2, etc.
+            match = re.search(r"(v[0-9]+(-v[0-9]+)*)", parts[1])
+            if match:
+                version = "_" + match.group(1)
+        # nick is the first part of the DAS string + the second part till the first "_"
         # if there is no "_" in the second part, the whole second part is used
-        nick = parts[0] + "_" + parts[1].split("_")[0] + ext_v
-
+        nick = parts[0] + "_" + parts[1].split("_")[0] + ext_v + version
         return nick
 
     def _get_era(self, nick):
@@ -173,9 +180,9 @@ class DASQuery(object):
             return "dyjets"
         elif "TTT".lower() in process:
             return "ttbar"
-        elif "ST_t".lower() in process:
+        elif any(name.lower() in process for name in ["ST_t", "/TBbar", "/TbarB", "/TWminus", "/TbarWplus",]):
             return "singletop"
-        elif any(name.lower() in process for name in ["/WZ_", "/WW_", "/ZZ_"]):
+        elif any(name.lower() in process for name in ["/WZ_", "/WW_", "/ZZ_", "/WWto", "/WZto", "/ZZto",]):
             return "diboson"
         elif any(
             name.lower() in process for name in ["/WWW_", "/WWZ_", "/WZZ_", "/ZZZ_"]
@@ -185,7 +192,7 @@ class DASQuery(object):
             return "electroweak_boson"
         elif any(
             name.lower() in process
-            for name in ["/wjet", "/w1jet", "/w2jet", "/w3jet", "/w4jet"]
+            for name in ["/wjet", "/w1jet", "/w2jet", "/w3jet", "/w4jet", "/Wto"]
         ):
             return "wjets"
         elif any(
@@ -204,12 +211,14 @@ class DASQuery(object):
                 "/MinimumBias",
                 "/MuOnia",
                 "/MuonEG",
+                "/Muon",
                 "/SingleElectron",
                 "/SingleMuon",
                 "/SinglePhoton",
                 "/Tau",
                 "/Zerobias",
                 "/EGamma",
+                "/ParkingVBF",
             ]
         ):
             return "data"

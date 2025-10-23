@@ -210,11 +210,41 @@ class SampleManager(object):
             return
 
     def update_genweight(self):
-        nick = questionary.autocomplete(
-            "Enter a sample nick to search for",
-            list(self.database.samplenicks),
+        # Ask if user wants single or multiple sample mode
+        mode = questionary.select(
+            "Update genweight for one sample or multiple samples?",
+            choices=["Search by single nick", "Search by era (multiple selection)"],
             style=custom_style,
         ).ask()
+        if mode == "Search by single nick":
+            nick = questionary.autocomplete(
+                "Enter a sample nick to search for",
+                list(self.database.samplenicks),
+                style=custom_style,
+            ).ask()
+            if not nick or nick not in self.database.samplenicks:
+                questionary.print("No valid sample selected.")
+                return
+            nicks = [nick]
+        else:
+            possible_eras = [str(x) for x in list(self.database.eras)]
+            selected_eras = questionary.checkbox(
+                "Select eras to filter samples by (leave empty for all)",
+                possible_eras,
+                style=custom_style,
+            ).ask()
+            if selected_eras:
+                nicks_by_era = [nick for nick in self.database.samplenicks if str(self.database.database[nick].get("era", "")) in selected_eras]
+            else:
+                nicks_by_era = list(self.database.samplenicks)
+            nicks = questionary.checkbox(
+                "Select sample nicks to update genweight for",
+                choices=sorted(nicks_by_era),
+                style=custom_style,
+            ).ask()
+            if not nicks:
+                questionary.print("No samples selected.")
+                return
         num_workers = questionary.text(
             "Use number of workers for parallel processing",
             default="1",
@@ -223,13 +253,11 @@ class SampleManager(object):
         if not num_workers.isdigit() or not int(num_workers) > 0:
             questionary.print("Number of workers must be a positive integer")
             return
-        if nick in self.database.samplenicks:
-            self.database.genweight_by_nick(nick, num_workers=int(num_workers))
-            return
-        if nick in self.database.dasnicks:
-            nick = self.database.get_nick_by_das(nick)
-            self.database.genweight_by_nick(nick, num_workers=int(num_workers))
-            return
+        if len(nicks) == 1:
+            self.database.genweight_by_nick(nicks[0], ask_for_update=True, num_workers=int(num_workers))
+        else:
+            for nick in nicks:
+                self.database.genweight_by_nick(nick, ask_for_update=False, num_workers=int(num_workers))
 
     def update_xsec(self):
         nick = questionary.autocomplete(
