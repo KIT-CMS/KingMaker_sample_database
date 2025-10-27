@@ -84,12 +84,12 @@ class DASQuery(object):
             return
         template = default_entry()
         template["dbs"] = self.nick
+        template["nick"] = self._build_nick(self.nick)
         template["era"] = self._get_era(self.nick)
         template["nevents"] = details["nevents"]
         template["instance"] = self.instance
         template["nfiles"] = details["nfiles"]
         template["sample_type"] = self._build_sampletype(self.nick)
-        template["nick"] = self._build_nick(self.nick)
         if template["sample_type"] != "data" and template["sample_type"] != "emb":
             template["xsec"] = self._fill_xsec(self.nick)
             template["generator_weight"] = self._fill_generator_weight(self.nick)
@@ -143,29 +143,34 @@ class DASQuery(object):
         return nick
 
     def _get_era(self, nick):
-        # regex search for a year in the nick
-        m = re.search("20[1-9]{2}", nick)
+        # regex search for run2 UL eras
+        m = re.search("UL16|UL17|UL18|UL2016|UL2017|UL2018|2016UL|2017UL|2018UL", nick)
         if m:
-            # Do era-specific modifications
-            era = m.group(0)
-            # take both data (HIPM) and MC/USER-produced (preVFP) DAS nick specifics into account for 2016
-            if era == "2016":
-                if "HIPM" in nick or "preVFP" in nick:
-                    return era + "preVFP"
+            if "16" in m.group(0):
+                if any(t in nick for t in ("preVFP", "HIPM", "APV")):
+                    return "2016preVFP"
                 else:
-                    return era + "postVFP"
-            elif era == "2022":
-                if "postEE" in nick or "Run2022E" in nick or "Run2022F" in nick or "Run2022G" in nick:
-                    return era + "postEE"
+                    return "2016postVFP"
+            elif "17" in m.group(0):
+                return "2017"
+            elif "18" in m.group(0):
+                return "2018"
+            
+        # regex search for run3 eras
+        m = re.search("2022|2023|2024|2025|2026", nick)
+        if m:
+            if "2022" in m.group(0):
+                if any(t in nick for t in ("postEE", "2022E", "2022F", "2022G")):
+                    return "2022postEE"
                 else:
-                    return era + "preEE"
-            elif era == "2023":
-                if "postBPix" in nick or "Run2023D" in nick:
-                    return era + "postBPix"
-                else:
-                    return era + "preBPix"
+                    return "2022preEE"
+            elif "2023" in m.group(0):
+                if any(t in nick for t in ("postBPix", "2023D")):
+                    return "2023postBPix"
+                else:                    
+                    return "2023preBPix"
             else:
-                return era
+                return f"{m.group(0)}"
 
     def _build_sampletype(self, nick):
         process = "/" + nick.split("/")[1].lower()
@@ -175,7 +180,7 @@ class DASQuery(object):
             return "dyjets"
         elif "TTT".lower() in process:
             return "ttbar"
-        elif any(name.lower() in process for name in ["ST_t", "TBbar", "TbarB", "TWminus", "TbarWplus",]):
+        elif any(name.lower() in process for name in ["ST_t", "/TBbar", "/TbarB", "/TWminus", "/TbarWplus",]):
             return "singletop"
         elif any(name.lower() in process for name in ["/WZ_", "/WW_", "/ZZ_", "/WWto", "/WZto", "/ZZto",]):
             return "diboson"
