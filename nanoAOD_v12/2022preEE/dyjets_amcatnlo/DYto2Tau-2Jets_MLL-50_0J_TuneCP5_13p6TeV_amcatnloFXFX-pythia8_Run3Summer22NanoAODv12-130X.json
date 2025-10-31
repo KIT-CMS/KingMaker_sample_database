@@ -1,6 +1,6 @@
 {
     "dbs": "/DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v1/NANOAODSIM",
-    "era": "2022",
+    "era": "2022preEE",
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v1/120000/fc3c9072-ac0d-4097-9e15-f1a537efee41.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v1/120000/1d824391-e636-4605-b598-4db363a70bba.root",
@@ -28,11 +28,11 @@
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v1/120000/0a88d564-f986-4579-829b-6bfcf4070299.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v1/120000/ffdd8e8e-6ccd-4188-bc2b-96c4afd09fbc.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.7987387825795196,
     "instance": "prod/global",
     "nevents": 39627426,
     "nfiles": 25,
     "nick": "DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
     "sample_type": "dyjets_amcatnlo",
-    "xsec": 1792.67
+    "xsec": 1681.9920155502393
 }

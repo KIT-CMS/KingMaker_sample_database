@@ -16,7 +16,7 @@
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-1200_MY-600_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/22cfd621-15cb-48c7-8a41-c6f2437ab5b7.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-1200_MY-600_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/2b66cb96-7be3-458e-a04a-842637529edb.root"
     ],
-    "generator_weight": 0.0,
+    "generator_weight": 1.0,
     "instance": "prod/global",
     "nevents": 22000,
     "nfiles": 13,

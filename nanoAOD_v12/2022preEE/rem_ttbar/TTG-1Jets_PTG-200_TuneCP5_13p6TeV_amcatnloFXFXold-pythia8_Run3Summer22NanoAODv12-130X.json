@@ -31,11 +31,11 @@
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/TTG-1Jets_PTG-200_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v3/2560000/e428eed4-fb51-412b-a53d-119087f59163.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/TTG-1Jets_PTG-200_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v3/2560000/e7665d77-6645-48e6-96c4-b147f14151bb.root"
     ],
-    "generator_weight": 0.0,
+    "generator_weight": 0.3552702353426055,
     "instance": "prod/global",
     "nevents": 286306,
     "nfiles": 28,
     "nick": "TTG-1Jets_PTG-200_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8_Run3Summer22NanoAODv12-130X",
     "sample_type": "rem_ttbar",
-    "xsec": 0.0
+    "xsec": 0.1284
 }
