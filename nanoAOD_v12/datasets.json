@@ -458,7 +458,7 @@
         "nevents": 215532589,
         "nfiles": 322,
         "nick": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 20950
     },
     "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1": {
@@ -469,7 +469,7 @@
         "nevents": 171220296,
         "nfiles": 1123,
         "nick": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 20950
     },
     "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -480,7 +480,7 @@
         "nevents": 67325205,
         "nfiles": 140,
         "nick": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 20950
     },
     "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1": {
@@ -491,7 +491,7 @@
         "nevents": 47494002,
         "nfiles": 73,
         "nick": "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 20950
     },
     "DYto2L-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -502,7 +502,7 @@
         "nevents": 346950546,
         "nfiles": 452,
         "nick": "DYto2L-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 5045.976046650718
     },
     "DYto2L-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -513,7 +513,7 @@
         "nevents": 95530246,
         "nfiles": 159,
         "nick": "DYto2L-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 5045.976046650718
     },
     "DYto2L-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -524,7 +524,7 @@
         "nevents": 322623183,
         "nfiles": 454,
         "nick": "DYto2L-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 954.2130233253588
     },
     "DYto2L-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -535,7 +535,7 @@
         "nevents": 97575902,
         "nfiles": 193,
         "nick": "DYto2L-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 954.2130233253588
     },
     "DYto2L-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -546,7 +546,7 @@
         "nevents": 277437970,
         "nfiles": 386,
         "nick": "DYto2L-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 361.70021680622006
     },
     "DYto2L-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -557,7 +557,7 @@
         "nevents": 52013685,
         "nfiles": 131,
         "nick": "DYto2L-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 361.70021680622006
     },
     "DYto2L-2Jets_MLL-50_PTLL-100to200_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -568,7 +568,7 @@
         "nevents": 64510280,
         "nfiles": 183,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-100to200_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 45.42
     },
     "DYto2L-2Jets_MLL-50_PTLL-100to200_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -579,7 +579,7 @@
         "nevents": 18503737,
         "nfiles": 168,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-100to200_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-100to200_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -590,7 +590,7 @@
         "nevents": 70249250,
         "nfiles": 356,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-100to200_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 51.68
     },
     "DYto2L-2Jets_MLL-50_PTLL-100to200_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -601,7 +601,7 @@
         "nevents": 18592664,
         "nfiles": 174,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-100to200_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-200to400_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -612,7 +612,7 @@
         "nevents": 6583092,
         "nfiles": 61,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-200to400_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 3.382
     },
     "DYto2L-2Jets_MLL-50_PTLL-200to400_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1": {
@@ -623,7 +623,7 @@
         "nevents": 15165650,
         "nfiles": 160,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-200to400_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 3.382
     },
     "DYto2L-2Jets_MLL-50_PTLL-200to400_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -634,7 +634,7 @@
         "nevents": 1939721,
         "nfiles": 36,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-200to400_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-200to400_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1": {
@@ -645,7 +645,7 @@
         "nevents": 9920661,
         "nfiles": 149,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-200to400_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-200to400_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -656,7 +656,7 @@
         "nevents": 12661552,
         "nfiles": 93,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-200to400_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 7.159
     },
     "DYto2L-2Jets_MLL-50_PTLL-200to400_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1": {
@@ -667,7 +667,7 @@
         "nevents": 23318653,
         "nfiles": 187,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-200to400_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 7.159
     },
     "DYto2L-2Jets_MLL-50_PTLL-200to400_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -678,7 +678,7 @@
         "nevents": 3549847,
         "nfiles": 55,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-200to400_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-200to400_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1": {
@@ -689,7 +689,7 @@
         "nevents": 14822441,
         "nfiles": 140,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-200to400_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -700,7 +700,7 @@
         "nevents": 1722633,
         "nfiles": 38,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 0.1162
     },
     "DYto2L-2Jets_MLL-50_PTLL-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1": {
@@ -711,7 +711,7 @@
         "nevents": 15312167,
         "nfiles": 149,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 0.1162
     },
     "DYto2L-2Jets_MLL-50_PTLL-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -722,7 +722,7 @@
         "nevents": 503786,
         "nfiles": 24,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1": {
@@ -733,7 +733,7 @@
         "nevents": 9836075,
         "nfiles": 102,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-400to600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -744,7 +744,7 @@
         "nevents": 1739647,
         "nfiles": 48,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-400to600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 0.4157
     },
     "DYto2L-2Jets_MLL-50_PTLL-400to600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1": {
@@ -755,7 +755,7 @@
         "nevents": 16233213,
         "nfiles": 181,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-400to600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 0.4157
     },
     "DYto2L-2Jets_MLL-50_PTLL-400to600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -766,7 +766,7 @@
         "nevents": 488707,
         "nfiles": 27,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-400to600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-400to600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1": {
@@ -777,7 +777,7 @@
         "nevents": 10100498,
         "nfiles": 112,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-400to600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-40to100_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -788,7 +788,7 @@
         "nevents": 163904854,
         "nfiles": 287,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-40to100_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 475.3
     },
     "DYto2L-2Jets_MLL-50_PTLL-40to100_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -799,7 +799,7 @@
         "nevents": 47125505,
         "nfiles": 215,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-40to100_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-40to100_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -810,7 +810,7 @@
         "nevents": 66554879,
         "nfiles": 406,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-40to100_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 179.3
     },
     "DYto2L-2Jets_MLL-50_PTLL-40to100_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -821,7 +821,7 @@
         "nevents": 18752305,
         "nfiles": 81,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-40to100_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -832,7 +832,7 @@
         "nevents": 1862921,
         "nfiles": 33,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 0.01392
     },
     "DYto2L-2Jets_MLL-50_PTLL-600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1": {
@@ -843,7 +843,7 @@
         "nevents": 16197334,
         "nfiles": 178,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 0.01392
     },
     "DYto2L-2Jets_MLL-50_PTLL-600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -854,7 +854,7 @@
         "nevents": 508646,
         "nfiles": 20,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1": {
@@ -865,7 +865,7 @@
         "nevents": 9539431,
         "nfiles": 154,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -876,7 +876,7 @@
         "nevents": 1682240,
         "nfiles": 25,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 0.07019
     },
     "DYto2L-2Jets_MLL-50_PTLL-600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1": {
@@ -887,7 +887,7 @@
         "nevents": 15920498,
         "nfiles": 161,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 0.07019
     },
     "DYto2L-2Jets_MLL-50_PTLL-600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -898,7 +898,7 @@
         "nevents": 474576,
         "nfiles": 29,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_PTLL-600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1": {
@@ -909,7 +909,7 @@
         "nevents": 9988972,
         "nfiles": 67,
         "nick": "DYto2L-2Jets_MLL-50_PTLL-600_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": null
     },
     "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -920,7 +920,7 @@
         "nevents": 335560148,
         "nfiles": 1682,
         "nick": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 6275.099999999999
     },
     "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -931,7 +931,7 @@
         "nevents": 65997137,
         "nfiles": 115,
         "nick": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 6275.099999999999
     },
     "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1": {
@@ -942,7 +942,7 @@
         "nevents": 97500666,
         "nfiles": 259,
         "nick": "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X_ext1",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_ll",
         "xsec": 6275.099999999999
     },
     "DYto2L-4Jets_MLL-10to50_TuneCP5_13p6TeV_madgraphMLM-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -1712,7 +1712,7 @@
         "nevents": 125936677,
         "nfiles": 71,
         "nick": "DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_tt",
         "xsec": 1681.9920155502393
     },
     "DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -1723,7 +1723,7 @@
         "nevents": 39627426,
         "nfiles": 25,
         "nick": "DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_tt",
         "xsec": 1681.9920155502393
     },
     "DYto2Tau-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -1734,7 +1734,7 @@
         "nevents": 165533843,
         "nfiles": 103,
         "nick": "DYto2Tau-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_tt",
         "xsec": 318.0710077751196
     },
     "DYto2Tau-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -1745,7 +1745,7 @@
         "nevents": 56687827,
         "nfiles": 38,
         "nick": "DYto2Tau-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_tt",
         "xsec": 318.0710077751196
     },
     "DYto2Tau-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -1756,7 +1756,7 @@
         "nevents": 365687741,
         "nfiles": 277,
         "nick": "DYto2Tau-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_tt",
         "xsec": 120.56673893540669
     },
     "DYto2Tau-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -1767,7 +1767,7 @@
         "nevents": 106481565,
         "nfiles": 76,
         "nick": "DYto2Tau-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "dyjets_amcatnlo",
+        "sample_type": "dyjets_amcatnlo_tt",
         "xsec": 120.56673893540669
     },
     "DYto2Tau_MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22EENanoAODv12-130X": {
