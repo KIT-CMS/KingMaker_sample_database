@@ -49,11 +49,11 @@
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/TbarBQ_t-channel_4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/40000/91f1338d-bca5-43f2-8c1a-1f8d3666f140.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/TbarBQ_t-channel_4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/60000/a8611506-ddb9-4d2f-bece-80f74093992c.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.9247139382410832,
     "instance": "prod/global",
     "nevents": 5206568,
     "nfiles": 46,
     "nick": "TbarBQ_t-channel_4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_Run3Summer22EENanoAODv12-130X",
     "sample_type": "singletop",
-    "xsec": 75.47
+    "xsec": 87.2
 }

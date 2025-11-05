@@ -2672,11 +2672,11 @@
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/WtoLNu-2Jets_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/80000/81a2b373-a3ae-4287-83db-33ee01d54837.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/WtoLNu-2Jets_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/80000/2b443c68-f10b-4c4b-a18b-d74b63cc29ad.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.48390220325007705,
     "instance": "prod/global",
     "nevents": 522553517,
     "nfiles": 2669,
     "nick": "WtoLNu-2Jets_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
     "sample_type": "wjets_amcatnlo",
-    "xsec": 8964.29
+    "xsec": 8921.879840496234
 }

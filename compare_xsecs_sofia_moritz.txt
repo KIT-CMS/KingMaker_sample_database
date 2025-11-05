@@ -1,1 +1,94 @@
-null
+{
+  "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV": {
+    "xsec_moritz": 47.241,
+    "xsec_sofia": 38.6
+  },
+  "TTto2L2Nu_TuneCP5_13p6TeV": {
+    "xsec_moritz": 98.036113104,
+    "xsec_sofia": 98.04
+  },
+  "TTto4Q_TuneCP5_13p6TeV": {
+    "xsec_moritz": 419.6938241160001,
+    "xsec_sofia": 419.8
+  },
+  "TTtoLNu2Q_TuneCP5_13p6TeV": {
+    "xsec_moritz": 405.685352016,
+    "xsec_sofia": 405.74
+  },
+  "TWminusto2L2Nu_TuneCP5_13p6TeV": {
+    "xsec_moritz": 4.665100878,
+    "xsec_sofia": 3.84
+  },
+  "TWminusto4Q_TuneCP5_13p6TeV": {
+    "xsec_moritz": 19.971355099500002,
+    "xsec_sofia": 16.31
+  },
+  "TWminustoLNu2Q_TuneCP5_13p6TeV": {
+    "xsec_moritz": 19.304754462000002,
+    "xsec_sofia": 15.83
+  },
+  "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV": {
+    "xsec_moritz": 28.40976,
+    "xsec_sofia": 23.34
+  },
+  "TbarWplusto2L2Nu_TuneCP5_13p6TeV": {
+    "xsec_moritz": 4.665100878,
+    "xsec_sofia": 3.85
+  },
+  "TbarWplusto4Q_TuneCP5_13p6TeV": {
+    "xsec_moritz": 19.971355099500002,
+    "xsec_sofia": 16.33
+  },
+  "TbarWplustoLNu2Q_TuneCP5_13p6TeV": {
+    "xsec_moritz": 19.304754462000002,
+    "xsec_sofia": 15.85
+  },
+  "WWto2L2Nu_TuneCP5_13p6TeV": {
+    "xsec_moritz": 11.79,
+    "xsec_sofia": 17.96
+  },
+  "WWto4Q_TuneCP5_13p6TeV": {
+    "xsec_moritz": 50.79,
+    "xsec_sofia": 77.4
+  },
+  "WWtoLNu2Q_TuneCP5_13p6TeV": {
+    "xsec_moritz": 48.94,
+    "xsec_sofia": 74.58
+  },
+  "WZ_TuneCP5_13p6TeV": {
+    "xsec_moritz": 29.1,
+    "xsec_sofia": 41.1474
+  },
+  "WZto2L2Q_TuneCP5_13p6TeV": {
+    "xsec_moritz": 7.568,
+    "xsec_sofia": 10.95
+  },
+  "WZto3LNu_TuneCP5_13p6TeV": {
+    "xsec_moritz": 4.924,
+    "xsec_sofia": 6.95
+  },
+  "WZtoLNu2Q_TuneCP5_13p6TeV": {
+    "xsec_moritz": 15.87,
+    "xsec_sofia": 22.44
+  },
+  "ZZ_TuneCP5_13p6TeV": {
+    "xsec_moritz": 12.75,
+    "xsec_sofia": 19.431
+  },
+  "ZZto2L2Nu_TuneCP5_13p6TeV": {
+    "xsec_moritz": 1.031,
+    "xsec_sofia": 1.57
+  },
+  "ZZto2L2Q_TuneCP5_13p6TeV": {
+    "xsec_moritz": 6.788,
+    "xsec_sofia": 10.34
+  },
+  "ZZto2Nu2Q_TuneCP5_13p6TeV": {
+    "xsec_moritz": 4.67,
+    "xsec_sofia": 7.36
+  },
+  "ZZto4L_TuneCP5_13p6TeV": {
+    "xsec_moritz": 1.39,
+    "xsec_sofia": 2.11
+  }
+}

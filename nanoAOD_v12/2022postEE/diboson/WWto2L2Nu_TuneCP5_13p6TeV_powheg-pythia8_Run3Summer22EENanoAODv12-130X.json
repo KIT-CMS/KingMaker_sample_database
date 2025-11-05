@@ -60,11 +60,11 @@
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/WWto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/40000/277aa531-5887-41e5-b1fa-cde7382529cc.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/WWto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/40000/9d6ed81c-9c08-44e2-a210-f2602d2d1146.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.9998009682644254,
     "instance": "prod/global",
     "nevents": 22428584,
     "nfiles": 57,
     "nick": "WWto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22EENanoAODv12-130X",
     "sample_type": "diboson",
-    "xsec": 17.96
+    "xsec": 11.79
 }

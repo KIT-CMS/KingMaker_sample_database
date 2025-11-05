@@ -74,11 +74,11 @@
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/110000/bbaf2476-213e-4d61-8e12-c2c3e2858bd6.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/110000/f26f04cd-9ca4-4d1d-8bc9-f462163cf80d.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.7987773807943177,
     "instance": "prod/global",
     "nevents": 125936677,
     "nfiles": 71,
     "nick": "DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X",
     "sample_type": "dyjets_amcatnlo_tt",
-    "xsec": 1682.0
+    "xsec": 1681.9920155502393
 }

@@ -191,11 +191,11 @@
         "root://xrootd-cms.infn.it///store/data/Run2022E/EGamma/NANOAOD/22Sep2023-v1/40000/860df1c7-aaa4-42e2-80ff-7a19b5ca8fd3.root",
         "root://xrootd-cms.infn.it///store/data/Run2022E/EGamma/NANOAOD/22Sep2023-v1/40000/2c8e1cfa-d8f3-4383-bfea-1791fcc2857a.root"
     ],
-    "generator_weight": 0.0,
+    "generator_weight": 1.0,
     "instance": "prod/global",
     "nevents": 148654795,
     "nfiles": 188,
     "nick": "EGamma_Run2022E-22Sep2023-v1",
     "sample_type": "data",
-    "xsec": 0.0
+    "xsec": 1.0
 }
