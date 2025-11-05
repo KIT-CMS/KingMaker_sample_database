@@ -2,8 +2,8 @@
     "dbs": "/TTWH_TuneCP5_13TeV-madgraph-pythia8/sdaigler-mc_2018UL_Other_TTWH_1736873492-00000000000000000000000000000000/USER",
     "era": "2018",
     "filelist": [
-        "root://cmsdcache-kit-disk.gridka.de///store/user/sdaigler/TTWH_TuneCP5_13TeV-madgraph-pythia8/mc_2018UL_Other_TTWH_1736873492/250114_165630/0000/nanosim_1.root",
-        "root://cmsdcache-kit-disk.gridka.de///store/user/sdaigler/TTWH_TuneCP5_13TeV-madgraph-pythia8/mc_2018UL_Other_TTWH_1736873492/250114_165630/0000/nanosim_2.root"
+        "root://xrootd-cms.infn.it///store/user/sdaigler/TTWH_TuneCP5_13TeV-madgraph-pythia8/mc_2018UL_Other_TTWH_1736873492/250114_165630/0000/nanosim_1.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/TTWH_TuneCP5_13TeV-madgraph-pythia8/mc_2018UL_Other_TTWH_1736873492/250114_165630/0000/nanosim_2.root"
     ],
     "generator_weight": 1.0,
     "instance": "prod/phys03",

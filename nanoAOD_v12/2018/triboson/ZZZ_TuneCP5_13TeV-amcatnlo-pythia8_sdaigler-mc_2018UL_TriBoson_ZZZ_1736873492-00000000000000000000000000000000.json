@@ -2,13 +2,13 @@
     "dbs": "/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/sdaigler-mc_2018UL_TriBoson_ZZZ_1736873492-00000000000000000000000000000000/USER",
     "era": "2018",
     "filelist": [
-        "root://cmsdcache-kit-disk.gridka.de///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_3.root",
-        "root://cmsdcache-kit-disk.gridka.de///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_1.root",
-        "root://cmsdcache-kit-disk.gridka.de///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_4.root",
-        "root://cmsdcache-kit-disk.gridka.de///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_7.root",
-        "root://cmsdcache-kit-disk.gridka.de///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_5.root",
-        "root://cmsdcache-kit-disk.gridka.de///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_6.root",
-        "root://cmsdcache-kit-disk.gridka.de///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_2.root"
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_3.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_1.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_4.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_7.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_5.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_6.root",
+        "root://xrootd-cms.infn.it///store/user/sdaigler/ZZZ_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_TriBoson_ZZZ_1736873492/250114_165654/0000/nanosim_2.root"
     ],
     "generator_weight": 1.0,
     "instance": "prod/phys03",
