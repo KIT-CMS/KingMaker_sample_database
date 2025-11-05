@@ -5,7 +5,7 @@ xsecs_moritz_json=$(git show nanoAOD_v15:nanoAOD_v12/datasets.json | jq -r ' to_
 #echo "Moritz JSON Data: ${xsecs_moritz_json}"
 
 # Debug: Print the JSON data fetched for Sofia
-xsecs_sofia_json=$(git show nanoAOD_v15:nanoAOD_v15/datasets.json | jq -r ' to_entries | map(select(.value.era == "2024") | {(.key | gsub("_MLL"; "_Bin-MLL") | split("13p6TeV")[0] + "13p6TeV"): {"xsec_sofia": .value.xsec}}) | add ')
+xsecs_sofia_json=$(git show nanoAOD_v15:nanoAOD_v15/datasets.json | jq -r ' to_entries | map(select(.key | startswith("DYto2E") or startswith("DYto2Mu") or startswith("DYto2Tau")) | {(.key | gsub("_Bin-MLL"; "_MLL") | split("13p6TeV")[0] + "13p6TeV"): {"xsec_sofia": .value.xsec}}) | add ')
 #echo "Sofia JSON Data: ${xsecs_sofia_json}"
 
 # Debug: Print the merged JSON data

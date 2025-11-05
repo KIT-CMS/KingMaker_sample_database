@@ -860,7 +860,7 @@
     "DYto2L-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer23NanoAODv12-130X": {
         "dbs": "/DYto2L-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v4/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": 1.0,
+        "generator_weight": 0.3046760979418621,
         "instance": "prod/global",
         "nevents": 154510084,
         "nfiles": 476,
@@ -1014,7 +1014,7 @@
     "DYto2L-2Jets_MLL-50_PTLL-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_ext1": {
         "dbs": "/DYto2L-2Jets_MLL-50_PTLL-400to600_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6_ext1-v2/NANOAODSIM",
         "era": "2022postEE",
-        "generator_weight": 0.7033342178151532,
+        "generator_weight": 0.703332300292176,
         "instance": "prod/global",
         "nevents": 15312167,
         "nfiles": 149,
