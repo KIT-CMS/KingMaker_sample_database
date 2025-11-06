@@ -25,7 +25,7 @@
         "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer23NanoAODv12/DYto2Tau_MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v14-v3/70000/2a87cbdb-e022-4148-84c9-ede97a9dc414.root",
         "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer23NanoAODv12/DYto2Tau_MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v14-v3/70000/f38bc5eb-fffa-43bb-a097-1849e552efe6.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.9999866666666667,
     "instance": "prod/global",
     "nevents": 600000,
     "nfiles": 22,
