@@ -129,25 +129,49 @@ class DASQuery(object):
         else:
             ext_v = ""
         parts = nick.split("/")[1:]
-        # nick is the first part of the DAS sting + the second part till the first "_"
+        # Extract version (e.g., v1, v2, v2-v1, etc.) from the third part if present
+        version = ""
+        if len(parts) > 2:
+            import re
+            # Match v1, v2, v2-v1, v3-v2, etc.
+            match = re.search(r"(v[0-9]-v[0-9])", parts[1])
+            if match and "Run3" not in parts[1] and "RunIII" not in parts[1]: 
+                #add version number to nick only for data samples since multiple versions are used at the same time
+                version = "_" + match.group(1)
+        # nick is the first part of the DAS string + the second part till the first "_"
         # if there is no "_" in the second part, the whole second part is used
-        nick = parts[0] + "_" + parts[1].split("_")[0] + ext_v
-
+        nick = parts[0] + "_" + parts[1].split("_")[0] + ext_v + version
         return nick
 
     def _get_era(self, nick):
-        # regex search for a year in the nick
-        m = re.search("20[1-9]{2}", nick)
+        # regex search for run2 UL eras
+        m = re.search("UL16|UL17|UL18|UL2016|UL2017|UL2018|2016UL|2017UL|2018UL", nick)
         if m:
-            # Do era-specific modifications
-            era = m.group(0)
-            # take both data (HIPM) and MC/USER-produced (preVFP) DAS nick specifics into account for 2016
-            if ("HIPM" in nick or "preVFP" in nick) and era == "2016":
-                return era + "preVFP"
-            elif era == "2016":
-                return era + "postVFP"
+            if "16" in m.group(0):
+                if any(t in nick for t in ("preVFP", "HIPM", "APV")):
+                    return "2016preVFP"
+                else:
+                    return "2016postVFP"
+            elif "17" in m.group(0):
+                return "2017"
+            elif "18" in m.group(0):
+                return "2018"
+            
+        # regex search for run3 eras
+        m = re.search("2022|2023|2024|2025|2026", nick)
+        if m:
+            if "2022" in m.group(0):
+                if any(t in nick for t in ("postEE", "2022E", "2022F", "2022G")):
+                    return "2022postEE"
+                else:
+                    return "2022preEE"
+            elif "2023" in m.group(0):
+                if any(t in nick for t in ("postBPix", "2023D")):
+                    return "2023postBPix"
+                else:                    
+                    return "2023preBPix"
             else:
-                return era
+                return f"{m.group(0)}"
 
     def _build_sampletype(self, nick):
         process = "/" + nick.split("/")[1].lower()
@@ -157,9 +181,9 @@ class DASQuery(object):
             return "dyjets"
         elif "TTT".lower() in process:
             return "ttbar"
-        elif "ST_t".lower() in process:
+        elif any(name.lower() in process for name in ["ST_t", "/TBbar", "/TbarB", "/TWminus", "/TbarWplus",]):
             return "singletop"
-        elif any(name.lower() in process for name in ["/WZ_", "/WW_", "/ZZ_"]):
+        elif any(name.lower() in process for name in ["/WZ_", "/WW_", "/ZZ_", "/WWto", "/WZto", "/ZZto",]):
             return "diboson"
         elif any(
             name.lower() in process for name in ["/WWW_", "/WWZ_", "/WZZ_", "/ZZZ_"]
@@ -169,7 +193,7 @@ class DASQuery(object):
             return "electroweak_boson"
         elif any(
             name.lower() in process
-            for name in ["/wjet", "/w1jet", "/w2jet", "/w3jet", "/w4jet"]
+            for name in ["/wjet", "/w1jet", "/w2jet", "/w3jet", "/w4jet", "/Wto"]
         ):
             return "wjets"
         elif any(
@@ -188,12 +212,14 @@ class DASQuery(object):
                 "/MinimumBias",
                 "/MuOnia",
                 "/MuonEG",
+                "/Muon",
                 "/SingleElectron",
                 "/SingleMuon",
                 "/SinglePhoton",
                 "/Tau",
                 "/Zerobias",
                 "/EGamma",
+                "/ParkingVBF",
             ]
         ):
             return "data"
