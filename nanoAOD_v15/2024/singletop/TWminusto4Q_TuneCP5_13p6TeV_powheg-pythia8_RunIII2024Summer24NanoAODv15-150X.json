@@ -157,11 +157,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/TWminusto4Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/120000/6e3c3618-6d50-4d6c-b3b5-04a607eca8f7.root",
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/TWminusto4Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/120000/0fa0ffc8-ca99-4587-8a04-bd774f921e78.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.9999624984374349,
     "instance": "prod/global",
     "nevents": 23999000,
     "nfiles": 154,
     "nick": "TWminusto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X",
     "sample_type": "singletop",
-    "xsec": 16.31
+    "xsec": 19.971355099500002
 }

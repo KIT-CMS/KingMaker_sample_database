@@ -182,11 +182,11 @@
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/GluGlutoHHto4V_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v1/80000/f5cf3ea1-f5bf-45ad-84a3-a3659cb18bc3.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/GluGlutoHHto4V_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v1/80000/f8a89122-fadc-4846-a4f8-a5dd4f007d47.root"
     ],
-    "generator_weight": 0.0,
+    "generator_weight": 0.8942853087420901,
     "instance": "prod/global",
     "nevents": 1817666,
     "nfiles": 179,
     "nick": "GluGlutoHHto4V_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22NanoAODv12-130X_ext1",
     "sample_type": "hh4v",
-    "xsec": 0.0
+    "xsec": 0.0019640863489730005
 }

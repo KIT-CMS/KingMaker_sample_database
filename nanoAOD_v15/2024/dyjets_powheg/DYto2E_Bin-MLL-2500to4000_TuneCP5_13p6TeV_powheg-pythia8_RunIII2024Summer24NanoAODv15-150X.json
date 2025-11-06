@@ -2,12 +2,12 @@
     "dbs": "/DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
     "era": "2024",
     "filelist": [
-        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/a9aedb58-203e-4cd6-b5c4-73d93c280c45.root",
-        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/eeac7101-8a5f-41e9-889d-e4de9504ac73.root",
-        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2520000/45da4942-fa6d-4a7d-afb8-cb68a105b2f5.root",
-        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2520000/a9fc0f6b-6950-4849-b735-6f8b1991706f.root",
-        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/3cd89e48-1586-4335-9880-33ece04b40aa.root",
-        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/cee501bf-a939-4edd-8059-25a76ed3459d.root"
+        "root://xrootd-cms.infn.it////store/mc/RunIII2024Summer24NanoAODv15/DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/a9aedb58-203e-4cd6-b5c4-73d93c280c45.root",
+        "root://xrootd-cms.infn.it////store/mc/RunIII2024Summer24NanoAODv15/DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/eeac7101-8a5f-41e9-889d-e4de9504ac73.root",
+        "root://xrootd-cms.infn.it////store/mc/RunIII2024Summer24NanoAODv15/DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2520000/45da4942-fa6d-4a7d-afb8-cb68a105b2f5.root",
+        "root://xrootd-cms.infn.it////store/mc/RunIII2024Summer24NanoAODv15/DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2520000/a9fc0f6b-6950-4849-b735-6f8b1991706f.root",
+        "root://xrootd-cms.infn.it////store/mc/RunIII2024Summer24NanoAODv15/DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/3cd89e48-1586-4335-9880-33ece04b40aa.root",
+        "root://xrootd-cms.infn.it////store/mc/RunIII2024Summer24NanoAODv15/DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/cee501bf-a939-4edd-8059-25a76ed3459d.root"
     ],
     "generator_weight": 0.9999979932372094,
     "instance": "prod/global",
@@ -15,5 +15,5 @@
     "nfiles": 6,
     "nick": "DYto2E_Bin-MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X",
     "sample_type": "dyjets_powheg",
-    "xsec": 5.551e-05
+    "xsec": 5.545248485175816e-05
 }
