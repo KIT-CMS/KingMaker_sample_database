@@ -308,15 +308,16 @@ class SampleManager(object):
         # ask what type of maintenance to do
         mode = questionary.select(
             "What type of maintenance is needed?",
-            choices=["Generate filelist file from main database", 
-            "Generate datasets entry from filelist file",
-            "Match filelist file info in main database",
-            "Match main database info in filelist file",],
+            choices=[
+                "Generate filelist file from main database", 
+                "Generate datasets entry from filelist file",
+                "Match filelist file info in main database",
+                "Match main database info in filelist file"
+            ],
             style=custom_style,
         ).ask()
-        # we check, if all samples have a dedicated filelist file
-        # if not, we generate the filelist from the database information
         if mode == "Generate filelist file from main database":
+            # check if there are missing detailed database files
             with Progress() as progress_bar:
                 task = progress_bar.add_task("Samples read ", total=len(self.database.database))
                 for sample in self.database.database:
@@ -337,12 +338,12 @@ class SampleManager(object):
                         pass
                     progress_bar.update(task, advance=1)
 
-            questionary.print("Running database maintenance")
             self.database.database_maintenance()
 
         elif mode == "Generate datasets entry from filelist file":
-            #with Progress() as progress_bar:
-                #task = progress_bar.add_task("Files read ", total=len(self.database.database))
+            # check if there are missing entries from the details database
+            with Progress() as progress_bar:
+                task = progress_bar.add_task("Files read ", total=len(self.database.database))
                 datasets = {}
                 for era in os.listdir(self.database_folder):
                     era_path = os.path.join(self.database_folder, era)
@@ -369,13 +370,13 @@ class SampleManager(object):
                                     self.database.add_sample(file_content)
                                     self.database.save_database(verbose=False)
                                     questionary.print(f"Updated main database entry for sample {sample}")
-                                #progress_bar.update(task, advance=1)
-                questionary.print("Running database maintenance")
+                                
+                                progress_bar.update(task, advance=1)
+                                
                 self.database.database_maintenance()
 
         elif mode == "Match filelist file info in main database":
-            # we further check, if the main database is up to date
-            # if not, we update it
+            # check if the database is up to date
             with Progress() as progress_bar:
                 task = progress_bar.add_task("Samples read ", total=len(self.database.database))
                 for sample in self.database.database:
@@ -388,18 +389,10 @@ class SampleManager(object):
                     _dict = deepcopy(self.database.details_database)
                     _dict.pop("filelist", None)
 
-                    # Print the details database for debugging purposes
-                    #questionary.print(f"Details database for sample {sample}: {self.database.details_database}")
-
-                    # Ensure the sample exists in details_database before accessing it
-                    #if sample not in self.database.details_database:
-                        #questionary.print(f"Sample {sample} not found in details database. Skipping.")
-                        #continue
-
                     if set(tuple(self.database.database[sample].items())) - set(tuple(_dict.items())):
                         self.database.database[sample].update(_dict)
-                        questionary.print(f"Updating main database entry for sample {self.database.database[sample]}")
                         self.database.save_database(verbose=False)
+                        
                         questionary.print(f"Updated main database entry for sample {sample}")
 
                     progress_bar.update(task, advance=1)
@@ -409,8 +402,7 @@ class SampleManager(object):
                 self.database.database = {}
 
         elif mode == "Match main database info in filelist file":
-            # we further check, if the details database is up to date
-            # if not, we update it
+            # check if the details database is up to date
             questionary.print("Checking if details database is up to date")
             with Progress() as progress_bar:
                 task = progress_bar.add_task("Samples read ", total=len(self.database.database))
@@ -427,6 +419,7 @@ class SampleManager(object):
                     if set(tuple(self.database.database[sample].items())) - set(tuple(_dict.items())):
                         self.database.details_database.update(self.database.database[sample])
                         self.database.save_details_database(verbose=False)
+                        
                         questionary.print(f"Updated details database entry for sample {sample}")
 
                     progress_bar.update(task, advance=1)

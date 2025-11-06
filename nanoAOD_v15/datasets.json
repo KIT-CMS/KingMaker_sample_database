@@ -351,1059 +351,1059 @@
         "sample_type": "dyjets_powheg",
         "xsec": 0.01785031240395308
     },
-    "EGamma0_Run2024C-MINIv6NANOv15-v1_v6": {
+    "EGamma0_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/EGamma0/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 157351226,
         "nfiles": 167,
-        "nick": "EGamma0_Run2024C-MINIv6NANOv15-v1_v6",
+        "nick": "EGamma0_Run2024C-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma0_Run2024D-MINIv6NANOv15-v1_v6": {
+    "EGamma0_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/EGamma0/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 156558757,
         "nfiles": 173,
-        "nick": "EGamma0_Run2024D-MINIv6NANOv15-v1_v6",
+        "nick": "EGamma0_Run2024D-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma0_Run2024E-MINIv6NANOv15-v1_v6": {
+    "EGamma0_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/EGamma0/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 249417634,
         "nfiles": 267,
-        "nick": "EGamma0_Run2024E-MINIv6NANOv15-v1_v6",
+        "nick": "EGamma0_Run2024E-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma0_Run2024F-MINIv6NANOv15-v1_v6": {
+    "EGamma0_Run2024F-MINIv6NANOv15-v1": {
         "dbs": "/EGamma0/Run2024F-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 638196622,
         "nfiles": 719,
-        "nick": "EGamma0_Run2024F-MINIv6NANOv15-v1_v6",
+        "nick": "EGamma0_Run2024F-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma0_Run2024G-MINIv6NANOv15-v2_v6": {
+    "EGamma0_Run2024G-MINIv6NANOv15-v2": {
         "dbs": "/EGamma0/Run2024G-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 903520258,
         "nfiles": 850,
-        "nick": "EGamma0_Run2024G-MINIv6NANOv15-v2_v6",
+        "nick": "EGamma0_Run2024G-MINIv6NANOv15-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma0_Run2024H-MINIv6NANOv15-v2_v6": {
+    "EGamma0_Run2024H-MINIv6NANOv15-v2": {
         "dbs": "/EGamma0/Run2024H-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 134680448,
         "nfiles": 138,
-        "nick": "EGamma0_Run2024H-MINIv6NANOv15-v2_v6",
+        "nick": "EGamma0_Run2024H-MINIv6NANOv15-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma0_Run2024I-MINIv6NANOv15-v1_v6": {
+    "EGamma0_Run2024I-MINIv6NANOv15-v1": {
         "dbs": "/EGamma0/Run2024I-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 132904290,
         "nfiles": 211,
-        "nick": "EGamma0_Run2024I-MINIv6NANOv15-v1_v6",
+        "nick": "EGamma0_Run2024I-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma0_Run2024I-MINIv6NANOv15_v6": {
+    "EGamma0_Run2024I-MINIv6NANOv15_v2-v1": {
         "dbs": "/EGamma0/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 150687674,
         "nfiles": 198,
-        "nick": "EGamma0_Run2024I-MINIv6NANOv15_v6",
+        "nick": "EGamma0_Run2024I-MINIv6NANOv15_v2-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma1_Run2024C-MINIv6NANOv15-v1_v6": {
+    "EGamma1_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 157860731,
         "nfiles": 247,
-        "nick": "EGamma1_Run2024C-MINIv6NANOv15-v1_v6",
+        "nick": "EGamma1_Run2024C-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma1_Run2024D-MINIv6NANOv15-v1_v6": {
+    "EGamma1_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 156275778,
         "nfiles": 279,
-        "nick": "EGamma1_Run2024D-MINIv6NANOv15-v1_v6",
+        "nick": "EGamma1_Run2024D-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma1_Run2024E-MINIv6NANOv15-v1_v6": {
+    "EGamma1_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 249489829,
         "nfiles": 335,
-        "nick": "EGamma1_Run2024E-MINIv6NANOv15-v1_v6",
+        "nick": "EGamma1_Run2024E-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma1_Run2024F-MINIv6NANOv15-v1_v6": {
+    "EGamma1_Run2024F-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024F-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 631079889,
         "nfiles": 747,
-        "nick": "EGamma1_Run2024F-MINIv6NANOv15-v1_v6",
+        "nick": "EGamma1_Run2024F-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma1_Run2024G-MINIv6NANOv15-v2_v6": {
+    "EGamma1_Run2024G-MINIv6NANOv15-v2": {
         "dbs": "/EGamma1/Run2024G-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 903441926,
         "nfiles": 888,
-        "nick": "EGamma1_Run2024G-MINIv6NANOv15-v2_v6",
+        "nick": "EGamma1_Run2024G-MINIv6NANOv15-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma1_Run2024H-MINIv6NANOv15-v1_v6": {
+    "EGamma1_Run2024H-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024H-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 134835799,
         "nfiles": 191,
-        "nick": "EGamma1_Run2024H-MINIv6NANOv15-v1_v6",
+        "nick": "EGamma1_Run2024H-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma1_Run2024I-MINIv6NANOv15-v1_v6": {
+    "EGamma1_Run2024I-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024I-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 132903874,
         "nfiles": 176,
-        "nick": "EGamma1_Run2024I-MINIv6NANOv15-v1_v6",
+        "nick": "EGamma1_Run2024I-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "EGamma1_Run2024I-MINIv6NANOv15_v6": {
+    "EGamma1_Run2024I-MINIv6NANOv15_v2-v1": {
         "dbs": "/EGamma1/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 150687112,
         "nfiles": 179,
-        "nick": "EGamma1_Run2024I-MINIv6NANOv15_v6",
+        "nick": "EGamma1_Run2024I-MINIv6NANOv15_v2-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon0_Run2024C-MINIv6NANOv15-v1_v6": {
+    "Muon0_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 97505587,
         "nfiles": 103,
-        "nick": "Muon0_Run2024C-MINIv6NANOv15-v1_v6",
+        "nick": "Muon0_Run2024C-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon0_Run2024D-MINIv6NANOv15-v1_v6": {
+    "Muon0_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 120787065,
         "nfiles": 180,
-        "nick": "Muon0_Run2024D-MINIv6NANOv15-v1_v6",
+        "nick": "Muon0_Run2024D-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon0_Run2024E-MINIv6NANOv15-v1_v6": {
+    "Muon0_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 169640946,
         "nfiles": 255,
-        "nick": "Muon0_Run2024E-MINIv6NANOv15-v1_v6",
+        "nick": "Muon0_Run2024E-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon0_Run2024F-MINIv6NANOv15-v1_v6": {
+    "Muon0_Run2024F-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024F-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 442432787,
         "nfiles": 594,
-        "nick": "Muon0_Run2024F-MINIv6NANOv15-v1_v6",
+        "nick": "Muon0_Run2024F-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon0_Run2024G-MINIv6NANOv15-v1_v6": {
+    "Muon0_Run2024G-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024G-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 642028803,
         "nfiles": 948,
-        "nick": "Muon0_Run2024G-MINIv6NANOv15-v1_v6",
+        "nick": "Muon0_Run2024G-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon0_Run2024H-MINIv6NANOv15-v1_v6": {
+    "Muon0_Run2024H-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024H-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 93983627,
         "nfiles": 152,
-        "nick": "Muon0_Run2024H-MINIv6NANOv15-v1_v6",
+        "nick": "Muon0_Run2024H-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon0_Run2024I-MINIv6NANOv15-v1_v6": {
+    "Muon0_Run2024I-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024I-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 97634104,
         "nfiles": 173,
-        "nick": "Muon0_Run2024I-MINIv6NANOv15-v1_v6",
+        "nick": "Muon0_Run2024I-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon0_Run2024I-MINIv6NANOv15_v6": {
+    "Muon0_Run2024I-MINIv6NANOv15_v2-v1": {
         "dbs": "/Muon0/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 105194627,
         "nfiles": 174,
-        "nick": "Muon0_Run2024I-MINIv6NANOv15_v6",
+        "nick": "Muon0_Run2024I-MINIv6NANOv15_v2-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon1_Run2024C-MINIv6NANOv15-v1_v6": {
+    "Muon1_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/Muon1/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 97531998,
         "nfiles": 94,
-        "nick": "Muon1_Run2024C-MINIv6NANOv15-v1_v6",
+        "nick": "Muon1_Run2024C-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon1_Run2024D-MINIv6NANOv15-v1_v6": {
+    "Muon1_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/Muon1/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 120467371,
         "nfiles": 168,
-        "nick": "Muon1_Run2024D-MINIv6NANOv15-v1_v6",
+        "nick": "Muon1_Run2024D-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon1_Run2024E-MINIv6NANOv15-v1_v6": {
+    "Muon1_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/Muon1/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 172848674,
         "nfiles": 171,
-        "nick": "Muon1_Run2024E-MINIv6NANOv15-v1_v6",
+        "nick": "Muon1_Run2024E-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon1_Run2024F-MINIv6NANOv15-v1_v6": {
+    "Muon1_Run2024F-MINIv6NANOv15-v1": {
         "dbs": "/Muon1/Run2024F-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 442360423,
         "nfiles": 538,
-        "nick": "Muon1_Run2024F-MINIv6NANOv15-v1_v6",
+        "nick": "Muon1_Run2024F-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon1_Run2024G-MINIv6NANOv15-v2_v6": {
+    "Muon1_Run2024G-MINIv6NANOv15-v2": {
         "dbs": "/Muon1/Run2024G-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 641959643,
         "nfiles": 565,
-        "nick": "Muon1_Run2024G-MINIv6NANOv15-v2_v6",
+        "nick": "Muon1_Run2024G-MINIv6NANOv15-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon1_Run2024H-MINIv6NANOv15-v2_v6": {
+    "Muon1_Run2024H-MINIv6NANOv15-v2": {
         "dbs": "/Muon1/Run2024H-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 93981102,
         "nfiles": 93,
-        "nick": "Muon1_Run2024H-MINIv6NANOv15-v2_v6",
+        "nick": "Muon1_Run2024H-MINIv6NANOv15-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon1_Run2024I-MINIv6NANOv15-v1_v6": {
+    "Muon1_Run2024I-MINIv6NANOv15-v1": {
         "dbs": "/Muon1/Run2024I-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 97630010,
         "nfiles": 94,
-        "nick": "Muon1_Run2024I-MINIv6NANOv15-v1_v6",
+        "nick": "Muon1_Run2024I-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Muon1_Run2024I-MINIv6NANOv15_v6": {
+    "Muon1_Run2024I-MINIv6NANOv15_v2-v1": {
         "dbs": "/Muon1/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 105189040,
         "nfiles": 133,
-        "nick": "Muon1_Run2024I-MINIv6NANOv15_v6",
+        "nick": "Muon1_Run2024I-MINIv6NANOv15_v2-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF0_Run2024C-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF0_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF0/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 45446278,
         "nfiles": 168,
-        "nick": "ParkingVBF0_Run2024C-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF0_Run2024C-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF0_Run2024D-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF0_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF0/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 49870696,
         "nfiles": 142,
-        "nick": "ParkingVBF0_Run2024D-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF0_Run2024D-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF0_Run2024E-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF0_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF0/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 80737942,
         "nfiles": 270,
-        "nick": "ParkingVBF0_Run2024E-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF0_Run2024E-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF0_Run2024F-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF0_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF0/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 198580900,
         "nfiles": 230,
-        "nick": "ParkingVBF0_Run2024F-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF0_Run2024F-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF0_Run2024G-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF0_Run2024G-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF0/Run2024G-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 268099742,
         "nfiles": 291,
-        "nick": "ParkingVBF0_Run2024G-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF0_Run2024G-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF0_Run2024H-MINIv6NANOv15-v2_v6": {
+    "ParkingVBF0_Run2024H-MINIv6NANOv15-v2": {
         "dbs": "/ParkingVBF0/Run2024H-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 38191175,
         "nfiles": 58,
-        "nick": "ParkingVBF0_Run2024H-MINIv6NANOv15-v2_v6",
+        "nick": "ParkingVBF0_Run2024H-MINIv6NANOv15-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF0_Run2024I-MINIv6NANOv15-v2_v6": {
+    "ParkingVBF0_Run2024I-MINIv6NANOv15-v2": {
         "dbs": "/ParkingVBF0/Run2024I-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 37162955,
         "nfiles": 57,
-        "nick": "ParkingVBF0_Run2024I-MINIv6NANOv15-v2_v6",
+        "nick": "ParkingVBF0_Run2024I-MINIv6NANOv15-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF0_Run2024I-MINIv6NANOv15_v6": {
+    "ParkingVBF0_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF0/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 37607068,
         "nfiles": 44,
-        "nick": "ParkingVBF0_Run2024I-MINIv6NANOv15_v6",
+        "nick": "ParkingVBF0_Run2024I-MINIv6NANOv15_v2-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF1_Run2024C-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF1_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF1/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 45471089,
         "nfiles": 197,
-        "nick": "ParkingVBF1_Run2024C-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF1_Run2024C-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF1_Run2024D-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF1_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF1/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 49952836,
         "nfiles": 83,
-        "nick": "ParkingVBF1_Run2024D-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF1_Run2024D-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF1_Run2024E-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF1_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF1/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 80798944,
         "nfiles": 263,
-        "nick": "ParkingVBF1_Run2024E-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF1_Run2024E-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF1_Run2024F-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF1_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF1/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 198576897,
         "nfiles": 221,
-        "nick": "ParkingVBF1_Run2024F-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF1_Run2024F-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF1_Run2024G-MINIv6NANOv15-v4_v6": {
+    "ParkingVBF1_Run2024G-MINIv6NANOv15-v4": {
         "dbs": "/ParkingVBF1/Run2024G-MINIv6NANOv15-v4/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 268816012,
         "nfiles": 345,
-        "nick": "ParkingVBF1_Run2024G-MINIv6NANOv15-v4_v6",
+        "nick": "ParkingVBF1_Run2024G-MINIv6NANOv15-v4",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF1_Run2024H-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF1_Run2024H-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF1/Run2024H-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 38191079,
         "nfiles": 46,
-        "nick": "ParkingVBF1_Run2024H-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF1_Run2024H-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF1_Run2024I-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF1_Run2024I-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF1/Run2024I-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 37212846,
         "nfiles": 48,
-        "nick": "ParkingVBF1_Run2024I-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF1_Run2024I-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF1_Run2024I-MINIv6NANOv15_v6": {
+    "ParkingVBF1_Run2024I-MINIv6NANOv15_v2-v3": {
         "dbs": "/ParkingVBF1/Run2024I-MINIv6NANOv15_v2-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 37607718,
         "nfiles": 58,
-        "nick": "ParkingVBF1_Run2024I-MINIv6NANOv15_v6",
+        "nick": "ParkingVBF1_Run2024I-MINIv6NANOv15_v2-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF2_Run2024C-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF2_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF2/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 45475567,
         "nfiles": 180,
-        "nick": "ParkingVBF2_Run2024C-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF2_Run2024C-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF2_Run2024D-MINIv6NANOv15-v2_v6": {
+    "ParkingVBF2_Run2024D-MINIv6NANOv15-v2": {
         "dbs": "/ParkingVBF2/Run2024D-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 49918963,
         "nfiles": 104,
-        "nick": "ParkingVBF2_Run2024D-MINIv6NANOv15-v2_v6",
+        "nick": "ParkingVBF2_Run2024D-MINIv6NANOv15-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF2_Run2024E-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF2_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF2/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 80804580,
         "nfiles": 137,
-        "nick": "ParkingVBF2_Run2024E-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF2_Run2024E-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF2_Run2024F-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF2_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF2/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 198858244,
         "nfiles": 217,
-        "nick": "ParkingVBF2_Run2024F-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF2_Run2024F-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF2_Run2024G-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF2_Run2024G-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF2/Run2024G-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 268585092,
         "nfiles": 266,
-        "nick": "ParkingVBF2_Run2024G-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF2_Run2024G-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF2_Run2024H-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF2_Run2024H-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF2/Run2024H-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 38049441,
         "nfiles": 54,
-        "nick": "ParkingVBF2_Run2024H-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF2_Run2024H-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF2_Run2024I-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF2_Run2024I-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF2/Run2024I-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 38052423,
         "nfiles": 50,
-        "nick": "ParkingVBF2_Run2024I-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF2_Run2024I-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF2_Run2024I-MINIv6NANOv15_v6": {
+    "ParkingVBF2_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF2/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 37607584,
         "nfiles": 56,
-        "nick": "ParkingVBF2_Run2024I-MINIv6NANOv15_v6",
+        "nick": "ParkingVBF2_Run2024I-MINIv6NANOv15_v2-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF3_Run2024C-MINIv6NANOv15-v2_v6": {
+    "ParkingVBF3_Run2024C-MINIv6NANOv15-v2": {
         "dbs": "/ParkingVBF3/Run2024C-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 45489416,
         "nfiles": 115,
-        "nick": "ParkingVBF3_Run2024C-MINIv6NANOv15-v2_v6",
+        "nick": "ParkingVBF3_Run2024C-MINIv6NANOv15-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF3_Run2024D-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF3_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF3/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 49183514,
         "nfiles": 78,
-        "nick": "ParkingVBF3_Run2024D-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF3_Run2024D-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF3_Run2024E-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF3_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF3/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 80773409,
         "nfiles": 220,
-        "nick": "ParkingVBF3_Run2024E-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF3_Run2024E-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF3_Run2024F-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF3_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF3/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 198404835,
         "nfiles": 213,
-        "nick": "ParkingVBF3_Run2024F-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF3_Run2024F-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF3_Run2024G-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF3_Run2024G-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF3/Run2024G-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 269076738,
         "nfiles": 273,
-        "nick": "ParkingVBF3_Run2024G-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF3_Run2024G-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF3_Run2024H-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF3_Run2024H-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF3/Run2024H-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 38189554,
         "nfiles": 51,
-        "nick": "ParkingVBF3_Run2024H-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF3_Run2024H-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF3_Run2024I-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF3_Run2024I-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF3/Run2024I-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 38052618,
         "nfiles": 56,
-        "nick": "ParkingVBF3_Run2024I-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF3_Run2024I-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF3_Run2024I-MINIv6NANOv15_v6": {
+    "ParkingVBF3_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF3/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 37477354,
         "nfiles": 39,
-        "nick": "ParkingVBF3_Run2024I-MINIv6NANOv15_v6",
+        "nick": "ParkingVBF3_Run2024I-MINIv6NANOv15_v2-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF4_Run2024C-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF4_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF4/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 45438075,
         "nfiles": 150,
-        "nick": "ParkingVBF4_Run2024C-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF4_Run2024C-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF4_Run2024D-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF4_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF4/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 49951704,
         "nfiles": 210,
-        "nick": "ParkingVBF4_Run2024D-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF4_Run2024D-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF4_Run2024E-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF4_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF4/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 80741780,
         "nfiles": 260,
-        "nick": "ParkingVBF4_Run2024E-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF4_Run2024E-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF4_Run2024F-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF4_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF4/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 196929563,
         "nfiles": 235,
-        "nick": "ParkingVBF4_Run2024F-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF4_Run2024F-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF4_Run2024G-MINIv6NANOv15-v4_v6": {
+    "ParkingVBF4_Run2024G-MINIv6NANOv15-v4": {
         "dbs": "/ParkingVBF4/Run2024G-MINIv6NANOv15-v4/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 268606701,
         "nfiles": 333,
-        "nick": "ParkingVBF4_Run2024G-MINIv6NANOv15-v4_v6",
+        "nick": "ParkingVBF4_Run2024G-MINIv6NANOv15-v4",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF4_Run2024H-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF4_Run2024H-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF4/Run2024H-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 38157067,
         "nfiles": 47,
-        "nick": "ParkingVBF4_Run2024H-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF4_Run2024H-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF4_Run2024I-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF4_Run2024I-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF4/Run2024I-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 38036277,
         "nfiles": 57,
-        "nick": "ParkingVBF4_Run2024I-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF4_Run2024I-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF4_Run2024I-MINIv6NANOv15_v6": {
+    "ParkingVBF4_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF4/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 37605272,
         "nfiles": 43,
-        "nick": "ParkingVBF4_Run2024I-MINIv6NANOv15_v6",
+        "nick": "ParkingVBF4_Run2024I-MINIv6NANOv15_v2-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF5_Run2024C-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF5_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF5/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 45468127,
         "nfiles": 173,
-        "nick": "ParkingVBF5_Run2024C-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF5_Run2024C-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF5_Run2024D-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF5_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF5/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 49948317,
         "nfiles": 192,
-        "nick": "ParkingVBF5_Run2024D-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF5_Run2024D-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF5_Run2024E-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF5_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF5/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 80798285,
         "nfiles": 300,
-        "nick": "ParkingVBF5_Run2024E-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF5_Run2024E-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF5_Run2024F-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF5_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF5/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 198830251,
         "nfiles": 225,
-        "nick": "ParkingVBF5_Run2024F-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF5_Run2024F-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF5_Run2024G-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF5_Run2024G-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF5/Run2024G-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 268694582,
         "nfiles": 284,
-        "nick": "ParkingVBF5_Run2024G-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF5_Run2024G-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF5_Run2024H-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF5_Run2024H-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF5/Run2024H-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 38041718,
         "nfiles": 62,
-        "nick": "ParkingVBF5_Run2024H-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF5_Run2024H-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF5_Run2024I-MINIv6NANOv15-v2_v6": {
+    "ParkingVBF5_Run2024I-MINIv6NANOv15-v2": {
         "dbs": "/ParkingVBF5/Run2024I-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 37736540,
         "nfiles": 57,
-        "nick": "ParkingVBF5_Run2024I-MINIv6NANOv15-v2_v6",
+        "nick": "ParkingVBF5_Run2024I-MINIv6NANOv15-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF5_Run2024I-MINIv6NANOv15_v6": {
+    "ParkingVBF5_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF5/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 37606998,
         "nfiles": 56,
-        "nick": "ParkingVBF5_Run2024I-MINIv6NANOv15_v6",
+        "nick": "ParkingVBF5_Run2024I-MINIv6NANOv15_v2-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF6_Run2024C-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF6_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF6/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 45487079,
         "nfiles": 198,
-        "nick": "ParkingVBF6_Run2024C-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF6_Run2024C-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF6_Run2024D-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF6_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF6/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 49951168,
         "nfiles": 206,
-        "nick": "ParkingVBF6_Run2024D-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF6_Run2024D-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF6_Run2024E-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF6_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF6/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 80779423,
         "nfiles": 278,
-        "nick": "ParkingVBF6_Run2024E-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF6_Run2024E-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF6_Run2024F-MINIv6NANOv15-v4_v6": {
+    "ParkingVBF6_Run2024F-MINIv6NANOv15-v4": {
         "dbs": "/ParkingVBF6/Run2024F-MINIv6NANOv15-v4/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 198580150,
         "nfiles": 245,
-        "nick": "ParkingVBF6_Run2024F-MINIv6NANOv15-v4_v6",
+        "nick": "ParkingVBF6_Run2024F-MINIv6NANOv15-v4",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF6_Run2024G-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF6_Run2024G-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF6/Run2024G-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 268816559,
         "nfiles": 300,
-        "nick": "ParkingVBF6_Run2024G-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF6_Run2024G-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF6_Run2024H-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF6_Run2024H-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF6/Run2024H-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 38190851,
         "nfiles": 50,
-        "nick": "ParkingVBF6_Run2024H-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF6_Run2024H-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF6_Run2024I-MINIv6NANOv15-v2_v6": {
+    "ParkingVBF6_Run2024I-MINIv6NANOv15-v2": {
         "dbs": "/ParkingVBF6/Run2024I-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 38640355,
         "nfiles": 57,
-        "nick": "ParkingVBF6_Run2024I-MINIv6NANOv15-v2_v6",
+        "nick": "ParkingVBF6_Run2024I-MINIv6NANOv15-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF6_Run2024I-MINIv6NANOv15_v6": {
+    "ParkingVBF6_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF6/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 37607295,
         "nfiles": 51,
-        "nick": "ParkingVBF6_Run2024I-MINIv6NANOv15_v6",
+        "nick": "ParkingVBF6_Run2024I-MINIv6NANOv15_v2-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF7_Run2024C-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF7_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF7/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 45469363,
         "nfiles": 237,
-        "nick": "ParkingVBF7_Run2024C-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF7_Run2024C-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF7_Run2024D-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF7_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF7/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 49943179,
         "nfiles": 178,
-        "nick": "ParkingVBF7_Run2024D-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF7_Run2024D-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF7_Run2024E-MINIv6NANOv15-v1_v6": {
+    "ParkingVBF7_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF7/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 80795458,
         "nfiles": 264,
-        "nick": "ParkingVBF7_Run2024E-MINIv6NANOv15-v1_v6",
+        "nick": "ParkingVBF7_Run2024E-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF7_Run2024F-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF7_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF7/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 198581314,
         "nfiles": 204,
-        "nick": "ParkingVBF7_Run2024F-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF7_Run2024F-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF7_Run2024G-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF7_Run2024G-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF7/Run2024G-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 268249462,
         "nfiles": 331,
-        "nick": "ParkingVBF7_Run2024G-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF7_Run2024G-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF7_Run2024H-MINIv6NANOv15-v4_v6": {
+    "ParkingVBF7_Run2024H-MINIv6NANOv15-v4": {
         "dbs": "/ParkingVBF7/Run2024H-MINIv6NANOv15-v4/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 38191513,
         "nfiles": 54,
-        "nick": "ParkingVBF7_Run2024H-MINIv6NANOv15-v4_v6",
+        "nick": "ParkingVBF7_Run2024H-MINIv6NANOv15-v4",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF7_Run2024I-MINIv6NANOv15-v3_v6": {
+    "ParkingVBF7_Run2024I-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF7/Run2024I-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 38050874,
         "nfiles": 48,
-        "nick": "ParkingVBF7_Run2024I-MINIv6NANOv15-v3_v6",
+        "nick": "ParkingVBF7_Run2024I-MINIv6NANOv15-v3",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "ParkingVBF7_Run2024I-MINIv6NANOv15_v6": {
+    "ParkingVBF7_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF7/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 37607228,
         "nfiles": 44,
-        "nick": "ParkingVBF7_Run2024I-MINIv6NANOv15_v6",
+        "nick": "ParkingVBF7_Run2024I-MINIv6NANOv15_v2-v2",
         "sample_type": "data",
         "xsec": 1.0
     },
@@ -1495,91 +1495,91 @@
         "sample_type": "singletop",
         "xsec": 19.304754462000002
     },
-    "Tau_Run2024C-MINIv6NANOv15-v1_v6": {
+    "Tau_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 50839148,
         "nfiles": 69,
-        "nick": "Tau_Run2024C-MINIv6NANOv15-v1_v6",
+        "nick": "Tau_Run2024C-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Tau_Run2024D-MINIv6NANOv15-v1_v6": {
+    "Tau_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 58755163,
         "nfiles": 102,
-        "nick": "Tau_Run2024D-MINIv6NANOv15-v1_v6",
+        "nick": "Tau_Run2024D-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Tau_Run2024E-MINIv6NANOv15-v1_v6": {
+    "Tau_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 85422487,
         "nfiles": 142,
-        "nick": "Tau_Run2024E-MINIv6NANOv15-v1_v6",
+        "nick": "Tau_Run2024E-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Tau_Run2024F-MINIv6NANOv15-v1_v6": {
+    "Tau_Run2024F-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024F-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 233974175,
         "nfiles": 466,
-        "nick": "Tau_Run2024F-MINIv6NANOv15-v1_v6",
+        "nick": "Tau_Run2024F-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Tau_Run2024G-MINIv6NANOv15-v1_v6": {
+    "Tau_Run2024G-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024G-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 326893418,
         "nfiles": 624,
-        "nick": "Tau_Run2024G-MINIv6NANOv15-v1_v6",
+        "nick": "Tau_Run2024G-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Tau_Run2024H-MINIv6NANOv15-v1_v6": {
+    "Tau_Run2024H-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024H-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 49147037,
         "nfiles": 125,
-        "nick": "Tau_Run2024H-MINIv6NANOv15-v1_v6",
+        "nick": "Tau_Run2024H-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Tau_Run2024I-MINIv6NANOv15-v1_v6": {
+    "Tau_Run2024I-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024I-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 47197378,
         "nfiles": 126,
-        "nick": "Tau_Run2024I-MINIv6NANOv15-v1_v6",
+        "nick": "Tau_Run2024I-MINIv6NANOv15-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
-    "Tau_Run2024I-MINIv6NANOv15_v6": {
+    "Tau_Run2024I-MINIv6NANOv15_v2-v1": {
         "dbs": "/Tau/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
         "era": "2024",
         "generator_weight": 0.0,
         "instance": "prod/global",
         "nevents": 47460687,
         "nfiles": 86,
-        "nick": "Tau_Run2024I-MINIv6NANOv15_v6",
+        "nick": "Tau_Run2024I-MINIv6NANOv15_v2-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
