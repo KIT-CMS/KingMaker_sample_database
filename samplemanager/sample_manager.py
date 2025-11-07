@@ -312,7 +312,8 @@ class SampleManager(object):
                 "Generate filelist file from main database", 
                 "Generate datasets entry from filelist file",
                 "Match filelist file info in main database",
-                "Match main database info in filelist file"
+                "Match main database info in filelist file", 
+                "Pull cross section from other era (only updates the main database)"
             ],
             style=custom_style,
         ).ask()
@@ -403,7 +404,6 @@ class SampleManager(object):
 
         elif mode == "Match main database info in filelist file":
             # check if the details database is up to date
-            questionary.print("Checking if details database is up to date")
             with Progress() as progress_bar:
                 task = progress_bar.add_task("Samples read ", total=len(self.database.database))
                 for sample in self.database.database:
@@ -427,6 +427,58 @@ class SampleManager(object):
                 # reset state of details database
                 self.database.details_database_file = None
                 self.database.details_database = {}
+
+        elif mode == "Pull cross section from other era (only updates the main database)":
+            # match cross section of samples to one from a different era
+            possible_eras = [str(x) for x in list(self.database.eras)]
+            ref_era = questionary.select(
+                "Select era to get the cross sections from",
+                possible_eras,
+                style=custom_style,
+            ).ask()
+            if ref_era:
+                new_era = questionary.select(
+                    "Select era to apply the cross sections to",
+                    possible_eras,
+                    style=custom_style,
+                ).ask()
+
+                nicks_ref_era = [nick for nick in self.database.samplenicks if str(self.database.database[nick].get("era", "")) == ref_era]
+                nicks_new_era = [nick for nick in self.database.samplenicks if str(self.database.database[nick].get("era", "")) == new_era]
+                
+                with Progress() as progress_bar:
+                    task = progress_bar.add_task("Samples read ", total=len(nicks_new_era))
+                    for new_sample in nicks_new_era:
+                        # Find the matching reference sample
+                        if "ext" in new_sample:
+                            matching_ref_sample = next(
+                                (ref_sample for ref_sample in nicks_ref_era
+                                 if ("13p6TeV" in new_sample and new_sample.split("13p6TeV")[0] == ref_sample.split("13p6TeV")[0] and
+                                      new_sample.split("ext")[-1].strip() == ref_sample.split("ext")[-1].strip()) or
+                                    ("13TeV" in new_sample and new_sample.split("13TeV")[0] == ref_sample.split("13TeV")[0] and
+                                      new_sample.split("ext")[-1].strip() == ref_sample.split("ext")[-1].strip())), None
+                            )
+                        else:
+                            matching_ref_sample = next(
+                                (ref_sample for ref_sample in nicks_ref_era
+                                 if ("13p6TeV" in new_sample and new_sample.split("13p6TeV")[0] == ref_sample.split("13p6TeV")[0]) or
+                                    ("13TeV" in new_sample and new_sample.split("13TeV")[0] == ref_sample.split("13TeV")[0])), None
+                            )
+                        
+                        if matching_ref_sample:
+                            # compare cross sections
+                            ref_xsec = self.database.database[matching_ref_sample].get("xsec", None)
+                            old_xsec = self.database.database[new_sample].get("xsec", None)
+                            if ref_xsec != old_xsec:
+                                questionary.print(f"Found matching sample {matching_ref_sample} with xsec {ref_xsec}")
+                                self.database.database[new_sample]["xsec"] = ref_xsec
+                                self.database.save_database(verbose=False)
+                            
+                        progress_bar.update(task, advance=1)
+
+                    # reset state of details database
+                    #self.database.details_database_file = None
+                    self.database.details_database = {}
 
 
 if __name__ == "__main__":
