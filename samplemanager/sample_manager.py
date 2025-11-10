@@ -453,14 +453,17 @@ class SampleManager(object):
                         if "ext" in new_sample:
                             matching_ref_sample = next(
                                 (ref_sample for ref_sample in nicks_ref_era
-                                if new_sample.split("13p6TeV")[0] == ref_sample.split("13p6TeV")[0] and
-                                    new_sample.split("ext")[-1].strip() == ref_sample.split("ext")[-1].strip()),
+                                if ("13p6TeV" in new_sample and new_sample.split("13p6TeV")[0] == ref_sample.split("13p6TeV")[0] and
+                                      new_sample.split("ext")[-1].strip() == ref_sample.split("ext")[-1].strip()) or
+                                    ("13p6TeV" not in new_sample and new_sample.split("13TeV")[0] == ref_sample.split("13TeV")[0] and
+                                      new_sample.split("ext")[-1].strip() == ref_sample.split("ext")[-1].strip())),
                                 None
                             )
                         else:
                             matching_ref_sample = next(
                                 (ref_sample for ref_sample in nicks_ref_era
-                                 if new_sample.split("13p6TeV")[0] == ref_sample.split("13p6TeV")[0]),
+                                if ("13p6TeV" in new_sample and new_sample.split("13p6TeV")[0] == ref_sample.split("13p6TeV")[0]) or
+                                    ("13p6TeV" not in new_sample and new_sample.split("13TeV")[0] == ref_sample.split("13TeV")[0])),
                                 None
                             )
                         
