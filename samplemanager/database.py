@@ -94,7 +94,7 @@ class SampleDatabase(object):
             json.dump(self.details_database, stream, indent=4, sort_keys=True)
         return
 
-    def database_maintainance(self):
+    def database_maintenance(self):
         for sample in self.database:
             # remove the filelist entry from the dictionary
             if "filelist" in self.database[sample]:

@@ -134,8 +134,9 @@ class DASQuery(object):
         if len(parts) > 2:
             import re
             # Match v1, v2, v2-v1, v3-v2, etc.
-            match = re.search(r"(v[0-9]+(-v[0-9]+)*)", parts[1])
-            if match:
+            match = re.search(r"(v[0-9]-v[0-9])", parts[1])
+            if match and "Run3" not in parts[1] and "RunIII" not in parts[1]: 
+                #add version number to nick only for data samples since multiple versions are used at the same time
                 version = "_" + match.group(1)
         # nick is the first part of the DAS string + the second part till the first "_"
         # if there is no "_" in the second part, the whole second part is used
