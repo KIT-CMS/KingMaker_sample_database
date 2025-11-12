@@ -29,11 +29,11 @@
         "root://xrootd-cms.infn.it///store/user/sdaigler/WWTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_WW_WWTo2L2Nu_1736873492/250114_165750/0000/nanosim_3.root",
         "root://xrootd-cms.infn.it///store/user/sdaigler/WWTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/mc_2018UL_WW_WWTo2L2Nu_1736873492/250114_165750/0000/nanosim_2.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.996268761256754,
     "instance": "prod/phys03",
     "nevents": 9994000,
     "nfiles": 26,
     "nick": "WWTo2L2Nu_TuneCP5_13TeV-powheg-pythia8_sdaigler-mc_2018UL_WW_WWTo2L2Nu_1736873492-00000000000000000000000000000000",
-    "sample_type": "ww",
+    "sample_type": "diboson",
     "xsec": 12.178
 }
