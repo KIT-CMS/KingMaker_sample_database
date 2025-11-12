@@ -3192,7 +3192,7 @@
     "GluGluHto2Wto2L2Nu_M-125_TuneCP5_13p6TeV_powheg-jhugen752-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/GluGluHto2Wto2L2Nu_M-125_TuneCP5_13p6TeV_powheg-jhugen752-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 1.0,
+        "generator_weight": null,
         "instance": "prod/global",
         "nevents": 1494981,
         "nfiles": 60,
@@ -18295,7 +18295,7 @@
     "VBFHHto2B2Tau_CV-1_C2V-1_C3-1_TuneCP5_13p6TeV_madgraph-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/VBFHHto2B2Tau_CV-1_C2V-1_C3-1_TuneCP5_13p6TeV_madgraph-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 1.0,
+        "generator_weight": null,
         "instance": "prod/global",
         "nevents": 100000,
         "nfiles": 4,
@@ -18449,7 +18449,7 @@
     "VBFHto2WtoLNu2Q_M-125_TuneCP5_13p6TeV_powheg-JHUGenV752-pythia8_Run3Summer22NanoAODv12-130X": {
         "dbs": "/VBFHto2WtoLNu2Q_M-125_TuneCP5_13p6TeV_powheg-JHUGenV752-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
         "era": "2022preEE",
-        "generator_weight": 1.0,
+        "generator_weight": null,
         "instance": "prod/global",
         "nevents": 444444,
         "nfiles": 22,
