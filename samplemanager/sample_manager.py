@@ -41,7 +41,7 @@ class SampleManager(object):
             "Create a production file",     # Task 5
             "Update genweight",             # Task 6
             "Update xsec",                  # Task 7
-            "Maintenance",                 # Task 8
+            "Maintenance",                  # Task 8
             "Save and Exit",                # Task 9
             "Exit without Save",            # Task 10
         ]
@@ -113,7 +113,7 @@ class SampleManager(object):
             options = []
             for result in results:
                 options.append(
-                    f"Nick: {result['dataset']} - last changed: {result['last_modification_date'].strftime('%d %b %Y %H:%M')} - created: {result['added'].strftime('%d %b %Y %H:%M')}"
+                    f"Nick: {result["dataset"]} - last changed: {result["last_modification_date"].strftime("%d %b %Y %H:%M")} - created: {result["added"].strftime("%d %b %Y %H:%M")}"
                 )
             questionary.print("Multiple results found")
             options += ["None of the above"]
@@ -154,7 +154,7 @@ class SampleManager(object):
         # first generate the folder structure for the filelist
         outputfile = filelist_path(self.database_folder, details)
         questionary.print(
-            f"Generating filelist for {details['nick']}, writing to {outputfile}..."
+            f"Generating filelist for {details["nick"]}, writing to {outputfile}..."
         )
         if not os.path.exists(os.path.dirname(outputfile)):
             os.makedirs(os.path.dirname(outputfile))
@@ -351,22 +351,22 @@ class SampleManager(object):
                     if not os.path.isdir(era_path):
                         continue
                     for type in os.listdir(era_path):
-                        type_path =  os.path.join(era_path, type)
+                        type_path = os.path.join(era_path, type)
                         if not os.path.isdir(type_path):
                             continue
                         for filename in os.listdir(type_path):
-                            if filename.endswith('.json'):
+                            if filename.endswith(".json"):
                                 file_path = os.path.join(type_path, filename)
 
-                                with open(file_path, 'r') as f:
+                                with open(file_path, "r") as f:
                                     try:
                                         file_content = json.load(f)
                                     except json.JSONDecodeError:
                                         questionary.print(f"Invalid JSON in file: {file_path}")
                                         continue
 
-                                file_content.pop('filelist', None)
-                                sample = file_content.get('nick', None)
+                                file_content.pop("filelist", None)
+                                sample = file_content.get("nick", None)
                                 if sample not in self.database.database:
                                     self.database.add_sample(file_content)
                                     self.database.save_database(verbose=False)
@@ -450,22 +450,12 @@ class SampleManager(object):
                     task = progress_bar.add_task("Samples read ", total=len(nicks_new_era))
                     for new_sample in nicks_new_era:
                         # Find the matching reference sample
-                        if "ext" in new_sample:
-                            matching_ref_sample = next(
-                                (ref_sample for ref_sample in nicks_ref_era
-                                if ("13p6TeV" in new_sample and new_sample.split("13p6TeV")[0] == ref_sample.split("13p6TeV")[0] and
-                                      new_sample.split("ext")[-1].strip() == ref_sample.split("ext")[-1].strip()) or
-                                    ("13p6TeV" not in new_sample and new_sample.split("13TeV")[0] == ref_sample.split("13TeV")[0] and
-                                      new_sample.split("ext")[-1].strip() == ref_sample.split("ext")[-1].strip())),
-                                None
-                            )
-                        else:
-                            matching_ref_sample = next(
-                                (ref_sample for ref_sample in nicks_ref_era
-                                if ("13p6TeV" in new_sample and new_sample.split("13p6TeV")[0] == ref_sample.split("13p6TeV")[0]) or
-                                    ("13p6TeV" not in new_sample and new_sample.split("13TeV")[0] == ref_sample.split("13TeV")[0])),
-                                None
-                            )
+                        matching_ref_sample = next(
+                            (ref_sample for ref_sample in nicks_ref_era
+                            if ("13p6TeV" in new_sample and new_sample.split("13p6TeV")[0] == ref_sample.split("13p6TeV")[0]) or
+                                ("13p6TeV" not in new_sample and new_sample.split("13TeV")[0] == ref_sample.split("13TeV")[0])),
+                            None
+                        )
                         
                         if matching_ref_sample:
                             # compare cross sections
