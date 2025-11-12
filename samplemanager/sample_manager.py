@@ -113,7 +113,7 @@ class SampleManager(object):
             options = []
             for result in results:
                 options.append(
-                    f"Nick: {result["dataset"]} - last changed: {result["last_modification_date"].strftime("%d %b %Y %H:%M")} - created: {result["added"].strftime("%d %b %Y %H:%M")}"
+                    f"Nick: {result['dataset']} - last changed: {result['last_modification_date'].strftime('%d %b %Y %H:%M')} - created: {result['added'].strftime('%d %b %Y %H:%M')}"
                 )
             questionary.print("Multiple results found")
             options += ["None of the above"]
@@ -154,7 +154,7 @@ class SampleManager(object):
         # first generate the folder structure for the filelist
         outputfile = filelist_path(self.database_folder, details)
         questionary.print(
-            f"Generating filelist for {details["nick"]}, writing to {outputfile}..."
+            f"Generating filelist for {details['nick']}, writing to {outputfile}..."
         )
         if not os.path.exists(os.path.dirname(outputfile)):
             os.makedirs(os.path.dirname(outputfile))
