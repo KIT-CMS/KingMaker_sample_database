@@ -1,0 +1,14 @@
+{
+  "dbs": "QCD_Pt_3200toInf_TuneCP5_13TeV_pythia8+RunIISummer20UL18MiniAODv2-pilot_106X_upgrade2018_realistic_v16_L1v1-v1+MINIAODSIM",
+  "era": 2018,
+  "filelist": [
+    "root://cmsdcache-kit-disk.gridka.de:1094//store/user/jhornung/bkg_raw/QCD_Pt_3200toInf_TuneCP5_13TeV_pythia8+RunIISummer20UL18MiniAODv2-pilot_106X_upgrade2018_realistic_v16_L1v1-v1+MINIAODSIM/89898B99-B453-194B-8BA9-411F5E36835E.root"
+  ],
+  "generator_weight": 1.0,
+  "instance": "prod/global",
+  "nevents": 197600000,
+  "nfiles": 1,
+  "nick": "QCD_Pt_3200toInf_TuneCP5_13TeV_pythia8+RunIISummer20UL18MiniAODv2-pilot_106X_upgrade2018_realistic_v16_L1v1-v1+MINIAODSIM",
+  "sample_type": "bkg",
+  "xsec": 1.0
+}
