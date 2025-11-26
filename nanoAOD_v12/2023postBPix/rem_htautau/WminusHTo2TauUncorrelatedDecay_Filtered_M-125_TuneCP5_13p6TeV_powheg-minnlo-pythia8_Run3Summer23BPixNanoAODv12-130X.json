@@ -23,11 +23,11 @@
         "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer23BPixNanoAODv12/WminusHTo2TauUncorrelatedDecay_Filtered_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v2/2550000/aa32526b-58ae-475e-b425-ee9d66381b1d.root",
         "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer23BPixNanoAODv12/WminusHTo2TauUncorrelatedDecay_Filtered_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v2/2550000/4bd95096-1e0a-49bc-8e6b-81a85bd60eca.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.9543363231379006,
     "instance": "prod/global",
     "nevents": 753115,
     "nfiles": 20,
     "nick": "WminusHTo2TauUncorrelatedDecay_Filtered_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8_Run3Summer23BPixNanoAODv12-130X",
-    "sample_type": "rem_higgs",
+    "sample_type": "rem_htautau",
     "xsec": 0.03543
 }

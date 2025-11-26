@@ -534,11 +534,11 @@
         "root://cmsdcache-kit-disk.gridka.de///store/mc/RunIII2024Summer24NanoAODv15/TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/120000/9650a121-a0c5-494c-bf37-9ffe4c3118f6.root",
         "root://cmsdcache-kit-disk.gridka.de///store/mc/RunIII2024Summer24NanoAODv15/TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/120000/6305049c-f021-44b4-8574-daf0c42e7e89.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.9780654496736946,
     "instance": "prod/global",
     "nevents": 53980865,
     "nfiles": 531,
     "nick": "TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X",
-    "sample_type": "rem_higgs",
+    "sample_type": "rem_htautau",
     "xsec": 0.03558
 }
