@@ -1,6 +1,6 @@
 {
     "dbs": "/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
-    "era": "2025",
+    "era": "2024",
     "filelist": [
         "root://cmsdcache-kit-disk.gridka.de///store/mc/RunIII2024Summer24NanoAODv15/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2520000/bf34aea2-7ec2-44c9-b746-51517e51be25.root",
         "root://cmsdcache-kit-disk.gridka.de///store/mc/RunIII2024Summer24NanoAODv15/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2520000/0d951c0f-a73c-4320-be2b-212f1a5a586d.root",
@@ -1595,11 +1595,11 @@
         "root://cmsdcache-kit-disk.gridka.de///store/mc/RunIII2024Summer24NanoAODv15/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/110000/638b95c7-6df5-4a13-ac61-75c959b94d79.root",
         "root://cmsdcache-kit-disk.gridka.de///store/mc/RunIII2024Summer24NanoAODv15/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/110000/80a998a6-35cd-410c-8091-980585b1e228.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.30287338754280013,
     "instance": "prod/global",
     "nevents": 232971613,
     "nfiles": 1592,
-    "nick": "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X",
-    "sample_type": "dyjets",
+    "nick": "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X",
+    "sample_type": "dyjets_amcatnlo",
     "xsec": 120.56673893540669
 }
