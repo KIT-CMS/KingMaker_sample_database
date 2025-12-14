@@ -1,0 +1,16 @@
+{
+    "dbs": "/ZZ_TuneCP5_13p6TeV_pythia8/Run3Summer23BPixNanoAODv12-JMENano12p5_132X_mcRun3_2023_realistic_postBPix_v4-v1/NANOAODSIM",
+    "era": "2023postBPix",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/ZZ_TuneCP5_13p6TeV_pythia8/NANOAODSIM/JMENano12p5_132X_mcRun3_2023_realistic_postBPix_v4-v1/70000/59ce6a6e-7263-40f3-91a2-9df967cbc208.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/ZZ_TuneCP5_13p6TeV_pythia8/NANOAODSIM/JMENano12p5_132X_mcRun3_2023_realistic_postBPix_v4-v1/70000/7c61ccce-d083-49f2-ac80-0c898326154b.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/ZZ_TuneCP5_13p6TeV_pythia8/NANOAODSIM/JMENano12p5_132X_mcRun3_2023_realistic_postBPix_v4-v1/70000/92adb638-cee9-4ada-b03b-89f30a4bf7bf.root"
+    ],
+    "generator_weight": null,
+    "instance": "prod/global",
+    "nevents": 1254000,
+    "nfiles": 3,
+    "nick": "ZZ_TuneCP5_13p6TeV_pythia8_Run3Summer23BPixNanoAODv12-JMENano12p5",
+    "sample_type": "diboson",
+    "xsec": null
+}
