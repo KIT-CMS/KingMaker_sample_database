@@ -1,0 +1,16 @@
+{
+    "dbs": "/ZZ_TuneCP5_13p6TeV_pythia8/Run3Summer23NanoAODv12-JMENano12p5_132X_mcRun3_2023_realistic_v5-v1/NANOAODSIM",
+    "era": "2023preBPix",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/ZZ_TuneCP5_13p6TeV_pythia8/NANOAODSIM/JMENano12p5_132X_mcRun3_2023_realistic_v5-v1/70000/25f48cd8-9cae-4cbf-b2a8-fe2ff519ed93.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/ZZ_TuneCP5_13p6TeV_pythia8/NANOAODSIM/JMENano12p5_132X_mcRun3_2023_realistic_v5-v1/70000/64a96c9d-5769-45bb-bcf3-ed2350896304.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/ZZ_TuneCP5_13p6TeV_pythia8/NANOAODSIM/JMENano12p5_132X_mcRun3_2023_realistic_v5-v1/70000/e325641a-fbeb-4edc-89bb-2b3df9908d58.root"
+    ],
+    "generator_weight": null,
+    "instance": "prod/global",
+    "nevents": 2517000,
+    "nfiles": 3,
+    "nick": "ZZ_TuneCP5_13p6TeV_pythia8_Run3Summer23NanoAODv12-JMENano12p5",
+    "sample_type": "diboson",
+    "xsec": null
+}
