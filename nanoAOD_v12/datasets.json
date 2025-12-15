@@ -17261,7 +17261,7 @@
     "TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23NanoAODv12-130X": {
         "dbs": "/TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v2/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9781772616006116,
         "instance": "prod/global",
         "nevents": 11901980,
         "nfiles": 236,
@@ -19230,7 +19230,7 @@
     "WW_TuneCP5_13p6TeV_pythia8_Run3Summer23NanoAODv12-130X": {
         "dbs": "/WW_TuneCP5_13p6TeV_pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v2/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 33504000,
         "nfiles": 125,
@@ -19494,7 +19494,7 @@
     "WZ_TuneCP5_13p6TeV_pythia8_Run3Summer23BPixNanoAODv12-130X": {
         "dbs": "/WZ_TuneCP5_13p6TeV_pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v2/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 8379000,
         "nfiles": 33,
