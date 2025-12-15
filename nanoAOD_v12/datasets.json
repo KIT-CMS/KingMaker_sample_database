@@ -17822,7 +17822,7 @@
     "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23NanoAODv12-JMENano12p5": {
         "dbs": "/TTto4Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-JMENano12p5_132X_mcRun3_2023_realistic_v5-v1/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9918986118918095,
         "instance": "prod/global",
         "nevents": 104963000,
         "nfiles": 162,
@@ -18746,7 +18746,7 @@
     "VBFHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23NanoAODv12-130X": {
         "dbs": "/VBFHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v3/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9988035254505843,
         "instance": "prod/global",
         "nevents": 11049000,
         "nfiles": 121,
@@ -19208,7 +19208,7 @@
     "WW_TuneCP5_13p6TeV_pythia8_Run3Summer23BPixNanoAODv12-130X": {
         "dbs": "/WW_TuneCP5_13p6TeV_pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v2/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 16734000,
         "nfiles": 54,
@@ -21111,7 +21111,7 @@
     "ZZ_TuneCP5_13p6TeV_pythia8_Run3Summer23BPixNanoAODv12-130X": {
         "dbs": "/ZZ_TuneCP5_13p6TeV_pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v2/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 1254000,
         "nfiles": 5,
@@ -21133,7 +21133,7 @@
     "ZZ_TuneCP5_13p6TeV_pythia8_Run3Summer23NanoAODv12-130X": {
         "dbs": "/ZZ_TuneCP5_13p6TeV_pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v2/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 2517000,
         "nfiles": 11,
