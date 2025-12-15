@@ -3137,7 +3137,7 @@
     "GluGluHTo2TauUncorrelatedDecay_M-125_CP5_13p6TeV_powheg-pythia8_Run3Summer23BPixNanoAODv12-130X": {
         "dbs": "/GluGluHTo2TauUncorrelatedDecay_M-125_CP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v2/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 0.99994,
         "instance": "prod/global",
         "nevents": 200000,
         "nfiles": 18,
@@ -3148,7 +3148,7 @@
     "GluGluHTo2TauUncorrelatedDecay_M-125_CP5_13p6TeV_powheg-pythia8_Run3Summer23NanoAODv12-130X": {
         "dbs": "/GluGluHTo2TauUncorrelatedDecay_M-125_CP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v2/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 0.999888,
         "instance": "prod/global",
         "nevents": 500000,
         "nfiles": 5,
@@ -3203,7 +3203,7 @@
     "GluGluHto2B_M-125_TuneCP5_13p6TeV_powheg-minlo-pythia8_Run3Summer23BPixNanoAODv12-130X": {
         "dbs": "/GluGluHto2B_M-125_TuneCP5_13p6TeV_powheg-minlo-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v2/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9281495765002703,
         "instance": "prod/global",
         "nevents": 5549000,
         "nfiles": 40,
@@ -3214,7 +3214,7 @@
     "GluGluHto2B_M-125_TuneCP5_13p6TeV_powheg-minlo-pythia8_Run3Summer23NanoAODv12-130X": {
         "dbs": "/GluGluHto2B_M-125_TuneCP5_13p6TeV_powheg-minlo-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v2/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9282263531984691,
         "instance": "prod/global",
         "nevents": 10974000,
         "nfiles": 62,
@@ -3500,7 +3500,7 @@
     "GluGlutoHHto2B2Tau_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23BPixNanoAODv12-tsg": {
         "dbs": "/GluGlutoHHto2B2Tau_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-tsg_130X_mcRun3_2023_realistic_postBPix_v6-v2/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 0.8976869918699187,
         "instance": "prod/global",
         "nevents": 494000,
         "nfiles": 32,
@@ -3511,7 +3511,7 @@
     "GluGlutoHHto2B2Tau_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23NanoAODv12-tsg": {
         "dbs": "/GluGlutoHHto2B2Tau_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-tsg_130X_mcRun3_2023_realistic_v15-v2/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 0.8969738219895288,
         "instance": "prod/global",
         "nevents": 955000,
         "nfiles": 35,
@@ -17206,7 +17206,7 @@
     "TTHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23BPixNanoAODv12-130X": {
         "dbs": "/TTHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v3/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9780114475627769,
         "instance": "prod/global",
         "nevents": 5576000,
         "nfiles": 68,
@@ -17217,7 +17217,7 @@
     "TTHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23NanoAODv12-130X": {
         "dbs": "/TTHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v3/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9780346671583994,
         "instance": "prod/global",
         "nevents": 10846000,
         "nfiles": 131,
@@ -17250,7 +17250,7 @@
     "TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23BPixNanoAODv12-130X": {
         "dbs": "/TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v2/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9781772616006116,
         "instance": "prod/global",
         "nevents": 5887987,
         "nfiles": 138,
@@ -17712,7 +17712,7 @@
     "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23BPixNanoAODv12-JMENano12p5": {
         "dbs": "/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-JMENano12p5_132X_mcRun3_2023_realistic_postBPix_v4-v1/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9919146440788402,
         "instance": "prod/global",
         "nevents": 24556000,
         "nfiles": 39,
@@ -17734,7 +17734,7 @@
     "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23NanoAODv12-JMENano12p5": {
         "dbs": "/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-JMENano12p5_132X_mcRun3_2023_realistic_v5-v1/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9918798417326115,
         "instance": "prod/global",
         "nevents": 48020000,
         "nfiles": 74,
@@ -17800,7 +17800,7 @@
     "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23BPixNanoAODv12-JMENano12p5": {
         "dbs": "/TTto4Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-JMENano12p5_132X_mcRun3_2023_realistic_postBPix_v4-v1/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9919260115606936,
         "instance": "prod/global",
         "nevents": 52765000,
         "nfiles": 84,
@@ -17921,7 +17921,7 @@
     "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23NanoAODv12-JMENano12p5": {
         "dbs": "/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-JMENano12p5_132X_mcRun3_2023_realistic_v5-v1/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9919027205492195,
         "instance": "prod/global",
         "nevents": 152653000,
         "nfiles": 236,
@@ -18658,7 +18658,7 @@
     "VBFHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23BPixNanoAODv12-130X": {
         "dbs": "/VBFHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v2/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9987676767676767,
         "instance": "prod/global",
         "nevents": 200000,
         "nfiles": 21,
@@ -18669,7 +18669,7 @@
     "VBFHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23NanoAODv12-130X": {
         "dbs": "/VBFHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v2/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9989041095890411,
         "instance": "prod/global",
         "nevents": 300000,
         "nfiles": 15,
@@ -18724,7 +18724,7 @@
     "VBFHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23BPixNanoAODv12-130X": {
         "dbs": "/VBFHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v3/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9987585094948047,
         "instance": "prod/global",
         "nevents": 5582000,
         "nfiles": 39,
@@ -18735,7 +18735,7 @@
     "VBFHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23BPixNanoAODv12-KeepRAW": {
         "dbs": "/VBFHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixNanoAODv12-KeepRAW_130X_mcRun3_2023_realistic_postBPix_v2-v2/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 0.9987860082304527,
         "instance": "prod/global",
         "nevents": 486000,
         "nfiles": 24,
@@ -19219,7 +19219,7 @@
     "WW_TuneCP5_13p6TeV_pythia8_Run3Summer23BPixNanoAODv12-JMENano12p5": {
         "dbs": "/WW_TuneCP5_13p6TeV_pythia8/Run3Summer23BPixNanoAODv12-JMENano12p5_132X_mcRun3_2023_realistic_postBPix_v4-v1/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 16545000,
         "nfiles": 19,
@@ -19241,7 +19241,7 @@
     "WW_TuneCP5_13p6TeV_pythia8_Run3Summer23NanoAODv12-JMENano12p5": {
         "dbs": "/WW_TuneCP5_13p6TeV_pythia8/Run3Summer23NanoAODv12-JMENano12p5_132X_mcRun3_2023_realistic_v5-v1/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 33507000,
         "nfiles": 39,
@@ -19505,7 +19505,7 @@
     "WZ_TuneCP5_13p6TeV_pythia8_Run3Summer23BPixNanoAODv12-JMENano12p5": {
         "dbs": "/WZ_TuneCP5_13p6TeV_pythia8/Run3Summer23BPixNanoAODv12-JMENano12p5_132X_mcRun3_2023_realistic_postBPix_v4-v1/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 8379000,
         "nfiles": 11,
@@ -19516,7 +19516,7 @@
     "WZ_TuneCP5_13p6TeV_pythia8_Run3Summer23NanoAODv12-130X": {
         "dbs": "/WZ_TuneCP5_13p6TeV_pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v14-v2/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 16770000,
         "nfiles": 60,
@@ -19527,7 +19527,7 @@
     "WZ_TuneCP5_13p6TeV_pythia8_Run3Summer23NanoAODv12-JMENano12p5": {
         "dbs": "/WZ_TuneCP5_13p6TeV_pythia8/Run3Summer23NanoAODv12-JMENano12p5_132X_mcRun3_2023_realistic_v5-v1/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 16686000,
         "nfiles": 22,
@@ -21122,7 +21122,7 @@
     "ZZ_TuneCP5_13p6TeV_pythia8_Run3Summer23BPixNanoAODv12-JMENano12p5": {
         "dbs": "/ZZ_TuneCP5_13p6TeV_pythia8/Run3Summer23BPixNanoAODv12-JMENano12p5_132X_mcRun3_2023_realistic_postBPix_v4-v1/NANOAODSIM",
         "era": "2023postBPix",
-        "generator_weight": null,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 1254000,
         "nfiles": 3,
@@ -21144,7 +21144,7 @@
     "ZZ_TuneCP5_13p6TeV_pythia8_Run3Summer23NanoAODv12-JMENano12p5": {
         "dbs": "/ZZ_TuneCP5_13p6TeV_pythia8/Run3Summer23NanoAODv12-JMENano12p5_132X_mcRun3_2023_realistic_v5-v1/NANOAODSIM",
         "era": "2023preBPix",
-        "generator_weight": null,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 2517000,
         "nfiles": 3,

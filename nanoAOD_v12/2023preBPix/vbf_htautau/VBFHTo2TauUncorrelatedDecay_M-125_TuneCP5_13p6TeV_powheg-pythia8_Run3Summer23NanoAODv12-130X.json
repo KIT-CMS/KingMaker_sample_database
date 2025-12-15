@@ -18,7 +18,7 @@
         "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/VBFHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v14-v2/2550000/916799e3-581a-4a87-a93c-610373118dc0.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/VBFHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v14-v2/2550000/96026d9a-6cf4-4787-a68f-abce7ff15e16.root"
     ],
-    "generator_weight": null,
+    "generator_weight": 0.9989041095890411,
     "instance": "prod/global",
     "nevents": 300000,
     "nfiles": 15,
