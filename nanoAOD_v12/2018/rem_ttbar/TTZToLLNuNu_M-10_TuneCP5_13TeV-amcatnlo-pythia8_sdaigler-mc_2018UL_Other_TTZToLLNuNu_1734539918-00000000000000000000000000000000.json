@@ -43,11 +43,11 @@
         "root://xrootd-cms.infn.it///store/user/sdaigler/TTZToLLNuNu_M-10_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_Other_TTZToLLNuNu_1734539918/241218_164313/0000/nanosim_22.root",
         "root://xrootd-cms.infn.it///store/user/sdaigler/TTZToLLNuNu_M-10_TuneCP5_13TeV-amcatnlo-pythia8/mc_2018UL_Other_TTZToLLNuNu_1734539918/241218_164313/0000/nanosim_19.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.4922395960832313,
     "instance": "prod/phys03",
     "nevents": 19608000,
     "nfiles": 40,
     "nick": "TTZToLLNuNu_M-10_TuneCP5_13TeV-amcatnlo-pythia8_sdaigler-mc_2018UL_Other_TTZToLLNuNu_1734539918-00000000000000000000000000000000",
-    "sample_type": "other",
+    "sample_type": "rem_ttbar",
     "xsec": 0.2529
 }
