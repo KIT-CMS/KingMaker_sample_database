@@ -354,7 +354,7 @@
     "EGamma0_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/EGamma0/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 157351226,
         "nfiles": 167,
@@ -365,7 +365,7 @@
     "EGamma0_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/EGamma0/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 156558757,
         "nfiles": 173,
@@ -376,7 +376,7 @@
     "EGamma0_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/EGamma0/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 249417634,
         "nfiles": 267,
@@ -387,7 +387,7 @@
     "EGamma0_Run2024F-MINIv6NANOv15-v1": {
         "dbs": "/EGamma0/Run2024F-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 638196622,
         "nfiles": 719,
@@ -398,7 +398,7 @@
     "EGamma0_Run2024G-MINIv6NANOv15-v2": {
         "dbs": "/EGamma0/Run2024G-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 903520258,
         "nfiles": 850,
@@ -409,7 +409,7 @@
     "EGamma0_Run2024H-MINIv6NANOv15-v2": {
         "dbs": "/EGamma0/Run2024H-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 134680448,
         "nfiles": 138,
@@ -420,7 +420,7 @@
     "EGamma0_Run2024I-MINIv6NANOv15-v1": {
         "dbs": "/EGamma0/Run2024I-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 132904290,
         "nfiles": 211,
@@ -431,7 +431,7 @@
     "EGamma0_Run2024I-MINIv6NANOv15_v2-v1": {
         "dbs": "/EGamma0/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 150687674,
         "nfiles": 198,
@@ -442,7 +442,7 @@
     "EGamma1_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 157860731,
         "nfiles": 247,
@@ -453,7 +453,7 @@
     "EGamma1_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 156275778,
         "nfiles": 279,
@@ -464,7 +464,7 @@
     "EGamma1_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 249489829,
         "nfiles": 335,
@@ -475,7 +475,7 @@
     "EGamma1_Run2024F-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024F-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 631079889,
         "nfiles": 747,
@@ -486,7 +486,7 @@
     "EGamma1_Run2024G-MINIv6NANOv15-v2": {
         "dbs": "/EGamma1/Run2024G-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 903441926,
         "nfiles": 888,
@@ -497,7 +497,7 @@
     "EGamma1_Run2024H-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024H-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 134835799,
         "nfiles": 191,
@@ -508,7 +508,7 @@
     "EGamma1_Run2024I-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024I-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 132903874,
         "nfiles": 176,
@@ -519,7 +519,7 @@
     "EGamma1_Run2024I-MINIv6NANOv15_v2-v1": {
         "dbs": "/EGamma1/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 150687112,
         "nfiles": 179,
@@ -530,7 +530,7 @@
     "Muon0_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 97505587,
         "nfiles": 103,
@@ -541,7 +541,7 @@
     "Muon0_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 120787065,
         "nfiles": 180,
@@ -552,7 +552,7 @@
     "Muon0_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 169640946,
         "nfiles": 255,
@@ -563,7 +563,7 @@
     "Muon0_Run2024F-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024F-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 442432787,
         "nfiles": 594,
@@ -574,7 +574,7 @@
     "Muon0_Run2024G-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024G-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 642028803,
         "nfiles": 948,
@@ -585,7 +585,7 @@
     "Muon0_Run2024H-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024H-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 93983627,
         "nfiles": 152,
@@ -596,7 +596,7 @@
     "Muon0_Run2024I-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024I-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 97634104,
         "nfiles": 173,
@@ -607,7 +607,7 @@
     "Muon0_Run2024I-MINIv6NANOv15_v2-v1": {
         "dbs": "/Muon0/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 105194627,
         "nfiles": 174,
@@ -618,7 +618,7 @@
     "Muon1_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/Muon1/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 97531998,
         "nfiles": 94,
@@ -629,7 +629,7 @@
     "Muon1_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/Muon1/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 120467371,
         "nfiles": 168,
@@ -640,7 +640,7 @@
     "Muon1_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/Muon1/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 172848674,
         "nfiles": 171,
@@ -651,7 +651,7 @@
     "Muon1_Run2024F-MINIv6NANOv15-v1": {
         "dbs": "/Muon1/Run2024F-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 442360423,
         "nfiles": 538,
@@ -662,7 +662,7 @@
     "Muon1_Run2024G-MINIv6NANOv15-v2": {
         "dbs": "/Muon1/Run2024G-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 641959643,
         "nfiles": 565,
@@ -673,7 +673,7 @@
     "Muon1_Run2024H-MINIv6NANOv15-v2": {
         "dbs": "/Muon1/Run2024H-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 93981102,
         "nfiles": 93,
@@ -684,7 +684,7 @@
     "Muon1_Run2024I-MINIv6NANOv15-v1": {
         "dbs": "/Muon1/Run2024I-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 97630010,
         "nfiles": 94,
@@ -695,7 +695,7 @@
     "Muon1_Run2024I-MINIv6NANOv15_v2-v1": {
         "dbs": "/Muon1/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 105189040,
         "nfiles": 133,
@@ -706,7 +706,7 @@
     "ParkingVBF0_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF0/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 45446278,
         "nfiles": 168,
@@ -717,7 +717,7 @@
     "ParkingVBF0_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF0/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 49870696,
         "nfiles": 142,
@@ -728,7 +728,7 @@
     "ParkingVBF0_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF0/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 80737942,
         "nfiles": 270,
@@ -739,7 +739,7 @@
     "ParkingVBF0_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF0/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 198580900,
         "nfiles": 230,
@@ -750,7 +750,7 @@
     "ParkingVBF0_Run2024G-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF0/Run2024G-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 268099742,
         "nfiles": 291,
@@ -761,7 +761,7 @@
     "ParkingVBF0_Run2024H-MINIv6NANOv15-v2": {
         "dbs": "/ParkingVBF0/Run2024H-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 38191175,
         "nfiles": 58,
@@ -772,7 +772,7 @@
     "ParkingVBF0_Run2024I-MINIv6NANOv15-v2": {
         "dbs": "/ParkingVBF0/Run2024I-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 37162955,
         "nfiles": 57,
@@ -783,7 +783,7 @@
     "ParkingVBF0_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF0/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 37607068,
         "nfiles": 44,
@@ -794,7 +794,7 @@
     "ParkingVBF1_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF1/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 45471089,
         "nfiles": 197,
@@ -805,7 +805,7 @@
     "ParkingVBF1_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF1/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 49952836,
         "nfiles": 83,
@@ -816,7 +816,7 @@
     "ParkingVBF1_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF1/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 80798944,
         "nfiles": 263,
@@ -827,7 +827,7 @@
     "ParkingVBF1_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF1/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 198576897,
         "nfiles": 221,
@@ -838,7 +838,7 @@
     "ParkingVBF1_Run2024G-MINIv6NANOv15-v4": {
         "dbs": "/ParkingVBF1/Run2024G-MINIv6NANOv15-v4/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 268816012,
         "nfiles": 345,
@@ -849,7 +849,7 @@
     "ParkingVBF1_Run2024H-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF1/Run2024H-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 38191079,
         "nfiles": 46,
@@ -860,7 +860,7 @@
     "ParkingVBF1_Run2024I-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF1/Run2024I-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 37212846,
         "nfiles": 48,
@@ -871,7 +871,7 @@
     "ParkingVBF1_Run2024I-MINIv6NANOv15_v2-v3": {
         "dbs": "/ParkingVBF1/Run2024I-MINIv6NANOv15_v2-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 37607718,
         "nfiles": 58,
@@ -882,7 +882,7 @@
     "ParkingVBF2_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF2/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 45475567,
         "nfiles": 180,
@@ -893,7 +893,7 @@
     "ParkingVBF2_Run2024D-MINIv6NANOv15-v2": {
         "dbs": "/ParkingVBF2/Run2024D-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 49918963,
         "nfiles": 104,
@@ -904,7 +904,7 @@
     "ParkingVBF2_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF2/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 80804580,
         "nfiles": 137,
@@ -915,7 +915,7 @@
     "ParkingVBF2_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF2/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 198858244,
         "nfiles": 217,
@@ -926,7 +926,7 @@
     "ParkingVBF2_Run2024G-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF2/Run2024G-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 268585092,
         "nfiles": 266,
@@ -937,7 +937,7 @@
     "ParkingVBF2_Run2024H-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF2/Run2024H-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 38049441,
         "nfiles": 54,
@@ -948,7 +948,7 @@
     "ParkingVBF2_Run2024I-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF2/Run2024I-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 38052423,
         "nfiles": 50,
@@ -959,7 +959,7 @@
     "ParkingVBF2_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF2/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 37607584,
         "nfiles": 56,
@@ -970,7 +970,7 @@
     "ParkingVBF3_Run2024C-MINIv6NANOv15-v2": {
         "dbs": "/ParkingVBF3/Run2024C-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 45489416,
         "nfiles": 115,
@@ -981,7 +981,7 @@
     "ParkingVBF3_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF3/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 49183514,
         "nfiles": 78,
@@ -992,7 +992,7 @@
     "ParkingVBF3_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF3/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 80773409,
         "nfiles": 220,
@@ -1003,7 +1003,7 @@
     "ParkingVBF3_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF3/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 198404835,
         "nfiles": 213,
@@ -1014,7 +1014,7 @@
     "ParkingVBF3_Run2024G-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF3/Run2024G-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 269076738,
         "nfiles": 273,
@@ -1025,7 +1025,7 @@
     "ParkingVBF3_Run2024H-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF3/Run2024H-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 38189554,
         "nfiles": 51,
@@ -1036,7 +1036,7 @@
     "ParkingVBF3_Run2024I-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF3/Run2024I-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 38052618,
         "nfiles": 56,
@@ -1047,7 +1047,7 @@
     "ParkingVBF3_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF3/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 37477354,
         "nfiles": 39,
@@ -1058,7 +1058,7 @@
     "ParkingVBF4_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF4/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 45438075,
         "nfiles": 150,
@@ -1069,7 +1069,7 @@
     "ParkingVBF4_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF4/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 49951704,
         "nfiles": 210,
@@ -1080,7 +1080,7 @@
     "ParkingVBF4_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF4/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 80741780,
         "nfiles": 260,
@@ -1091,7 +1091,7 @@
     "ParkingVBF4_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF4/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 196929563,
         "nfiles": 235,
@@ -1102,7 +1102,7 @@
     "ParkingVBF4_Run2024G-MINIv6NANOv15-v4": {
         "dbs": "/ParkingVBF4/Run2024G-MINIv6NANOv15-v4/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 268606701,
         "nfiles": 333,
@@ -1113,7 +1113,7 @@
     "ParkingVBF4_Run2024H-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF4/Run2024H-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 38157067,
         "nfiles": 47,
@@ -1124,7 +1124,7 @@
     "ParkingVBF4_Run2024I-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF4/Run2024I-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 38036277,
         "nfiles": 57,
@@ -1135,7 +1135,7 @@
     "ParkingVBF4_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF4/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 37605272,
         "nfiles": 43,
@@ -1146,7 +1146,7 @@
     "ParkingVBF5_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF5/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 45468127,
         "nfiles": 173,
@@ -1157,7 +1157,7 @@
     "ParkingVBF5_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF5/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 49948317,
         "nfiles": 192,
@@ -1168,7 +1168,7 @@
     "ParkingVBF5_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF5/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 80798285,
         "nfiles": 300,
@@ -1179,7 +1179,7 @@
     "ParkingVBF5_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF5/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 198830251,
         "nfiles": 225,
@@ -1190,7 +1190,7 @@
     "ParkingVBF5_Run2024G-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF5/Run2024G-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 268694582,
         "nfiles": 284,
@@ -1201,7 +1201,7 @@
     "ParkingVBF5_Run2024H-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF5/Run2024H-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 38041718,
         "nfiles": 62,
@@ -1212,7 +1212,7 @@
     "ParkingVBF5_Run2024I-MINIv6NANOv15-v2": {
         "dbs": "/ParkingVBF5/Run2024I-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 37736540,
         "nfiles": 57,
@@ -1223,7 +1223,7 @@
     "ParkingVBF5_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF5/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 37606998,
         "nfiles": 56,
@@ -1234,7 +1234,7 @@
     "ParkingVBF6_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF6/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 45487079,
         "nfiles": 198,
@@ -1245,7 +1245,7 @@
     "ParkingVBF6_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF6/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 49951168,
         "nfiles": 206,
@@ -1256,7 +1256,7 @@
     "ParkingVBF6_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF6/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 80779423,
         "nfiles": 278,
@@ -1267,7 +1267,7 @@
     "ParkingVBF6_Run2024F-MINIv6NANOv15-v4": {
         "dbs": "/ParkingVBF6/Run2024F-MINIv6NANOv15-v4/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 198580150,
         "nfiles": 245,
@@ -1278,7 +1278,7 @@
     "ParkingVBF6_Run2024G-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF6/Run2024G-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 268816559,
         "nfiles": 300,
@@ -1289,7 +1289,7 @@
     "ParkingVBF6_Run2024H-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF6/Run2024H-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 38190851,
         "nfiles": 50,
@@ -1300,7 +1300,7 @@
     "ParkingVBF6_Run2024I-MINIv6NANOv15-v2": {
         "dbs": "/ParkingVBF6/Run2024I-MINIv6NANOv15-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 38640355,
         "nfiles": 57,
@@ -1311,7 +1311,7 @@
     "ParkingVBF6_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF6/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 37607295,
         "nfiles": 51,
@@ -1322,7 +1322,7 @@
     "ParkingVBF7_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF7/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 45469363,
         "nfiles": 237,
@@ -1333,7 +1333,7 @@
     "ParkingVBF7_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF7/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 49943179,
         "nfiles": 178,
@@ -1344,7 +1344,7 @@
     "ParkingVBF7_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/ParkingVBF7/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 80795458,
         "nfiles": 264,
@@ -1355,7 +1355,7 @@
     "ParkingVBF7_Run2024F-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF7/Run2024F-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 198581314,
         "nfiles": 204,
@@ -1366,7 +1366,7 @@
     "ParkingVBF7_Run2024G-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF7/Run2024G-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 268249462,
         "nfiles": 331,
@@ -1377,7 +1377,7 @@
     "ParkingVBF7_Run2024H-MINIv6NANOv15-v4": {
         "dbs": "/ParkingVBF7/Run2024H-MINIv6NANOv15-v4/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 38191513,
         "nfiles": 54,
@@ -1388,7 +1388,7 @@
     "ParkingVBF7_Run2024I-MINIv6NANOv15-v3": {
         "dbs": "/ParkingVBF7/Run2024I-MINIv6NANOv15-v3/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 38050874,
         "nfiles": 48,
@@ -1399,7 +1399,7 @@
     "ParkingVBF7_Run2024I-MINIv6NANOv15_v2-v2": {
         "dbs": "/ParkingVBF7/Run2024I-MINIv6NANOv15_v2-v2/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 37607228,
         "nfiles": 44,
@@ -1498,7 +1498,7 @@
     "Tau_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 50839148,
         "nfiles": 69,
@@ -1509,7 +1509,7 @@
     "Tau_Run2024D-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024D-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 58755163,
         "nfiles": 102,
@@ -1520,7 +1520,7 @@
     "Tau_Run2024E-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024E-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 85422487,
         "nfiles": 142,
@@ -1531,7 +1531,7 @@
     "Tau_Run2024F-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024F-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 233974175,
         "nfiles": 466,
@@ -1542,7 +1542,7 @@
     "Tau_Run2024G-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024G-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 326893418,
         "nfiles": 624,
@@ -1553,7 +1553,7 @@
     "Tau_Run2024H-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024H-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 49147037,
         "nfiles": 125,
@@ -1564,7 +1564,7 @@
     "Tau_Run2024I-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024I-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 47197378,
         "nfiles": 126,
@@ -1575,7 +1575,7 @@
     "Tau_Run2024I-MINIv6NANOv15_v2-v1": {
         "dbs": "/Tau/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
         "era": "2024",
-        "generator_weight": 0.0,
+        "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 47460687,
         "nfiles": 86,
