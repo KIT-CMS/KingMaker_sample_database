@@ -76,11 +76,11 @@
         "root://xrootd-cms.infn.it///store/user/sdaigler/WZTo4Q_4f_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/mc_2018UL_WZ_WZTo4Q_1736873492/250114_165814/0000/nanosim_59.root",
         "root://xrootd-cms.infn.it///store/user/sdaigler/WZTo4Q_4f_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/mc_2018UL_WZ_WZTo4Q_1736873492/250114_165814/0000/nanosim_55.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.614455270851567,
     "instance": "prod/phys03",
     "nevents": 17184320,
     "nfiles": 73,
     "nick": "WZTo4Q_4f_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8_sdaigler-mc_2018UL_WZ_WZTo4Q_1736873492-00000000000000000000000000000000",
-    "sample_type": "wz",
+    "sample_type": "diboson",
     "xsec": 1.0
 }

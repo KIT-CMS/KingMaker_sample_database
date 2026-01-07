@@ -294,7 +294,7 @@
         "root://xrootd-cms.infn.it///store/data/Run2024G/ParkingVBF0/NANOAOD/MINIv6NANOv15-v3/2560000/5e3d81b2-2fc9-46f8-ba3a-a350a7d8cda8.root",
         "root://xrootd-cms.infn.it///store/data/Run2024G/ParkingVBF0/NANOAOD/MINIv6NANOv15-v3/2560000/db91d82f-87a8-4510-9c3d-e927e9434c58.root"
     ],
-    "generator_weight": 0.0,
+    "generator_weight": 1.0,
     "instance": "prod/global",
     "nevents": 268099742,
     "nfiles": 291,
