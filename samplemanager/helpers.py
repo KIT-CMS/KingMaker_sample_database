@@ -50,7 +50,7 @@ def default_entry():
         "nfiles": -1,
         "sample_type": "None",
         "xsec": 0.0,
-        "generator_weight": 1.0,
+        "generator_weight": 0.0,
     }
 
 
