@@ -2988,7 +2988,7 @@
         "nevents": 148601587,
         "nfiles": 122,
         "nick": "EGamma_Run2022E-16Dec2023-v1",
-        "sample_type": "data",
+        "sample_type": "data_E",
         "xsec": 1.0
     },
     "EGamma_Run2022E-22Sep2023-v1": {
@@ -2999,7 +2999,7 @@
         "nevents": 148654795,
         "nfiles": 188,
         "nick": "EGamma_Run2022E-22Sep2023-v1",
-        "sample_type": "data",
+        "sample_type": "data_E",
         "xsec": 1.0
     },
     "EGamma_Run2022F-19Dec2023-v1": {
@@ -3010,7 +3010,7 @@
         "nevents": 463389499,
         "nfiles": 555,
         "nick": "EGamma_Run2022F-19Dec2023-v1",
-        "sample_type": "data",
+        "sample_type": "data_F",
         "xsec": 1.0
     },
     "EGamma_Run2022F-22Sep2023-v1": {
@@ -3021,7 +3021,7 @@
         "nevents": 464373259,
         "nfiles": 490,
         "nick": "EGamma_Run2022F-22Sep2023-v1",
-        "sample_type": "data",
+        "sample_type": "data_F",
         "xsec": 1.0
     },
     "EGamma_Run2022G-16Dec2023-v1": {
@@ -3032,7 +3032,7 @@
         "nevents": 76724231,
         "nfiles": 58,
         "nick": "EGamma_Run2022G-16Dec2023-v1",
-        "sample_type": "data",
+        "sample_type": "data_G",
         "xsec": 1.0
     },
     "EGamma_Run2022G-22Sep2023-v2": {
@@ -3043,7 +3043,7 @@
         "nevents": 76807350,
         "nfiles": 87,
         "nick": "EGamma_Run2022G-22Sep2023-v2",
-        "sample_type": "data",
+        "sample_type": "data_G",
         "xsec": 1.0
     },
     "EGamma_aakhmets-data_2018UL_singleelectron_EGamma_Run2018A_1732626664-00000000000000000000000000000000": {
@@ -3571,7 +3571,7 @@
         "nevents": 138985608,
         "nfiles": 148,
         "nick": "JetMET_Run2022E-22Sep2023-v1",
-        "sample_type": "data",
+        "sample_type": "data_E",
         "xsec": 1.0
     },
     "JetMET_Run2022F-22Sep2023-v2": {
@@ -3582,7 +3582,7 @@
         "nevents": 514823262,
         "nfiles": 476,
         "nick": "JetMET_Run2022F-22Sep2023-v2",
-        "sample_type": "data",
+        "sample_type": "data_F",
         "xsec": 1.0
     },
     "JetMET_Run2022G-22Sep2023-v2": {
@@ -3593,7 +3593,7 @@
         "nevents": 84696790,
         "nfiles": 107,
         "nick": "JetMET_Run2022G-22Sep2023-v2",
-        "sample_type": "data",
+        "sample_type": "data_G",
         "xsec": 1.0
     },
     "Muon0_Run2023C-22Sep2023_v1-v1": {
@@ -3780,7 +3780,7 @@
         "nevents": 141480973,
         "nfiles": 98,
         "nick": "Muon_Run2022E-16Dec2023-v1",
-        "sample_type": "data",
+        "sample_type": "data_E",
         "xsec": 1.0
     },
     "Muon_Run2022E-22Sep2023-v1": {
@@ -3791,7 +3791,7 @@
         "nevents": 141460608,
         "nfiles": 147,
         "nick": "Muon_Run2022E-22Sep2023-v1",
-        "sample_type": "data",
+        "sample_type": "data_E",
         "xsec": 1.0
     },
     "Muon_Run2022F-19Dec2023-v1": {
@@ -3802,7 +3802,7 @@
         "nevents": 449188966,
         "nfiles": 506,
         "nick": "Muon_Run2022F-19Dec2023-v1",
-        "sample_type": "data",
+        "sample_type": "data_F",
         "xsec": 1.0
     },
     "Muon_Run2022F-22Sep2023-v2": {
@@ -3813,7 +3813,7 @@
         "nevents": 449887248,
         "nfiles": 359,
         "nick": "Muon_Run2022F-22Sep2023-v2",
-        "sample_type": "data",
+        "sample_type": "data_F",
         "xsec": 1.0
     },
     "Muon_Run2022G-19Dec2023-v2": {
@@ -3824,7 +3824,7 @@
         "nevents": 76479102,
         "nfiles": 100,
         "nick": "Muon_Run2022G-19Dec2023-v2",
-        "sample_type": "data",
+        "sample_type": "data_G",
         "xsec": 1.0
     },
     "Muon_Run2022G-22Sep2023-v1": {
@@ -3835,7 +3835,7 @@
         "nevents": 76689396,
         "nfiles": 88,
         "nick": "Muon_Run2022G-22Sep2023-v1",
-        "sample_type": "data",
+        "sample_type": "data_G",
         "xsec": 1.0
     },
     "NMSSM_XtoYHto2B2Tau_MX-1000_MY-100_TuneCP5_13p6TeV_madgraph-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -17937,7 +17937,7 @@
         "nevents": 30522105,
         "nfiles": 48,
         "nick": "Tau_Run2022E-22Sep2023-v1",
-        "sample_type": "data",
+        "sample_type": "data_E",
         "xsec": 1.0
     },
     "Tau_Run2022F-22Sep2023-v1": {
@@ -17948,7 +17948,7 @@
         "nevents": 115472800,
         "nfiles": 233,
         "nick": "Tau_Run2022F-22Sep2023-v1",
-        "sample_type": "data",
+        "sample_type": "data_F",
         "xsec": 1.0
     },
     "Tau_Run2022G-22Sep2023-v1": {
@@ -17959,7 +17959,7 @@
         "nevents": 17838713,
         "nfiles": 36,
         "nick": "Tau_Run2022G-22Sep2023-v1",
-        "sample_type": "data",
+        "sample_type": "data_G",
         "xsec": 1.0
     },
     "Tau_Run2023C-22Sep2023_v1-v2": {

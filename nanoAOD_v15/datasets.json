@@ -2309,6 +2309,28 @@
         "sample_type": "data",
         "xsec": 1.0
     },
+    "Run2024_MuMuEmbedding": {
+        "dbs": "/sample/not/published",
+        "era": 2024,
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 4240015,
+        "nfiles": 182,
+        "nick": "Run2024_MuMuEmbedding",
+        "sample_type": "embedding",
+        "xsec": 1.0
+    },
+    "Run2024_MuTauEmbedding": {
+        "dbs": "/sample/not/published",
+        "era": 2024,
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 2989487,
+        "nfiles": 182,
+        "nick": "Run2024_MuTauEmbedding",
+        "sample_type": "embedding",
+        "xsec": 1.0
+    },
     "TBbarQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/TBbarQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
