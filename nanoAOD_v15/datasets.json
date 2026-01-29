@@ -2,7 +2,7 @@
     "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": null,
+        "generator_weight": 0.7974438940107237,
         "instance": "prod/global",
         "nevents": 453230267,
         "nfiles": 548,
@@ -13,7 +13,7 @@
     "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
         "era": "2024",
-        "generator_weight": null,
+        "generator_weight": 0.46355852961481103,
         "instance": "prod/global",
         "nevents": 338867940,
         "nfiles": 2108,
@@ -24,7 +24,7 @@
     "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": null,
+        "generator_weight": 0.3038945798610375,
         "instance": "prod/global",
         "nevents": 307042054,
         "nfiles": 317,
@@ -35,7 +35,7 @@
     "DYto2E-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2E-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": null,
+        "generator_weight": 0.7460877479715158,
         "instance": "prod/global",
         "nevents": 139117188,
         "nfiles": 694,
@@ -167,7 +167,7 @@
     "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
         "era": "2024",
-        "generator_weight": null,
+        "generator_weight": 0.7973534908001421,
         "instance": "prod/global",
         "nevents": 466773211,
         "nfiles": 534,
@@ -178,7 +178,7 @@
     "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1/NANOAODSIM",
         "era": "2024",
-        "generator_weight": null,
+        "generator_weight": 0.4636784579586536,
         "instance": "prod/global",
         "nevents": 404580799,
         "nfiles": 327,
@@ -189,7 +189,7 @@
     "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
         "era": "2024",
-        "generator_weight": null,
+        "generator_weight": 0.303955885341064,
         "instance": "prod/global",
         "nevents": 285910646,
         "nfiles": 1739,
@@ -200,7 +200,7 @@
     "DYto2Mu-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2Mu-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": null,
+        "generator_weight": 0.7461153480068475,
         "instance": "prod/global",
         "nevents": 144889491,
         "nfiles": 1015,
@@ -332,7 +332,7 @@
     "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4/NANOAODSIM",
         "era": "2024",
-        "generator_weight": null,
+        "generator_weight": 0.7993072147250175,
         "instance": "prod/global",
         "nevents": 493132017,
         "nfiles": 2666,
@@ -343,7 +343,7 @@
     "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": null,
+        "generator_weight": 0.4641493584632582,
         "instance": "prod/global",
         "nevents": 428387857,
         "nfiles": 2026,
@@ -354,7 +354,7 @@
     "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": null,
+        "generator_weight": 0.30287415746226554,
         "instance": "prod/global",
         "nevents": 232971613,
         "nfiles": 1592,
@@ -365,7 +365,7 @@
     "DYto2Tau-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/DYto2Tau-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": null,
+        "generator_weight": 0.7508248359574334,
         "instance": "prod/global",
         "nevents": 133351364,
         "nfiles": 715,
