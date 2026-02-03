@@ -18,11 +18,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/NMSSM-XtoYHto2B2Tau_Par-MX-2000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2540000/d90b837b-14e2-43db-9979-1a11597c14f1.root",
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/NMSSM-XtoYHto2B2Tau_Par-MX-2000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2540000/f97159c5-c4e0-44cf-90d9-c00dd944c204.root"
     ],
-    "generator_weight": null,
+    "generator_weight": 1.0,
     "instance": "prod/global",
     "nevents": 100000,
     "nfiles": 15,
     "nick": "NMSSM-XtoYHto2B2Tau_Par-MX-2000-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8_RunIII2024Summer24NanoAODv15-150X",
     "sample_type": "nmssm_Ybb",
-    "xsec": null
+    "xsec": 1.0
 }
