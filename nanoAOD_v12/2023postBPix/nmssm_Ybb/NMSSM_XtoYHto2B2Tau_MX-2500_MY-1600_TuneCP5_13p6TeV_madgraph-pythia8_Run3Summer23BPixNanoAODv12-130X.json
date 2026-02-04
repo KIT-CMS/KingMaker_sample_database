@@ -1,0 +1,20 @@
+{
+    "dbs": "/NMSSM_XtoYHto2B2Tau_MX-2500_MY-1600_TuneCP5_13p6TeV_madgraph-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v6-v2/NANOAODSIM",
+    "era": "2023postBPix",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/NMSSM_XtoYHto2B2Tau_MX-2500_MY-1600_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v6-v2/2550000/32bbedb9-60ea-43c7-9300-5c8463b0efef.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/NMSSM_XtoYHto2B2Tau_MX-2500_MY-1600_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v6-v2/2550000/28d7de98-7632-4529-a030-b0f555c80c79.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/NMSSM_XtoYHto2B2Tau_MX-2500_MY-1600_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v6-v2/2550000/976ebf07-564e-40a2-9a50-f1242a874454.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/NMSSM_XtoYHto2B2Tau_MX-2500_MY-1600_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v6-v2/2550000/99607520-1690-4025-9d3d-5dacd2af8076.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/NMSSM_XtoYHto2B2Tau_MX-2500_MY-1600_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v6-v2/2550000/2eef9c94-d82b-42d0-8a12-c478b12e3bc4.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/NMSSM_XtoYHto2B2Tau_MX-2500_MY-1600_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v6-v2/2550000/5f51a6aa-88cf-472e-9cdd-c405d200b8be.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/NMSSM_XtoYHto2B2Tau_MX-2500_MY-1600_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v6-v2/130000/cc772383-20ee-4d58-a615-14f5e9bdfe3c.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 33000,
+    "nfiles": 7,
+    "nick": "NMSSM_XtoYHto2B2Tau_MX-2500_MY-1600_TuneCP5_13p6TeV_madgraph-pythia8_Run3Summer23BPixNanoAODv12-130X",
+    "sample_type": "nmssm_Ybb",
+    "xsec": 1.0
+}

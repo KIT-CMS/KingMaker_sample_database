@@ -1,0 +1,22 @@
+{
+    "dbs": "/NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
+    "era": "2024",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2540000/82e14f4e-21d2-4671-84c4-e356c16ba1b1.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2540000/7d0cb9cd-a0fe-4359-a26d-42a9e6ddf068.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2530000/3be85779-92e1-4b4a-8bdf-dcb351db524d.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2540000/eaadc39c-71b1-4b05-aec3-9bfa75a7482e.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2540000/76cf8ad9-fca5-4e18-8fae-3791f058726d.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2540000/afc04b2b-6569-4e02-b032-c0cbb73c22e6.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2540000/7182f180-0ce1-42e5-b662-06fe46a37fdb.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2540000/d46f3f6d-c614-4494-af21-f927c162e354.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2540000/2a06c4f8-efc5-494c-bb2e-080a81698a9b.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 100000,
+    "nfiles": 9,
+    "nick": "NMSSM-XtoYHto2Tau2B_Par-MX-550-MY-60_TuneCP5_13p6TeV_madgraph-pythia8_RunIII2024Summer24NanoAODv15-150X",
+    "sample_type": "nmssm_Ytautau",
+    "xsec": 1.0
+}
