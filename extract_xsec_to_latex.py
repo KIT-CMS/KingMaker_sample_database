@@ -1,0 +1,168 @@
+#!/usr/bin/env python3
+"""Extract xsec values from a JSON file for a list of query strings and
+emit a simple LaTeX table.
+
+Usage example:
+  python extract_xsec_to_latex.py --json samples.json --patterns queries.txt --out table.tex
+"""
+import argparse
+import json
+import re
+import sys
+from typing import Any, Dict, Iterable, List, Optional, Tuple
+
+
+def load_json(path: str) -> Any:
+    with open(path, "r") as f:
+        return json.load(f)
+
+
+def read_patterns(path: str) -> List[str]:
+    patterns = []
+    with open(path, "r") as f:
+        for line in f:
+            s = line.strip()
+            if not s or s.startswith("#"):
+                continue
+            patterns.append(s)
+    return patterns
+
+
+def try_numeric(v: Any) -> Optional[float]:
+    if isinstance(v, (int, float)):
+        return float(v)
+    if isinstance(v, str):
+        try:
+            return float(v)
+        except Exception:
+            return None
+    return None
+
+
+def extract_xsec_from_obj(obj: Any) -> Optional[float]:
+    # common field names
+    if isinstance(obj, dict):
+        for key in obj:
+            if key.lower() in ("xsec", "xs", "cross_section", "crosssection", "xsection"):
+                n = try_numeric(obj[key])
+                if n is not None:
+                    return n
+        # also search nested values
+        for v in obj.values():
+            n = extract_xsec_from_obj(v)
+            if n is not None:
+                return n
+    else:
+        n = try_numeric(obj)
+        if n is not None:
+            return n
+    return None
+
+
+def latex_escape(s: str) -> str:
+    # minimal escaping
+    replacements = {
+        "\\": r"\textbackslash{}",
+        "%": r"\%",
+        "$": r"\$",
+        "#": r"\#",
+        "&": r"\&",
+        "_": r"\_",
+        "{": r"\{",
+        "}": r"\}",
+        "~": r"\textasciitilde{}",
+        "^": r"\^{}",
+    }
+    for k, v in replacements.items():
+        s = s.replace(k, v)
+    return s
+
+
+def iterate_entries(data: Any) -> Iterable[Tuple[str, Any]]:
+    # Yield pairs of (name, object) to test for matches
+    if isinstance(data, dict):
+        for k, v in data.items():
+            yield str(k), v
+            # if value is a dict with its own name field, yield that too
+            if isinstance(v, dict):
+                for name_key in ("name", "sample", "dataset"):
+                    if name_key in v:
+                        yield str(v[name_key]), v
+    elif isinstance(data, list):
+        for item in data:
+            if isinstance(item, dict):
+                # prefer explicit name fields
+                for name_key in ("name", "sample", "dataset"):
+                    if name_key in item:
+                        yield str(item[name_key]), item
+                        break
+                else:
+                    # fall back to stringifying the whole item
+                    yield json.dumps(item), item
+            else:
+                yield str(item), item
+    else:
+        yield str(data), data
+
+
+def find_matches(data: Any, query_regex: re.Pattern) -> List[Tuple[str, float]]:
+    matches: List[Tuple[str, float]] = []
+    for name, obj in iterate_entries(data):
+        if query_regex.search(name):
+            x = extract_xsec_from_obj(obj)
+            if x is not None:
+                matches.append((name, x))
+    return matches
+
+
+def main(argv: Optional[List[str]] = None) -> int:
+    p = argparse.ArgumentParser(description="Extract xsec for queries and write LaTeX table")
+    p.add_argument("--json", required=True, help="Path to JSON file containing samples/data")
+    p.add_argument("--patterns", required=True, help="File with one query string per line")
+    p.add_argument("--out", required=True, help="Output LaTeX filename")
+    p.add_argument("--mode", choices=("substring", "regex"), default="substring")
+    p.add_argument("--ignore-case", action="store_true")
+    p.add_argument("--first-only", action="store_true", help="Only record the first match per query")
+    args = p.parse_args(argv)
+
+    data = load_json(args.json)
+    queries = read_patterns(args.patterns)
+
+    rows: List[Tuple[str, str]] = []  # (query_display, xsec_str)
+
+    for q in queries:
+        if args.mode == "substring":
+            flags = re.IGNORECASE if args.ignore_case else 0
+            regex = re.compile(re.escape(q), flags)
+        else:
+            flags = re.IGNORECASE if args.ignore_case else 0
+            regex = re.compile(q, flags)
+
+        matches = find_matches(data, regex)
+        if not matches:
+            rows.append((q, "--"))
+        else:
+            if args.first_only:
+                name, x = matches[0]
+                rows.append((f"{q}", f"{x:.6g}"))
+            else:
+                for name, x in matches:
+                    rows.append((f"{q}", f"{x:.6g}"))
+
+    # write LaTeX
+    with open(args.out, "w") as f:
+        f.write("% Generated by extract_xsec_to_latex.py\n")
+        f.write("\\begin{tabular}{lr}\n")
+        f.write("\\hline\n")
+        f.write("Query & xsec \\\\ \n")
+        f.write("\\hline\n")
+        for left, right in rows:
+            f.write(f"{latex_escape(left)} & {latex_escape(right)} \\\\ \n")
+        f.write("\\hline\n")
+        f.write("\\end{tabular}\n")
+
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
