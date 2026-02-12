@@ -1,6 +1,6 @@
 {
     "dbs": "/ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v6/NANOAODSIM",
-    "era": "2024",
+    "era": "2025",
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v6/2520000/ddcb41f5-2a74-42de-b88a-6319d1e95952.root",
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v6/2520000/802b0410-3cc7-4c01-8a09-1b1421e68fd8.root",
@@ -35,7 +35,7 @@
     "instance": "prod/global",
     "nevents": 280000,
     "nfiles": 28,
-    "nick": "ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2025Summer24NanoAODv15-150X",
+    "nick": "ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2024Summer24NanoAODv15-150X",
     "sample_type": "rem_htautau",
     "xsec": 0.059201408
 }

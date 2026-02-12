@@ -9294,6 +9294,17 @@
         "sample_type": "rem_htautau",
         "xsec": 0.025515071644234177
     },
+    "ZH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2025Summer24NanoAODv15-150X": {
+        "dbs": "/ZH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v6/NANOAODSIM",
+        "era": "2024",
+        "generator_weight": 0.9498170746186478,
+        "instance": "prod/global",
+        "nevents": 8001416,
+        "nfiles": 273,
+        "nick": "ZH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2025Summer24NanoAODv15-150X",
+        "sample_type": "rem_htautau",
+        "xsec": 0.025515071644234177
+    },
     "ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v6/NANOAODSIM",
         "era": "2024",
@@ -9301,7 +9312,18 @@
         "instance": "prod/global",
         "nevents": 280000,
         "nfiles": 28,
-        "nick": "ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2024Summer24NanoAODv15-150X",
+        "nick": "ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2025Summer24NanoAODv15-150X",
+        "sample_type": "rem_htautau",
+        "xsec": 0.059201408
+    },
+    "ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2025Summer24NanoAODv15-150X": {
+        "dbs": "/ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v6/NANOAODSIM",
+        "era": "2024",
+        "generator_weight": 0.9403642857142858,
+        "instance": "prod/global",
+        "nevents": 280000,
+        "nfiles": 28,
+        "nick": "ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2025Summer24NanoAODv15-150X",
         "sample_type": "rem_htautau",
         "xsec": 0.059201408
     },
