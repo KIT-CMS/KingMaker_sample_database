@@ -1015,7 +1015,7 @@
         "root://cmsdcache-kit-disk.gridka.de///store/data/Run2025G/EGamma3/NANOAOD/PromptReco-v1/000/398/902/00000/94f4c4c3-e6fa-4eaf-96aa-19f8c3c0cb8d.root",
         "root://cmsdcache-kit-disk.gridka.de///store/data/Run2025G/EGamma3/NANOAOD/PromptReco-v1/000/398/859/00000/3d175dd8-2bd9-42bf-b4b5-c8eab34cb955.root"
     ],
-    "generator_weight": 0.0,
+    "generator_weight": 1.0,
     "instance": "prod/global",
     "nevents": 421124471,
     "nfiles": 1012,

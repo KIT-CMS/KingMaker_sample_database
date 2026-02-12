@@ -609,7 +609,7 @@
         "root://cmsdcache-kit-disk.gridka.de///store/data/Run2025E/Muon0/NANOAOD/PromptReco-v1/000/396/127/00000/9dec31e4-4e7e-4a43-bf14-a454a6afc8a1.root",
         "root://cmsdcache-kit-disk.gridka.de///store/data/Run2025E/Muon0/NANOAOD/PromptReco-v1/000/396/102/00000/cac1752f-3d87-47c7-aa18-02a4d40b7555.root"
     ],
-    "generator_weight": 0.0,
+    "generator_weight": 1.0,
     "instance": "prod/global",
     "nevents": 265645863,
     "nfiles": 606,

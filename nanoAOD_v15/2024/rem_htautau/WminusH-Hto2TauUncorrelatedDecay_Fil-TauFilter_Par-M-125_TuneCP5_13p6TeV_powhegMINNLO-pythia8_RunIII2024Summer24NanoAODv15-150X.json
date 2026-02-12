@@ -113,11 +113,11 @@
         "root://cmsdcache-kit-disk.gridka.de///store/mc/RunIII2024Summer24NanoAODv15/WminusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/cd9905e1-5294-4f33-bbc3-a2c133a4852d.root",
         "root://cmsdcache-kit-disk.gridka.de///store/mc/RunIII2024Summer24NanoAODv15/WminusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/f99880f0-ed39-4cf6-b3ee-cbbfc5605291.root"
     ],
-    "generator_weight": 1.0,
+    "generator_weight": 0.9549135904599584,
     "instance": "prod/global",
     "nevents": 6498588,
     "nfiles": 110,
     "nick": "WminusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2024Summer24NanoAODv15-150X",
     "sample_type": "rem_htautau",
-    "xsec": 0.03543
+    "xsec": 0.01405667571527298
 }
