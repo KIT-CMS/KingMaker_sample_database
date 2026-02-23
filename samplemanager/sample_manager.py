@@ -19,10 +19,11 @@ class SampleManager(object):
         self.redirector = "root://xrootd-cms.infn.it//"
 
         self.nanoAOD_version: int = questionary.select(
-            "Select a nanoAOD version", 
-            choices=nanoAOD_versions, 
-            style=custom_style, 
-            default=nanoAOD_versions[0]).ask()
+            "Select a nanoAOD version",
+            choices=nanoAOD_versions,
+            style=custom_style,
+            default=nanoAOD_versions[0],
+        ).ask()
 
         base_folder = os.path.abspath(self.args.database_folder)
         self.database_folder = database_folder_path(base_folder, self.nanoAOD_version)
@@ -33,17 +34,17 @@ class SampleManager(object):
         self.database.status()
         self.processing = True
         self.available_tasks = [
-            "Add a new sample",             # Task 0
-            "Delete a sample",              # Task 1
-            "Find samples (by nick)",       # Task 2
-            "Find samples (by DAS name)",   # Task 3
-            "Print details of a sample",    # Task 4
-            "Create a production file",     # Task 5
-            "Update genweight",             # Task 6
-            "Update xsec",                  # Task 7
-            "Maintenance",                  # Task 8
-            "Save and Exit",                # Task 9
-            "Exit without Save",            # Task 10
+            "Add a new sample",  # Task 0
+            "Delete a sample",  # Task 1
+            "Find samples (by nick)",  # Task 2
+            "Find samples (by DAS name)",  # Task 3
+            "Print details of a sample",  # Task 4
+            "Create a production file",  # Task 5
+            "Update genweight",  # Task 6
+            "Update xsec",  # Task 7
+            "Maintainance",  # Task 8
+            "Save and Exit",  # Task 9
+            "Exit without Save",  # Task 10
         ]
 
     def run(self):
@@ -93,7 +94,12 @@ class SampleManager(object):
                 exit()
 
     def finding_and_adding_sample(self):
-        instance = questionary.select("Select the DAS instance for the search", choices=self.instance_choices, style=custom_style, default=self.default_instance).ask()
+        instance = questionary.select(
+            "Select the DAS instance for the search",
+            choices=self.instance_choices,
+            style=custom_style,
+            default=self.default_instance,
+        ).ask()
         nick = questionary.text("Enter a DAS nick to add", style=custom_style).ask()
         if nick in self.database.dasnicks:
             questionary.print("DAS nick is already in self.")
@@ -234,7 +240,11 @@ class SampleManager(object):
                 style=custom_style,
             ).ask()
             if selected_eras:
-                nicks_by_era = [nick for nick in self.database.samplenicks if str(self.database.database[nick].get("era", "")) in selected_eras]
+                nicks_by_era = [
+                    nick
+                    for nick in self.database.samplenicks
+                    if str(self.database.database[nick].get("era", "")) in selected_eras
+                ]
             else:
                 nicks_by_era = list(self.database.samplenicks)
             nicks = questionary.checkbox(
@@ -254,10 +264,14 @@ class SampleManager(object):
             questionary.print("Number of workers must be a positive integer")
             return
         if len(nicks) == 1:
-            self.database.genweight_by_nick(nicks[0], ask_for_update=True, num_workers=int(num_workers))
+            self.database.genweight_by_nick(
+                nicks[0], ask_for_update=True, num_workers=int(num_workers)
+            )
         else:
             for nick in nicks:
-                self.database.genweight_by_nick(nick, ask_for_update=False, num_workers=int(num_workers))
+                self.database.genweight_by_nick(
+                    nick, ask_for_update=False, num_workers=int(num_workers)
+                )
 
     def update_xsec(self):
         nick = questionary.autocomplete(
@@ -309,18 +323,20 @@ class SampleManager(object):
         mode = questionary.select(
             "What type of maintenance is needed?",
             choices=[
-                "Generate filelist file from main database", 
+                "Generate filelist file from main database",
                 "Generate datasets entry from filelist file",
                 "Match filelist file info in main database",
-                "Match main database info in filelist file", 
-                "Pull cross section from other era (only updates the main database)"
+                "Match main database info in filelist file",
+                "Pull cross section from other era (only updates the main database)",
             ],
             style=custom_style,
         ).ask()
         if mode == "Generate filelist file from main database":
             # check if there are missing detailed database files
             with Progress() as progress_bar:
-                task = progress_bar.add_task("Samples read ", total=len(self.database.database))
+                task = progress_bar.add_task(
+                    "Samples read ", total=len(self.database.database)
+                )
                 for sample in self.database.database:
                     sampledata = self.database.database[sample]
                     filelist_json = filelist_path(self.database_folder, sampledata)
@@ -344,7 +360,9 @@ class SampleManager(object):
         elif mode == "Generate datasets entry from filelist file":
             # check if there are missing entries from the details database
             with Progress() as progress_bar:
-                task = progress_bar.add_task("Files read ", total=len(self.database.database))
+                task = progress_bar.add_task(
+                    "Files read ", total=len(self.database.database)
+                )
                 datasets = {}
                 for era in os.listdir(self.database_folder):
                     era_path = os.path.join(self.database_folder, era)
@@ -362,7 +380,9 @@ class SampleManager(object):
                                     try:
                                         file_content = json.load(f)
                                     except json.JSONDecodeError:
-                                        questionary.print(f"Invalid JSON in file: {file_path}")
+                                        questionary.print(
+                                            f"Invalid JSON in file: {file_path}"
+                                        )
                                         continue
 
                                 file_content.pop("filelist", None)
@@ -370,31 +390,41 @@ class SampleManager(object):
                                 if sample not in self.database.database:
                                     self.database.add_sample(file_content)
                                     self.database.save_database(verbose=False)
-                                    questionary.print(f"Updated main database entry for sample {sample}")
-                                
+                                    questionary.print(
+                                        f"Updated main database entry for sample {sample}"
+                                    )
+
                                 progress_bar.update(task, advance=1)
-                                
+
                 self.database.database_maintenance()
 
         elif mode == "Match filelist file info in main database":
             # check if the database is up to date
             with Progress() as progress_bar:
-                task = progress_bar.add_task("Samples read ", total=len(self.database.database))
+                task = progress_bar.add_task(
+                    "Samples read ", total=len(self.database.database)
+                )
                 for sample in self.database.database:
                     sampledata = self.database.database[sample]
                     filelist_json = filelist_path(self.database_folder, sampledata)
 
-                    self.database.details_database_file = filelist_path(self.database_folder, sampledata)
+                    self.database.details_database_file = filelist_path(
+                        self.database_folder, sampledata
+                    )
                     self.database.load_details_database()
 
                     _dict = deepcopy(self.database.details_database)
                     _dict.pop("filelist", None)
 
-                    if set(tuple(self.database.database[sample].items())) - set(tuple(_dict.items())):
+                    if set(tuple(self.database.database[sample].items())) - set(
+                        tuple(_dict.items())
+                    ):
                         self.database.database[sample].update(_dict)
                         self.database.save_database(verbose=False)
-                        
-                        questionary.print(f"Updated main database entry for sample {sample}")
+
+                        questionary.print(
+                            f"Updated main database entry for sample {sample}"
+                        )
 
                     progress_bar.update(task, advance=1)
 
@@ -405,22 +435,32 @@ class SampleManager(object):
         elif mode == "Match main database info in filelist file":
             # check if the details database is up to date
             with Progress() as progress_bar:
-                task = progress_bar.add_task("Samples read ", total=len(self.database.database))
+                task = progress_bar.add_task(
+                    "Samples read ", total=len(self.database.database)
+                )
                 for sample in self.database.database:
                     sampledata = self.database.database[sample]
                     filelist_json = filelist_path(self.database_folder, sampledata)
 
-                    self.database.details_database_file = filelist_path(self.database_folder, sampledata)
+                    self.database.details_database_file = filelist_path(
+                        self.database_folder, sampledata
+                    )
                     self.database.load_details_database()
 
                     _dict = deepcopy(self.database.details_database)
                     _dict.pop("filelist", None)
 
-                    if set(tuple(self.database.database[sample].items())) - set(tuple(_dict.items())):
-                        self.database.details_database.update(self.database.database[sample])
+                    if set(tuple(self.database.database[sample].items())) - set(
+                        tuple(_dict.items())
+                    ):
+                        self.database.details_database.update(
+                            self.database.database[sample]
+                        )
                         self.database.save_details_database(verbose=False)
-                        
-                        questionary.print(f"Updated details database entry for sample {sample}")
+
+                        questionary.print(
+                            f"Updated details database entry for sample {sample}"
+                        )
 
                     progress_bar.update(task, advance=1)
 
@@ -428,7 +468,9 @@ class SampleManager(object):
                 self.database.details_database_file = None
                 self.database.details_database = {}
 
-        elif mode == "Pull cross section from other era (only updates the main database)":
+        elif (
+            mode == "Pull cross section from other era (only updates the main database)"
+        ):
             # match cross section of samples to one from a different era
             possible_eras = [str(x) for x in list(self.database.eras)]
             ref_era = questionary.select(
@@ -443,33 +485,60 @@ class SampleManager(object):
                     style=custom_style,
                 ).ask()
 
-                nicks_ref_era = [nick for nick in self.database.samplenicks if str(self.database.database[nick].get("era", "")) == ref_era]
-                nicks_new_era = [nick for nick in self.database.samplenicks if str(self.database.database[nick].get("era", "")) == new_era]
-                
+                nicks_ref_era = [
+                    nick
+                    for nick in self.database.samplenicks
+                    if str(self.database.database[nick].get("era", "")) == ref_era
+                ]
+                nicks_new_era = [
+                    nick
+                    for nick in self.database.samplenicks
+                    if str(self.database.database[nick].get("era", "")) == new_era
+                ]
+
                 with Progress() as progress_bar:
-                    task = progress_bar.add_task("Samples read ", total=len(nicks_new_era))
+                    task = progress_bar.add_task(
+                        "Samples read ", total=len(nicks_new_era)
+                    )
                     for new_sample in nicks_new_era:
                         # Find the matching reference sample
                         matching_ref_sample = next(
-                            (ref_sample for ref_sample in nicks_ref_era
-                            if ("13p6TeV" in new_sample and new_sample.split("13p6TeV")[0] == ref_sample.split("13p6TeV")[0]) or
-                                ("13p6TeV" not in new_sample and new_sample.split("13TeV")[0] == ref_sample.split("13TeV")[0])),
-                            None
+                            (
+                                ref_sample
+                                for ref_sample in nicks_ref_era
+                                if (
+                                    "13p6TeV" in new_sample
+                                    and new_sample.split("13p6TeV")[0]
+                                    == ref_sample.split("13p6TeV")[0]
+                                )
+                                or (
+                                    "13p6TeV" not in new_sample
+                                    and new_sample.split("13TeV")[0]
+                                    == ref_sample.split("13TeV")[0]
+                                )
+                            ),
+                            None,
                         )
-                        
+
                         if matching_ref_sample:
                             # compare cross sections
-                            ref_xsec = self.database.database[matching_ref_sample].get("xsec", None)
-                            old_xsec = self.database.database[new_sample].get("xsec", None)
+                            ref_xsec = self.database.database[matching_ref_sample].get(
+                                "xsec", None
+                            )
+                            old_xsec = self.database.database[new_sample].get(
+                                "xsec", None
+                            )
                             if ref_xsec != old_xsec:
-                                questionary.print(f"Found matching sample {matching_ref_sample} with xsec {ref_xsec}")
+                                questionary.print(
+                                    f"Found matching sample {matching_ref_sample} with xsec {ref_xsec}"
+                                )
                                 self.database.database[new_sample]["xsec"] = ref_xsec
                                 self.database.save_database(verbose=False)
-                            
+
                         progress_bar.update(task, advance=1)
 
                     # reset state of details database
-                    #self.database.details_database_file = None
+                    # self.database.details_database_file = None
                     self.database.details_database = {}
 
 

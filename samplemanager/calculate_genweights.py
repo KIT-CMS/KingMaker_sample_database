@@ -57,7 +57,9 @@ def _calculate_genweight_uproot(
     threshold, fails = len(filelist) // fail_threshold_percent, 0
     negative, positive = 0, 0
 
-    print(f"Total files to process: {len(filelist)}. Failure threshold: {threshold} files.")
+    print(
+        f"Total files to process: {len(filelist)}. Failure threshold: {threshold} files."
+    )
     tasks = [(f"{path}:Events", max_retries, timeout) for path in filelist]
 
     with Progress() as progress_bar:

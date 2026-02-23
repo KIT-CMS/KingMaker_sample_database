@@ -89,7 +89,9 @@ class SampleDatabase(object):
 
     def save_details_database(self, verbose=True):
         if verbose:
-            questionary.print(f"Saving details database for {self.details_database['nick']}...")
+            questionary.print(
+                f"Saving details database for {self.details_database['nick']}..."
+            )
         with open(self.details_database_file, "w") as stream:
             json.dump(self.details_database, stream, indent=4, sort_keys=True)
         return
@@ -131,9 +133,7 @@ class SampleDatabase(object):
 
     def genweight_by_nick(self, nick, ask_for_update=True, num_workers=1):
         sample = self.database[nick]
-        self.details_database_file = filelist_path(
-            self.database_folder, sample
-        )
+        self.details_database_file = filelist_path(self.database_folder, sample)
         self.load_details_database()
         questionary.print(f"--- {nick} ---", style="bold")
         questionary.print(f"Current generator_weight: {sample['generator_weight']}")
@@ -170,13 +170,13 @@ class SampleDatabase(object):
 
     def xsec_by_nick(self, nick, ask_for_update=True):
         sample = self.database[nick]
-        self.details_database_file = filelist_path(
-            self.database_folder, sample
-        )
+        self.details_database_file = filelist_path(self.database_folder, sample)
         self.load_details_database()
         questionary.print(f"--- {nick} ---", style="bold")
         questionary.print(f"Current cross section in pb: {sample['xsec']}")
-        new_xsec = questionary.text("Enter new cross section in pb: ", default=str(sample["xsec"])).ask()
+        new_xsec = questionary.text(
+            "Enter new cross section in pb: ", default=str(sample["xsec"])
+        ).ask()
         if ask_for_update:
             answer = questionary.confirm(
                 "Do you want to update the working database ?", style=custom_style

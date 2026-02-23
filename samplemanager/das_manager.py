@@ -97,7 +97,9 @@ class DASQuery(object):
 
     def parse_sample_details_with_filelist(self):
         # get the filelist from query
-        self.result["filelist"] = [self.redirector + res["file"][0]["name"] for res in self.response]
+        self.result["filelist"] = [
+            self.redirector + res["file"][0]["name"] for res in self.response
+        ]
 
     def _fill_xsec(self, nick):
         xsec = questionary.text(
@@ -133,10 +135,11 @@ class DASQuery(object):
         version = ""
         if len(parts) > 2:
             import re
+
             # Match v1, v2, v2-v1, v3-v2, etc.
             match = re.search(r"(v[0-9]-v[0-9])", parts[1])
-            if match and "Run3" not in parts[1] and "RunIII" not in parts[1]: 
-                #add version number to nick only for data samples since multiple versions are used at the same time
+            if match and "Run3" not in parts[1] and "RunIII" not in parts[1]:
+                # add version number to nick only for data samples since multiple versions are used at the same time
                 version = "_" + match.group(1)
         # nick is the first part of the DAS string + the second part till the first "_"
         # if there is no "_" in the second part, the whole second part is used
@@ -156,7 +159,7 @@ class DASQuery(object):
                 return "2017"
             elif "18" in m.group(0):
                 return "2018"
-            
+
         # regex search for run3 eras
         m = re.search("2022|2023|2024|2025|2026", nick)
         if m:
@@ -168,7 +171,7 @@ class DASQuery(object):
             elif "2023" in m.group(0):
                 if any(t in nick for t in ("postBPix", "2023D")):
                     return "2023postBPix"
-                else:                    
+                else:
                     return "2023preBPix"
             else:
                 return f"{m.group(0)}"
@@ -181,9 +184,28 @@ class DASQuery(object):
             return "dyjets"
         elif "TTT".lower() in process:
             return "ttbar"
-        elif any(name.lower() in process for name in ["ST_t", "/TBbar", "/TbarB", "/TWminus", "/TbarWplus",]):
+        elif any(
+            name.lower() in process
+            for name in [
+                "ST_t",
+                "/TBbar",
+                "/TbarB",
+                "/TWminus",
+                "/TbarWplus",
+            ]
+        ):
             return "singletop"
-        elif any(name.lower() in process for name in ["/WZ_", "/WW_", "/ZZ_", "/WWto", "/WZto", "/ZZto",]):
+        elif any(
+            name.lower() in process
+            for name in [
+                "/WZ_",
+                "/WW_",
+                "/ZZ_",
+                "/WWto",
+                "/WZto",
+                "/ZZto",
+            ]
+        ):
             return "diboson"
         elif any(
             name.lower() in process for name in ["/WWW_", "/WWZ_", "/WZZ_", "/ZZZ_"]
