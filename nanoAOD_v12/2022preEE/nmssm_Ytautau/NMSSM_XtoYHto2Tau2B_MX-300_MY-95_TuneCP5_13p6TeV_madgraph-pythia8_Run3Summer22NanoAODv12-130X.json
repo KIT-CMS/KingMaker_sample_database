@@ -2,12 +2,12 @@
     "dbs": "/NMSSM_XtoYHto2Tau2B_MX-300_MY-95_TuneCP5_13p6TeV_madgraph-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
     "era": "2022preEE",
     "filelist": [
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-300_MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/04917091-4769-440d-9d0c-eaa3b3919788.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-300_MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/197afbee-b369-4cee-a153-3857ed5c2d10.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-300_MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/5cf9e994-cf33-46a4-9d8c-4a1378fb835e.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-300_MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/741e9606-63d5-465e-9576-0be035554966.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-300_MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/9af69db6-ba5c-413d-bff2-35c1ce43706d.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-300_MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/a9c53e32-7f1a-49b9-a935-e328e523c1c4.root"
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-300_MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/04917091-4769-440d-9d0c-eaa3b3919788.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-300_MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/197afbee-b369-4cee-a153-3857ed5c2d10.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-300_MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/5cf9e994-cf33-46a4-9d8c-4a1378fb835e.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-300_MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/741e9606-63d5-465e-9576-0be035554966.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-300_MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/9af69db6-ba5c-413d-bff2-35c1ce43706d.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2Tau2B_MX-300_MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/a9c53e32-7f1a-49b9-a935-e328e523c1c4.root"
     ],
     "generator_weight": 1.0,
     "instance": "prod/global",

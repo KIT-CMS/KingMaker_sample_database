@@ -2,9 +2,9 @@
     "dbs": "/NMSSM_XtoYHto2B2Tau_MX-600_MY-60_TuneCP5_13p6TeV_madgraph-pythia8/Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v2/NANOAODSIM",
     "era": "2022postEE",
     "filelist": [
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/NMSSM_XtoYHto2B2Tau_MX-600_MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2830000/5a2fbb2f-d2fb-46b2-8ca3-42252735bc21.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/NMSSM_XtoYHto2B2Tau_MX-600_MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2830000/c7f7b923-4146-46ac-bfe1-99683cc37cc7.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/NMSSM_XtoYHto2B2Tau_MX-600_MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2830000/552df734-9661-4911-bae4-997fae79741f.root"
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer22EENanoAODv12/NMSSM_XtoYHto2B2Tau_MX-600_MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2830000/5a2fbb2f-d2fb-46b2-8ca3-42252735bc21.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer22EENanoAODv12/NMSSM_XtoYHto2B2Tau_MX-600_MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2830000/c7f7b923-4146-46ac-bfe1-99683cc37cc7.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer22EENanoAODv12/NMSSM_XtoYHto2B2Tau_MX-600_MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/2830000/552df734-9661-4911-bae4-997fae79741f.root"
     ],
     "generator_weight": 1.0,
     "instance": "prod/global",

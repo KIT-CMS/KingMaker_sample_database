@@ -227,7 +227,7 @@ class SampleDatabase(object):
     def add_sample(self, details):
         if "nick" not in details:
             raise Exception("No nickname given")
-        if details["dbs"] in self.dasnicks:
+        if details["nick"] in self.samplenicks:
             questionary.print(f"Sample {details['dbs']} already exists")
             self.print_by_das(details["dbs"])
             return

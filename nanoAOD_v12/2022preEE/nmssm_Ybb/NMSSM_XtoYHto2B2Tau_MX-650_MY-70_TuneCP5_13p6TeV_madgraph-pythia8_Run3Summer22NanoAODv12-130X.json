@@ -2,10 +2,10 @@
     "dbs": "/NMSSM_XtoYHto2B2Tau_MX-650_MY-70_TuneCP5_13p6TeV_madgraph-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v2/NANOAODSIM",
     "era": "2022preEE",
     "filelist": [
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2B2Tau_MX-650_MY-70_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/3cd583d9-baa2-475d-8645-0b84d9e062a7.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2B2Tau_MX-650_MY-70_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/449e356d-7f07-48ee-bc20-1ef203b18a8f.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2B2Tau_MX-650_MY-70_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/55b3b0c0-0d20-48c1-89d1-eb146db4aff5.root",
-        "root://xrootd-cms.infn.it///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2B2Tau_MX-650_MY-70_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/ba9e6b5b-9c07-4581-9b74-ad7b0bb72b3b.root"
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2B2Tau_MX-650_MY-70_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/3cd583d9-baa2-475d-8645-0b84d9e062a7.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2B2Tau_MX-650_MY-70_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/449e356d-7f07-48ee-bc20-1ef203b18a8f.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2B2Tau_MX-650_MY-70_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/55b3b0c0-0d20-48c1-89d1-eb146db4aff5.root",
+        "root://cmsdcache-kit-disk.gridka.de///store/mc/Run3Summer22NanoAODv12/NMSSM_XtoYHto2B2Tau_MX-650_MY-70_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/60000/ba9e6b5b-9c07-4581-9b74-ad7b0bb72b3b.root"
     ],
     "generator_weight": 1.0,
     "instance": "prod/global",
