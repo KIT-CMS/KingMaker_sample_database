@@ -8383,7 +8383,7 @@
     },
     "Run2024_MuMuEmbedding": {
         "dbs": "/sample/not/published",
-        "era": 2024,
+        "era": "2024",
         "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 4240015,
@@ -8394,7 +8394,7 @@
     },
     "Run2024_MuTauEmbedding": {
         "dbs": "/sample/not/published",
-        "era": 2024,
+        "era": "2024",
         "generator_weight": 1.0,
         "instance": "prod/global",
         "nevents": 2989487,
