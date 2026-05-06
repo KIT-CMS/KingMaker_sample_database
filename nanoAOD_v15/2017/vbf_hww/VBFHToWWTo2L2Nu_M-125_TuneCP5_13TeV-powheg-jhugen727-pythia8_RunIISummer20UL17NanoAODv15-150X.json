@@ -1,0 +1,22 @@
+{
+    "dbs": "/VBFHToWWTo2L2Nu_M-125_TuneCP5_13TeV-powheg-jhugen727-pythia8/RunIISummer20UL17NanoAODv15-150X_mc2017_realistic_v1-v1/NANOAODSIM",
+    "era": "2017",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToWWTo2L2Nu_M-125_TuneCP5_13TeV-powheg-jhugen727-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2810000/02e9dd03-94fc-4138-a9a3-c9869be5f372.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToWWTo2L2Nu_M-125_TuneCP5_13TeV-powheg-jhugen727-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2810000/7e0c3348-a92a-4f40-a451-127824df393e.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToWWTo2L2Nu_M-125_TuneCP5_13TeV-powheg-jhugen727-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2810000/6eeccf2f-9405-4f4c-8ef8-ad8839ac69a1.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToWWTo2L2Nu_M-125_TuneCP5_13TeV-powheg-jhugen727-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2810000/2c82849b-c14b-402f-a276-e3dcbfcfe67e.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToWWTo2L2Nu_M-125_TuneCP5_13TeV-powheg-jhugen727-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2810000/cf896586-68b3-4f49-b40d-f0410d0c920d.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToWWTo2L2Nu_M-125_TuneCP5_13TeV-powheg-jhugen727-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2810000/4b729f8f-e4a0-434a-9a6a-0e449fbcdfa8.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToWWTo2L2Nu_M-125_TuneCP5_13TeV-powheg-jhugen727-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2810000/ae13d329-c5b0-4fad-be77-606247f78bb7.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToWWTo2L2Nu_M-125_TuneCP5_13TeV-powheg-jhugen727-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2810000/44ce5779-0247-4f89-9a77-8a2eacd9532d.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToWWTo2L2Nu_M-125_TuneCP5_13TeV-powheg-jhugen727-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2810000/36943bef-7558-4260-8953-bb2cd5522efe.root"
+    ],
+    "generator_weight": 0.0,
+    "instance": "prod/global",
+    "nevents": 6440000,
+    "nfiles": 9,
+    "nick": "VBFHToWWTo2L2Nu_M-125_TuneCP5_13TeV-powheg-jhugen727-pythia8_RunIISummer20UL17NanoAODv15-150X",
+    "sample_type": "vbf_hww",
+    "xsec": 0.0
+}

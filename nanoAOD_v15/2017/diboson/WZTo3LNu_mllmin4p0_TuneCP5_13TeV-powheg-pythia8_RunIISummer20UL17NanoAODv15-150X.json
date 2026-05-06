@@ -1,0 +1,16 @@
+{
+    "dbs": "/WZTo3LNu_mllmin4p0_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv15-150X_mc2017_realistic_v1-v1/NANOAODSIM",
+    "era": "2017",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/WZTo3LNu_mllmin4p0_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/120000/0654a4f0-734f-43ad-8287-4590e8de98eb.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/WZTo3LNu_mllmin4p0_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/120000/bef8f7fe-8a57-4a98-a233-4c02bffcdc0d.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/WZTo3LNu_mllmin4p0_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/120000/83f3b23c-21dc-4ddd-ae02-d44f8e82d3e0.root"
+    ],
+    "generator_weight": 0.0,
+    "instance": "prod/global",
+    "nevents": 1994000,
+    "nfiles": 3,
+    "nick": "WZTo3LNu_mllmin4p0_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17NanoAODv15-150X",
+    "sample_type": "diboson",
+    "xsec": 0.0
+}

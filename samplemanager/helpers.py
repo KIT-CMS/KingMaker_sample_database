@@ -30,12 +30,16 @@ def database_folder_path(base_folder: str, nanoAOD_version: str):
     return os.path.join(base_folder, nanoAOD_version_str(nanoAOD_version))
 
 def filelist_path(database_folder: str, sampledata: dict):
-    return os.path.join(
-        database_folder,
-        str(sampledata["era"]),
-        sampledata["sample_type"],
-        sampledata["nick"] + ".json",
-    )
+    try:
+        return os.path.join(
+                database_folder,
+                str(sampledata["era"]),
+                sampledata["sample_type"],
+                sampledata["nick"] + ".json",
+            )
+    except:
+        print(f"Error: Missing key in sampledata - {database_folder}, {sampledata}")
+        breakpoint()
 
 def nanoAOD_version_str(nanoAOD_version: int) -> str:
     return f"nanoAOD_v{nanoAOD_version}"

@@ -1,0 +1,22 @@
+{
+    "dbs": "/Tau/Run2016F-UL2016_NanoAODv15-v1/NANOAOD",
+    "era": "2016postVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/data/Run2016F/Tau/NANOAOD/UL2016_NanoAODv15-v1/2820000/ee4ef4fe-657a-4190-9e8f-feed160c59c1.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/Tau/NANOAOD/UL2016_NanoAODv15-v1/2820000/263a61ad-d2ca-4866-bf3c-bbb8e5b53efd.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/Tau/NANOAOD/UL2016_NanoAODv15-v1/2820000/ee55e987-c354-43da-a153-25e45e39129b.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/Tau/NANOAOD/UL2016_NanoAODv15-v1/2820000/9dfa2f49-8b2a-435c-b5ca-8f2770b7f222.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/Tau/NANOAOD/UL2016_NanoAODv15-v1/2820000/0e3f39d4-8d05-4776-ae9c-e96095cd1cbd.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/Tau/NANOAOD/UL2016_NanoAODv15-v1/110000/06802ba1-a450-4843-b6d4-229c2449b762.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/Tau/NANOAOD/UL2016_NanoAODv15-v1/2520000/ddc98592-2243-4b35-bd5f-7c16a12d1607.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/Tau/NANOAOD/UL2016_NanoAODv15-v1/140000/0b275e8e-58bc-4cf5-87f4-c2a62f48bd34.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/Tau/NANOAOD/UL2016_NanoAODv15-v1/2820000/83063af6-7c5e-48c1-b4a7-fc6b70a02e75.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 4351636,
+    "nfiles": 9,
+    "nick": "Tau_Run2016F-UL2016",
+    "sample_type": "data",
+    "xsec": 1.0
+}

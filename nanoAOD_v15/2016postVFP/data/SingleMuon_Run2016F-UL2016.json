@@ -1,0 +1,21 @@
+{
+    "dbs": "/SingleMuon/Run2016F-UL2016_NanoAODv15-v1/NANOAOD",
+    "era": "2016postVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleMuon/NANOAOD/UL2016_NanoAODv15-v1/2820000/1e24b2e1-9acc-4245-be38-a3621e9cf951.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleMuon/NANOAOD/UL2016_NanoAODv15-v1/2820000/c2278635-0b0e-4774-95da-81562ac92d55.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleMuon/NANOAOD/UL2016_NanoAODv15-v1/2820000/a45aea25-d9e3-4069-8b0f-578b3250a8f6.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleMuon/NANOAOD/UL2016_NanoAODv15-v1/2820000/790781a5-df13-4eef-8a85-6950a2f3af78.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleMuon/NANOAOD/UL2016_NanoAODv15-v1/2820000/bd561ada-0374-41b3-91a0-343eaeb5e069.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleMuon/NANOAOD/UL2016_NanoAODv15-v1/2820000/a6f962ca-176d-48e7-b8d9-ee232821228d.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleMuon/NANOAOD/UL2016_NanoAODv15-v1/2820000/fe49f3f8-e186-427f-932a-5d2885bb7ebb.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleMuon/NANOAOD/UL2016_NanoAODv15-v1/2820000/8f08702a-5b65-4856-a004-5d259ff7c4b5.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 8024195,
+    "nfiles": 8,
+    "nick": "SingleMuon_Run2016F-UL2016",
+    "sample_type": "data",
+    "xsec": 1.0
+}

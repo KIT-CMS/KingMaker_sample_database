@@ -1,0 +1,23 @@
+{
+    "dbs": "/EmbeddingRun2018B/cwinter-embedding_2018UL_muemb_A_1772534952-00000000000000000000000000000000/USER",
+    "era": "2018",
+    "filelist": [
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_muemb_B_1772534952/260303_130854/0000/nano_1.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_muemb_B_1772534952/260303_130854/0000/nano_2.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_muemb_B_1772534952/260303_130854/0000/nano_3.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_muemb_B_1772534952/260303_130854/0000/nano_4.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_muemb_B_1772534952/260303_130854/0000/nano_5.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_muemb_B_1772534952/260303_130854/0000/nano_6.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_muemb_B_1772534952/260303_130854/0000/nano_7.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_muemb_B_1772534952/260303_130854/0000/nano_8.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_muemb_B_1772534952/260303_130854/0000/nano_9.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_muemb_B_1772534952/260303_130854/0000/nano_10.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/phys03",
+    "nevents": 9301733,
+    "nfiles": 10,
+    "nick": "MuonEmbedding_Run2018B-UL2018",
+    "sample_type": "embedding",
+    "xsec": 1.0
+}

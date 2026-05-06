@@ -1,0 +1,24 @@
+{
+    "dbs": "/SingleElectron/Run2016F-UL2016_NanoAODv15-v1/NANOAOD",
+    "era": "2016postVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleElectron/NANOAOD/UL2016_NanoAODv15-v1/140000/b7daab13-168d-4751-84be-3675a7639ca6.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleElectron/NANOAOD/UL2016_NanoAODv15-v1/2820000/96139cb1-bc5f-42db-ad71-43d26983bb38.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleElectron/NANOAOD/UL2016_NanoAODv15-v1/2820000/ac7caf2a-76ff-4049-9c38-6037b58ad79e.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleElectron/NANOAOD/UL2016_NanoAODv15-v1/2820000/b540138b-8e0a-4b99-b284-ddd9c6d9b25d.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleElectron/NANOAOD/UL2016_NanoAODv15-v1/2820000/43b871b3-c6de-4b60-93ea-38d7fcdf6e29.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleElectron/NANOAOD/UL2016_NanoAODv15-v1/2520000/0ae18bb5-d53e-4420-b0aa-0cd3a29fe3a3.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleElectron/NANOAOD/UL2016_NanoAODv15-v1/2520000/bc492be9-fe81-4698-8a9b-fe41386df2e4.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleElectron/NANOAOD/UL2016_NanoAODv15-v1/2520000/5e9bb72e-ea99-4577-b3f7-4029fcb4d904.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleElectron/NANOAOD/UL2016_NanoAODv15-v1/2520000/b75f43e1-25b5-4e08-9819-e82d74950e62.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleElectron/NANOAOD/UL2016_NanoAODv15-v1/2520000/fb369806-8f23-4b65-9f6c-06815c405bcc.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016F/SingleElectron/NANOAOD/UL2016_NanoAODv15-v1/2520000/8d2b8ae2-022d-4e77-ac0a-b2ac9e5f9755.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 8858206,
+    "nfiles": 11,
+    "nick": "SingleElectron_Run2016F-UL2016",
+    "sample_type": "data",
+    "xsec": 1.0
+}

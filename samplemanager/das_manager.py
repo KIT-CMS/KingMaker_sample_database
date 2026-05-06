@@ -93,6 +93,9 @@ class DASQuery(object):
         if template["sample_type"] != "data" and template["sample_type"] != "emb":
             template["xsec"] = self._fill_xsec(self.nick)
             template["generator_weight"] = self._fill_generator_weight(self.nick)
+        else:
+            template["xsec"] = 1.0
+            template["generator_weight"] = 1.0
         self.result = template
 
     def parse_sample_details_with_filelist(self):
@@ -157,9 +160,9 @@ class DASQuery(object):
             return "dyjets"
         elif "TTT".lower() in process:
             return "ttbar"
-        elif "ST_t".lower() in process:
+        elif "ST_t".lower() in process or "ST_s".lower() in process:
             return "singletop"
-        elif any(name.lower() in process for name in ["/WZ_", "/WW_", "/ZZ_"]):
+        elif any(name.lower() in process for name in ["/WZ_", "/WW_", "/ZZ_", "/ZZTo"]):
             return "diboson"
         elif any(
             name.lower() in process for name in ["/WWW_", "/WWZ_", "/WZZ_", "/ZZZ_"]
@@ -169,7 +172,7 @@ class DASQuery(object):
             return "electroweak_boson"
         elif any(
             name.lower() in process
-            for name in ["/wjet", "/w1jet", "/w2jet", "/w3jet", "/w4jet"]
+            for name in ["/wjet", "/w1jet", "/w2jet", "/w3jet", "/w4jet", "/wtotaunu"]
         ):
             return "wjets"
         elif any(
@@ -199,7 +202,7 @@ class DASQuery(object):
             return "data"
         elif "Embedding".lower() in process:
             return "embedding"
-        elif any(name.lower() in process for name in ["ttZJets", "ttWJets"]):
+        elif any(name.lower() in process for name in ["ttZJets", "ttWJets"]) or "TTW".lower() in process or "TTZ".lower() in process:
             return "rem_ttbar"
         elif any(name.lower() in process for name in ["GluGluToContinToZZ"]):
             return "ggZZ"
@@ -228,7 +231,8 @@ class DASQuery(object):
             return "ggh_hbb"
         elif any(name.lower() in process for name in ["VBFHToBB"]):
             return "vbf_hbb"
-
+        elif any(name.lower() in process for name in ["ttHToNonbb"]):
+            return "ttH"
         elif any(
             name.lower() in process
             for name in [

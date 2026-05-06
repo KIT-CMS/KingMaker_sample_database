@@ -1,0 +1,15 @@
+{
+    "dbs": "/TTZZ_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18NanoAODv15-150X_mc2018_realistic_v1-v1/NANOAODSIM",
+    "era": "2018",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/TTZZ_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/120000/30fa9031-7dc3-462a-9f82-27a983b48004.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/TTZZ_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/120000/8c4eb8d0-abe9-466c-84a3-a9bb37ea4cf4.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 498000,
+    "nfiles": 2,
+    "nick": "TTZZ_TuneCP5_13TeV-madgraph-pythia8_RunIISummer20UL18NanoAODv15-150X",
+    "sample_type": "rem_ttbar",
+    "xsec": 0.0
+}

@@ -1,0 +1,20 @@
+{
+    "dbs": "/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/RunIISummer20UL18NanoAODv15-150X_mc2018_realistic_v1-v1/NANOAODSIM",
+    "era": "2018",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/120000/4ea7fc8b-6607-4324-8712-c00d634cd59c.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/120000/83aa9d17-c753-49dd-b10d-c6a00ef33b3c.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/120000/d82d4f9b-e9b0-4215-b18c-81cd26331c50.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/120000/b575c7cb-4748-4b83-b3a8-62daaf8832dd.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/120000/465cd1e3-39cf-414a-b86e-d68db41a8f34.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/120000/46c66d16-0cdf-4ef8-999a-5d6885a946b8.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/120000/bb798478-b1b1-486c-aab7-e4befe9aa715.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 1978203,
+    "nfiles": 7,
+    "nick": "DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8_RunIISummer20UL18NanoAODv15-150X",
+    "sample_type": "dyjets",
+    "xsec": 0.00339606
+}

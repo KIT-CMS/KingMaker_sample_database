@@ -1,0 +1,15 @@
+{
+    "dbs": "/GluGluToContinToZZTo4tau_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL18NanoAODv15-150X_mc2018_realistic_v1-v1/NANOAODSIM",
+    "era": "2018",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/GluGluToContinToZZTo4tau_TuneCP5_13TeV-mcfm701-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/2810000/9bbff51c-8b74-4471-a782-6c45d346b93d.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/GluGluToContinToZZTo4tau_TuneCP5_13TeV-mcfm701-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/2810000/b0bd9f4a-3848-44bf-845f-96b4a788bf7d.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 493998,
+    "nfiles": 2,
+    "nick": "GluGluToContinToZZTo4tau_TuneCP5_13TeV-mcfm701-pythia8_RunIISummer20UL18NanoAODv15-150X",
+    "sample_type": "ggZZ",
+    "xsec": 0.0
+}
