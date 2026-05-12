@@ -1,0 +1,23 @@
+{
+    "dbs": "/DYJetsToLL_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM",
+    "era": "2018",
+    "filelist": [
+        "davs://ppsdcache-kit.gridka.de:2880/pnfs/gridka.de/dcms/mmolch/nanoaod_input/dyjets/1A59D67A-325A-E742-BFFE-2FE5F69EB01B.root",
+        "davs://ppsdcache-kit.gridka.de:2880/pnfs/gridka.de/dcms/mmolch/nanoaod_input/dyjets/2F466C29-CA04-B74D-9563-BF7FC1A6FD5D.root",
+        "davs://ppsdcache-kit.gridka.de:2880/pnfs/gridka.de/dcms/mmolch/nanoaod_input/dyjets/7B930101-EB91-4F4E-9B90-0861460DBD94.root",
+        "davs://ppsdcache-kit.gridka.de:2880/pnfs/gridka.de/dcms/mmolch/nanoaod_input/dyjets/85999D7A-3836-6446-AED2-136D6FC874BA.root",
+        "davs://ppsdcache-kit.gridka.de:2880/pnfs/gridka.de/dcms/mmolch/nanoaod_input/dyjets/972D1B10-3E68-FF4D-9E1F-0095B3F223A8.root",
+        "davs://ppsdcache-kit.gridka.de:2880/pnfs/gridka.de/dcms/mmolch/nanoaod_input/dyjets/9C45DDF3-EEB4-864E-81BB-8F6D61F957D2.root",
+        "davs://ppsdcache-kit.gridka.de:2880/pnfs/gridka.de/dcms/mmolch/nanoaod_input/dyjets/B85DEDF9-44AA-A34E-B679-332589784E73.root",
+        "davs://ppsdcache-kit.gridka.de:2880/pnfs/gridka.de/dcms/mmolch/nanoaod_input/dyjets/BF8F0CF8-4DD5-904E-AD60-2E425E19EC6F.root",
+        "davs://ppsdcache-kit.gridka.de:2880/pnfs/gridka.de/dcms/mmolch/nanoaod_input/dyjets/C040F82F-D473-0845-BA41-2E3E1CD53756.root",
+        "davs://ppsdcache-kit.gridka.de:2880/pnfs/gridka.de/dcms/mmolch/nanoaod_input/dyjets/F876F630-2286-684B-81E3-A2D6DF65DC07.root"
+    ],
+    "generator_weight": 0.6729674534706208,
+    "instance": "prod/global",
+    "nevents": 195510810,
+    "nfiles": 10,
+    "nick": "DYJetsToLL_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL18NanoAODv9-106X_test",
+    "sample_type": "dyjets",
+    "xsec": 6077.22
+}
