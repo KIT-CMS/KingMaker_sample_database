@@ -198,7 +198,7 @@ class SampleManager(object):
 
     def find_samples_by_das(self):
         nick = questionary.autocomplete(
-            "Enter a sample nick to search for",
+            "Enter a DAS sample nick to search for",
             list(self.database.dasnicks),
             style=custom_style,
         ).ask()
@@ -345,7 +345,6 @@ class SampleManager(object):
             # check if there are missing entries from the details database
             with Progress() as progress_bar:
                 task = progress_bar.add_task("Files read ", total=len(self.database.database))
-                datasets = {}
                 for era in os.listdir(self.database_folder):
                     era_path = os.path.join(self.database_folder, era)
                     if not os.path.isdir(era_path):
