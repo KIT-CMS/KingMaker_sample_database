@@ -74,6 +74,7 @@ class SampleManager(object):
                 continue
             elif task == 5:
                 self.create_production_file()
+                continue
             elif task == 6:
                 self.update_genweight()
                 continue
