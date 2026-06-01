@@ -1,0 +1,1582 @@
+[
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 1681.9920155502393
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 318.0710077751196
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 120.56673893540669
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "DYto2E-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 6983.333333333333
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2E_MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 6286.2927860187765
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2E_MLL-120to200_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 20.180640394025282
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2E_MLL-1500to2500_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.0010355977587880873
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2E_MLL-200to400_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 2.8504571974563193
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2E_MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 5.545248485175816e-05
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2E_MLL-4000to6000_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 1.4522604034129973e-06
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2E_MLL-400to800_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.25083650485137204
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2E_MLL-50to120_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 2068.399123988088
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2E_MLL-6000_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 3.280169678825634e-08
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2E_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.01785031240395308
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "DYto2L-2Jets_MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 20950
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2L-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 5045.976046650718
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2L-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 954.2130233253588
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2L-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 361.70021680622006
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2L-2Jets_MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 6275.099999999999
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-4to50_HT-100to400_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 363.6275251509054
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-4to50_HT-1500to2500_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.023863056338028165
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-4to50_HT-2500_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.0012281611487104443
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-4to50_HT-400to800_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 6.484002176696542
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-4to50_HT-40to70_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 1046.117823303457
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-4to50_HT-70to100_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 397.8323870495702
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-4to50_HT-800to1500_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.4825410718858606
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50_1J_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 1116.9379568319005
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50_2J_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 358.5771428571428
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50_3J_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 107.81418383025425
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50_4J_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 52.14519718309859
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50_PTLL-100to200_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 67.10121565758185
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50_PTLL-200to400_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 7.665102944942381
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50_PTLL-400to600_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.4399571666361807
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50_PTLL-40to100_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 463.37257545271626
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50_PTLL-600_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.07854492280958478
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 6275.099999999999
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50to120_HT-100to400_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 206.14742271812693
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50to120_HT-1500to2500_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.05793018053777208
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50to120_HT-2500_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.003971436985549661
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50to120_HT-400to800_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 7.738563051033473
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50to120_HT-40to70_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 363.5127437351381
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50to120_HT-70to100_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 160.80876349003108
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2L-4Jets_MLL-50to120_HT-800to1500_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.7954352112676055
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 1681.9920155502393
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 318.0710077751196
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 120.56673893540669
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "DYto2Mu-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 6983.333333333333
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Mu_MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 6286.2927860187765
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Mu_MLL-120to200_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 20.180640394025282
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Mu_MLL-1500to2500_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.0010355977587880873
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Mu_MLL-200to400_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 2.8504571974563193
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Mu_MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 5.545248485175816e-05
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Mu_MLL-4000to6000_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 1.4522604034129973e-06
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Mu_MLL-400to800_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.25083650485137204
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Mu_MLL-50to120_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 2068.399123988088
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Mu_MLL-6000_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 3.280169678825634e-08
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Mu_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.01785031240395308
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8",
+            "DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 1681.9920155502393
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8",
+            "DYto2Tau-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 318.0710077751196
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8",
+            "DYto2Tau-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 120.56673893540669
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "DYto2Tau-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 6983.333333333333
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Tau_MLL-10to50_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 6286.2927860187765
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Tau_MLL-120to200_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 20.180640394025282
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Tau_MLL-1500to2500_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.0010355977587880873
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Tau_MLL-200to400_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 2.8504571974563193
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Tau_MLL-2500to4000_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 5.545248485175816e-05
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Tau_MLL-4000to6000_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 1.4522604034129973e-06
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Tau_MLL-400to800_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.25083650485137204
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Tau_MLL-50to120_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 2068.399123988088
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Tau_MLL-6000_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 3.280169678825634e-08
+    },
+    {
+        "order": [
+            "NLO(QCD)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
+        ],
+        "sample_names": [
+            "DYto2Tau_MLL-800to1500_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.01785031240395308
+    },
+    {
+        "order": "LO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "DYto4L-2Jets_MLL-10to50_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 17380
+    },
+    {
+        "order": "N3LO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8",
+            "GluGluHto2B_M-125_TuneCP5_13p6TeV_powheg-minlo-pythia8"
+        ],
+        "xsec": 30.418752
+    },
+    {
+        "order": "N3LO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955; https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "GluGluH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 1.268658871092077
+    },
+    {
+        "order": "N3LO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "GluGluH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8",
+            "GluGluHTo2TauUncorrelatedDecay_M-125_CP5_13p6TeV_powheg-pythia8",
+            "GluGluHToTauTau_M-125_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 3.2758655999999995
+    },
+    {
+        "order": "NNLO(QCD) FTapprox",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWGHH#Current_recommendations_for_HH_c; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/1803.02463",
+        "sample_names": [
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8",
+            "GluGlutoHHto2B2Tau_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.00249341001728
+    },
+    {
+        "order": "N3LO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "GluGluHto2Wto2L2Nu_M-125_TuneCP5_13p6TeV_powheg-jhugen752-pythia8"
+        ],
+        "xsec": 1.1847499742876397
+    },
+    {
+        "order": "N3LO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "GluGluHto2WtoLNu2Q_M-125_TuneCP5_13p6TeV_powheg-JHUGenV752-pythia8"
+        ],
+        "xsec": 2.3694999485752795
+    },
+    {
+        "order": "N3LO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "GluGluHto2Zto2L2Q_M-125_TuneCP5_13p6TeV_powheg-jhugenv7520-pythia8"
+        ],
+        "xsec": 0.20988904809953163
+    },
+    {
+        "order": "N3LO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "GluGluHto2Zto4L_M-125_TuneCP5_13p6TeV_powheg-jhugenv7520-pythia8",
+            "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
+        ],
+        "xsec": 0.016473483148650124
+    },
+    {
+        "order": "NNLO(QCD) FTapprox",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWGHH#Current_recommendations_for_HH_c; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/1803.02463",
+        "sample_names": [
+            "GluGlutoHHto4B_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.0115765465088
+    },
+    {
+        "order": "NNLO(QCD) FTapprox",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWGHH#Current_recommendations_for_HH_c; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/1803.02463",
+        "sample_names": [
+            "GluGlutoHHto4V_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.0019640863489730005
+    },
+    {
+        "order": "NNLO(QCD)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2012.01574",
+        "sample_names": [
+            "TBbarQ_t-channel_4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8"
+        ],
+        "xsec": 145.0
+    },
+    {
+        "order": "NNLO(QCD)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2012.01574",
+        "sample_names": [
+            "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8"
+        ],
+        "xsec": 47.241
+    },
+    {
+        "order": "NNLO(QCD)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; no publication referenced",
+        "sample_names": [
+            "TBbarto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 4.8831804
+    },
+    {
+        "order": "NNLO(QCD)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; no publication referenced",
+        "sample_names": [
+            "TBbartoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8",
+            "TBbartoLplusNuBbar-s-channel-4FS_TuneCP5_13p6TeV_amcatnlo-pythia8"
+        ],
+        "xsec": 2.3600952
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTG-1Jets_PTG-100to200_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8"
+        ],
+        "xsec": 0.4114
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTG-1Jets_PTG-10to100_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8"
+        ],
+        "xsec": 4.216
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTG-1Jets_PTG-200_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8"
+        ],
+        "xsec": 0.1284
+    },
+    {
+        "order": "unknown (not quoted in reference)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "TTH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8",
+            "TTH_Hto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.331968
+    },
+    {
+        "order": "unknown (not quoted in reference)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8",
+            "TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.23803199999999997
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTLL_MLL-4to50_TuneCP5_13p6TeV_amcatnlo-pythia8"
+        ],
+        "xsec": 0.03949
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTLL_MLL-50_TuneCP5_13p6TeV_amcatnlo-pythia8"
+        ],
+        "xsec": 0.08646
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTLNu-1Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 0.2505
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTLNu-EWK_TuneCP5_13p6TeV_amcatnlo-pythia8"
+        ],
+        "xsec": 0.01769
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTNuNu_TuneCP5_13p6TeV_amcatnlo-pythia8"
+        ],
+        "xsec": 0.1638
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTTT_TuneCP5_13p6TeV_amcatnlo-pythia8"
+        ],
+        "xsec": 0.009652
+    },
+    {
+        "order": "LO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTWW_TuneCP5_13p6TeV_madgraph-madspin-pythia8"
+        ],
+        "xsec": 0.008203
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTZ-ZtoQQ-1Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 0.6603
+    },
+    {
+        "order": "LO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTZZ_TuneCP5_13p6TeV_madgraph-madspin-pythia8"
+        ],
+        "xsec": 0.001579
+    },
+    {
+        "order": "LO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTZZto4B_TuneCP5_13p6TeV_madgraph-pythia8"
+        ],
+        "xsec": 0.001387
+    },
+    {
+        "order": "NNLO(QCD)+NNLL",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO; https://arxiv.org/abs/1112.5675",
+        "sample_names": [
+            "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 98.036113104
+    },
+    {
+        "order": "NNLO(QCD)+NNLL",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO; https://arxiv.org/abs/1112.5675",
+        "sample_names": [
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 419.6938241160001
+    },
+    {
+        "order": "NNLO(QCD)+NNLL",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO; https://arxiv.org/abs/1112.5675",
+        "sample_names": [
+            "TTtoLNu2Q_TuneCP5CR1_13p6TeV_powheg-pythia8",
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 405.685352016
+    },
+    {
+        "order": "NLO(QCD)+NNLL",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2102.11300",
+        "sample_names": [
+            "TWminusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 4.665100878
+    },
+    {
+        "order": "NLO(QCD)+NNLL",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2102.11300",
+        "sample_names": [
+            "TWminusto4Q_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 19.971355099500002
+    },
+    {
+        "order": "NLO(QCD)+NNLL",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2102.11300",
+        "sample_names": [
+            "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 19.304754462000002
+    },
+    {
+        "order": "NNLO(QCD)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2012.01574",
+        "sample_names": [
+            "TbarBQ_t-channel_4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8"
+        ],
+        "xsec": 87.2
+    },
+    {
+        "order": "NNLO(QCD)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2012.01574",
+        "sample_names": [
+            "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8"
+        ],
+        "xsec": 28.40976
+    },
+    {
+        "order": "NNLO(QCD)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; no publication referenced",
+        "sample_names": [
+            "TbarBto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 3.0563694
+    },
+    {
+        "order": "NNLO(QCD)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; no publication referenced",
+        "sample_names": [
+            "TbarBtoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8",
+            "TbarBtoLminusNuB-s-channel-4FS_TuneCP5_13p6TeV_amcatnlo-pythia8"
+        ],
+        "xsec": 1.4771771999999999
+    },
+    {
+        "order": "NLO(QCD)+NNLL",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2102.11300",
+        "sample_names": [
+            "TbarWplusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 4.665100878
+    },
+    {
+        "order": "NLO(QCD)+NNLL",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2102.11300",
+        "sample_names": [
+            "TbarWplusto4Q_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 19.971355099500002
+    },
+    {
+        "order": "NLO(QCD)+NNLL",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2102.11300",
+        "sample_names": [
+            "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 19.304754462000002
+    },
+    {
+        "order": "approx. NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8",
+            "VBFHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 2.3750272000000003
+    },
+    {
+        "order": "approx. NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955; https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "VBFH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.10426692838277513
+    },
+    {
+        "order": "approx. NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "VBFH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8",
+            "VBFHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-pythia8",
+            "VBFHToTauTau_M125_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.25577216
+    },
+    {
+        "order": "NNLO(QCD) FTapprox",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWGHH#Current_recommendations_for_HH_c; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/1803.02463",
+        "sample_names": [
+            "VBFHHto2B2Tau_CV-1_C2V-1_C3-1_TuneCP5_13p6TeV_madgraph-pythia8"
+        ],
+        "xsec": 0.000136907423744
+    },
+    {
+        "order": "NNLO(QCD) FTapprox",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWGHH#Current_recommendations_for_HH_c; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/1803.02463",
+        "sample_names": [
+            "VBFHHto4B_CV-1_C2V-1_C3-1_TuneCP5_13p6TeV_madgraph-pythia8"
+        ],
+        "xsec": 0.00063564161024
+    },
+    {
+        "order": "NNLO(QCD) FTapprox",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWGHH#Current_recommendations_for_HH_c; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/1803.02463",
+        "sample_names": [
+            "VBFHHto4V_CV_1_C2V_1_C3_1_TuneCP5_13p6TeV_madgraph-pythia8"
+        ],
+        "xsec": 0.00010784347547540002
+    },
+    {
+        "order": "approx. NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "VBFHto2Wto2L2Nu_M-125_TuneCP5_13p6TeV_powheg-jhugen752-pythia8"
+        ],
+        "xsec": 0.092502592286904
+    },
+    {
+        "order": "approx. NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "VBFHto2WtoLNu2Q_M-125_TuneCP5_13p6TeV_powheg-JHUGenV752-pythia8"
+        ],
+        "xsec": 0.18500518457380796
+    },
+    {
+        "order": "approx. NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "VBFHto2Zto4L_M125_TuneCP5_13p6TeV_powheg-jhugenv752-pythia8"
+        ],
+        "xsec": 0.0012862122205666324
+    },
+    {
+        "order": "LO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "WW_TuneCP5_13p6TeV_pythia8"
+        ],
+        "xsec": 80.42
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "WWto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 11.79
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "WWto4Q_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 50.79
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "WWtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 48.94
+    },
+    {
+        "order": "LO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "WZ_TuneCP5_13p6TeV_pythia8"
+        ],
+        "xsec": 29.1
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "WZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 7.568
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 4.924
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "WZtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 15.87
+    },
+    {
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955; https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "WminusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8"
+        ],
+        "xsec": 0.01405667571527298
+    },
+    {
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "WminusH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8"
+        ],
+        "xsec": 0.035606144
+    },
+    {
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "WminusH_Hto2B_Wto2Q_M-125_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.22287665836800002
+    },
+    {
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "WminusH_Hto2B_WtoLNu_M-125_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.107718758784
+    },
+    {
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "WminusH_Hto2Zto4L_M-125_TuneCP5_13p6TeV_powheg2-minlo-HWJ-JHUGenV752-pythia8"
+        ],
+        "xsec": 0.00017905411417745883
+    },
+    {
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955; https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "WplusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8"
+        ],
+        "xsec": 0.021024918858621806
+    },
+    {
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "WplusH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8"
+        ],
+        "xsec": 0.055751808
+    },
+    {
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "WplusH_Hto2B_Wto2Q_M-125_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.34897844217600005
+    },
+    {
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "WplusH_Hto2B_WtoLNu_M-125_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.168665148288
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-2Jets_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 52207.36907399202
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-2Jets_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 8921.879840496234
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-2Jets_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 3306.9660611431104
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-2Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 63396.0
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_1J_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 8505.23207797962
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_2J_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 2738.6397873283117
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_3J_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 806.7985999113868
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_4J_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 389.963579973416
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_MLNu-0to120_HT-100to400_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 1522.4028356225076
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_MLNu-0to120_HT-1500to2500_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.419175737704918
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_MLNu-0to120_HT-2500_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.028790828533451482
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_MLNu-0to120_HT-400to800_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 56.16786353566681
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_MLNu-0to120_HT-40to100_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 3982.9653522374833
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_MLNu-0to120_HT-800to1500_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 5.83306867523261
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_MLNu-120_HT-100to400_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 9.540765618077092
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_MLNu-120_HT-1500to2500_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.004743230482941958
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_MLNu-120_HT-2500_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.0003546655560478511
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_MLNu-120_HT-400to800_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.490520815241471
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_MLNu-120_HT-40to100_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 19.25006291537439
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_MLNu-120_HT-800to1500_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 0.058564758529020815
+    },
+    {
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoLNu-4Jets_TuneCP5_13p6TeV_madgraphMLM-pythia8"
+        ],
+        "xsec": 63396.0
+    },
+    {
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955; https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "ZH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8"
+        ],
+        "xsec": 0.025515071644234177
+    },
+    {
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8"
+        ],
+        "xsec": 0.059201408
+    },
+    {
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "ZH_Hto2B_Zto2L_M-125_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.06032708048640001
+    },
+    {
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
+        "sample_names": [
+            "ZH_Hto2B_Zto2Q_M-125_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 0.38431439737600004
+    },
+    {
+        "order": "LO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "ZZ_TuneCP5_13p6TeV_pythia8"
+        ],
+        "xsec": 12.75
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "ZZto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 1.031
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "ZZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 6.788
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "ZZto4L_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 1.39
+    }
+]
