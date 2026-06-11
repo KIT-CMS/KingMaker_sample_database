@@ -1,0 +1,24 @@
+{
+    "dbs": "/WZ_TuneCP5_13TeV-pythia8/RunIISummer20UL18NanoAODv15-150X_mc2018_realistic_v1-v1/NANOAODSIM",
+    "era": "2018",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/WZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/130000/6782def1-dfbe-4ace-9e86-743a0b36fd16.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/WZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/130000/b4716086-9af6-4869-a233-1c46ebfa736e.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/WZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/130000/e82fa7fa-b26f-431a-bc94-c1d2824e31cb.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/WZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/130000/f69f03f1-2ae4-4145-90c2-9834cb7a1ac2.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/WZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/130000/b6cc3256-c68b-4d66-ab82-0dcac9bfed65.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/WZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/130000/c740596c-3c4b-4ada-bc3d-51e11035dc82.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/WZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/130000/a66e0bdc-1ae3-4387-b215-38af936813cf.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/WZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/130000/c2ba8789-20b7-471a-988c-e7ebdf138acf.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/WZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/130000/197a78e6-d140-48a0-aff5-d3ccba5ed091.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/WZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/130000/ad3cfd9e-ad5f-49b4-b08f-7112636aafe6.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/WZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/130000/7e5b4850-7c21-41f9-b3a9-09e3c2a73496.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 7940000,
+    "nfiles": 11,
+    "nick": "WZ_TuneCP5_13TeV-pythia8_RunIISummer20UL18NanoAODv15-150X",
+    "sample_type": "diboson",
+    "xsec": 0.0
+}

@@ -5,7 +5,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/EWKZ2Jets_ZToLL_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/120000/8147e45b-23ae-4ac9-93e6-fb3638ae122c.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/EWKZ2Jets_ZToLL_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/120000/4589e4d1-1249-4031-9433-d52795040dd8.root"
     ],
-    "generator_weight": 0.0,
+    "generator_weight": 1.0,
     "instance": "prod/global",
     "nevents": 579000,
     "nfiles": 2,

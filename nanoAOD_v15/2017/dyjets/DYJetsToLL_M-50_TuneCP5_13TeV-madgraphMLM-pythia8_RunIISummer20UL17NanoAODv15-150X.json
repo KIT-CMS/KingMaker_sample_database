@@ -85,7 +85,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v2/130000/f0f584d7-bf48-4864-9d47-ad20c4812853.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v2/130000/5e344671-2136-4843-9e06-7810c825e192.root"
     ],
-    "generator_weight": 0.0,
+    "generator_weight": 1.0,
     "instance": "prod/global",
     "nevents": 103344974,
     "nfiles": 82,
