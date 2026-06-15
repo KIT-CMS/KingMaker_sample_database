@@ -104,11 +104,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2/2520000/2f574679-e602-4d26-a6b0-f5dbead5ed1b.root",
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2/2810000/150bdf3c-1ab9-4aca-96f7-5e5b7dfe3851.root"
     ],
-    "generator_weight": 0.0,
+    "generator_weight": 0.8943957730742322,
     "instance": "prod/global",
     "nevents": 957670,
     "nfiles": 101,
     "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix",
     "sample_type": "hh2b2tau",
-    "xsec": 0.0
+    "xsec": 0.00249341001728
 }
