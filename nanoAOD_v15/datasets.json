@@ -2523,8 +2523,8 @@
         "era": "2024",
         "generator_weight": 0.99994,
         "instance": "prod/global",
-        "nevents": 2000000,
-        "nfiles": 41,
+        "nevents": 1790000,
+        "nfiles": 29,
         "nick": "GluGluH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X",
         "sample_type": "ggh_htautau",
         "xsec": 3.2758655999999995
@@ -12038,8 +12038,8 @@
         "era": "2024",
         "generator_weight": 1.0,
         "instance": "prod/global",
-        "nevents": 63986968,
-        "nfiles": 518,
+        "nevents": 46943284,
+        "nfiles": 377,
         "nick": "WW_TuneCP5_13p6TeV_pythia8_RunIII2024Summer24NanoAODv15-150X",
         "sample_type": "diboson",
         "xsec": 80.42
