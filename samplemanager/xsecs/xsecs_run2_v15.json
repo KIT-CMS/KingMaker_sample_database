@@ -72,6 +72,30 @@
         "xsec": 0.04472773374844334
     },
     {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossSectionsat13TeV;"
+        ],
+        "sample_names": [
+            "DYJetsToLL_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8"
+        ],
+        "xsec": 6077.22
+    },
+    {
+        "order": [
+            "NNLO(QCD)xNLO(EW)"
+        ],
+        "reference": [
+            "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossSectionsat13TeV;"
+        ],
+        "sample_names": [
+            "DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8"
+        ],
+        "xsec": 6077.22
+    },
+    {
         "order": "N3LO(QCD)+NLO(EW)",
         "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955",
         "sample_names": [

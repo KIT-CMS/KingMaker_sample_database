@@ -51,7 +51,7 @@ def _calculate_genweight_uproot(
     num_workers=4,
     max_retries=5,
     timeout=30,
-    fail_threshold_percent=10,
+    fail_threshold_percent=1.5,
     **kwargs,
 ):
     threshold, fails = len(filelist) // fail_threshold_percent, 0

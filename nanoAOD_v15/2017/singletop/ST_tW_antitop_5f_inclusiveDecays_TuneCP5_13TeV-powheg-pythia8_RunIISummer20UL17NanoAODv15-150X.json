@@ -12,11 +12,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2560000/30108df7-42b9-4498-8db2-c09995d59371.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2560000/01b5cfa9-ffb9-482a-a28d-5faefdc09fcd.root"
     ],
-    "generator_weight": 0.0,
+    "generator_weight": 0.999947127247092,
     "instance": "prod/global",
     "nevents": 5674000,
     "nfiles": 9,
     "nick": "ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17NanoAODv15-150X",
     "sample_type": "singletop",
-    "xsec": 0.0
+    "xsec": 39.65
 }

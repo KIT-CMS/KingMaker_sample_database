@@ -134,23 +134,47 @@ class DASQuery(object):
         parts = nick.split("/")[1:]
         # nick is the first part of the DAS sting + the second part till the first "_"
         # if there is no "_" in the second part, the whole second part is used
+        if "2016B" in parts[1]:
+            if "_v2-v1" in nick:
+                ext_preVFP = "_v2-"
+            else:
+                ext_preVFP = "_v1-"
+            
+            nick = parts[0] + "_" + parts[1].split("_")[0].split("-")[0] + ext_preVFP + parts[1].split("_")[0].split("-")[1] + ext_v
+            return nick
+        
+                
         nick = parts[0] + "_" + parts[1].split("_")[0] + ext_v
 
         return nick
 
     def _get_era(self, nick):
-        # regex search for a year in the nick
+        # 2016 UL MC campaigns encode the year as UL16, not as literal 2016.
+        # APV/preVFP samples are 2016preVFP; non-APV UL16 samples are 2016postVFP.
+        if "UL16" in nick or "RunIISummer20UL16" in nick or "Summer20UL16" in nick:
+            if "APV" in nick or "preVFP" in nick or "HIPM" in nick:
+                return "2016preVFP"
+            return "2016postVFP"
+
+        if "UL17" in nick or "RunIISummer20UL17" in nick or "Summer20UL17" in nick:
+            return "2017"
+
+        if "UL18" in nick or "RunIISummer20UL18" in nick or "Summer20UL18" in nick:
+            return "2018"
+
+        # Existing handling for data and older samples containing literal years.
         m = re.search("20[1-9]{2}", nick)
         if m:
-            # Do era-specific modifications
             era = m.group(0)
-            # take both data (HIPM) and MC/USER-produced (preVFP) DAS nick specifics into account for 2016
-            if ("HIPM" in nick or "preVFP" in nick) and era == "2016":
+            if ("HIPM" in nick or "preVFP" in nick or "APV" in nick) and era == "2016":
                 return era + "preVFP"
             elif era == "2016":
                 return era + "postVFP"
             else:
                 return era
+
+        print(f"Could not determine era from DAS dataset name: {nick}, will be put in era None")
+
 
     def _build_sampletype(self, nick):
         process = "/" + nick.split("/")[1].lower()

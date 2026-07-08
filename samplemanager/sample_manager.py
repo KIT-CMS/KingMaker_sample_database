@@ -214,7 +214,7 @@ class SampleManager(object):
         # Ask if user wants single or multiple sample mode
         mode = questionary.select(
             "Update genweight for one sample or multiple samples?",
-            choices=["Search by single nick", "Search by era (multiple selection)"],
+            choices=["Search by single nick", "Search by era (multiple selection)", "Search by genWeights=0.0"],
             style=custom_style,
         ).ask()
         if mode == "Search by single nick":
@@ -227,6 +227,23 @@ class SampleManager(object):
                 questionary.print("No valid sample selected.")
                 return
             nicks = [nick]
+        elif mode == "Search by genWeights=0.0":
+            nicks = sorted(
+                nick
+                for nick in self.database.samplenicks
+                if self.database.database[nick].get("generator_weight") == 0.0
+            )
+            if not nicks:
+                questionary.print("No samples with generator_weight == 0.0 found.")
+                return
+            questionary.print(f"Found {len(nicks)} samples with generator_weight == 0.0.")
+            proceed = questionary.confirm(
+                "Do you want to try updating all of them?",
+                default=False,
+            ).ask()
+            if not proceed:
+                questionary.print("No samples selected.")
+                return
         else:
             possible_eras = [str(x) for x in list(self.database.eras)]
             selected_eras = questionary.checkbox(
@@ -260,19 +277,7 @@ class SampleManager(object):
             for nick in nicks:
                 self.database.genweight_by_nick(nick, ask_for_update=False, num_workers=int(num_workers))
 
-    # def update_xsec(self):
-    #     nick = questionary.autocomplete(
-    #         "Enter a sample nick to search for",
-    #         list(self.database.samplenicks),
-    #         style=custom_style,
-    #     ).ask()
-    #     if nick in self.database.samplenicks:
-    #         self.database.xsec_by_nick(nick)
-    #         return
-    #     if nick in self.database.dasnicks:
-    #         nick = self.database.get_nick_by_das(nick)
-    #         self.database.xsec_by_nick(nick)
-    #         return
+    
     def update_xsec(self):
         # Ask if user wants single or multiple sample mode
         mode = questionary.select(

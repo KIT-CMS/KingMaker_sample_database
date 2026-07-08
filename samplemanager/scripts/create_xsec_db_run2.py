@@ -369,6 +369,20 @@ _k_factor_dy_m50_amcatnlo_nnlo = _xsec_dy_m50_total_nnlo / _xsec_dy_m50_total_am
 
 _reference="https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossSectionsat13TeV;",
 _order="NNLO(QCD)xNLO(EW)",
+
+add_cross_section(
+    xsec=_xsec_dy_m50_total_nnlo,
+    order=_order,
+    reference=_reference,
+    sample_names="DYJetsToLL_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8",
+)
+add_cross_section(
+    xsec=_xsec_dy_m50_total_nnlo,
+    order=_order,
+    reference=_reference,
+    sample_names="DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8",
+)
+
 for _sample_name, _madgraph_xsec in [
     # samples binned in number of jets
 
@@ -487,41 +501,6 @@ for _sample_name, _xsec in [
 
 
 # TODO The cross sections on https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossSectionsat13TeV seem way too high. That's why we currently just use the cross sections from the sample database.
-
-## Cross sections of WW, ZZ production at 13.6 TeV for leptonic final states
-## N.B.: To obtain the "_xsec_zz_or_ww_x" values, we subtract the gg -> VV from the pp -> VV production cross section.
-## Taken from https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossSectionsat13TeV
-## Order: nNNLO(QCD)xNLO(EW) (subtracted gg -> X at NLO)
-# # These are still the 13.6 TeV values !!!
-# _xsec_zz_or_ww_eemumu = 0.387 - 0.0443
-# _xsec_zz_or_ww_eeee = 0.1633 - 0.013
-# _xsec_zz_or_ww_emunuenumu = 1.5589 - 0.1497
-# _xsec_zz_or_ww_eenuenue = 1.6736 - 0.1602
-
-# Cross sections of WZ production at 13.6 TeV for leptonic final states
-# Taken from https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossSectionsat13TeV
-# Order: NNLO(QCD)xNLO(EW), gg -> X at NLO
-# _xsec_wz_eemuminusnumu = 0.2385
-# _xsec_wz_eeeminusnue = 0.2366
-# _xsec_wz_eemuplusnumu = 0.3474
-# _xsec_wz_eeeplusnue = 0.3459
-
-# total WW, ZZ, WZ cross sections at 13.6 TeV
-# Some of the cross sections are way to high when comparing with Run 2 cross sections, e.g. at
-# https://twiki.cern.ch/twiki/bin/viewauth/CMS/StandardModelCrossSectionsat13TeV
-# - For WW, we obtain 119.48 in Run 3 and 118.7 in Run 2 -> should be fine
-# - For ZZ, we obtain 120.19 in Run 3 and 13.04 in Run 2 -> multiply with magic factor 1/9 to get correct order (=> 13.35)
-# - For WZ, we obtain 146.62 in Run 3 and 59.11 in Run 2 -> multiply with magic factor 2/5 to get correct order (=> 58.65)
-#_xsec_ww_total = _xsec_zz_or_ww_emunuenumu / (_br_w_leptons / 3)**2
-#_xsec_zz_total = ( _xsec_zz_or_ww_eeee / (_br_z_leptons / 3)**2 + _xsec_zz_or_ww_eemumu / (2 * (_br_z_leptons / 3)**2) ) / (2 * 9)
-#_xsec_wz_total = (2 / 5) * (_xsec_wz_eeeplusnue + _xsec_wz_eeeminusnue) / (_br_w_leptons / 3 * _br_z_leptons / 3)
-# Calculated from https://xsecdb-xsdb-official.app.cern.ch
-# - for WW: WWto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8
-# - for WZ: WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8
-# - for ZZ: ZZto4L_TuneCP5_13p6TeV_powheg-pythia8
-#_xsec_ww_total = 11.79 / _br_w_leptons**2
-#_xsec_wz_total = 4.924 / (_br_w_leptons * _br_z_leptons)
-#_xsec_zz_total = 0.139 / _br_z_leptons**2
 
 # Inclusive sample_names (Pythia)
 
