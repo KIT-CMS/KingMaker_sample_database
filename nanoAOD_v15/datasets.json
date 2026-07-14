@@ -1086,7 +1086,7 @@
         "nfiles": 655,
         "nick": "EGamma0_Run2025C-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma0_Run2025C-PromptReco-v2": {
         "dbs": "/EGamma0/Run2025C-PromptReco-v2/NANOAOD",
@@ -1097,7 +1097,7 @@
         "nfiles": 342,
         "nick": "EGamma0_Run2025C-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma0_Run2025D-PromptReco-v1": {
         "dbs": "/EGamma0/Run2025D-PromptReco-v1/NANOAOD",
@@ -1108,7 +1108,7 @@
         "nfiles": 1105,
         "nick": "EGamma0_Run2025D-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma0_Run2025E-PromptReco-v1": {
         "dbs": "/EGamma0/Run2025E-PromptReco-v1/NANOAOD",
@@ -1119,7 +1119,7 @@
         "nfiles": 595,
         "nick": "EGamma0_Run2025E-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma0_Run2025F-PromptReco-v1": {
         "dbs": "/EGamma0/Run2025F-PromptReco-v1/NANOAOD",
@@ -1130,7 +1130,7 @@
         "nfiles": 888,
         "nick": "EGamma0_Run2025F-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma0_Run2025F-PromptReco-v2": {
         "dbs": "/EGamma0/Run2025F-PromptReco-v2/NANOAOD",
@@ -1141,7 +1141,7 @@
         "nfiles": 351,
         "nick": "EGamma0_Run2025F-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma0_Run2025G-PromptReco-v1": {
         "dbs": "/EGamma0/Run2025G-PromptReco-v1/NANOAOD",
@@ -1152,7 +1152,7 @@
         "nfiles": 1012,
         "nick": "EGamma0_Run2025G-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma1_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024C-MINIv6NANOv15-v1/NANOAOD",
@@ -1251,7 +1251,7 @@
         "nfiles": 652,
         "nick": "EGamma1_Run2025C-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma1_Run2025C-PromptReco-v2": {
         "dbs": "/EGamma1/Run2025C-PromptReco-v2/NANOAOD",
@@ -1262,7 +1262,7 @@
         "nfiles": 347,
         "nick": "EGamma1_Run2025C-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma1_Run2025D-PromptReco-v1": {
         "dbs": "/EGamma1/Run2025D-PromptReco-v1/NANOAOD",
@@ -1273,7 +1273,7 @@
         "nfiles": 1095,
         "nick": "EGamma1_Run2025D-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma1_Run2025E-PromptReco-v1": {
         "dbs": "/EGamma1/Run2025E-PromptReco-v1/NANOAOD",
@@ -1284,7 +1284,7 @@
         "nfiles": 596,
         "nick": "EGamma1_Run2025E-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma1_Run2025F-PromptReco-v1": {
         "dbs": "/EGamma1/Run2025F-PromptReco-v1/NANOAOD",
@@ -1295,7 +1295,7 @@
         "nfiles": 875,
         "nick": "EGamma1_Run2025F-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma1_Run2025F-PromptReco-v2": {
         "dbs": "/EGamma1/Run2025F-PromptReco-v2/NANOAOD",
@@ -1306,7 +1306,7 @@
         "nfiles": 350,
         "nick": "EGamma1_Run2025F-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma1_Run2025G-PromptReco-v1": {
         "dbs": "/EGamma1/Run2025G-PromptReco-v1/NANOAOD",
@@ -1317,7 +1317,7 @@
         "nfiles": 1010,
         "nick": "EGamma1_Run2025G-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma2_Run2025C-PromptReco-v1": {
         "dbs": "/EGamma2/Run2025C-PromptReco-v1/NANOAOD",
@@ -1328,7 +1328,7 @@
         "nfiles": 656,
         "nick": "EGamma2_Run2025C-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma2_Run2025C-PromptReco-v2": {
         "dbs": "/EGamma2/Run2025C-PromptReco-v2/NANOAOD",
@@ -1339,7 +1339,7 @@
         "nfiles": 351,
         "nick": "EGamma2_Run2025C-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma2_Run2025D-PromptReco-v1": {
         "dbs": "/EGamma2/Run2025D-PromptReco-v1/NANOAOD",
@@ -1350,7 +1350,7 @@
         "nfiles": 1121,
         "nick": "EGamma2_Run2025D-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma2_Run2025E-PromptReco-v1": {
         "dbs": "/EGamma2/Run2025E-PromptReco-v1/NANOAOD",
@@ -1361,7 +1361,7 @@
         "nfiles": 593,
         "nick": "EGamma2_Run2025E-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma2_Run2025F-PromptReco-v1": {
         "dbs": "/EGamma2/Run2025F-PromptReco-v1/NANOAOD",
@@ -1372,7 +1372,7 @@
         "nfiles": 876,
         "nick": "EGamma2_Run2025F-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma2_Run2025F-PromptReco-v2": {
         "dbs": "/EGamma2/Run2025F-PromptReco-v2/NANOAOD",
@@ -1383,7 +1383,7 @@
         "nfiles": 358,
         "nick": "EGamma2_Run2025F-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma2_Run2025G-PromptReco-v1": {
         "dbs": "/EGamma2/Run2025G-PromptReco-v1/NANOAOD",
@@ -1394,7 +1394,7 @@
         "nfiles": 1016,
         "nick": "EGamma2_Run2025G-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma3_Run2025C-PromptReco-v1": {
         "dbs": "/EGamma3/Run2025C-PromptReco-v1/NANOAOD",
@@ -1405,7 +1405,7 @@
         "nfiles": 660,
         "nick": "EGamma3_Run2025C-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma3_Run2025C-PromptReco-v2": {
         "dbs": "/EGamma3/Run2025C-PromptReco-v2/NANOAOD",
@@ -1416,7 +1416,7 @@
         "nfiles": 343,
         "nick": "EGamma3_Run2025C-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma3_Run2025D-PromptReco-v1": {
         "dbs": "/EGamma3/Run2025D-PromptReco-v1/NANOAOD",
@@ -1427,7 +1427,7 @@
         "nfiles": 1090,
         "nick": "EGamma3_Run2025D-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma3_Run2025E-PromptReco-v1": {
         "dbs": "/EGamma3/Run2025E-PromptReco-v1/NANOAOD",
@@ -1438,7 +1438,7 @@
         "nfiles": 598,
         "nick": "EGamma3_Run2025E-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma3_Run2025F-PromptReco-v1": {
         "dbs": "/EGamma3/Run2025F-PromptReco-v1/NANOAOD",
@@ -1449,7 +1449,7 @@
         "nfiles": 889,
         "nick": "EGamma3_Run2025F-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma3_Run2025F-PromptReco-v2": {
         "dbs": "/EGamma3/Run2025F-PromptReco-v2/NANOAOD",
@@ -1460,7 +1460,7 @@
         "nfiles": 340,
         "nick": "EGamma3_Run2025F-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "EGamma3_Run2025G-PromptReco-v1": {
         "dbs": "/EGamma3/Run2025G-PromptReco-v1/NANOAOD",
@@ -1471,7 +1471,7 @@
         "nfiles": 1012,
         "nick": "EGamma3_Run2025G-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -1636,7 +1636,7 @@
         "nfiles": 638,
         "nick": "Muon0_Run2025C-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Muon0_Run2025C-PromptReco-v2": {
         "dbs": "/Muon0/Run2025C-PromptReco-v2/NANOAOD",
@@ -1647,7 +1647,7 @@
         "nfiles": 356,
         "nick": "Muon0_Run2025C-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Muon0_Run2025D-PromptReco-v1": {
         "dbs": "/Muon0/Run2025D-PromptReco-v1/NANOAOD",
@@ -1658,7 +1658,7 @@
         "nfiles": 1166,
         "nick": "Muon0_Run2025D-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Muon0_Run2025E-PromptReco-v1": {
         "dbs": "/Muon0/Run2025E-PromptReco-v1/NANOAOD",
@@ -1669,7 +1669,7 @@
         "nfiles": 606,
         "nick": "Muon0_Run2025E-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Muon0_Run2025F-PromptReco-v1": {
         "dbs": "/Muon0/Run2025F-PromptReco-v1/NANOAOD",
@@ -1680,7 +1680,7 @@
         "nfiles": 884,
         "nick": "Muon0_Run2025F-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Muon0_Run2025F-PromptReco-v2": {
         "dbs": "/Muon0/Run2025F-PromptReco-v2/NANOAOD",
@@ -1691,7 +1691,7 @@
         "nfiles": 344,
         "nick": "Muon0_Run2025F-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Muon0_Run2025G-PromptReco-v1": {
         "dbs": "/Muon0/Run2025G-PromptReco-v1/NANOAOD",
@@ -1702,7 +1702,7 @@
         "nfiles": 1009,
         "nick": "Muon0_Run2025G-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Muon1_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/Muon1/Run2024C-MINIv6NANOv15-v1/NANOAOD",
@@ -1801,7 +1801,7 @@
         "nfiles": 644,
         "nick": "Muon1_Run2025C-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Muon1_Run2025C-PromptReco-v2": {
         "dbs": "/Muon1/Run2025C-PromptReco-v2/NANOAOD",
@@ -1812,7 +1812,7 @@
         "nfiles": 350,
         "nick": "Muon1_Run2025C-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Muon1_Run2025D-PromptReco-v1": {
         "dbs": "/Muon1/Run2025D-PromptReco-v1/NANOAOD",
@@ -1823,7 +1823,7 @@
         "nfiles": 1159,
         "nick": "Muon1_Run2025D-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Muon1_Run2025E-PromptReco-v1": {
         "dbs": "/Muon1/Run2025E-PromptReco-v1/NANOAOD",
@@ -1834,7 +1834,7 @@
         "nfiles": 611,
         "nick": "Muon1_Run2025E-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Muon1_Run2025F-PromptReco-v1": {
         "dbs": "/Muon1/Run2025F-PromptReco-v1/NANOAOD",
@@ -1845,7 +1845,7 @@
         "nfiles": 891,
         "nick": "Muon1_Run2025F-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Muon1_Run2025F-PromptReco-v2": {
         "dbs": "/Muon1/Run2025F-PromptReco-v2/NANOAOD",
@@ -1856,7 +1856,7 @@
         "nfiles": 345,
         "nick": "Muon1_Run2025F-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Muon1_Run2025G-PromptReco-v1": {
         "dbs": "/Muon1/Run2025G-PromptReco-v1/NANOAOD",
@@ -1867,7 +1867,7 @@
         "nfiles": 1003,
         "nick": "Muon1_Run2025G-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "NMSSM-XtoYHto2B2Tau_Par-MX-1000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/NMSSM-XtoYHto2B2Tau_Par-MX-1000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -8753,7 +8753,7 @@
         "nfiles": 208,
         "nick": "Tau_Run2025C-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Tau_Run2025C-PromptReco-v2": {
         "dbs": "/Tau/Run2025C-PromptReco-v2/NANOAOD",
@@ -8764,7 +8764,7 @@
         "nfiles": 116,
         "nick": "Tau_Run2025C-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Tau_Run2025D-PromptReco-v1": {
         "dbs": "/Tau/Run2025D-PromptReco-v1/NANOAOD",
@@ -8775,7 +8775,7 @@
         "nfiles": 629,
         "nick": "Tau_Run2025D-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Tau_Run2025E-PromptReco-v1": {
         "dbs": "/Tau/Run2025E-PromptReco-v1/NANOAOD",
@@ -8786,7 +8786,7 @@
         "nfiles": 379,
         "nick": "Tau_Run2025E-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Tau_Run2025F-PromptReco-v1": {
         "dbs": "/Tau/Run2025F-PromptReco-v1/NANOAOD",
@@ -8797,7 +8797,7 @@
         "nfiles": 627,
         "nick": "Tau_Run2025F-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Tau_Run2025F-PromptReco-v2": {
         "dbs": "/Tau/Run2025F-PromptReco-v2/NANOAOD",
@@ -8808,7 +8808,7 @@
         "nfiles": 243,
         "nick": "Tau_Run2025F-PromptReco-v2",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "Tau_Run2025G-PromptReco-v1": {
         "dbs": "/Tau/Run2025G-PromptReco-v1/NANOAOD",
@@ -8819,7 +8819,7 @@
         "nfiles": 735,
         "nick": "Tau_Run2025G-PromptReco-v1",
         "sample_type": "data",
-        "xsec": 0.0
+        "xsec": 1.0
     },
     "TbarBQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/TbarBQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
