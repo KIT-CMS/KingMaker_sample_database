@@ -1154,6 +1154,39 @@
         "sample_type": "data",
         "xsec": 1.0
     },
+    "EGamma0_Run2026B-PromptReco-v1": {
+        "dbs": "/EGamma0/Run2026B-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 205275441,
+        "nfiles": 536,
+        "nick": "EGamma0_Run2026B-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma0_Run2026C-PromptReco-v1": {
+        "dbs": "/EGamma0/Run2026C-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 375030929,
+        "nfiles": 603,
+        "nick": "EGamma0_Run2026C-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma0_Run2026D-PromptReco-v1": {
+        "dbs": "/EGamma0/Run2026D-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 125742096,
+        "nfiles": 334,
+        "nick": "EGamma0_Run2026D-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
     "EGamma1_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/EGamma1/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
@@ -1319,6 +1352,39 @@
         "sample_type": "data",
         "xsec": 1.0
     },
+    "EGamma1_Run2026B-PromptReco-v1": {
+        "dbs": "/EGamma1/Run2026B-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 205266455,
+        "nfiles": 532,
+        "nick": "EGamma1_Run2026B-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma1_Run2026C-PromptReco-v1": {
+        "dbs": "/EGamma1/Run2026C-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 374809724,
+        "nfiles": 611,
+        "nick": "EGamma1_Run2026C-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma1_Run2026D-PromptReco-v1": {
+        "dbs": "/EGamma1/Run2026D-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 125740549,
+        "nfiles": 325,
+        "nick": "EGamma1_Run2026D-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
     "EGamma2_Run2025C-PromptReco-v1": {
         "dbs": "/EGamma2/Run2025C-PromptReco-v1/NANOAOD",
         "era": "2025",
@@ -1396,6 +1462,39 @@
         "sample_type": "data",
         "xsec": 1.0
     },
+    "EGamma2_Run2026B-PromptReco-v1": {
+        "dbs": "/EGamma2/Run2026B-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 205274221,
+        "nfiles": 534,
+        "nick": "EGamma2_Run2026B-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma2_Run2026C-PromptReco-v1": {
+        "dbs": "/EGamma2/Run2026C-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 374832870,
+        "nfiles": 594,
+        "nick": "EGamma2_Run2026C-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma2_Run2026D-PromptReco-v1": {
+        "dbs": "/EGamma2/Run2026D-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 125741242,
+        "nfiles": 335,
+        "nick": "EGamma2_Run2026D-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
     "EGamma3_Run2025C-PromptReco-v1": {
         "dbs": "/EGamma3/Run2025C-PromptReco-v1/NANOAOD",
         "era": "2025",
@@ -1470,6 +1569,105 @@
         "nevents": 421124471,
         "nfiles": 1012,
         "nick": "EGamma3_Run2025G-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma3_Run2026B-PromptReco-v1": {
+        "dbs": "/EGamma3/Run2026B-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 205271520,
+        "nfiles": 529,
+        "nick": "EGamma3_Run2026B-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma3_Run2026C-PromptReco-v1": {
+        "dbs": "/EGamma3/Run2026C-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 374811337,
+        "nfiles": 590,
+        "nick": "EGamma3_Run2026C-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma3_Run2026D-PromptReco-v1": {
+        "dbs": "/EGamma3/Run2026D-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 125739959,
+        "nfiles": 327,
+        "nick": "EGamma3_Run2026D-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma4_Run2026B-PromptReco-v1": {
+        "dbs": "/EGamma4/Run2026B-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 205273231,
+        "nfiles": 533,
+        "nick": "EGamma4_Run2026B-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma4_Run2026C-PromptReco-v1": {
+        "dbs": "/EGamma4/Run2026C-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 374793369,
+        "nfiles": 592,
+        "nick": "EGamma4_Run2026C-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma4_Run2026D-PromptReco-v1": {
+        "dbs": "/EGamma4/Run2026D-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 125741715,
+        "nfiles": 332,
+        "nick": "EGamma4_Run2026D-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma5_Run2026B-PromptReco-v1": {
+        "dbs": "/EGamma5/Run2026B-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 205265468,
+        "nfiles": 535,
+        "nick": "EGamma5_Run2026B-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma5_Run2026C-PromptReco-v1": {
+        "dbs": "/EGamma5/Run2026C-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 374804007,
+        "nfiles": 589,
+        "nick": "EGamma5_Run2026C-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma5_Run2026D-PromptReco-v1": {
+        "dbs": "/EGamma5/Run2026D-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 125738632,
+        "nfiles": 327,
+        "nick": "EGamma5_Run2026D-PromptReco-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
@@ -1704,6 +1902,39 @@
         "sample_type": "data",
         "xsec": 1.0
     },
+    "Muon0_Run2026B-PromptReco-v1": {
+        "dbs": "/Muon0/Run2026B-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 155034715,
+        "nfiles": 448,
+        "nick": "Muon0_Run2026B-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Muon0_Run2026C-PromptReco-v1": {
+        "dbs": "/Muon0/Run2026C-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 779902163,
+        "nfiles": 813,
+        "nick": "Muon0_Run2026C-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Muon0_Run2026D-PromptReco-v1": {
+        "dbs": "/Muon0/Run2026D-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 112288744,
+        "nfiles": 321,
+        "nick": "Muon0_Run2026D-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
     "Muon1_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/Muon1/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
@@ -1866,6 +2097,105 @@
         "nevents": 442232031,
         "nfiles": 1003,
         "nick": "Muon1_Run2025G-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Muon1_Run2026B-PromptReco-v1": {
+        "dbs": "/Muon1/Run2026B-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 155028140,
+        "nfiles": 443,
+        "nick": "Muon1_Run2026B-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Muon1_Run2026C-PromptReco-v1": {
+        "dbs": "/Muon1/Run2026C-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 779231920,
+        "nfiles": 778,
+        "nick": "Muon1_Run2026C-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Muon1_Run2026D-PromptReco-v1": {
+        "dbs": "/Muon1/Run2026D-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 112284014,
+        "nfiles": 317,
+        "nick": "Muon1_Run2026D-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Muon2_Run2026B-PromptReco-v1": {
+        "dbs": "/Muon2/Run2026B-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 155029788,
+        "nfiles": 448,
+        "nick": "Muon2_Run2026B-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Muon2_Run2026C-PromptReco-v1": {
+        "dbs": "/Muon2/Run2026C-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 779164947,
+        "nfiles": 784,
+        "nick": "Muon2_Run2026C-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Muon2_Run2026D-PromptReco-v1": {
+        "dbs": "/Muon2/Run2026D-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 112290907,
+        "nfiles": 313,
+        "nick": "Muon2_Run2026D-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Muon3_Run2026B-PromptReco-v1": {
+        "dbs": "/Muon3/Run2026B-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 155025135,
+        "nfiles": 443,
+        "nick": "Muon3_Run2026B-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Muon3_Run2026C-PromptReco-v1": {
+        "dbs": "/Muon3/Run2026C-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 779192881,
+        "nfiles": 777,
+        "nick": "Muon3_Run2026C-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Muon3_Run2026D-PromptReco-v1": {
+        "dbs": "/Muon3/Run2026D-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 112282726,
+        "nfiles": 321,
+        "nick": "Muon3_Run2026D-PromptReco-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
@@ -8818,6 +9148,39 @@
         "nevents": 199386110,
         "nfiles": 735,
         "nick": "Tau_Run2025G-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Tau_Run2026B-PromptReco-v1": {
+        "dbs": "/Tau/Run2026B-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 144513582,
+        "nfiles": 453,
+        "nick": "Tau_Run2026B-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Tau_Run2026C-PromptReco-v1": {
+        "dbs": "/Tau/Run2026C-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 15120082,
+        "nfiles": 92,
+        "nick": "Tau_Run2026C-PromptReco-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Tau_Run2026D-PromptReco-v1": {
+        "dbs": "/Tau/Run2026D-PromptReco-v1/NANOAOD",
+        "era": "2026",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 114250021,
+        "nfiles": 324,
+        "nick": "Tau_Run2026D-PromptReco-v1",
         "sample_type": "data",
         "xsec": 1.0
     },
