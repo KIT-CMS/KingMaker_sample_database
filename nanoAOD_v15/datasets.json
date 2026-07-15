@@ -2683,6 +2683,17 @@
         "sample_type": "ggZZ",
         "xsec": 0.001626
     },
+    "GluGluToHHTo2B2Tau_TuneCP5_PSWeights_node_SM_13TeV-madgraph-pythia8_RunIISummer20UL18NanoAODv15-150X_v1-v1": {
+        "dbs": "/GluGluToHHTo2B2Tau_TuneCP5_PSWeights_node_SM_13TeV-madgraph-pythia8/RunIISummer20UL18NanoAODv15-150X_mc2018_realistic_v1-v1/NANOAODSIM",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 400000,
+        "nfiles": 1,
+        "nick": "GluGluToHHTo2B2Tau_TuneCP5_PSWeights_node_SM_13TeV-madgraph-pythia8_RunIISummer20UL18NanoAODv15-150X_v1-v1",
+        "sample_type": "hh2b2tau",
+        "xsec": 0.002246
+    },
     "Muon0_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024C-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
