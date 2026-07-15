@@ -1,0 +1,19 @@
+{
+    "dbs": "/EmbeddingRun2018B/cwinter-embedding_2018UL_mutau_B_1772534952-00000000000000000000000000000000/USER",
+    "era": "2018",
+    "filelist": [
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_mutau_B_1772534952/260303_153658/0000/nano_1.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_mutau_B_1772534952/260303_153658/0000/nano_2.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_mutau_B_1772534952/260303_153658/0000/nano_3.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_mutau_B_1772534952/260303_153658/0000/nano_4.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_mutau_B_1772534952/260303_153658/0000/nano_5.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_mutau_B_1772534952/260303_153658/0000/nano_6.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/phys03",
+    "nevents": 5888849,
+    "nfiles": 6,
+    "nick": "TauEmbedding-MuTauFinalState_Run2018B-UL2018",
+    "sample_type": "embedding",
+    "xsec": 1.0
+}
