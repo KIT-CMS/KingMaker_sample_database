@@ -2087,7 +2087,7 @@
         "nfiles": 6,
         "nick": "EWKWPlus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8_RunIISummer20UL18NanoAODv15-150X",
         "sample_type": "electroweak_boson",
-        "xsec": 25.62
+        "xsec": 39.05
     },
     "EWKWminus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8_RunIISummer20UL18NanoAODv15-150X": {
         "dbs": "/EWKWminus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18NanoAODv15-150X_mc2018_realistic_v1-v1/NANOAODSIM",
@@ -2131,7 +2131,7 @@
         "nfiles": 4,
         "nick": "EWKZ2Jets_ZToLL_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8_RunIISummer20UL18NanoAODv15-150X",
         "sample_type": "electroweak_boson",
-        "xsec": 4.321
+        "xsec": 6.215
     },
     "EWKZ2Jets_ZToNuNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8_RunIISummer20UL17NanoAODv15-150X": {
         "dbs": "/EWKZ2Jets_ZToNuNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/RunIISummer20UL17NanoAODv15-150X_mc2017_realistic_v1-v1/NANOAODSIM",
@@ -2659,7 +2659,7 @@
         "nfiles": 1,
         "nick": "GluGluToContinToZZTo2e2tau_TuneCP5_13TeV-mcfm701-pythia8_RunIISummer20UL18NanoAODv15-150X",
         "sample_type": "ggZZ",
-        "xsec": 3.294
+        "xsec": 0.003294
     },
     "GluGluToContinToZZTo2mu2tau_TuneCP5_13TeV-mcfm701-pythia8_RunIISummer20UL18NanoAODv15-150X": {
         "dbs": "/GluGluToContinToZZTo2mu2tau_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL18NanoAODv15-150X_mc2018_realistic_v1-v1/NANOAODSIM",
@@ -2670,7 +2670,7 @@
         "nfiles": 2,
         "nick": "GluGluToContinToZZTo2mu2tau_TuneCP5_13TeV-mcfm701-pythia8_RunIISummer20UL18NanoAODv15-150X",
         "sample_type": "ggZZ",
-        "xsec": 3.294
+        "xsec": 0.003294
     },
     "GluGluToContinToZZTo4tau_TuneCP5_13TeV-mcfm701-pythia8_RunIISummer20UL18NanoAODv15-150X": {
         "dbs": "/GluGluToContinToZZTo4tau_TuneCP5_13TeV-mcfm701-pythia8/RunIISummer20UL18NanoAODv15-150X_mc2018_realistic_v1-v1/NANOAODSIM",
@@ -2681,7 +2681,7 @@
         "nfiles": 2,
         "nick": "GluGluToContinToZZTo4tau_TuneCP5_13TeV-mcfm701-pythia8_RunIISummer20UL18NanoAODv15-150X",
         "sample_type": "ggZZ",
-        "xsec": 1.626
+        "xsec": 0.001626
     },
     "Muon0_Run2024C-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024C-MINIv6NANOv15-v1/NANOAOD",
@@ -10207,28 +10207,6 @@
         "sample_type": "data",
         "xsec": 1.0
     },
-    "SingleMuon_Run2017G-UL2017": {
-        "dbs": "/SingleMuon/Run2017G-UL2017_NanoAODv15-v1/NANOAOD",
-        "era": "2017",
-        "generator_weight": 1.0,
-        "instance": "prod/global",
-        "nevents": 816995997,
-        "nfiles": 357,
-        "nick": "SingleMuon_Run2017G-UL2017",
-        "sample_type": "data",
-        "xsec": 1.0
-    },
-    "SingleMuon_Run2017H-UL2017": {
-        "dbs": "/SingleMuon/Run2017H-UL2017_NanoAODv15-v1/NANOAOD",
-        "era": "2017",
-        "generator_weight": 1.0,
-        "instance": "prod/global",
-        "nevents": 138683027,
-        "nfiles": 109,
-        "nick": "SingleMuon_Run2017H-UL2017",
-        "sample_type": "data",
-        "xsec": 1.0
-    },
     "SingleMuon_Run2018A-UL2018": {
         "dbs": "/SingleMuon/Run2018A-UL2018_NanoAODv15-v2/NANOAOD",
         "era": "2018",
@@ -11986,7 +11964,7 @@
         "nevents": 3941004,
         "nfiles": 6,
         "nick": "WWZJetsTo4L2Nu_4F_TuneCP5_13TeV-amcatnlo-pythia8_RunIISummer20UL17NanoAODv15-150X",
-        "sample_type": "diboson",
+        "sample_type": "triboson",
         "xsec": 0.0006024
     },
     "WWZ_4F_TuneCP5_13TeV-amcatnlo-pythia8_RunIISummer20UL17NanoAODv15-150X": {
@@ -12900,7 +12878,7 @@
         "nfiles": 7,
         "nick": "ggZH_HToBB_ZToBB_M-125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv15-150X",
         "sample_type": "rem_hbb",
-        "xsec": 0.04319
+        "xsec": 0.009341049921327421
     },
     "ggZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv15-150X": {
         "dbs": "/ggZH_HToBB_ZToLL_M-125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv15-150X_mc2018_realistic_v1-v1/NANOAODSIM",
@@ -12943,7 +12921,7 @@
         "nevents": 7328993,
         "nfiles": 17,
         "nick": "ttHToNonbb_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv15-150X",
-        "sample_type": "ttH",
+        "sample_type": "rem_higgs",
         "xsec": 0.2217456
     },
     "ttHTobb_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv15-150X": {
