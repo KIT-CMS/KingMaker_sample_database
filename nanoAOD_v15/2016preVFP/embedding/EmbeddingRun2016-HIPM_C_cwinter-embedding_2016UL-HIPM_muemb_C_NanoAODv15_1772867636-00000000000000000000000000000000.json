@@ -1,0 +1,23 @@
+{
+    "dbs": "/EmbeddingRun2016-HIPM_C/cwinter-embedding_2016UL-HIPM_muemb_C_NanoAODv15_1772867636-00000000000000000000000000000000/USER",
+    "era": "2016preVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2016-HIPM_C/embedding_2016UL-HIPM_muemb_C_NanoAODv15_1772867636/260412_103341/0000/ReReco-MuTauEmbedding-UL2016G_NanoAODv15_3.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2016-HIPM_C/embedding_2016UL-HIPM_muemb_C_NanoAODv15_1772867636/260412_103341/0000/ReReco-MuTauEmbedding-UL2016G_NanoAODv15_4.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2016-HIPM_C/embedding_2016UL-HIPM_muemb_C_NanoAODv15_1772867636/260412_103341/0000/ReReco-MuTauEmbedding-UL2016G_NanoAODv15_10.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2016-HIPM_C/embedding_2016UL-HIPM_muemb_C_NanoAODv15_1772867636/260412_103341/0000/ReReco-MuTauEmbedding-UL2016G_NanoAODv15_7.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2016-HIPM_C/embedding_2016UL-HIPM_muemb_C_NanoAODv15_1772867636/260412_103341/0000/ReReco-MuTauEmbedding-UL2016G_NanoAODv15_6.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2016-HIPM_C/embedding_2016UL-HIPM_muemb_C_NanoAODv15_1772867636/260412_103341/0000/ReReco-MuTauEmbedding-UL2016G_NanoAODv15_8.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2016-HIPM_C/embedding_2016UL-HIPM_muemb_C_NanoAODv15_1772867636/260412_103341/0000/ReReco-MuTauEmbedding-UL2016G_NanoAODv15_2.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2016-HIPM_C/embedding_2016UL-HIPM_muemb_C_NanoAODv15_1772867636/260412_103341/0000/ReReco-MuTauEmbedding-UL2016G_NanoAODv15_1.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2016-HIPM_C/embedding_2016UL-HIPM_muemb_C_NanoAODv15_1772867636/260412_103341/0000/ReReco-MuTauEmbedding-UL2016G_NanoAODv15_5.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2016-HIPM_C/embedding_2016UL-HIPM_muemb_C_NanoAODv15_1772867636/260412_103341/0000/ReReco-MuTauEmbedding-UL2016G_NanoAODv15_9.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/phys03",
+    "nevents": 2183592,
+    "nfiles": 10,
+    "nick": "EmbeddingRun2016-HIPM_C_cwinter-embedding_2016UL-HIPM_muemb_C_NanoAODv15_1772867636-00000000000000000000000000000000",
+    "sample_type": "embedding",
+    "xsec": 1.0
+}
