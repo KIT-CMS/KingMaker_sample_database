@@ -1,0 +1,19 @@
+{
+    "dbs": "/EmbeddingRun2018B/cwinter-embedding_2018UL_tautau_B_1772534952-00000000000000000000000000000000/USER",
+    "era": "2018",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_tautau_B_1772534952/260303_153713/0000/nano_6.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_tautau_B_1772534952/260303_153713/0000/nano_2.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_tautau_B_1772534952/260303_153713/0000/nano_1.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_tautau_B_1772534952/260303_153713/0000/nano_4.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_tautau_B_1772534952/260303_153713/0000/nano_5.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2018B/embedding_2018UL_tautau_B_1772534952/260303_153713/0000/nano_3.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/phys03",
+    "nevents": 5226401,
+    "nfiles": 6,
+    "nick": "EmbeddingRun2018B_cwinter-embedding_2018UL_tautau_B_1772534952-00000000000000000000000000000000",
+    "sample_type": "embedding",
+    "xsec": 1.0
+}
