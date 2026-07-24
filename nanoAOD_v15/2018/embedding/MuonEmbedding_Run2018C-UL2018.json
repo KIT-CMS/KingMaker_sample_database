@@ -1,0 +1,25 @@
+{
+    "dbs": "/sample/not/published",
+    "era": "2018",
+    "filelist": [
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018C/embedding_2018UL_muemb_C_1772534952/260325_142900/0000/nano_1.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018C/embedding_2018UL_muemb_C_1772534952/260325_142900/0000/nano_2.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018C/embedding_2018UL_muemb_C_1772534952/260325_142900/0000/nano_3.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018C/embedding_2018UL_muemb_C_1772534952/260325_142900/0000/nano_4.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018C/embedding_2018UL_muemb_C_1772534952/260325_142900/0000/nano_5.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018C/embedding_2018UL_muemb_C_1772534952/260325_142900/0000/nano_6.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018C/embedding_2018UL_muemb_C_1772534952/260325_142900/0000/nano_7.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018C/embedding_2018UL_muemb_C_1772534952/260325_142900/0000/nano_8.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018C/embedding_2018UL_muemb_C_1772534952/260325_142900/0000/nano_9.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018C/embedding_2018UL_muemb_C_1772534952/260325_142900/0000/nano_10.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018C/embedding_2018UL_muemb_C_1772534952/260325_142900/0000/nano_11.root",
+        "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018C/embedding_2018UL_muemb_C_1772534952/260325_142900/0000/nano_12.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/phys03",
+    "nevents": 8566763,
+    "nfiles": 12,
+    "nick": "MuonEmbedding_Run2018C-UL2018",
+    "sample_type": "embedding",
+    "xsec": 1.0
+}
