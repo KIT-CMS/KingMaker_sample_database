@@ -1,0 +1,14 @@
+{
+    "dbs": "/GluGluToHHTo2B2Tau_TuneCP5_PSWeights_node_SM_13TeV-madgraph-pythia8/RunIISummer20UL18NanoAODv15-150X_mc2018_realistic_v1-v1/NANOAODSIM",
+    "era": "2018",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv15/GluGluToHHTo2B2Tau_TuneCP5_PSWeights_node_SM_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2018_realistic_v1-v1/2820000/6c0df4fa-9c1d-4219-a240-f1ed85e8c5c4.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 400000,
+    "nfiles": 1,
+    "nick": "GluGluToHHTo2B2Tau_TuneCP5_PSWeights_node_SM_13TeV-madgraph-pythia8_RunIISummer20UL18NanoAODv15-150X_v1-v1",
+    "sample_type": "hh2b2tau",
+    "xsec": 0.002246
+}
