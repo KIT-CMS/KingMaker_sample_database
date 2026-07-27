@@ -1,14 +1,3 @@
-# Define the sample nick for which the filelist information needs to be fixed
-# Other samples modified with this notebook:
-# - 
-# - WW_TuneCP5_13p6TeV_pythia8_RunIII2024Summer24NanoAODv15-150X
-# - GluGluH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X
-# - TTH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X
-# - "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X"
-
-
-# %%
-# import ROOT
 from XRootD.client import FileSystem
 import json
 from pathlib import Path
@@ -156,28 +145,6 @@ def access_files(
         # Check if the ROOT file is available using XRootD
         status, stat_info = fs.stat(file["name"])
         status_code = status.code
-
-        # Explicitly open the file to check if it can be accessed
-        # if status_code == 0:
-        #     f = None
-        #     try:
-        #         f = ROOT.TFile.Open(
-        #             (
-        #                 xrootd_redirector.rstrip("//")
-        #                 + "//"
-        #                 + file["name"].lstrip("/"),
-        #             ),
-        #             "READ",
-        #         )
-        #         if f is None:
-        #             status_code = -1
-        #         elif f.IsZombie():
-        #             status_code = -1
-        #     except Exception:
-        #         status_code = -1
-        #     finally:
-        #         if isinstance(f, ROOT.TFile) and f.IsOpen():
-        #             f.Close()
 
         # Add information to file dict
         file["status_code"] = status_code
