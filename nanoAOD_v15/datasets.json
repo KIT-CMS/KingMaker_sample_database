@@ -1649,6 +1649,17 @@
         "sample_type": "data",
         "xsec": 1.0
     },
+    "EGamma0_Run2024I-MINIv6NANOv15": {
+        "dbs": "/EGamma0/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
+        "era": "2024",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 150687674,
+        "nfiles": 198,
+        "nick": "EGamma0_Run2024I-MINIv6NANOv15",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
     "EGamma0_Run2024I-MINIv6NANOv15-v1": {
         "dbs": "/EGamma0/Run2024I-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
@@ -1811,6 +1822,17 @@
         "nevents": 134835799,
         "nfiles": 191,
         "nick": "EGamma1_Run2024H-MINIv6NANOv15-v1",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "EGamma1_Run2024I-MINIv6NANOv15": {
+        "dbs": "/EGamma1/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
+        "era": "2024",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 150687112,
+        "nfiles": 179,
+        "nick": "EGamma1_Run2024I-MINIv6NANOv15",
         "sample_type": "data",
         "xsec": 1.0
     },
@@ -2870,6 +2892,17 @@
         "sample_type": "data",
         "xsec": 1.0
     },
+    "Muon0_Run2024I-MINIv6NANOv15": {
+        "dbs": "/Muon0/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
+        "era": "2024",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 105194627,
+        "nfiles": 174,
+        "nick": "Muon0_Run2024I-MINIv6NANOv15",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
     "Muon0_Run2024I-MINIv6NANOv15-v1": {
         "dbs": "/Muon0/Run2024I-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
@@ -3032,6 +3065,17 @@
         "nevents": 93981102,
         "nfiles": 93,
         "nick": "Muon1_Run2024H-MINIv6NANOv15-v2",
+        "sample_type": "data",
+        "xsec": 1.0
+    },
+    "Muon1_Run2024I-MINIv6NANOv15": {
+        "dbs": "/Muon1/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
+        "era": "2024",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 105189040,
+        "nfiles": 133,
+        "nick": "Muon1_Run2024I-MINIv6NANOv15",
         "sample_type": "data",
         "xsec": 1.0
     },
@@ -11043,6 +11087,17 @@
         "sample_type": "singletop",
         "xsec": 4.8831804
     },
+    "TBbarto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X": {
+        "dbs": "/TBbarto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
+        "era": "2025",
+        "generator_weight": 0.999714006514658,
+        "instance": "prod/global",
+        "nevents": 9210000,
+        "nfiles": 96,
+        "nick": "TBbarto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X",
+        "sample_type": "singletop",
+        "xsec": 4.8831804
+    },
     "TBbartoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/TBbartoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
@@ -11051,6 +11106,17 @@
         "nevents": 46140000,
         "nfiles": 273,
         "nick": "TBbartoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X",
+        "sample_type": "singletop",
+        "xsec": 2.3600952
+    },
+    "TBbartoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X": {
+        "dbs": "/TBbartoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
+        "era": "2025",
+        "generator_weight": 0.9997104312105771,
+        "instance": "prod/global",
+        "nevents": 46140000,
+        "nfiles": 273,
+        "nick": "TBbartoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X",
         "sample_type": "singletop",
         "xsec": 2.3600952
     },
@@ -11824,6 +11890,17 @@
         "sample_type": "data",
         "xsec": 1.0
     },
+    "Tau_Run2024I-MINIv6NANOv15": {
+        "dbs": "/Tau/Run2024I-MINIv6NANOv15_v2-v1/NANOAOD",
+        "era": "2024",
+        "generator_weight": 1.0,
+        "instance": "prod/global",
+        "nevents": 47460687,
+        "nfiles": 86,
+        "nick": "Tau_Run2024I-MINIv6NANOv15",
+        "sample_type": "data",
+        "xsec": 0.0
+    },
     "Tau_Run2024I-MINIv6NANOv15-v1": {
         "dbs": "/Tau/Run2024I-MINIv6NANOv15-v1/NANOAOD",
         "era": "2024",
@@ -11978,6 +12055,17 @@
         "sample_type": "singletop",
         "xsec": 3.0563694
     },
+    "TbarBto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X": {
+        "dbs": "/TbarBto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
+        "era": "2025",
+        "generator_weight": 0.9997457798784605,
+        "instance": "prod/global",
+        "nevents": 5924000,
+        "nfiles": 94,
+        "nick": "TbarBto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X",
+        "sample_type": "singletop",
+        "xsec": 3.0563694
+    },
     "TbarBtoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X": {
         "dbs": "/TbarBtoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
@@ -11986,6 +12074,17 @@
         "nevents": 29566000,
         "nfiles": 224,
         "nick": "TbarBtoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X",
+        "sample_type": "singletop",
+        "xsec": 1.4771771999999999
+    },
+    "TbarBtoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X": {
+        "dbs": "/TbarBtoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
+        "era": "2025",
+        "generator_weight": 0.9997463302441995,
+        "instance": "prod/global",
+        "nevents": 29566000,
+        "nfiles": 224,
+        "nick": "TbarBtoLNu-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X",
         "sample_type": "singletop",
         "xsec": 1.4771771999999999
     },
