@@ -177,10 +177,18 @@ def load_private_sample_info(
     with private_sample_file.open(mode="r") as f:
         private_sample_info_list = yaml.safe_load(f)
 
-    return [
+    sample_infos = [
         PrivateSampleInfo(**item)
         for item in private_sample_info_list
     ]
+
+    # Log the loaded private sample information
+    logger.debug(
+        f"Loaded {len(sample_infos)} private sample(s) from "
+        + f"{private_sample_file}."
+    )
+
+    return sample_infos
 
 
 def _get_sample_filelist(
@@ -343,6 +351,9 @@ def main(**kwargs):
     private_sample_file = kwargs.pop("private_sample_file")
     num_workers = kwargs.pop("num_workers")
 
+    # Log the sample database directory being used
+    logger.info(f"Use sample database {sample_database_dir}")
+
     # Load information about private samples from the YAML file
     sample_infos = load_private_sample_info(private_sample_file)
 
@@ -379,7 +390,7 @@ if __name__ == "__main__":
 
     # Configure the logger
     logging.basicConfig(
-        level=logging.DEBUG,
+        level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
     )
 
