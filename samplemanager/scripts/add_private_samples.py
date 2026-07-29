@@ -310,9 +310,6 @@ def get_sample_metadata(
         Sample object containing the sample metadata.
     """
 
-    # Set up the XRootD file system
-    xrootd_fs = FileSystem(sample_info.redirector)
-
     # Construct the sample nick
     nick = f"{sample_dir.parent.name}_{sample_info.campaign}"
 
