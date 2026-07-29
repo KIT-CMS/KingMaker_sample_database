@@ -18,13 +18,11 @@ import uproot
 import numpy as np
 import yaml
 
+from samplemanager import ROOT_DIR
+
 
 # Set up logger
 logger = logging.getLogger(__name__)
-
-
-# Important directories, derived from location of this file
-ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 
 
 # Default values of command-line arguments

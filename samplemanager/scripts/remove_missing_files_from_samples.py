@@ -6,9 +6,8 @@ import subprocess
 import os
 import logging
 
+from samplemanager import ROOT_DIR
 
-# Static file system paths
-SAMPLE_DATABASE_DIR = Path(__file__).resolve().parent.parent
 
 # Default values for parsed arguments
 DEFAULT_NANOAOD_VERSION = "nanoAOD_v15"
@@ -286,7 +285,7 @@ if __name__ == "__main__":
 
     # Run the main function with parsed arguments
     main(
-        sample_database_dir=SAMPLE_DATABASE_DIR,
+        sample_database_dir=ROOT_DIR,
         nanoaod_version=args.nanoaod_version,
         xrootd_redirector=args.xrootd_redirector,
         nicks=args.nick,
