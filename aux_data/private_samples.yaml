@@ -1,0 +1,92 @@
+# ------------------------------------------------------------------------------
+# Standard model HH -> 2b2tau samples for different kappa lambda
+# ------------------------------------------------------------------------------
+
+- nanoaod_version: nanoAOD_v15
+  era: "2024"
+  campaign: "RunIII2024Summer24NanoAODv15-150X-kit-private"
+  sample_type: "hh2b2tau"
+  redirector: "root://cmsdcache-kit-disk.gridka.de:1094"
+  sample_dirs:
+  - "/store/user/sdaigler/mc_production/GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/NanoAODv15-4af6f860"
+  - "/store/user/sdaigler/mc_production/GluGluHHto2B2Tau_Par-c2-0p00-kl-3p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/NanoAODv15-6fc60a30"
+  - "/store/user/sdaigler/mc_production/GluGluHHto2B2Tau_Par-c2-0p00-kl-5p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/NanoAODv15-4af6f860"
+  - "/store/user/sdaigler/mc_production/GluGluHHto2B2Tau_Par-c2-0p00-kl-m1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/NanoAODv15-6fc60a30"
+
+# ------------------------------------------------------------------------------
+# Extensions of X -> YH -> 2b2tau samples
+# ------------------------------------------------------------------------------
+
+- nanoaod_version: nanoAOD_v15
+  era: "2024"
+  campaign: "RunIII2024Summer24NanoAODv15-150X-kit-private"
+  sample_type: "nmssm_Ybb"
+  redirector: "root://cmsdcache-kit-disk.gridka.de:1094"
+  sample_dirs:
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-4dfea81e"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8_1/NanoAODv15-3c2d438c"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1000-MY-800_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-448fc190"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1200-MY-1000_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1400-MY-1200_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1800-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-2000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-2500-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-9cbf74c8"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-2500-MY-1600_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-144f2217"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-2500-MY-800_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-9cbf74c8"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-300-MY-100_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-300-MY-150_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-300-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-300-MY-70_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-300-MY-80_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-300-MY-90_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-300-MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-3000-MY-1800_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-9cbf74c8"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-3000-MY-2000_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-9cbf74c8"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-3000-MY-300_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-654eeb7b"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-3000-MY-400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-331b8393"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-3500-MY-2600_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-144f2217"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-400-MY-100_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-448fc190"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-400-MY-150_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-448fc190"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-400-MY-200_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-400-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-144f2217"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-400-MY-70_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-144f2217"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-400-MY-80_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-144f2217"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-400-MY-90_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-448fc190"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-400-MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-448fc190"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-500-MY-200_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-144f2217"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-500-MY-300_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-550-MY-300_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-144f2217"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-550-MY-400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-600-MY-400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-650-MY-400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-144f2217"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-650-MY-500_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-700-MY-500_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-448fc190"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-800-MY-600_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-448fc190"
+
+# ------------------------------------------------------------------------------
+# Extensions of X -> YH -> 2tau2b samples
+# ------------------------------------------------------------------------------
+
+- nanoaod_version: nanoAOD_v15
+  era: "2024"
+  campaign: "RunIII2024Summer24NanoAODv15-150X-kit-private"
+  sample_type: "nmssm_Ytautau"
+  redirector: "root://cmsdcache-kit-disk.gridka.de:1094"
+  sample_dirs:
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-2500-MY-90_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-9cbf74c8"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-100_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-150_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-70_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-80_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-90_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-300-MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-100_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-150_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-200_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-60_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-70_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-80_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-90_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
+  - "/store/user/psand/mc_production/NMSSM-XtoYHto2Tau2B_Par-MX-400-MY-95_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-80c850ea"
