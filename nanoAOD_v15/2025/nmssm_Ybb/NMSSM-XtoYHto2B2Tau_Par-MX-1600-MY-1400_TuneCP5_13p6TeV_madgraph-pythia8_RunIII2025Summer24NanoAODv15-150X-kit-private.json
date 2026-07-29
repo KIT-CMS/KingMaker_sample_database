@@ -1,0 +1,23 @@
+{
+    "dbs": null,
+    "era": "2024",
+    "filelist": [
+        "root://cmsdcache-kit-disk.gridka.de:1094//store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c/nanoAODv15_1.root",
+        "root://cmsdcache-kit-disk.gridka.de:1094//store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c/nanoAODv15_10.root",
+        "root://cmsdcache-kit-disk.gridka.de:1094//store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c/nanoAODv15_2.root",
+        "root://cmsdcache-kit-disk.gridka.de:1094//store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c/nanoAODv15_3.root",
+        "root://cmsdcache-kit-disk.gridka.de:1094//store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c/nanoAODv15_4.root",
+        "root://cmsdcache-kit-disk.gridka.de:1094//store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c/nanoAODv15_5.root",
+        "root://cmsdcache-kit-disk.gridka.de:1094//store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c/nanoAODv15_6.root",
+        "root://cmsdcache-kit-disk.gridka.de:1094//store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c/nanoAODv15_7.root",
+        "root://cmsdcache-kit-disk.gridka.de:1094//store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c/nanoAODv15_8.root",
+        "root://cmsdcache-kit-disk.gridka.de:1094//store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-3c2d438c/nanoAODv15_9.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": null,
+    "nevents": 100000,
+    "nfiles": 10,
+    "nick": "NMSSM-XtoYHto2B2Tau_Par-MX-1600-MY-1400_TuneCP5_13p6TeV_madgraph-pythia8_RunIII2025Summer24NanoAODv15-150X-kit-private",
+    "sample_type": "nmssm_Ybb",
+    "xsec": 1.0
+}
