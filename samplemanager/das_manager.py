@@ -133,14 +133,25 @@ class DASQuery(object):
         version = ""
         if len(parts) > 2:
             import re
-            # Match v1, v2, v2-v1, v3-v2, etc.
-            match = re.search(r"(v[0-9]-v[0-9])", parts[1])
+            # Match v1, v2, v2-v1, v3-v2, etc., but not the "vN-vM" that can appear
+            # inside a "NanoAODvN-vM"/"MiniAODvN-vM" processing tag itself.
+            match = re.search(r"(?<!AOD)(v[0-9]-v[0-9])", parts[1])
             if match and "Run3" not in parts[1] and "RunIII" not in parts[1]: 
                 #add version number to nick only for data samples since multiple versions are used at the same time
                 version = "_" + match.group(1)
         # nick is the first part of the DAS string + the second part till the first "_"
         # if there is no "_" in the second part, the whole second part is used
         nick = parts[0] + "_" + parts[1].split("_")[0] + ext_v + version
+
+        # Samples of the same run/campaign can be reprocessed into different
+        # NanoAOD versions without the rest of the campaign string changing
+        # enough to keep the nick unique, so tag the NanoAOD version onto the
+        # nick whenever the DAS name actually carries it. Campaigns that don't
+        # encode the NanoAOD version at all (e.g. PromptReco data) are left as-is.
+        nano_match = re.search(r"NanoAODv[0-9]+", parts[1])
+        if nano_match and nano_match.group(0) not in nick:
+            nick += "_" + nano_match.group(0)
+
         return nick
 
     def _get_era(self, nick):

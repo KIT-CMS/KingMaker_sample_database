@@ -1,0 +1,17 @@
+{
+    "dbs": "/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1/NANOAODSIM",
+    "era": "2016preVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/2520000/61cf8de9-f53c-4868-85bd-d8a2f9d79114.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/2520000/5b70ed12-e240-495e-be39-d13036d5b604.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/2520000/ce4313a9-41c9-41ba-a20d-42359862f526.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/2520000/926b2522-e247-42bc-b000-a28396933562.root"
+    ],
+    "generator_weight": 0.9999426594023108,
+    "instance": "prod/global",
+    "nevents": 2197396,
+    "nfiles": 4,
+    "nick": "ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODAPVv15-150X_v1-v1",
+    "sample_type": "singletop",
+    "xsec": 39.65
+}

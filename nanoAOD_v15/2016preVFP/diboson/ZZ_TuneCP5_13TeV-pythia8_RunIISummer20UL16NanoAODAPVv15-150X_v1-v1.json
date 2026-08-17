@@ -1,0 +1,16 @@
+{
+    "dbs": "/ZZ_TuneCP5_13TeV-pythia8/RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1/NANOAODSIM",
+    "era": "2016preVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/ZZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/2560000/269f7b82-ab94-4bd9-bb28-4c9a59c8cafb.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/ZZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/2560000/89d0fd73-d5e8-48e9-b6b8-7640757b5f95.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/ZZ_TuneCP5_13TeV-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/2560000/86e820e6-3074-49a3-9eb3-163fcece6a27.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 1282000,
+    "nfiles": 3,
+    "nick": "ZZ_TuneCP5_13TeV-pythia8_RunIISummer20UL16NanoAODAPVv15-150X_v1-v1",
+    "sample_type": "diboson",
+    "xsec": 12.23
+}
