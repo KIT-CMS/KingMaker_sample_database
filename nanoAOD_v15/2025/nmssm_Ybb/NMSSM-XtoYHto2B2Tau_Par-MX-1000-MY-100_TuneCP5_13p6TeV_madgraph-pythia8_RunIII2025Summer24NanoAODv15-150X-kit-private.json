@@ -1,0 +1,15 @@
+{
+    "dbs": null,
+    "era": "2025",
+    "filelist": [
+        "root://cmsdcache-kit-disk.gridka.de:1094//store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-4dfea81e/nanoAODv15_1.root",
+        "root://cmsdcache-kit-disk.gridka.de:1094//store/user/psand/mc_production/NMSSM-XtoYHto2B2Tau_Par-MX-1000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8/NanoAODv15-4dfea81e/nanoAODv15_2.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": null,
+    "nevents": 2000,
+    "nfiles": 2,
+    "nick": "NMSSM-XtoYHto2B2Tau_Par-MX-1000-MY-100_TuneCP5_13p6TeV_madgraph-pythia8_RunIII2025Summer24NanoAODv15-150X-kit-private",
+    "sample_type": "nmssm_Ybb",
+    "xsec": 1.0
+}
