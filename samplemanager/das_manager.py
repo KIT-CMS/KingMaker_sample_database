@@ -119,40 +119,15 @@ class DASQuery(object):
             return float(gen_weight)
 
     def _build_nick(self, nick):
-        # User-produced samples, so need to something different and more general
-        if nick.endswith("USER"):
-            # Remove first "/", remove "USER", unify split parts with "_"
-            nick = "_".join(nick.strip("/").split("/")[:2])
-            return nick
-        if "_ext" in nick:
-            ext_v = "_ext" + nick[nick.find("_ext") + 4]
-        else:
-            ext_v = ""
-        parts = nick.split("/")[1:]
-        # Extract version (e.g., v1, v2, v2-v1, etc.) from the third part if present
-        version = ""
-        if len(parts) > 2:
-            import re
-            # Match v1, v2, v2-v1, v3-v2, etc., but not the "vN-vM" that can appear
-            # inside a "NanoAODvN-vM"/"MiniAODvN-vM" processing tag itself.
-            match = re.search(r"(?<!AOD)(v[0-9]-v[0-9])", parts[1])
-            if match and "Run3" not in parts[1] and "RunIII" not in parts[1]: 
-                #add version number to nick only for data samples since multiple versions are used at the same time
-                version = "_" + match.group(1)
-        # nick is the first part of the DAS string + the second part till the first "_"
-        # if there is no "_" in the second part, the whole second part is used
-        nick = parts[0] + "_" + parts[1].split("_")[0] + ext_v + version
-
-        # Samples of the same run/campaign can be reprocessed into different
-        # NanoAOD versions without the rest of the campaign string changing
-        # enough to keep the nick unique, so tag the NanoAOD version onto the
-        # nick whenever the DAS name actually carries it. Campaigns that don't
-        # encode the NanoAOD version at all (e.g. PromptReco data) are left as-is.
-        nano_match = re.search(r"NanoAODv[0-9]+", parts[1])
-        if nano_match and nano_match.group(0) not in nick:
-            nick += "_" + nano_match.group(0)
-
-        return nick
+        # The nick is the full DAS string between the first and third "/"
+        # (primary dataset + acquisition-era/processing string), with the
+        # leading/trailing "/" stripped and the middle "/" replaced by "_".
+        # This drops only the data-tier segment (NANOAODSIM/NANOAOD/USER),
+        # keeping the rest of the string verbatim so reprocessed versions of
+        # the same campaign (different NanoAOD version, GT, v1-v2, ...) stay
+        # unique without any extra truncation/version-extraction logic.
+        parts = nick.strip("/").split("/")
+        return "_".join(parts[:2])
 
     def _get_era(self, nick):
         # regex search for run2 UL eras
