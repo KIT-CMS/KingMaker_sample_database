@@ -121,11 +121,7 @@ class DASQuery(object):
     def _build_nick(self, nick):
         # The nick is the full DAS string between the first and third "/"
         # (primary dataset + acquisition-era/processing string), with the
-        # leading/trailing "/" stripped and the middle "/" replaced by "_".
-        # This drops only the data-tier segment (NANOAODSIM/NANOAOD/USER),
-        # keeping the rest of the string verbatim so reprocessed versions of
-        # the same campaign (different NanoAOD version, GT, v1-v2, ...) stay
-        # unique without any extra truncation/version-extraction logic.
+        # leading/trailing "/" stripped and the middle "/" replaced by "_"
         parts = nick.strip("/").split("/")
         return "_".join(parts[:2])
 
