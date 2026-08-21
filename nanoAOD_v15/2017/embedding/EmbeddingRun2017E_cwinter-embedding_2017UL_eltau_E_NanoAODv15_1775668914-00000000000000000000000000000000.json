@@ -1,0 +1,31 @@
+{
+    "dbs": "/EmbeddingRun2017E/cwinter-embedding_2017UL_eltau_E_NanoAODv15_1775668914-00000000000000000000000000000000/USER",
+    "era": "2017",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_4.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_18.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_10.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_8.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_11.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_13.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_5.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_16.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_9.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_6.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_17.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_15.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_2.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_12.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_1.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_7.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_3.root",
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2017E/embedding_2017UL_eltau_E_NanoAODv15_1775668914/260409_084129/0000/ReReco-MuTauEmbedding-UL2017_NanoAODv15_14.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/phys03",
+    "nevents": 7934803,
+    "nfiles": 18,
+    "nick": "EmbeddingRun2017E_cwinter-embedding_2017UL_eltau_E_NanoAODv15_1775668914-00000000000000000000000000000000",
+    "sample_type": "embedding",
+    "xsec": 1.0
+}
