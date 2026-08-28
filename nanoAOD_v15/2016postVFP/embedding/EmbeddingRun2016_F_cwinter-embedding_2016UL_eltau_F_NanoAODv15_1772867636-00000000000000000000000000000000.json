@@ -1,0 +1,14 @@
+{
+    "dbs": "/EmbeddingRun2016_F/cwinter-embedding_2016UL_eltau_F_NanoAODv15_1772867636-00000000000000000000000000000000/USER",
+    "era": "2016postVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/user/cwinter/EmbeddingRun2016_F/embedding_2016UL_eltau_F_NanoAODv15_1772867636/260413_074018/0000/ReReco-MuTauEmbedding-UL2016G_NanoAODv15_1.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/phys03",
+    "nevents": 295839,
+    "nfiles": 1,
+    "nick": "EmbeddingRun2016_F_cwinter-embedding_2016UL_eltau_F_NanoAODv15_1772867636-00000000000000000000000000000000",
+    "sample_type": "embedding",
+    "xsec": 1.0
+}
