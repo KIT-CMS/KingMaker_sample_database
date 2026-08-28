@@ -1,5 +1,5 @@
 {
-    "dbs": "/sample/not/published",
+    "dbs": "/EmbeddingRun2018D/cwinter-embedding_2018UL_mutau_D_1772534952-00000000000000000000000000000000/USER",
     "era": "2018",
     "filelist": [
         "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/EmbeddingRun2018D/embedding_2018UL_mutau_D_1772534952/260326_080011/0000/nano_1.root",
@@ -64,7 +64,7 @@
     "instance": "prod/phys03",
     "nevents": 21362177,
     "nfiles": 57,
-    "nick": "TauEmbedding-MuTauFinalState_Run2018D-UL2018_NanoAODv15",
+    "nick": "EmbeddingRun2018D_cwinter-embedding_2018UL_mutau_D_1772534952-00000000000000000000000000000000",
     "sample_type": "embedding",
     "xsec": 1.0
 }
