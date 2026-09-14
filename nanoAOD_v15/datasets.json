@@ -17992,7 +17992,7 @@
         "nevents": 2394210,
         "nfiles": 21,
         "nick": "TTH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X",
-        "sample_type": "rem_higgs",
+        "sample_type": "rem_hbb",
         "xsec": 0.331968
     },
     "TTH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X": {
@@ -18003,7 +18003,7 @@
         "nevents": 2394210,
         "nfiles": 21,
         "nick": "TTH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X",
-        "sample_type": "rem_higgs",
+        "sample_type": "rem_hbb",
         "xsec": 0.331968
     },
     "TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X": {
@@ -18014,7 +18014,7 @@
         "nevents": 53980865,
         "nfiles": 531,
         "nick": "TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X",
-        "sample_type": "rem_htautau",
+        "sample_type": "rem_higgs",
         "xsec": 0.23803199999999997
     },
     "TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X": {
@@ -18025,7 +18025,7 @@
         "nevents": 53980865,
         "nfiles": 531,
         "nick": "TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X",
-        "sample_type": "rem_htautau",
+        "sample_type": "rem_higgs",
         "xsec": 0.23803199999999997
     },
     "TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_sgiappic-RunIII2024Summer24NanoAODv15_ReNano-00000000000000000000000000000000": {
@@ -18036,7 +18036,7 @@
         "nevents": 161028678,
         "nfiles": 7263,
         "nick": "TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_sgiappic-RunIII2024Summer24NanoAODv15_ReNano-00000000000000000000000000000000",
-        "sample_type": "rem_htautau",
+        "sample_type": "rem_higgs",
         "xsec": 0.23803199999999997
     },
     "TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_sgiappic-RunIII2025Summer24NanoAODv15_ReNano-00000000000000000000000000000000": {
@@ -18047,7 +18047,7 @@
         "nevents": 161028678,
         "nfiles": 7263,
         "nick": "TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_sgiappic-RunIII2025Summer24NanoAODv15_ReNano-00000000000000000000000000000000",
-        "sample_type": "rem_htautau",
+        "sample_type": "rem_higgs",
         "xsec": 0.23803199999999997
     },
     "TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODAPVv15-150X": {

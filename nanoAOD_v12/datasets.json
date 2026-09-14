@@ -29751,7 +29751,7 @@
         "nevents": 5576000,
         "nfiles": 68,
         "nick": "TTHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23BPixNanoAODv12-130X",
-        "sample_type": "rem_higgs",
+        "sample_type": "rem_hbb",
         "xsec": 0.331968
     },
     "TTHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23NanoAODv12-130X": {
@@ -29762,7 +29762,7 @@
         "nevents": 10846000,
         "nfiles": 131,
         "nick": "TTHto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23NanoAODv12-130X",
-        "sample_type": "rem_higgs",
+        "sample_type": "rem_hbb",
         "xsec": 0.331968
     },
     "TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22EENanoAODv12-130X": {
@@ -29773,7 +29773,7 @@
         "nevents": 13955780,
         "nfiles": 122,
         "nick": "TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22EENanoAODv12-130X",
-        "sample_type": "rem_htautau",
+        "sample_type": "rem_higgs",
         "xsec": 0.23803199999999997
     },
     "TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22NanoAODv12-130X": {
@@ -29784,7 +29784,7 @@
         "nevents": 3846525,
         "nfiles": 46,
         "nick": "TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22NanoAODv12-130X",
-        "sample_type": "rem_htautau",
+        "sample_type": "rem_higgs",
         "xsec": 0.23803199999999997
     },
     "TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23BPixNanoAODv12-130X": {
@@ -29795,7 +29795,7 @@
         "nevents": 5887987,
         "nfiles": 138,
         "nick": "TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23BPixNanoAODv12-130X",
-        "sample_type": "rem_htautau",
+        "sample_type": "rem_higgs",
         "xsec": 0.03558
     },
     "TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23NanoAODv12-130X": {
@@ -29806,7 +29806,7 @@
         "nevents": 11901980,
         "nfiles": 236,
         "nick": "TTHtoNon2B_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer23NanoAODv12-130X",
-        "sample_type": "rem_htautau",
+        "sample_type": "rem_higgs",
         "xsec": 0.03558
     },
     "TTLL_MLL-4to50_TuneCP5_13p6TeV_amcatnlo-pythia8_Run3Summer22EENanoAODv12-130X": {
