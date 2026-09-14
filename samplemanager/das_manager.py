@@ -119,29 +119,11 @@ class DASQuery(object):
             return float(gen_weight)
 
     def _build_nick(self, nick):
-        # User-produced samples, so need to something different and more general
-        if nick.endswith("USER"):
-            # Remove first "/", remove "USER", unify split parts with "_"
-            nick = "_".join(nick.strip("/").split("/")[:2])
-            return nick
-        if "_ext" in nick:
-            ext_v = "_ext" + nick[nick.find("_ext") + 4]
-        else:
-            ext_v = ""
-        parts = nick.split("/")[1:]
-        # Extract version (e.g., v1, v2, v2-v1, etc.) from the third part if present
-        version = ""
-        if len(parts) > 2:
-            import re
-            # Match v1, v2, v2-v1, v3-v2, etc.
-            match = re.search(r"(v[0-9]-v[0-9])", parts[1])
-            if match and "Run3" not in parts[1] and "RunIII" not in parts[1]: 
-                #add version number to nick only for data samples since multiple versions are used at the same time
-                version = "_" + match.group(1)
-        # nick is the first part of the DAS string + the second part till the first "_"
-        # if there is no "_" in the second part, the whole second part is used
-        nick = parts[0] + "_" + parts[1].split("_")[0] + ext_v + version
-        return nick
+        # The nick is the full DAS string between the first and third "/"
+        # (primary dataset + acquisition-era/processing string), with the
+        # leading/trailing "/" stripped and the middle "/" replaced by "_"
+        parts = nick.strip("/").split("/")
+        return "_".join(parts[:2])
 
     def _get_era(self, nick):
         # regex search for run2 UL eras
