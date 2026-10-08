@@ -369,10 +369,10 @@
         "root://cmsdcache-kit-disk.gridka.de//store/user/cwinter/run3_embedding/2024/Muon1/MuMu/nanoaod/182_nanoaod_364.root"
     ],
     "generator_weight": 1.0,
-    "instance": "prod/global",
+    "instance": null,
     "nick": "Run2024_MuMuEmbedding",
     "sample_type": "embedding",
-    "xsec": 1.0,
-    "nevents": 4240015,
-    "nfiles": 182
+    "xsec": null,
+    "nevents": 8487903,
+    "nfiles": 365
 }
