@@ -1,0 +1,17 @@
+{
+    "dbs": "/SingleMuon/Run2016B-HIPM_UL2016_NanoAODv15-v1/NANOAOD",
+    "era": "2016preVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/data/Run2016B/SingleMuon/NANOAOD/HIPM_UL2016_NanoAODv15-v1/110000/83c8fe86-3e87-4e39-9124-1106de93d78c.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016B/SingleMuon/NANOAOD/HIPM_UL2016_NanoAODv15-v1/110000/59ba0d68-1608-4d82-b820-6d19cb55fd12.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016B/SingleMuon/NANOAOD/HIPM_UL2016_NanoAODv15-v1/2520000/d4c4f500-32a0-4c5f-a696-a6eceae7b1b0.root",
+        "root://xrootd-cms.infn.it///store/data/Run2016B/SingleMuon/NANOAOD/HIPM_UL2016_NanoAODv15-v1/2520000/e925cbb3-9b71-411e-9d68-25fcfd9c6a2c.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 2789243,
+    "nfiles": 4,
+    "nick": "SingleMuon_Run2016B-HIPM_UL2016_NanoAODv15-v1",
+    "sample_type": "data",
+    "xsec": 1.0
+}
