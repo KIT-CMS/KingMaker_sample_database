@@ -17163,23 +17163,23 @@
         "dbs": "/sample/not/published",
         "era": "2024",
         "generator_weight": 1.0,
-        "instance": "prod/global",
-        "nevents": 4240015,
-        "nfiles": 182,
+        "instance": null,
+        "nevents": 8487903,
+        "nfiles": 365,
         "nick": "Run2024_MuMuEmbedding",
         "sample_type": "embedding",
-        "xsec": 1.0
+        "xsec": null
     },
     "Run2024_MuTauEmbedding": {
         "dbs": "/sample/not/published",
         "era": "2024",
         "generator_weight": 1.0,
-        "instance": "prod/global",
+        "instance": null,
         "nevents": 2989487,
         "nfiles": 182,
         "nick": "Run2024_MuTauEmbedding",
         "sample_type": "embedding",
-        "xsec": 1.0
+        "xsec": null
     },
     "ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8_RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1": {
         "dbs": "/ST_s-channel_4f_hadronicDecays_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1/NANOAODSIM",
