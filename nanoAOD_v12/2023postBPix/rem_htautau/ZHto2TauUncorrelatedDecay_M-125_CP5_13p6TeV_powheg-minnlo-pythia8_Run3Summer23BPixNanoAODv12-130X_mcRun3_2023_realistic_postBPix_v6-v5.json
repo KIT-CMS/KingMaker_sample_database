@@ -1,0 +1,15 @@
+{
+    "dbs": "/ZHto2TauUncorrelatedDecay_M-125_CP5_13p6TeV_powheg-minnlo-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v6-v5/NANOAODSIM",
+    "era": "2023postBPix",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/ZHto2TauUncorrelatedDecay_M-125_CP5_13p6TeV_powheg-minnlo-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v6-v5/2540000/1b1fdca4-9094-4c05-8856-85d5d472df17.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/ZHto2TauUncorrelatedDecay_M-125_CP5_13p6TeV_powheg-minnlo-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v6-v5/2540000/ea90d885-f053-4f5e-a9f6-62be667f6e01.root"
+    ],
+    "generator_weight": 0.94,
+    "instance": "prod/global",
+    "nevents": 30000,
+    "nfiles": 2,
+    "nick": "ZHto2TauUncorrelatedDecay_M-125_CP5_13p6TeV_powheg-minnlo-pythia8_Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v6-v5",
+    "sample_type": "rem_htautau",
+    "xsec": 0.050914225306864215
+}

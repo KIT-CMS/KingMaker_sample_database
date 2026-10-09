@@ -1,0 +1,14 @@
+{
+    "dbs": "/WminusHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v2/NANOAODSIM",
+    "era": "2023postBPix",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/WminusHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v2/40000/483b65c1-7035-4a9b-a49c-a6f74ee2497f.root"
+    ],
+    "generator_weight": 0.9473333333333334,
+    "instance": "prod/global",
+    "nevents": 30000,
+    "nfiles": 1,
+    "nick": "WminusHTo2TauUncorrelatedDecay_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8_Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v2",
+    "sample_type": "rem_htautau",
+    "xsec": 0.03544726665216001
+}

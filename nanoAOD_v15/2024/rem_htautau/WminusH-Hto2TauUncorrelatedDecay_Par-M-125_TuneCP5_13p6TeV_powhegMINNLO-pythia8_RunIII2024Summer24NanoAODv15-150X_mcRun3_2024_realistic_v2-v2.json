@@ -31,11 +31,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/WminusH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/7dbb47af-24d0-48a4-a81a-fec7e62ddd0e.root",
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/WminusH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/fb57e1b8-fa3c-4134-8d1e-f1e60002558d.root"
     ],
-    "generator_weight": null,
+    "generator_weight": 0.9464214285714285,
     "instance": "prod/global",
     "nevents": 280000,
     "nfiles": 28,
     "nick": "WminusH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
     "sample_type": "rem_htautau",
-    "xsec": 0.035606144
+    "xsec": 0.03544726665216001
 }
