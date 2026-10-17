@@ -1,0 +1,21 @@
+{
+    "dbs": "/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL16NanoAODv15-150X_mcRun2_asymptotic_v1-v1/NANOAODSIM",
+    "era": "2016postVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2560000/e8a8b39a-7d88-4610-ab9f-2849cd78bb3d.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2560000/39127576-0161-417b-a012-5b3ef55d18a8.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2560000/3ddb39fe-7b40-4d9b-9215-1b4d4376f178.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2560000/1206932d-a317-4b91-926f-9329e3c7736e.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2560000/b40b3383-e866-41e3-8cd4-ae253bd74e7b.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2560000/4bfdd73f-21b2-45e9-abfe-9f88bf517909.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2560000/8781bbc3-37fb-4e96-8777-f84b29ec0e55.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2560000/c0e688c0-8283-4ba7-afe3-aaff528c580b.root"
+    ],
+    "generator_weight": 0.5419851004155427,
+    "instance": "prod/global",
+    "nevents": 3322643,
+    "nfiles": 8,
+    "nick": "TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8_RunIISummer20UL16NanoAODv15-150X_mcRun2_asymptotic_v1-v1",
+    "sample_type": "rem_ttbar",
+    "xsec": 0.2161
+}

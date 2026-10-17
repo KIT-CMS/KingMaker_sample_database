@@ -1,0 +1,14 @@
+{
+    "dbs": "/TTZToLL_M-1to10_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1/NANOAODSIM",
+    "era": "2016preVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/TTZToLL_M-1to10_TuneCP5_13TeV-amcatnlo-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/e4be21ed-e9d6-4ffc-93fe-c330734fee7e.root"
+    ],
+    "generator_weight": 0.5526137931034483,
+    "instance": "prod/global",
+    "nevents": 290000,
+    "nfiles": 1,
+    "nick": "TTZToLL_M-1to10_TuneCP5_13TeV-amcatnlo-pythia8_RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1",
+    "sample_type": "rem_ttbar",
+    "xsec": 0.0537
+}

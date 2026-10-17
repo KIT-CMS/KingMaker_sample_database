@@ -1,0 +1,21 @@
+{
+    "dbs": "/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODv15-150X_mcRun2_asymptotic_v1-v1/NANOAODSIM",
+    "era": "2016postVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/4aa5bc78-83ba-4992-9d22-bac30b1d0c48.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/d4e30c96-b51c-4649-855b-b1b786ed3e1c.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/c0d4e579-38f0-4961-8990-ad3b56901210.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/dda7f561-f8a6-4044-b58a-89cb61475614.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/32b1173f-ee84-4242-a573-7acface65249.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/debb089e-b280-4dd2-a0d9-5ce01516bb48.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/2a15292f-f152-40be-87bb-8394f46f6fb0.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/241902f2-2667-4ea6-9188-5076cd3d82c1.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 4928082,
+    "nfiles": 8,
+    "nick": "EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8_RunIISummer20UL16NanoAODv15-150X_mcRun2_asymptotic_v1-v1",
+    "sample_type": "electroweak_boson",
+    "xsec": 9.778
+}

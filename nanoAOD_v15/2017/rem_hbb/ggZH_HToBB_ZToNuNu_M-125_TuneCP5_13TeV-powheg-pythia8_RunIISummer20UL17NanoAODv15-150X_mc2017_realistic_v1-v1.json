@@ -1,0 +1,21 @@
+{
+    "dbs": "/ggZH_HToBB_ZToNuNu_M-125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv15-150X_mc2017_realistic_v1-v1/NANOAODSIM",
+    "era": "2017",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/ggZH_HToBB_ZToNuNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2560000/ee52bc6a-cf16-4a6b-8263-d5d7bf36f918.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/ggZH_HToBB_ZToNuNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2560000/22ada3ef-42d0-40a3-81af-739bdb3a2065.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/ggZH_HToBB_ZToNuNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2560000/2ebf5f25-0256-4fd1-b5c3-7b6e738a8d88.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/ggZH_HToBB_ZToNuNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2560000/cc3f7f13-2db7-496f-8a46-867e2de322a3.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/ggZH_HToBB_ZToNuNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2560000/97d8d184-439d-4ce6-aae8-87e8327a2e14.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/ggZH_HToBB_ZToNuNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2560000/4c5f4e39-3abb-460a-97e7-c43e871721cf.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/ggZH_HToBB_ZToNuNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2560000/e023fb39-6f3c-442a-ba71-859c713a2733.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/ggZH_HToBB_ZToNuNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/2560000/5e36e3e7-3fb2-47a3-9170-5410813c3580.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 4832000,
+    "nfiles": 8,
+    "nick": "ggZH_HToBB_ZToNuNu_M-125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17NanoAODv15-150X_mc2017_realistic_v1-v1",
+    "sample_type": "rem_hbb",
+    "xsec": 0.0142921
+}
