@@ -205,24 +205,22 @@ class SampleDatabase(object):
         for sample in self.database:
             if sample == nick:
                 dasnick = self.database[sample]["dbs"]
+                filelist = filelist_path(self.database_folder, self.database[sample])
                 del self.database[sample]
                 questionary.print(f"Deleted {nick} from database")
-                # also remove the sample from the sets
+                # also remove the per-sample file and the sample from the sets
+                if os.path.exists(filelist):
+                    os.remove(filelist)
+                    questionary.print(f"Removed {filelist}")
                 self.dasnicks.remove(dasnick)
                 self.samplenicks.remove(sample)
                 self.save_working_database()
                 return
 
     def delete_by_das(self, dasnick):
-        for sample in self.database:
-            if self.database[sample]["dbs"] == dasnick:
-                del self.database[sample]
-                questionary.print(f"Deleted {dasnick} from database")
-                # also remove the sample from the sets
-                self.dasnicks.remove(dasnick)
-                self.samplenicks.remove(sample)
-                self.save_working_database()
-                return
+        nick = self.get_nick_by_das(dasnick)
+        if nick is not None:
+            self.delete_by_nick(nick)
 
     def add_sample(self, details):
         if "nick" not in details:
