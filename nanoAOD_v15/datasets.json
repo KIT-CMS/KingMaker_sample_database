@@ -18875,6 +18875,50 @@
         "sample_type": "singletop",
         "xsec": 19.304754462000002
     },
+    "EmbeddingRun2018A_cwinter-embedding_2018UL_mutau_A_1772534952-00000000000000000000000000000000": {
+        "dbs": "/EmbeddingRun2018A/cwinter-embedding_2018UL_mutau_A_1772534952-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 11733301,
+        "nfiles": 12,
+        "nick": "EmbeddingRun2018A_cwinter-embedding_2018UL_mutau_A_1772534952-00000000000000000000000000000000",
+        "sample_type": "embedding",
+        "xsec": 1.0
+    },
+    "EmbeddingRun2018B_cwinter-embedding_2018UL_mutau_B_1772534952-00000000000000000000000000000000": {
+        "dbs": "/EmbeddingRun2018B/cwinter-embedding_2018UL_mutau_B_1772534952-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 5888849,
+        "nfiles": 6,
+        "nick": "EmbeddingRun2018B_cwinter-embedding_2018UL_mutau_B_1772534952-00000000000000000000000000000000",
+        "sample_type": "embedding",
+        "xsec": 1.0
+    },
+    "EmbeddingRun2018C_cwinter-embedding_2018UL_mutau_2018C_1772450480-00000000000000000000000000000000": {
+        "dbs": "/EmbeddingRun2018C/cwinter-embedding_2018UL_mutau_2018C_1772450480-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 5421924,
+        "nfiles": 6,
+        "nick": "EmbeddingRun2018C_cwinter-embedding_2018UL_mutau_2018C_1772450480-00000000000000000000000000000000",
+        "sample_type": "embedding",
+        "xsec": 1.0
+    },
+    "EmbeddingRun2018D_cwinter-embedding_2018UL_mutau_D_1772534952-00000000000000000000000000000000": {
+        "dbs": "/EmbeddingRun2018D/cwinter-embedding_2018UL_mutau_D_1772534952-00000000000000000000000000000000/USER",
+        "era": "2018",
+        "generator_weight": 1.0,
+        "instance": "prod/phys03",
+        "nevents": 25419943,
+        "nfiles": 57,
+        "nick": "EmbeddingRun2018D_cwinter-embedding_2018UL_mutau_D_1772534952-00000000000000000000000000000000",
+        "sample_type": "embedding",
+        "xsec": 1.0
+    },
     "Tau_Run2016B-HIPM_UL2016_NanoAODv15_v2-v1": {
         "dbs": "/Tau/Run2016B-HIPM_UL2016_NanoAODv15_v2-v1/NANOAOD",
         "era": "2016preVFP",
