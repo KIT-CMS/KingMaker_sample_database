@@ -44,6 +44,12 @@ def main(sample_database_dir: Path, output_dir: Path, allow_missing_stxs: bool) 
     if not table:
         raise ValueError(f"No entries found under {sample_database_dir}")
 
+    # generator-weight fraction kept by the era split of MC shared by several eras, from scripts/split_fractions.py
+    split_path = sample_database_dir / "aux_data" / "split_fractions.json"
+    for nick, fraction in (json.loads(split_path.read_text()) if split_path.exists() else {}).items():
+        if nick in table:
+            table[nick]["split_fraction"] = fraction
+
     # recommended STXS xsec*B and per-bin factors of the signal nicks, from TAUER's analyses/smhtt/stxs_tools.py
     stxs_path = sample_database_dir / "aux_data" / "stxs_nick_table.json"
     if stxs_path.exists():
