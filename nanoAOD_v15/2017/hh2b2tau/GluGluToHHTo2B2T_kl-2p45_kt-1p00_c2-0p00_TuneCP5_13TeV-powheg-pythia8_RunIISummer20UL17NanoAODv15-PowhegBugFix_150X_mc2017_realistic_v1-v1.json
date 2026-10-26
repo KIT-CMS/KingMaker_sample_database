@@ -1,0 +1,19 @@
+{
+    "dbs": "/GluGluToHHTo2B2T_kl-2p45_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv15-PowhegBugFix_150X_mc2017_realistic_v1-v1/NANOAODSIM",
+    "era": "2017",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-2p45_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/2550000/ea39f54b-3ab2-4bf6-83f8-1e251758ca67.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-2p45_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/2550000/5ea6cdf7-0c1a-498a-9cfd-7578817074ec.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-2p45_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/2550000/232435c0-5ca7-45aa-b650-a1112c42c525.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-2p45_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/2550000/3b795fac-7e11-48a1-8f86-0054b5501a3e.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-2p45_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/2550000/470f7f95-aad4-4144-9950-60b5cc817c26.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-2p45_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/2550000/40ff271f-554e-4645-850d-1f7c57ca3eac.root"
+    ],
+    "generator_weight": 0.8687013451351895,
+    "instance": "prod/global",
+    "nevents": 3993948,
+    "nfiles": 6,
+    "nick": "GluGluToHHTo2B2T_kl-2p45_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17NanoAODv15-PowhegBugFix_150X_mc2017_realistic_v1-v1",
+    "sample_type": "hh2b2tau",
+    "xsec": 0.0009725
+}
