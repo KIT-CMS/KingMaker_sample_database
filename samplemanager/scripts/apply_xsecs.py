@@ -2,8 +2,15 @@ import argparse
 import logging
 from math import isclose
 from pathlib import Path
+import sys
 
-from ._models import (
+# Root directory of the sample database repository
+SAMPLE_DATABASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+# Workaround: prepend sample_database to the PYTHONPATH
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+
+from samplemanager.scripts._models import (
     load_sample_database,
     dump_sample_database,
     load_sample_filelist,
@@ -15,10 +22,6 @@ from ._models import (
 logger = logging.getLogger(__name__)
 
 
-# Root directory of this repository
-SAMPLE_DATABASE_DIR = Path(__file__).resolve().parent.parent.parent
-
-
 def parse_arguments():
     # Create the parser
     parser = argparse.ArgumentParser()
@@ -26,19 +29,24 @@ def parse_arguments():
         "--sample-database-dir",
         default=SAMPLE_DATABASE_DIR,
         type=lambda x: Path(x).resolve(),
-        help="Sample database directory. (default: %(default))",
+        help="Sample database directory",
     )
     parser.add_argument(
-        "--nanoAOD-version",
+        "--nanoaod-version",
         required=True,
-        type=lambda x: Path(x).resolve(),
-        helper="nanoAOD version",
+        type=str,
+        help="nanoAOD version",
     )
     parser.add_argument(
         "--xsec-database-file",
         required=True,
         type=lambda x: Path(x).resolve(),
         help="Cross section database file",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Update cross section values of all samples",
     )
     parser.add_argument(
         "--log-level",
@@ -49,19 +57,25 @@ def parse_arguments():
     )
 
     # Parse arguments and convert them to a plain dictionary
-    kwargs = vars(parser.parse_arguments())
+    kwargs = vars(parser.parse_args())
 
     return kwargs
 
 
-def main():
+def main(
+    *,
+    sample_database_dir: Path,
+    nanoaod_version: str,
+    xsec_database_file: Path,
+    force: bool,
+):
     # Sample database files
-    sample_database_file = None
-    xsec_database_file = None
+    sample_database_file = (
+        sample_database_dir
+        / nanoaod_version
+        / "datasets.json"
+    )
     force = False
-
-    # Get the sample database directory
-    sample_database_dir = sample_database_file.parent
 
     # Load the sample and cross section databases
     sample_lookup = load_sample_database(sample_database_file)
@@ -110,18 +124,26 @@ def main():
             logger.debug(
                 f"Set cross section of sample {sample.nick} to {xsec.xsec}"
             )
-
         # Update database
-        dump_sample_database(sample_lookup, sample_database_file)
-        logger.info(f"Wrote updates to main database {sample_database_file}")
+    dump_sample_database(sample_lookup, sample_database_file)
+    logger.info(f"Wrote updates to main database {sample_database_file}")
 
-        # Also update the filelist files
-        for sample_nick in samples_updated:
-            sample = sample_lookup[sample_nick]
-            filelist = load_sample_filelist(sample_database_dir, sample)
-            filelist.xsec =  sample.xsec
-            dump_sample_filelist(sample_database_dir, filelist)
-        logger.info(f"Updated sample filelists in {sample_database_dir}")
+    # Also update the filelist files
+    for sample_nick in samples_updated:
+        sample = sample_lookup[sample_nick]
+        filelist = load_sample_filelist(
+            sample_database_dir / nanoaod_version,
+            sample,
+        )
+        filelist.xsec =  sample.xsec
+        dump_sample_filelist(
+            sample_database_dir / nanoaod_version,
+            filelist,
+        )
+    logger.info(
+        "Updated sample filelists in "
+        + str(sample_database_dir / nanoaod_version)
+    )
 
 
 if __name__ == "__main__":
@@ -129,7 +151,7 @@ if __name__ == "__main__":
     kwargs = parse_arguments()
 
     # Set logging level
-    logging.setLevel(kwargs.pop("log_level"))
+    logging.basicConfig(level=kwargs.pop("log_level"))
 
     # Execute the main function
     main(**kwargs)

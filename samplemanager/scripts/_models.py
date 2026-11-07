@@ -22,7 +22,7 @@ def load_sample_database(sample_database_file: Path):
     Load sample database from the `datasets.json` file provided as
     `sample_database_file`.
     """
-    with open(sample_database_file, mode="r") as f:
+    with sample_database_file.open("r") as f:
         db = json.load(f)
     sample_lookup = {k: Sample(**v) for k, v in db.items()}
     return sample_lookup
@@ -37,8 +37,8 @@ def dump_sample_database(
     `sample_database_file`.
     """
     sample_lookup = {k: asdict(s) for k, s in sample_lookup.items()}
-    with open(sample_database_file, mode="r") as f:
-        json.dump(f)
+    with sample_database_file.open("w") as f:
+        json.dump(sample_lookup, f)
 
 
 def load_sample_filelist(sample_database_dir: Path, sample: Sample) -> Sample:
@@ -54,7 +54,7 @@ def load_sample_filelist(sample_database_dir: Path, sample: Sample) -> Sample:
     )
 
     # Load the filelist
-    with filelist_file.open(mode="r") as f:
+    with filelist_file.open("r") as f:
         data = json.load(f)
     filelist = Sample(**data)
 
@@ -74,7 +74,7 @@ def dump_sample_filelist(sample_database_dir: Path, filelist: Sample):
     )
 
     # Dump the filelist
-    with filelist_file.open(mode="w") as f:
+    with filelist_file.open("w") as f:
         json.dump(asdict(filelist), f)
 
 
@@ -100,8 +100,8 @@ def load_xsec_database(xsec_database_file: Path) -> dict[str, XSec]:
     which maps a sample name to a `XSec` object. The sample name is the first
     part of a DBS string.
     """
-    with open(xsec_database_file, mode="r") as f:
-        db = json.load(f)
+    with xsec_database_file.open("r") as f:
+        db = [XSec(**d) for d in json.load(f)]
     xsec_lookup = create_xsec_lookup(db)
     return xsec_lookup
 
