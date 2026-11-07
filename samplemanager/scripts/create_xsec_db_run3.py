@@ -1,6 +1,7 @@
 """
 Script to generate a JSON file with cross sections at 13.6 TeV for various MC samples.
 """
+from __future__ import annotations
 
 import argparse
 import json
