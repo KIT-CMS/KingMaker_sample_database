@@ -37,6 +37,8 @@ def dump_sample_database(
     `sample_database_file`.
     """
     sample_lookup = {k: asdict(s) for k, s in sample_lookup.items()}
+    for s in sample_lookup.values():
+        s.pop("filelist")
     with sample_database_file.open("w") as f:
         json.dump(sample_lookup, f, indent=4, sort_keys=True)
 
