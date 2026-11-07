@@ -38,7 +38,7 @@ def dump_sample_database(
     """
     sample_lookup = {k: asdict(s) for k, s in sample_lookup.items()}
     with sample_database_file.open("w") as f:
-        json.dump(sample_lookup, f)
+        json.dump(sample_lookup, f, indent=4, sort_keys=True)
 
 
 def load_sample_filelist(sample_database_dir: Path, sample: Sample) -> Sample:
@@ -75,7 +75,7 @@ def dump_sample_filelist(sample_database_dir: Path, filelist: Sample):
 
     # Dump the filelist
     with filelist_file.open("w") as f:
-        json.dump(asdict(filelist), f)
+        json.dump(asdict(filelist), f, indent=4, sort_keys=True)
 
 
 @dataclass
