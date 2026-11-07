@@ -1,6 +1,6 @@
 {
     "dbs": "/TTW-WtoQQ-1Jets_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
-    "era": "2024",
+    "era": "2025",
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/TTW-WtoQQ-1Jets_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/90000/522459b4-8ea6-4234-8073-aaf8523cca45.root",
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/TTW-WtoQQ-1Jets_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/90000/bd5e5381-cdf7-4826-9a16-04c08da1c70c.root",
@@ -95,7 +95,7 @@
     "instance": "prod/global",
     "nevents": 6210301,
     "nfiles": 88,
-    "nick": "TTW-WtoQQ-1Jets_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+    "nick": "TTW-WtoQQ-1Jets_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
     "sample_type": "rem_ttbar",
     "xsec": 0.4678
 }

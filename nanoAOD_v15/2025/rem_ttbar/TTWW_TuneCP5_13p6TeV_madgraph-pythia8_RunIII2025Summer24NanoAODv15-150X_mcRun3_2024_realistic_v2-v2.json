@@ -1,6 +1,6 @@
 {
     "dbs": "/TTWW_TuneCP5_13p6TeV_madgraph-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
-    "era": "2024",
+    "era": "2025",
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/TTWW_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/3bb3c755-fb65-48e2-bbc0-472953facf21.root",
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/TTWW_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v2/2810000/4073e820-57f7-4426-b1ae-0660bcc9b5cf.root",
@@ -63,7 +63,7 @@
     "instance": "prod/global",
     "nevents": 5801000,
     "nfiles": 56,
-    "nick": "TTWW_TuneCP5_13p6TeV_madgraph-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+    "nick": "TTWW_TuneCP5_13p6TeV_madgraph-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
     "sample_type": "rem_ttbar",
     "xsec": 0.006979
 }
