@@ -168,7 +168,7 @@ class DASQuery(object):
         elif any(name.lower() in process for name in ["/WZ_", "/WW_", "/ZZ_", "/WWto", "/WZto", "/ZZto",]):
             return "diboson"
         elif any(
-            name.lower() in process for name in ["/WWW_", "/WWZ_", "/WZZ_", "/ZZZ_"]
+            name.lower() in process for name in ["/WWW_", "/WWZ_", "/WZZ_", "/ZZZ_", "/WWW-", "/WWZ-", "/WZZ-", "/ZZZ-"]
         ):
             return "triboson"
         elif any(name.lower() in process for name in ["EWK"]):
@@ -207,7 +207,7 @@ class DASQuery(object):
             return "data"
         elif "Embedding".lower() in process:
             return "embedding"
-        elif any(name.lower() in process for name in ["ttZJets", "ttWJets"]):
+        elif any(name.lower() in process for name in ["ttZJets", "ttWJets", "/TTLL", "/TTLNu", "/TTW", "/TTZ"]):
             return "rem_ttbar"
         elif any(name.lower() in process for name in ["GluGluToContinToZZ"]):
             return "ggZZ"
