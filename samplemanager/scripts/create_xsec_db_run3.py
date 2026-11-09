@@ -346,8 +346,13 @@ for _sample_name, _xsec, _order in [
     ("TTLNu-EWK_TuneCP5_13p6TeV_amcatnlo-pythia8", 0.01769, "NLO(QCD)"),
     ("TTNuNu_TuneCP5_13p6TeV_amcatnlo-pythia8", 0.1638, "NLO(QCD)"),
     ("TTZ-ZtoQQ-1Jets_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8", 0.6426, "NLO(QCD)"),
+    ("TTZ-ZtoQQ-1Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 0.6603, "NLO(QCD)"),
+    ("TTW-WtoQQ-1Jets_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8", 0.4678, "NLO(QCD)"),
     ("TTWW_TuneCP5_13p6TeV_madgraph-pythia8", 0.006979, "LO(QCD)"),
+    ("TTWW_TuneCP5_13p6TeV_madgraph-madspin-pythia8", 0.008203, "LO(QCD)"),
+    ("TTWZ_TuneCP5_13p6TeV_madgraph-pythia8", 0.002715, "LO(QCD)"),
     ("TTZZ_TuneCP5_13p6TeV_madgraph-pythia8", 0.001565, "LO(QCD)"),
+    ("TTZZ_TuneCP5_13p6TeV_madgraph-madspin-pythia8", 0.001579, "LO(QCD)"),
     ("TTTT_TuneCP5_13p6TeV_amcatnlo-pythia8", 0.009652, "NLO(QCD)"),
 ]:
     add_cross_section(
@@ -856,10 +861,32 @@ add_cross_section(
 _order="LO(QCD)",
 _reference="https://xsecdb-xsdb-official.app.cern.ch",
 for _sample_name, _xsec in [
-    ("WWW-4F_TuneCP5_13p6TeV_amcatnlo-pythia8", 0.2328),
-    ("WWZ-4F_TuneCP5_13p6TeV_amcatnlo-pythia8", 0.1851),
-    ("WZZ-5F_TuneCP5_13p6TeV_amcatnlo-pythia8", 0.06206),
-    ("ZZZ-5F_TuneCP5_13p6TeV_amcatnlo-pythia8", 0.01591),
+    (
+        [
+            "WWW_4F_TuneCP5_13p6TeV_amcatnlo-madspin-pythia8",
+            "WWW-4F_TuneCP5_13p6TeV_amcatnlo-pythia8",
+        ],
+        0.2328,
+    ),
+    (
+        [
+            "WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8",
+            "WWZ-4F_TuneCP5_13p6TeV_amcatnlo-pythia8",
+        ],
+        0.1851,
+    ),
+    (
+        [
+            "WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8",
+            "WZZ-5F_TuneCP5_13p6TeV_amcatnlo-pythia8",
+        ],
+        0.06206,
+    ),
+    (
+        [
+            "ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8",
+            "ZZZ-5F_TuneCP5_13p6TeV_amcatnlo-pythia8",
+        ], 0.01591),
 ]:
     add_cross_section(
         xsec=_xsec,

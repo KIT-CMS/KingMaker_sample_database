@@ -1047,6 +1047,22 @@
         "xsec": 0.009652
     },
     {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTW-WtoQQ-1Jets_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8"
+        ],
+        "xsec": 0.4678
+    },
+    {
+        "order": "LO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTWW_TuneCP5_13p6TeV_madgraph-madspin-pythia8"
+        ],
+        "xsec": 0.008203
+    },
+    {
         "order": "LO(QCD)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch",
         "sample_names": [
@@ -1055,12 +1071,36 @@
         "xsec": 0.006979
     },
     {
+        "order": "LO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTWZ_TuneCP5_13p6TeV_madgraph-pythia8"
+        ],
+        "xsec": 0.002715
+    },
+    {
+        "order": "NLO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTZ-ZtoQQ-1Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 0.6603
+    },
+    {
         "order": "NLO(QCD)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch",
         "sample_names": [
             "TTZ-ZtoQQ-1Jets_TuneCP5_13p6TeV_amcatnloFXFXold-pythia8"
         ],
         "xsec": 0.6426
+    },
+    {
+        "order": "LO(QCD)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "sample_names": [
+            "TTZZ_TuneCP5_13p6TeV_madgraph-madspin-pythia8"
+        ],
+        "xsec": 0.001579
     },
     {
         "order": "LO(QCD)",
@@ -1267,7 +1307,8 @@
             "https://xsecdb-xsdb-official.app.cern.ch"
         ],
         "sample_names": [
-            "WWW-4F_TuneCP5_13p6TeV_amcatnlo-pythia8"
+            "WWW-4F_TuneCP5_13p6TeV_amcatnlo-pythia8",
+            "WWW_4F_TuneCP5_13p6TeV_amcatnlo-madspin-pythia8"
         ],
         "xsec": 0.2328
     },
@@ -1279,7 +1320,8 @@
             "https://xsecdb-xsdb-official.app.cern.ch"
         ],
         "sample_names": [
-            "WWZ-4F_TuneCP5_13p6TeV_amcatnlo-pythia8"
+            "WWZ-4F_TuneCP5_13p6TeV_amcatnlo-pythia8",
+            "WWZ_4F_TuneCP5_13p6TeV_amcatnlo-pythia8"
         ],
         "xsec": 0.1851
     },
@@ -1323,7 +1365,8 @@
             "https://xsecdb-xsdb-official.app.cern.ch"
         ],
         "sample_names": [
-            "WZZ-5F_TuneCP5_13p6TeV_amcatnlo-pythia8"
+            "WZZ-5F_TuneCP5_13p6TeV_amcatnlo-pythia8",
+            "WZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
         ],
         "xsec": 0.06206
     },
@@ -1639,7 +1682,8 @@
             "https://xsecdb-xsdb-official.app.cern.ch"
         ],
         "sample_names": [
-            "ZZZ-5F_TuneCP5_13p6TeV_amcatnlo-pythia8"
+            "ZZZ-5F_TuneCP5_13p6TeV_amcatnlo-pythia8",
+            "ZZZ_TuneCP5_13p6TeV_amcatnlo-pythia8"
         ],
         "xsec": 0.01591
     },
