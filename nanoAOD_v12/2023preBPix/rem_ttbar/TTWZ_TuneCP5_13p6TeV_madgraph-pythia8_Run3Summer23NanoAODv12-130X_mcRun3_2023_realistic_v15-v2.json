@@ -1,0 +1,21 @@
+{
+    "dbs": "/TTWZ_TuneCP5_13p6TeV_madgraph-pythia8/Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v15-v2/NANOAODSIM",
+    "era": "2023preBPix",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/TTWZ_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v15-v2/80000/252549a3-f3d0-4182-a8ba-6c007357a277.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/TTWZ_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v15-v2/80000/f3996960-0ee5-4d04-9829-2e503cd43e52.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/TTWZ_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v15-v2/80000/2c034b96-7e8a-4a9b-a379-d5885f141832.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/TTWZ_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v15-v2/80000/4708afd8-0b70-4c48-a15b-508df831912e.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/TTWZ_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v15-v2/80000/8e937023-cf80-4a8b-984d-e855136771e2.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/TTWZ_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v15-v2/80000/ee6f8562-4da0-4c96-86ae-360e73019589.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/TTWZ_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v15-v2/80000/bc0dd5f8-d56d-4fe6-87a2-dc395ba81fcd.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23NanoAODv12/TTWZ_TuneCP5_13p6TeV_madgraph-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v15-v2/80000/d0c0cf15-c8b9-4dc4-b7ec-022469405c29.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 1000000,
+    "nfiles": 8,
+    "nick": "TTWZ_TuneCP5_13p6TeV_madgraph-pythia8_Run3Summer23NanoAODv12-130X_mcRun3_2023_realistic_v15-v2",
+    "sample_type": "rem_ttbar",
+    "xsec": 0.002715
+}

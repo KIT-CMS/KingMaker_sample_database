@@ -1,0 +1,15 @@
+{
+    "dbs": "/WWW_4F_TuneCP5_13p6TeV_amcatnlo-madspin-pythia8/Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v2/NANOAODSIM",
+    "era": "2023postBPix",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/WWW_4F_TuneCP5_13p6TeV_amcatnlo-madspin-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v2/30000/a68965b4-92ce-4333-8598-b3490058c6fc.root",
+        "root://xrootd-cms.infn.it///store/mc/Run3Summer23BPixNanoAODv12/WWW_4F_TuneCP5_13p6TeV_amcatnlo-madspin-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v2/30000/3d8d268d-dd12-40cf-aac6-1dc4e54b842b.root"
+    ],
+    "generator_weight": 0.9068681672025724,
+    "instance": "prod/global",
+    "nevents": 466500,
+    "nfiles": 2,
+    "nick": "WWW_4F_TuneCP5_13p6TeV_amcatnlo-madspin-pythia8_Run3Summer23BPixNanoAODv12-130X_mcRun3_2023_realistic_postBPix_v2-v2",
+    "sample_type": "triboson",
+    "xsec": 0.2328
+}
