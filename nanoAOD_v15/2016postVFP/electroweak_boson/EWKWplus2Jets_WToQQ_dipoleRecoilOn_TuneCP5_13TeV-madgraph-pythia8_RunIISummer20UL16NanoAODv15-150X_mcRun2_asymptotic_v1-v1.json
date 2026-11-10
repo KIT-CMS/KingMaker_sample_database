@@ -1,0 +1,20 @@
+{
+    "dbs": "/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODv15-150X_mcRun2_asymptotic_v1-v1/NANOAODSIM",
+    "era": "2016postVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/d9b90e6b-799e-49af-b267-b52b50cc5982.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/b8f45b5e-d329-4833-b1cf-06ee3ae0c4db.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/724926fa-5dd6-41a9-8eaf-846df7d15d2f.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/a1b0be23-6dfd-47b5-97e9-e2f85d76d80b.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/2ec4a209-3d5b-47ff-8d67-86ce536787c4.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/1576bd8c-7cf6-44d6-a533-55b744e7bec2.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/2810000/52591378-7d54-409d-9845-0f85700d2a6d.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 4998122,
+    "nfiles": 7,
+    "nick": "EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8_RunIISummer20UL16NanoAODv15-150X_mcRun2_asymptotic_v1-v1",
+    "sample_type": "electroweak_boson",
+    "xsec": 28.71
+}

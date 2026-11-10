@@ -1,0 +1,18 @@
+{
+    "dbs": "/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv15-150X_mcRun2_asymptotic_v1-v1/NANOAODSIM",
+    "era": "2016postVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/130000/9de74e8f-5be2-4674-ac57-06f627eb9f1b.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/130000/2d62a6e8-314f-497b-9904-a796e0ffa1c7.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/130000/16a902dd-e4ba-4cf8-abbf-8bbb265e513b.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/130000/dd4bdc0f-a0cc-4cd8-ab31-a055adfc2c2b.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/130000/8c7f2f8b-7630-4d4c-9650-8220b9faadfc.root"
+    ],
+    "generator_weight": 0.9988442162388488,
+    "instance": "prod/global",
+    "nevents": 3448742,
+    "nfiles": 5,
+    "nick": "VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODv15-150X_mcRun2_asymptotic_v1-v1",
+    "sample_type": "vbf_hbb",
+    "xsec": 2.20264
+}

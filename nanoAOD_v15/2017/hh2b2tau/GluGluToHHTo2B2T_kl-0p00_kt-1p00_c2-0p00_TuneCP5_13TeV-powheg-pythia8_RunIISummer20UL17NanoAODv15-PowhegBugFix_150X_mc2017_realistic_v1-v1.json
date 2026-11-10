@@ -1,0 +1,21 @@
+{
+    "dbs": "/GluGluToHHTo2B2T_kl-0p00_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv15-PowhegBugFix_150X_mc2017_realistic_v1-v1/NANOAODSIM",
+    "era": "2017",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-0p00_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/120000/3d4c7566-e70d-4bdb-b750-5cc79594b286.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-0p00_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/120000/5671a7fa-a45a-43da-a34f-63b6b0a9282d.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-0p00_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/120000/4850e728-efa0-4365-a8f1-ec51c5292cfe.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-0p00_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/120000/a91168c4-db44-40af-b740-40c63556afde.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-0p00_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/120000/a427e02e-4649-4e9f-b40a-f7cf2b95a942.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-0p00_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/120000/07334ee2-5d8b-4bad-948c-e1086269e148.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-0p00_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/120000/89afbcdb-88e0-4982-b711-19910e67f6e3.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/GluGluToHHTo2B2T_kl-0p00_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mc2017_realistic_v1-v1/120000/191d1373-e9ad-43ae-9b0d-44fb4ce7b5a2.root"
+    ],
+    "generator_weight": 0.9396592437243853,
+    "instance": "prod/global",
+    "nevents": 3997696,
+    "nfiles": 8,
+    "nick": "GluGluToHHTo2B2T_kl-0p00_kt-1p00_c2-0p00_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17NanoAODv15-PowhegBugFix_150X_mc2017_realistic_v1-v1",
+    "sample_type": "hh2b2tau",
+    "xsec": 0.00495
+}

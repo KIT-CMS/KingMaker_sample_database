@@ -1,0 +1,22 @@
+{
+    "dbs": "/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv15-150X_mc2017_realistic_v1-v1/NANOAODSIM",
+    "era": "2017",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/c0119faf-3573-4ce8-b805-9f7f68856fd7.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/99f49717-9e11-4729-bd31-cf331f04c65c.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/7ee285d7-2dd0-42a2-b483-ef8f7144b6ea.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/1ffe0cec-bb66-49dc-913b-46e83aa420a1.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/1719d09e-83eb-475a-a391-2f23f2d3eb32.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/13e70ac9-46f8-4983-a6d0-a23c1082f068.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/af87686e-a560-42e5-9e69-1fb4cf8b45cf.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/290dcc93-da7b-4d14-bc2c-5d36207c16a5.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/070de9a5-8e2b-4498-9741-3d01cf9e06c3.root"
+    ],
+    "generator_weight": 0.9987982319292772,
+    "instance": "prod/global",
+    "nevents": 7692000,
+    "nfiles": 9,
+    "nick": "VBFHToBB_M-125_dipoleRecoilOn_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17NanoAODv15-150X_mc2017_realistic_v1-v1",
+    "sample_type": "vbf_hbb",
+    "xsec": 2.20264
+}

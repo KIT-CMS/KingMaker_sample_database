@@ -1,0 +1,20 @@
+{
+    "dbs": "/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v2/NANOAODSIM",
+    "era": "2016preVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v2/130000/9b6ab56a-7f09-40bd-adcc-510b5a512f95.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v2/130000/23b68274-bb1c-44b9-9710-698914ac5e57.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v2/130000/3e2f5632-3625-4f7c-9a82-2bd3cfa3ffb1.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v2/130000/1e01d442-4cd3-4182-81d9-ef5e00b3d029.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v2/130000/c71c3b90-11c7-41dc-8e4c-980e55057716.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v2/130000/cd3bc5a6-6e7b-4c97-b2dd-f0c350f21842.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v2/130000/d5f36ca4-f0f0-462d-88e2-6b882d6717ae.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 4979000,
+    "nfiles": 7,
+    "nick": "EWKZ2Jets_ZToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8_RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v2",
+    "sample_type": "electroweak_boson",
+    "xsec": 9.778
+}

@@ -1,0 +1,19 @@
+{
+    "dbs": "/WZTo2Q2Nu_4f_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1/NANOAODSIM",
+    "era": "2016preVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/WZTo2Q2Nu_4f_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/5560fa3d-f8a4-4838-8b32-9a3628d10ae4.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/WZTo2Q2Nu_4f_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/c365eddc-f41d-40d5-aac4-febb7e67c912.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/WZTo2Q2Nu_4f_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/a8fc4f97-7107-419e-a2ce-90150a12e1e7.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/WZTo2Q2Nu_4f_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/da82d5c7-003a-4f67-9e0d-7377f13178eb.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/WZTo2Q2Nu_4f_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/562b6584-1d04-469f-ac76-f7e450dc2cb4.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/WZTo2Q2Nu_4f_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/9bd652f4-09b7-4ad8-bdf1-0d0a28fabf82.root"
+    ],
+    "generator_weight": 0.609532767555013,
+    "instance": "prod/global",
+    "nevents": 2718497,
+    "nfiles": 6,
+    "nick": "WZTo2Q2Nu_4f_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8_RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1",
+    "sample_type": "diboson",
+    "xsec": 10.25
+}

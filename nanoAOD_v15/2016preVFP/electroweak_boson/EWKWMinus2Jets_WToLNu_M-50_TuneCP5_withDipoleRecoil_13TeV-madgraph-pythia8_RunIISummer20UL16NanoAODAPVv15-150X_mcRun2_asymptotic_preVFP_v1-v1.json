@@ -1,0 +1,16 @@
+{
+    "dbs": "/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1/NANOAODSIM",
+    "era": "2016preVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/130000/be123053-d161-4a1b-b6d4-b6022f7ee34b.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/130000/cc0c0408-ff50-4dfa-8f34-26c58b4a0271.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/130000/5611b99c-e186-4ed8-b27a-c744bdff7991.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 2248000,
+    "nfiles": 3,
+    "nick": "EWKWMinus2Jets_WToLNu_M-50_TuneCP5_withDipoleRecoil_13TeV-madgraph-pythia8_RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1",
+    "sample_type": "electroweak_boson",
+    "xsec": 32.05
+}

@@ -1,0 +1,23 @@
+{
+    "dbs": "/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL17NanoAODv15-150X_mc2017_realistic_v1-v1/NANOAODSIM",
+    "era": "2017",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/610bc99e-cca6-4c58-96ee-8310f5d824e3.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/ad85b0ae-9f51-44e0-bd68-c527801df271.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/4a4ee9a6-4a48-4583-bff4-55f0e0913a7c.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/96ddbb0d-35f2-4c6b-8efd-cadf92e4348e.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/05c74a4e-6558-41cd-9959-75a14fb6579e.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/25a2c9d4-3a0e-46f6-8ebb-84ebe8430e67.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/40e41141-674c-4a46-a708-369bbfae5f6c.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/43a25e62-0096-43bd-ab6a-304a3848947c.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/12e0d84a-a53e-46b9-96e5-505edcf1388a.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/100000/af4a509b-1285-4f84-8e1b-0296c4331ca4.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 7994000,
+    "nfiles": 10,
+    "nick": "EWKWplus2Jets_WToQQ_dipoleRecoilOn_TuneCP5_13TeV-madgraph-pythia8_RunIISummer20UL17NanoAODv15-150X_mc2017_realistic_v1-v1",
+    "sample_type": "electroweak_boson",
+    "xsec": 28.71
+}

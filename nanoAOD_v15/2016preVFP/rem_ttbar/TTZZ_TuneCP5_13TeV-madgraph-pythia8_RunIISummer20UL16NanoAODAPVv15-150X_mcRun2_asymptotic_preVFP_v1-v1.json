@@ -1,0 +1,14 @@
+{
+    "dbs": "/TTZZ_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1/NANOAODSIM",
+    "era": "2016preVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/TTZZ_TuneCP5_13TeV-madgraph-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/b9b6c2fd-bf94-4b19-a4a4-159c4fbb0a09.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 140000,
+    "nfiles": 1,
+    "nick": "TTZZ_TuneCP5_13TeV-madgraph-pythia8_RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1",
+    "sample_type": "rem_ttbar",
+    "xsec": 0.001386
+}

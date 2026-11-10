@@ -1,0 +1,20 @@
+{
+    "dbs": "/WminusH_HToBB_WToLNu_M-125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL17NanoAODv15-150X_mc2017_realistic_v1-v1/NANOAODSIM",
+    "era": "2017",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/WminusH_HToBB_WToLNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/120000/59cb2edd-5b42-4ecf-a570-63f55fcc51bf.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/WminusH_HToBB_WToLNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/120000/66259fca-0d9a-4376-af2e-859f1c360472.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/WminusH_HToBB_WToLNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/120000/740e317f-611d-4961-af96-f99a3408c1a0.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/WminusH_HToBB_WToLNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/120000/42f6b792-36c5-4e99-86cf-80d4868e8b43.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/WminusH_HToBB_WToLNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/120000/5480c66a-a2bc-4e7b-b41d-e1ee91a75019.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/WminusH_HToBB_WToLNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/120000/8acb40aa-bc49-4245-b6c4-72929d4be140.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv15/WminusH_HToBB_WToLNu_M-125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/150X_mc2017_realistic_v1-v1/120000/d7d26467-bd75-4a03-a402-1781bcdc1561.root"
+    ],
+    "generator_weight": 0.9461628004347801,
+    "instance": "prod/global",
+    "nevents": 4824508,
+    "nfiles": 7,
+    "nick": "WminusH_HToBB_WToLNu_M-125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL17NanoAODv15-150X_mc2017_realistic_v1-v1",
+    "sample_type": "rem_hbb",
+    "xsec": 0.101097
+}

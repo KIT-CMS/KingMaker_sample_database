@@ -1,0 +1,20 @@
+{
+    "dbs": "/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1/NANOAODSIM",
+    "era": "2016preVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/bc6220e7-3e9c-42ed-8a7a-8e4b9b5181a1.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/5500e802-d5a1-4a1d-8216-ee728e0c6337.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/5fe9fa01-a4e5-4821-8d15-c0c73134f2a5.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/d50e1351-b226-435d-9878-3c636351eb55.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/90d87b7b-83fa-4104-a8d6-5a47b18f0fb8.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/c1eecdb7-af07-412d-b5de-6d787963de66.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODAPVv15/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_preVFP_v1-v1/120000/240c9b00-6695-47db-a9f9-a19652262c77.root"
+    ],
+    "generator_weight": 0.5414741046480132,
+    "instance": "prod/global",
+    "nevents": 2850164,
+    "nfiles": 7,
+    "nick": "TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8_RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v1",
+    "sample_type": "rem_ttbar",
+    "xsec": 0.2161
+}

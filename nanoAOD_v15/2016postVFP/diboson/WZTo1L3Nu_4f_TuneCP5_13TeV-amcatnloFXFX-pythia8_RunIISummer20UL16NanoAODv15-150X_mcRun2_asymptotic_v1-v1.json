@@ -1,0 +1,15 @@
+{
+    "dbs": "/WZTo1L3Nu_4f_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL16NanoAODv15-150X_mcRun2_asymptotic_v1-v1/NANOAODSIM",
+    "era": "2016postVFP",
+    "filelist": [
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/WZTo1L3Nu_4f_TuneCP5_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/120000/dcee9e5c-1617-46c0-880f-fd0a67ed4252.root",
+        "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv15/WZTo1L3Nu_4f_TuneCP5_13TeV-amcatnloFXFX-pythia8/NANOAODSIM/150X_mcRun2_asymptotic_v1-v1/120000/e1cd7107-4866-4587-a7b0-8eb6d8cfd0bb.root"
+    ],
+    "generator_weight": 0.5736072965805004,
+    "instance": "prod/global",
+    "nevents": 1229946,
+    "nfiles": 2,
+    "nick": "WZTo1L3Nu_4f_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL16NanoAODv15-150X_mcRun2_asymptotic_v1-v1",
+    "sample_type": "diboson",
+    "xsec": 3.414
+}
