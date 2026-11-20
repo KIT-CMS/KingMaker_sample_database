@@ -1,0 +1,15 @@
+{
+    "dbs": "/WminusHTo2TauUncorrelatedDecay_Filtered_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/MINIAODSIM",
+    "era": "2022preEE",
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022/WminusHto2Tau_UncorrelatedDecay_Filtered/nano_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022/WminusHto2Tau_UncorrelatedDecay_Filtered/nano_1.root"
+    ],
+    "generator_weight": 0.9552206121442302,
+    "instance": "prod/global",
+    "nevents": 452083,
+    "nfiles": 2,
+    "nick": "WminusHto2Tau_UncorrelatedDecay_Filtered_2022preEE",
+    "sample_type": "rem_htautau",
+    "xsec": 0.01371454746772071
+}

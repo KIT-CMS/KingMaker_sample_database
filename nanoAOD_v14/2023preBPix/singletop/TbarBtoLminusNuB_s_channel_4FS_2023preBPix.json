@@ -1,0 +1,16 @@
+{
+    "dbs": "/TbarBtoLminusNuB-s-channel-4FS_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer23MiniAODv4-130X_mcRun3_2023_realistic_v15-v2/MINIAODSIM",
+    "era": "2023preBPix",
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TbarBtoLminusNuB_s_channel_4FS/nano_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TbarBtoLminusNuB_s_channel_4FS/nano_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TbarBtoLminusNuB_s_channel_4FS/nano_2.root"
+    ],
+    "generator_weight": 0.61607375,
+    "instance": "prod/global",
+    "nevents": 1600000,
+    "nfiles": 3,
+    "nick": "TbarBtoLminusNuB_s_channel_4FS_2023preBPix",
+    "sample_type": "singletop",
+    "xsec": 1.4771771999999999
+}

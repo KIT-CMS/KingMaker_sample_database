@@ -1,0 +1,18 @@
+{
+    "dbs": "/WplusHTo2TauUncorrelatedDecay_Filtered_M-125_TuneCP5_13p6TeV_powheg-minnlo-pythia8/Run3Summer23MiniAODv4-130X_mcRun3_2023_realistic_v14-v2/MINIAODSIM",
+    "era": "2023preBPix",
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/WplusHto2Tau_UncorrelatedDecay_Filtered/nano_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/WplusHto2Tau_UncorrelatedDecay_Filtered/nano_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/WplusHto2Tau_UncorrelatedDecay_Filtered/nano_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/WplusHto2Tau_UncorrelatedDecay_Filtered/nano_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/WplusHto2Tau_UncorrelatedDecay_Filtered/nano_4.root"
+    ],
+    "generator_weight": 0.9549560097415893,
+    "instance": "prod/global",
+    "nevents": 1887577,
+    "nfiles": 5,
+    "nick": "WplusHto2Tau_UncorrelatedDecay_Filtered_2023preBPix",
+    "sample_type": "rem_htautau",
+    "xsec": 0.019884370825031687
+}

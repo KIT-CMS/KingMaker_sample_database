@@ -1,0 +1,26 @@
+{
+    "dbs": "/WZtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixMiniAODv4-130X_mcRun3_2023_realistic_postBPix_v2-v2/MINIAODSIM",
+    "era": "2023postBPix",
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZtoLNu2Q_powheg/nano_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZtoLNu2Q_powheg/nano_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZtoLNu2Q_powheg/nano_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZtoLNu2Q_powheg/nano_11.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZtoLNu2Q_powheg/nano_12.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZtoLNu2Q_powheg/nano_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZtoLNu2Q_powheg/nano_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZtoLNu2Q_powheg/nano_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZtoLNu2Q_powheg/nano_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZtoLNu2Q_powheg/nano_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZtoLNu2Q_powheg/nano_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZtoLNu2Q_powheg/nano_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZtoLNu2Q_powheg/nano_9.root"
+    ],
+    "generator_weight": 0.9995859490084986,
+    "instance": "prod/global",
+    "nevents": 8780000,
+    "nfiles": 13,
+    "nick": "WZtoLNu2Q_powheg_2023postBPix",
+    "sample_type": "diboson",
+    "xsec": 15.87
+}
