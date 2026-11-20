@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Measure the generator-weight fraction of each era's part of MC samples shared by several eras (the Summer24 MC of
-2024 and 2025/2026), as split by CROWN's event::quantity::FractionSplitFlag, and store it as `split_fraction` of each nick in the
-sample database (passed to CROWN by KingMaker). The event number is hashed exactly as in CROWN (splitmix64 -> [0, 1)); 2024 keeps
-the events below --fraction, 2025/2026 the others.
+Measure the generator-weight fraction of each era's part of MC samples shared by several eras (by default the Summer24 MC
+of 2024 and 2025/2026 in nanoAOD_v15), as split by CROWN's event::quantity::FractionSplitFlag, and store it as `split_fraction`
+of each nick in the sample database (passed to CROWN by KingMaker, see event::quantity::SplitWeight). The event number is
+hashed exactly as in CROWN (splitmix64 -> [0, 1)); the --low-eras keep the events below --fraction, the --high-eras the others.
 
     python -m samplemanager.scripts.split_fractions --fraction F --submit   # one condor job per file chunk
     python -m samplemanager.scripts.split_fractions --merge                  # writes split_fraction into the database
@@ -31,8 +31,8 @@ logger = logging.getLogger(__name__)
 # Default values of command-line arguments
 DEFAULT_OUTPUT_DIR = Path(f"/ceph/{getpass.getuser()}/split_fractions")
 DEFAULT_REDIRECTOR = "root://cms-xrd-global.cern.ch/"
-DATABASE = ROOT_DIR / "nanoAOD_v15"
-LOW_ERAS, HIGH_ERAS = ("2024",), ("2025", "2026")
+DEFAULT_DATABASE = "nanoAOD_v15"
+DEFAULT_LOW_ERAS, DEFAULT_HIGH_ERAS = ["2024"], ["2025", "2026"]
 
 
 def parse_arguments() -> argparse.Namespace:
@@ -41,6 +41,9 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR, help="Where the per-chunk counts go.")
     parser.add_argument("--redirector", default=DEFAULT_REDIRECTOR, help="xrootd redirector replacing the filelists' one.")
     parser.add_argument("--files-per-job", type=int, default=150)
+    parser.add_argument("--database", default=DEFAULT_DATABASE, help="Sample database version of the split samples.")
+    parser.add_argument("--low-eras", nargs="+", default=DEFAULT_LOW_ERAS, help="Eras keeping the events below --fraction.")
+    parser.add_argument("--high-eras", nargs="+", default=DEFAULT_HIGH_ERAS, help="Eras keeping the other events.")
     parser.add_argument("--submit", action="store_true", help="Submit one condor job per chunk of files of every split sample.")
     parser.add_argument("--scan", nargs=2, metavar=("KEY", "CHUNK"), help="Count one chunk (what a condor job runs).")
     parser.add_argument("--merge", action="store_true", help="Sum the chunks and write split_fraction into the sample database.")
@@ -58,11 +61,11 @@ def uniform(event):
     return (z >> np.uint64(11)).astype(np.float64) * 2.0**-53
 
 
-def split_samples() -> dict[str, dict]:
+def split_samples(args: argparse.Namespace) -> dict[str, dict]:
     """{filelist hash: {"nicks": {nick: era}, "files": [...]}} of the MC samples of the split eras."""
     samples = defaultdict(lambda: {"nicks": {}, "files": None})
-    for era in LOW_ERAS + HIGH_ERAS:
-        for path in sorted((DATABASE / era).glob("*/*.json")):
+    for era in args.low_eras + args.high_eras:
+        for path in sorted((ROOT_DIR / args.database / era).glob("*/*.json")):
             entry = json.loads(path.read_text())
             if entry["sample_type"] in ("data", "embedding"):
                 continue
@@ -80,7 +83,7 @@ def scan(key: str, chunk: int, args: argparse.Namespace) -> None:
     import numpy as np
     import uproot
 
-    files = chunks(split_samples()[key]["files"], args.files_per_job)[chunk]
+    files = chunks(split_samples(args)[key]["files"], args.files_per_job)[chunk]
     counts, failed = dict.fromkeys(("low_pos", "low_neg", "high_pos", "high_neg"), 0), []
     for path in files:
         # the fraction is a property of the sample: unreadable files are skipped and counted
@@ -104,14 +107,15 @@ def scan(key: str, chunk: int, args: argparse.Namespace) -> None:
 
 
 def submit(args: argparse.Namespace) -> None:
-    jobs = [(key, i) for key, sample in split_samples().items() for i in range(len(chunks(sample["files"], args.files_per_job)))]
+    jobs = [(key, i) for key, sample in split_samples(args).items() for i in range(len(chunks(sample["files"], args.files_per_job)))]
     jobs = [(key, i) for key, i in jobs if not (args.output_dir / f"{key}_{i}.json").exists()]
     log_dir = args.output_dir / "logs"
     log_dir.mkdir(parents=True, exist_ok=True)
     wrapper = log_dir / "run.sh"
     wrapper.write_text(f"#!/bin/bash\nset -e\nexport USER={getpass.getuser()}\ncd {ROOT_DIR}\nexec {sys.executable} -m samplemanager.scripts.split_fractions "
                        f"--fraction {args.fraction!r} --output-dir {args.output_dir} --redirector {args.redirector} "
-                       f"--files-per-job {args.files_per_job} --scan \"$@\"\n")
+                       f"--files-per-job {args.files_per_job} --database {args.database} --low-eras {' '.join(args.low_eras)} "
+                       f"--high-eras {' '.join(args.high_eras)} --scan \"$@\"\n")
     wrapper.chmod(0o755)
     queue = "\n".join(f"    {key}, {i}" for key, i in jobs)
     (log_dir / "submit.sub").write_text(f"""universe = vanilla
@@ -138,7 +142,7 @@ queue key, chunk from (
 
 def merge(args: argparse.Namespace) -> None:
     fractions, missing = {}, []
-    for key, sample in split_samples().items():
+    for key, sample in split_samples(args).items():
         n_chunks = len(chunks(sample["files"], args.files_per_job))
         parts = [args.output_dir / f"{key}_{i}.json" for i in range(n_chunks)]
         if not all(p.exists() for p in parts):
@@ -155,10 +159,10 @@ def merge(args: argparse.Namespace) -> None:
             missing.append(next(iter(sample["nicks"])))
             continue
         for nick, era in sample["nicks"].items():
-            fractions[nick] = n_eff["low" if era in LOW_ERAS else "high"] / (n_eff["low"] + n_eff["high"])
+            fractions[nick] = n_eff["low" if era in args.low_eras else "high"] / (n_eff["low"] + n_eff["high"])
     if missing:
         raise RuntimeError(f"{len(missing)} samples not fully scanned yet, e.g. {missing[:3]}: nothing written")
-    not_in_database = update_sample_fields(DATABASE, {nick: {"split_fraction": fraction} for nick, fraction in fractions.items()})
+    not_in_database = update_sample_fields(ROOT_DIR / args.database, {nick: {"split_fraction": fraction} for nick, fraction in fractions.items()})
     if not_in_database:
         logger.warning(f"{len(not_in_database)} scanned nicks not in datasets.json, e.g. {not_in_database[:3]}")
     logger.info(f"Wrote the split_fraction of {len(fractions) - len(not_in_database)} nicks to the sample database")
