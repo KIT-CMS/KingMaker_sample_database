@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
 Measure the generator-weight fraction of each era's part of MC samples shared by several eras (the Summer24 MC of
-2024 and 2025/2026), as split by CROWN's event::quantity::FractionSplitFlag, and store it per nick in
-aux_data/split_fractions.json, which build_norm_table adds to the norm table as `split_fraction`. The event number is hashed exactly as in CROWN (splitmix64 -> [0, 1)); 2024 keeps
+2024 and 2025/2026), as split by CROWN's event::quantity::FractionSplitFlag, and store it as `split_fraction` of each nick in the
+sample database (passed to CROWN by KingMaker). The event number is hashed exactly as in CROWN (splitmix64 -> [0, 1)); 2024 keeps
 the events below --fraction, 2025/2026 the others.
 
     python -m samplemanager.scripts.split_fractions --fraction F --submit   # one condor job per file chunk
-    python -m samplemanager.scripts.split_fractions --merge                  # writes aux_data/split_fractions.json
+    python -m samplemanager.scripts.split_fractions --merge                  # writes split_fraction into the database
 """
 
 from __future__ import annotations
@@ -22,6 +22,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from samplemanager import ROOT_DIR
+from samplemanager.helpers import update_sample_fields
 
 
 # Set up logger
@@ -42,7 +43,7 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument("--files-per-job", type=int, default=150)
     parser.add_argument("--submit", action="store_true", help="Submit one condor job per chunk of files of every split sample.")
     parser.add_argument("--scan", nargs=2, metavar=("KEY", "CHUNK"), help="Count one chunk (what a condor job runs).")
-    parser.add_argument("--merge", action="store_true", help="Sum the chunks and write aux_data/split_fractions.json.")
+    parser.add_argument("--merge", action="store_true", help="Sum the chunks and write split_fraction into the sample database.")
     return parser.parse_args()
 
 
@@ -157,8 +158,10 @@ def merge(args: argparse.Namespace) -> None:
             fractions[nick] = n_eff["low" if era in LOW_ERAS else "high"] / (n_eff["low"] + n_eff["high"])
     if missing:
         raise RuntimeError(f"{len(missing)} samples not fully scanned yet, e.g. {missing[:3]}: nothing written")
-    (ROOT_DIR / "aux_data" / "split_fractions.json").write_text(json.dumps(fractions, indent=4, sort_keys=True) + "\n")
-    logger.info(f"Wrote the split_fraction of {len(fractions)} nicks to aux_data/split_fractions.json")
+    not_in_database = update_sample_fields(DATABASE, {nick: {"split_fraction": fraction} for nick, fraction in fractions.items()})
+    if not_in_database:
+        logger.warning(f"{len(not_in_database)} scanned nicks not in datasets.json, e.g. {not_in_database[:3]}")
+    logger.info(f"Wrote the split_fraction of {len(fractions) - len(not_in_database)} nicks to the sample database")
 
 
 if __name__ == "__main__":
