@@ -1,0 +1,25 @@
+{
+    "dbs": "/TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixMiniAODv4-130X_mcRun3_2023_realistic_postBPix_v2-v3/MINIAODSIM",
+    "era": "2023postBPix",
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/TWminustoLNu2Q/nano_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/TWminustoLNu2Q/nano_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/TWminustoLNu2Q/nano_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/TWminustoLNu2Q/nano_11.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/TWminustoLNu2Q/nano_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/TWminustoLNu2Q/nano_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/TWminustoLNu2Q/nano_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/TWminustoLNu2Q/nano_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/TWminustoLNu2Q/nano_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/TWminustoLNu2Q/nano_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/TWminustoLNu2Q/nano_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/TWminustoLNu2Q/nano_9.root"
+    ],
+    "generator_weight": 0.9999632506385202,
+    "instance": "prod/global",
+    "nevents": 4943378,
+    "nfiles": 12,
+    "nick": "TWminustoLNu2Q_2023postBPix",
+    "sample_type": "singletop",
+    "xsec": 19.304754462000002
+}

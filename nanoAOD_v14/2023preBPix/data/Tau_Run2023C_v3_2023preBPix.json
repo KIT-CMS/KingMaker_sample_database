@@ -1,0 +1,23 @@
+{
+    "dbs": "/Tau/Run2023C-22Sep2023_v3-v1/MINIAOD",
+    "era": "2023preBPix",
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/Tau_Run2023C_v3/nano_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/Tau_Run2023C_v3/nano_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/Tau_Run2023C_v3/nano_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/Tau_Run2023C_v3/nano_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/Tau_Run2023C_v3/nano_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/Tau_Run2023C_v3/nano_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/Tau_Run2023C_v3/nano_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/Tau_Run2023C_v3/nano_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/Tau_Run2023C_v3/nano_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/Tau_Run2023C_v3/nano_9.root"
+    ],
+    "generator_weight": 1.0,
+    "instance": "prod/global",
+    "nevents": 6470602,
+    "nfiles": 10,
+    "nick": "Tau_Run2023C_v3_2023preBPix",
+    "sample_type": "data",
+    "xsec": 1.0
+}

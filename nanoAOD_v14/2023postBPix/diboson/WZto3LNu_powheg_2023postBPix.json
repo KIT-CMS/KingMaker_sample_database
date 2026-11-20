@@ -1,0 +1,18 @@
+{
+    "dbs": "/WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23BPixMiniAODv4-130X_mcRun3_2023_realistic_postBPix_v2-v2/MINIAODSIM",
+    "era": "2023postBPix",
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZto3LNu_powheg/nano_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZto3LNu_powheg/nano_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZto3LNu_powheg/nano_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZto3LNu_powheg/nano_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023BPix/WZto3LNu_powheg/nano_4.root"
+    ],
+    "generator_weight": 0.9980538149649835,
+    "instance": "prod/global",
+    "nevents": 2770000,
+    "nfiles": 5,
+    "nick": "WZto3LNu_powheg_2023postBPix",
+    "sample_type": "diboson",
+    "xsec": 4.924
+}

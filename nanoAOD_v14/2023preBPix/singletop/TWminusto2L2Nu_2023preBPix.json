@@ -1,0 +1,26 @@
+{
+    "dbs": "/TWminusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer23MiniAODv4-130X_mcRun3_2023_realistic_v14-v2/MINIAODSIM",
+    "era": "2023preBPix",
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TWminusto2L2Nu/nano_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TWminusto2L2Nu/nano_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TWminusto2L2Nu/nano_10.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TWminusto2L2Nu/nano_11.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TWminusto2L2Nu/nano_12.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TWminusto2L2Nu/nano_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TWminusto2L2Nu/nano_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TWminusto2L2Nu/nano_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TWminusto2L2Nu/nano_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TWminusto2L2Nu/nano_6.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TWminusto2L2Nu/nano_7.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TWminusto2L2Nu/nano_8.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2023/TWminusto2L2Nu/nano_9.root"
+    ],
+    "generator_weight": 0.9999622868605818,
+    "instance": "prod/global",
+    "nevents": 4985000,
+    "nfiles": 13,
+    "nick": "TWminusto2L2Nu_2023preBPix",
+    "sample_type": "singletop",
+    "xsec": 4.665100878
+}

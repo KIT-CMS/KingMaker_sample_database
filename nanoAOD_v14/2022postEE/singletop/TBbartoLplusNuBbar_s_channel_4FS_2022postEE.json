@@ -1,0 +1,20 @@
+{
+    "dbs": "/TBbartoLplusNuBbar-s-channel-4FS_TuneCP5_13p6TeV_amcatnlo-pythia8/Run3Summer22EEMiniAODv4-130X_mcRun3_2022_realistic_postEE_v6-v2/MINIAODSIM",
+    "era": "2022postEE",
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022EE/TBbartoLplusNuBbar_s_channel_4FS/nano_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022EE/TBbartoLplusNuBbar_s_channel_4FS/nano_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022EE/TBbartoLplusNuBbar_s_channel_4FS/nano_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022EE/TBbartoLplusNuBbar_s_channel_4FS/nano_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022EE/TBbartoLplusNuBbar_s_channel_4FS/nano_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022EE/TBbartoLplusNuBbar_s_channel_4FS/nano_5.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022EE/TBbartoLplusNuBbar_s_channel_4FS/nano_6.root"
+    ],
+    "generator_weight": 0.615506032517158,
+    "instance": "prod/global",
+    "nevents": 4363850,
+    "nfiles": 7,
+    "nick": "TBbartoLplusNuBbar_s_channel_4FS_2022postEE",
+    "sample_type": "singletop",
+    "xsec": 2.3600952
+}

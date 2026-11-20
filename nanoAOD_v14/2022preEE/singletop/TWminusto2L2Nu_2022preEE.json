@@ -1,0 +1,19 @@
+{
+    "dbs": "/TWminusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22MiniAODv4-130X_mcRun3_2022_realistic_v5-v2/MINIAODSIM",
+    "era": "2022preEE",
+    "filelist": [
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022/TWminusto2L2Nu/nano_0.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022/TWminusto2L2Nu/nano_1.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022/TWminusto2L2Nu/nano_2.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022/TWminusto2L2Nu/nano_3.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022/TWminusto2L2Nu/nano_4.root",
+        "root://eoscms.cern.ch//eos/cms/store/group/phys_higgs/HLepRare/skim_2025_v1/Run3_2022/TWminusto2L2Nu/nano_5.root"
+    ],
+    "generator_weight": 0.9999561122176834,
+    "instance": "prod/global",
+    "nevents": 2387056,
+    "nfiles": 6,
+    "nick": "TWminusto2L2Nu_2022preEE",
+    "sample_type": "singletop",
+    "xsec": 4.665100878
+}
