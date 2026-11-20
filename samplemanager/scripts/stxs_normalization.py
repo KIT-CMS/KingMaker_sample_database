@@ -32,7 +32,7 @@ def parse_arguments() -> argparse.Namespace:
 
 def main(sample_database_dir: Path, nick_table: Path) -> None:
     fields = {
-        nick: {"xsec": stxs["xsec"], "stxs": {"family": stxs["family"], "bins": stxs["bins"]}}
+        nick: {"xsec": stxs["xsec"], "stxs": {"bins": stxs["bins"], "family": stxs["family"]}}
         for nick, stxs in json.loads(nick_table.read_text()).items()
     }
     written = set()
