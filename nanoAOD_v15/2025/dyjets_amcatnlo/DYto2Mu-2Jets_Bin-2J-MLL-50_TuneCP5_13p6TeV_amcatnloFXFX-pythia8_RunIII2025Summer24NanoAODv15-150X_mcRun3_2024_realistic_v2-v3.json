@@ -1,6 +1,11 @@
 {
     "dbs": "/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
     "era": "2025",
+    "extensions": [
+        "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+        "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+    ],
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v3//110000/0171d0c9-5d43-414c-855c-da7142b740bc.root",
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v3//110000/0175ddd4-7850-4d87-a357-205e33a9a235.root",
@@ -1677,9 +1682,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v3//28210000/d2eabdea-3e45-4a93-a3d1-8027ef0fe7b7.root",
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v3//28210000/d9cadf84-1978-4200-81d6-a6de63bbc75f.root"
     ],
-    "generator_weight": 0.30395184734160086,
+    "generator_weight": 0.30389278098681544,
+    "generator_weight_sample": 0.30395184734160086,
     "instance": "prod/global",
-    "nevents": 276486780,
+    "nevents": 576858847,
+    "nevents_sample": 276486780,
     "nfiles": 1674,
     "nick": "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
     "sample_type": "dyjets_amcatnlo",

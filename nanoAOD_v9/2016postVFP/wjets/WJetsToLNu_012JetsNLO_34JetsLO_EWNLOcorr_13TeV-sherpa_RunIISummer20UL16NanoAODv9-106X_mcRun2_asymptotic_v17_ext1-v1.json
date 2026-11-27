@@ -1,6 +1,10 @@
 {
     "dbs": "/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17_ext1-v1/NANOAODSIM",
     "era": "2016postVFP",
+    "extensions": [
+        "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1",
+        "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17_ext1-v1"
+    ],
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/NANOAODSIM/106X_mcRun2_asymptotic_v17_ext1-v1/70000/01D84951-9548-464F-A30E-73B1C2731E38.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/NANOAODSIM/106X_mcRun2_asymptotic_v17_ext1-v1/70000/360563A6-431D-4042-9B2D-ECA7B3D12B76.root",
@@ -182,8 +186,10 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/NANOAODSIM/106X_mcRun2_asymptotic_v17_ext1-v1/2820000/FCCA1FBF-1607-0748-9020-30E4027DED6C.root"
     ],
     "generator_weight": 1.0,
+    "generator_weight_sample": 1.0,
     "instance": "prod/global",
-    "nevents": 112968000,
+    "nevents": 188471798,
+    "nevents_sample": 112968000,
     "nfiles": 178,
     "nick": "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17_ext1-v1",
     "sample_type": "wjets",

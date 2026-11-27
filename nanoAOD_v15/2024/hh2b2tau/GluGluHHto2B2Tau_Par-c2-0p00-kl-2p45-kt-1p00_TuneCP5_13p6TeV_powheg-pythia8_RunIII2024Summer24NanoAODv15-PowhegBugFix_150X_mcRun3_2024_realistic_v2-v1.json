@@ -1,6 +1,10 @@
 {
     "dbs": "/GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v1/NANOAODSIM",
     "era": "2024",
+    "extensions": [
+        "GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v1",
+        "GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2"
+    ],
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mcRun3_2024_realistic_v2-v1/90000/1b35b658-6033-42d2-b063-3b53dfaac3d9.root",
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mcRun3_2024_realistic_v2-v1/2810000/15c43e4c-d507-49e6-a173-87af279b1e61.root",
@@ -69,9 +73,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mcRun3_2024_realistic_v2-v1/2810000/991925aa-dd39-40d6-89d0-dd3e6ced50de.root",
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/PowhegBugFix_150X_mcRun3_2024_realistic_v2-v1/2810000/5a8cc1e3-cdbd-4be9-a2ed-4175ef5886dd.root"
     ],
-    "generator_weight": 0.8686263958025023,
+    "generator_weight": 0.8661999059214595,
+    "generator_weight_sample": 0.8686263958025023,
     "instance": "prod/global",
-    "nevents": 951424,
+    "nevents": 4919294,
+    "nevents_sample": 951424,
     "nfiles": 66,
     "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v1",
     "sample_type": "hh2b2tau",

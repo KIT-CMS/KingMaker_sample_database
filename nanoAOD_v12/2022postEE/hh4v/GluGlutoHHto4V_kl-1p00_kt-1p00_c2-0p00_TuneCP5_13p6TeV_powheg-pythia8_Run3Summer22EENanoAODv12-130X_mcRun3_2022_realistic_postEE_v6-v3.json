@@ -1,6 +1,10 @@
 {
     "dbs": "/GluGlutoHHto4V_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v3/NANOAODSIM",
     "era": "2022postEE",
+    "extensions": [
+        "GluGlutoHHto4V_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v3",
+        "GluGlutoHHto4V_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6_ext1-v2"
+    ],
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto4V_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v3/2540000/d71d0ad8-c13a-4529-a452-dca4374e2a8e.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto4V_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v3/2540000/fd0f50ed-ca7b-477b-b1c0-e37e40de29d9.root",
@@ -126,9 +130,11 @@
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto4V_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v3/2550000/2f5c858e-de6d-4182-8c66-64e207682f9a.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto4V_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v3/2550000/aa859f9d-0cde-4b9a-b61c-64fe81825408.root"
     ],
-    "generator_weight": 0.8938515311464678,
+    "generator_weight": 0.8943495693282814,
+    "generator_weight_sample": 0.8938515311464678,
     "instance": "prod/global",
-    "nevents": 1536659,
+    "nevents": 7673362,
+    "nevents_sample": 1536659,
     "nfiles": 123,
     "nick": "GluGlutoHHto4V_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v3",
     "sample_type": "hh4v",

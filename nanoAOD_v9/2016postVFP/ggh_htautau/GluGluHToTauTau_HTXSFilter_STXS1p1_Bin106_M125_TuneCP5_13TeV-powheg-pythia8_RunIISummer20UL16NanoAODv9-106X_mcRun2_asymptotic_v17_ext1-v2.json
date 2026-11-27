@@ -1,6 +1,10 @@
 {
     "dbs": "/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin106_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17_ext1-v2/NANOAODSIM",
     "era": "2016postVFP",
+    "extensions": [
+        "GluGluHToTauTau_HTXSFilter_STXS1p1_Bin106_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1",
+        "GluGluHToTauTau_HTXSFilter_STXS1p1_Bin106_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17_ext1-v2"
+    ],
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin106_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/130000/0062CD53-DF12-9E4F-9741-A64E13B5FF0C.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin106_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/130000/A8EA29A5-9369-C844-9ACF-51AE2D2DDFDA.root",
@@ -77,9 +81,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin106_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/130000/A22F1559-A854-AD4A-A25F-E672DCB99862.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/GluGluHToTauTau_HTXSFilter_STXS1p1_Bin106_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/130000/74CA7735-5CF9-B544-9223-E664388FD823.root"
     ],
-    "generator_weight": 0.9934184344349956,
+    "generator_weight": 0.9934056136719916,
+    "generator_weight_sample": 0.9934184344349956,
     "instance": "prod/global",
-    "nevents": 9948089,
+    "nevents": 11949861,
+    "nevents_sample": 9948089,
     "nfiles": 74,
     "nick": "GluGluHToTauTau_HTXSFilter_STXS1p1_Bin106_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17_ext1-v2",
     "sample_type": "ggh_htautau",

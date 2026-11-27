@@ -1,6 +1,10 @@
 {
     "dbs": "/VBFHToTauTau_HTXSFilter_STXS1p1_Bin206_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM",
     "era": "2018",
+    "extensions": [
+        "VBFHToTauTau_HTXSFilter_STXS1p1_Bin206_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1",
+        "VBFHToTauTau_HTXSFilter_STXS1p1_Bin206_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2"
+    ],
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/VBFHToTauTau_HTXSFilter_STXS1p1_Bin206_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1_ext1-v2/2820000/D57EC140-9E08-954B-92C7-E3BE14439F90.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/VBFHToTauTau_HTXSFilter_STXS1p1_Bin206_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1_ext1-v2/2820000/F34433C4-BCE9-324D-927F-8F8F601DD294.root",
@@ -173,9 +177,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/VBFHToTauTau_HTXSFilter_STXS1p1_Bin206_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1_ext1-v2/130000/F8F188E2-5194-B542-87F9-C425AAF9B948.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/VBFHToTauTau_HTXSFilter_STXS1p1_Bin206_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1_ext1-v2/130000/CD1E9419-B632-2641-9160-058CB139CDE3.root"
     ],
-    "generator_weight": 0.9995745019136058,
+    "generator_weight": 0.9995728345571778,
+    "generator_weight_sample": 0.9995745019136058,
     "instance": "prod/global",
-    "nevents": 3962415,
+    "nevents": 4738211,
+    "nevents_sample": 3962415,
     "nfiles": 170,
     "nick": "VBFHToTauTau_HTXSFilter_STXS1p1_Bin206_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2",
     "sample_type": "vbf_htautau",

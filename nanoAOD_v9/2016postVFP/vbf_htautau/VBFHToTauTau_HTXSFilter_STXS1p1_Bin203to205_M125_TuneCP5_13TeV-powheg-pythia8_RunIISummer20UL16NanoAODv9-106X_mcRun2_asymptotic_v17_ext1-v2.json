@@ -1,6 +1,10 @@
 {
     "dbs": "/VBFHToTauTau_HTXSFilter_STXS1p1_Bin203to205_M125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17_ext1-v2/NANOAODSIM",
     "era": "2016postVFP",
+    "extensions": [
+        "VBFHToTauTau_HTXSFilter_STXS1p1_Bin203to205_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17-v1",
+        "VBFHToTauTau_HTXSFilter_STXS1p1_Bin203to205_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17_ext1-v2"
+    ],
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/VBFHToTauTau_HTXSFilter_STXS1p1_Bin203to205_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2820000/DA0BF07C-BD4B-F341-A7D3-E15090E4E85A.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/VBFHToTauTau_HTXSFilter_STXS1p1_Bin203to205_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2820000/FC6A27C8-9823-A644-B8B5-485C27225996.root",
@@ -119,9 +123,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/VBFHToTauTau_HTXSFilter_STXS1p1_Bin203to205_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2560000/89900C2E-6169-B547-AA3E-A7120CBFD3EB.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL16NanoAODv9/VBFHToTauTau_HTXSFilter_STXS1p1_Bin203to205_M125_TuneCP5_13TeV-powheg-pythia8/NANOAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2560000/F317C762-0E41-B246-BB11-0D5544602B2B.root"
     ],
-    "generator_weight": 0.9989202061424637,
+    "generator_weight": 0.9989248877703311,
+    "generator_weight_sample": 0.9989202061424637,
     "instance": "prod/global",
-    "nevents": 9901890,
+    "nevents": 11968983,
+    "nevents_sample": 9901890,
     "nfiles": 116,
     "nick": "VBFHToTauTau_HTXSFilter_STXS1p1_Bin203to205_M125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODv9-106X_mcRun2_asymptotic_v17_ext1-v2",
     "sample_type": "vbf_htautau",

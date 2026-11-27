@@ -1,6 +1,10 @@
 {
     "dbs": "/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1/NANOAODSIM",
     "era": "2017",
+    "extensions": [
+        "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1",
+        "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9_ext1-v1"
+    ],
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/NANOAODSIM/106X_mc2017_realistic_v9-v1/2530000/0AD47B5D-5277-CA4E-BE7B-B9394B104A29.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/NANOAODSIM/106X_mc2017_realistic_v9-v1/2530000/108A5803-8F0F-7B48-84EC-03EEC746EFB5.root",
@@ -165,8 +169,10 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL17NanoAODv9/WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa/NANOAODSIM/106X_mc2017_realistic_v9-v1/270000/FFADBBDE-34F7-D548-A07D-0B9FF936C564.root"
     ],
     "generator_weight": 1.0,
+    "generator_weight_sample": 1.0,
     "instance": "prod/global",
-    "nevents": 158554000,
+    "nevents": 393008000,
+    "nevents_sample": 158554000,
     "nfiles": 161,
     "nick": "WJetsToLNu_012JetsNLO_34JetsLO_EWNLOcorr_13TeV-sherpa_RunIISummer20UL17NanoAODv9-106X_mc2017_realistic_v9-v1",
     "sample_type": "wjets",

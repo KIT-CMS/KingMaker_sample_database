@@ -1,6 +1,10 @@
 {
     "dbs": "/ZH_Hto2B_Zto2L_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v2/NANOAODSIM",
     "era": "2022postEE",
+    "extensions": [
+        "ZH_Hto2B_Zto2L_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v2",
+        "ZH_Hto2B_Zto2L_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6_ext1-v2"
+    ],
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/ZH_Hto2B_Zto2L_M-125_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/40000/b74b6a67-62f4-46c7-910d-3d02dbe69bb1.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/ZH_Hto2B_Zto2L_M-125_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/40000/fef1ef1d-fcc1-4542-841e-ceefed1e9cb7.root",
@@ -40,9 +44,11 @@
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/ZH_Hto2B_Zto2L_M-125_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/30000/022ce1bb-4a5d-4d91-922d-9ddb8ecfa0e1.root",
         "root://xrootd-cms.infn.it///store/mc/Run3Summer22EENanoAODv12/ZH_Hto2B_Zto2L_M-125_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v2/30000/cd37e9fb-f5c7-402a-adef-cc045383c415.root"
     ],
-    "generator_weight": 0.9400021328783192,
+    "generator_weight": 0.9399586889772436,
+    "generator_weight_sample": 0.9400021328783192,
     "instance": "prod/global",
-    "nevents": 2062940,
+    "nevents": 14986315,
+    "nevents_sample": 2062940,
     "nfiles": 37,
     "nick": "ZH_Hto2B_Zto2L_M-125_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v2",
     "sample_type": "rem_hbb",
