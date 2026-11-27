@@ -530,9 +530,16 @@
     "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.7974438940107237,
+        "extensions": [
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7974243611219912,
+        "generator_weight_sample": 0.7974438940107237,
         "instance": "prod/global",
-        "nevents": 453230267,
+        "nevents": 952349235,
+        "nevents_sample": 453230267,
         "nfiles": 548,
         "nick": "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
@@ -541,9 +548,16 @@
     "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.7974443516920168,
+        "extensions": [
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7974245789360106,
+        "generator_weight_sample": 0.7974443516920168,
         "instance": "prod/global",
-        "nevents": 453230267,
+        "nevents": 952349235,
+        "nevents_sample": 453230267,
         "nfiles": 548,
         "nick": "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
@@ -552,9 +566,16 @@
     "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.46355852961481103,
+        "extensions": [
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46358695007068584,
+        "generator_weight_sample": 0.46355852961481103,
         "instance": "prod/global",
-        "nevents": 338867940,
+        "nevents": 727662662,
+        "nevents_sample": 338867940,
         "nfiles": 2108,
         "nick": "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "dyjets_amcatnlo",
@@ -563,9 +584,16 @@
     "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.46355147532448915,
+        "extensions": [
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.4635836649319061,
+        "generator_weight_sample": 0.46355147532448915,
         "instance": "prod/global",
-        "nevents": 338867940,
+        "nevents": 727662662,
+        "nevents_sample": 338867940,
         "nfiles": 2108,
         "nick": "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "dyjets_amcatnlo",
@@ -574,9 +602,16 @@
     "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.3038945798610375,
+        "extensions": [
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30382380094638917,
+        "generator_weight_sample": 0.3038945798610375,
         "instance": "prod/global",
-        "nevents": 307042054,
+        "nevents": 612421265,
+        "nevents_sample": 307042054,
         "nfiles": 317,
         "nick": "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
@@ -585,9 +620,16 @@
     "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.3038945798610375,
+        "extensions": [
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30382380094638917,
+        "generator_weight_sample": 0.3038945798610375,
         "instance": "prod/global",
-        "nevents": 307042054,
+        "nevents": 612421265,
+        "nevents_sample": 307042054,
         "nfiles": 317,
         "nick": "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
@@ -882,9 +924,16 @@
     "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.7973534908001421,
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7973561276898594,
+        "generator_weight_sample": 0.7973534908001421,
         "instance": "prod/global",
-        "nevents": 466773211,
+        "nevents": 947770448,
+        "nevents_sample": 466773211,
         "nfiles": 534,
         "nick": "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "dyjets_amcatnlo",
@@ -893,9 +942,16 @@
     "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.7973580793178809,
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.797358387516765,
+        "generator_weight_sample": 0.7973580793178809,
         "instance": "prod/global",
-        "nevents": 466773211,
+        "nevents": 947770448,
+        "nevents_sample": 466773211,
         "nfiles": 534,
         "nick": "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "dyjets_amcatnlo",
@@ -904,9 +960,16 @@
     "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1": {
         "dbs": "/DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.4636784579586536,
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1",
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46370898643157726,
+        "generator_weight_sample": 0.4636784579586536,
         "instance": "prod/global",
-        "nevents": 404580799,
+        "nevents": 824322809,
+        "nevents_sample": 404580799,
         "nfiles": 327,
         "nick": "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1",
         "sample_type": "dyjets_amcatnlo",
@@ -915,9 +978,16 @@
     "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1": {
         "dbs": "/DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.46367983834643867,
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1",
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46370966393120105,
+        "generator_weight_sample": 0.46367983834643867,
         "instance": "prod/global",
-        "nevents": 404580799,
+        "nevents": 824322809,
+        "nevents_sample": 404580799,
         "nfiles": 327,
         "nick": "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1",
         "sample_type": "dyjets_amcatnlo",
@@ -926,9 +996,16 @@
     "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.303955885341064,
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30389471638830057,
+        "generator_weight_sample": 0.303955885341064,
         "instance": "prod/global",
-        "nevents": 276486780,
+        "nevents": 576858847,
+        "nevents_sample": 276486780,
         "nfiles": 1674,
         "nick": "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "dyjets_amcatnlo",
@@ -937,9 +1014,16 @@
     "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.30395184734160086,
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30389278098681544,
+        "generator_weight_sample": 0.30395184734160086,
         "instance": "prod/global",
-        "nevents": 276486780,
+        "nevents": 576858847,
+        "nevents_sample": 276486780,
         "nfiles": 1674,
         "nick": "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "dyjets_amcatnlo",
@@ -1234,9 +1318,16 @@
     "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4": {
         "dbs": "/DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.7993072147250175,
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4",
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7992919467553825,
+        "generator_weight_sample": 0.7993072147250175,
         "instance": "prod/global",
-        "nevents": 493132017,
+        "nevents": 994690667,
+        "nevents_sample": 493132017,
         "nfiles": 2666,
         "nick": "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4",
         "sample_type": "dyjets_amcatnlo",
@@ -1245,9 +1336,16 @@
     "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4": {
         "dbs": "/DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.7993089997387899,
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4",
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7992928317012971,
+        "generator_weight_sample": 0.7993089997387899,
         "instance": "prod/global",
-        "nevents": 493132017,
+        "nevents": 994690667,
+        "nevents_sample": 493132017,
         "nfiles": 2666,
         "nick": "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4",
         "sample_type": "dyjets_amcatnlo",
@@ -1256,9 +1354,16 @@
     "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.4641493584632582,
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46416643310874184,
+        "generator_weight_sample": 0.4641493584632582,
         "instance": "prod/global",
-        "nevents": 428387857,
+        "nevents": 834043797,
+        "nevents_sample": 428387857,
         "nfiles": 2026,
         "nick": "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
@@ -1267,9 +1372,16 @@
     "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.46414795250877805,
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46416571097181214,
+        "generator_weight_sample": 0.46414795250877805,
         "instance": "prod/global",
-        "nevents": 428387857,
+        "nevents": 834043797,
+        "nevents_sample": 428387857,
         "nfiles": 2026,
         "nick": "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
@@ -1278,9 +1390,16 @@
     "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.30287415746226554,
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.3029651818814239,
+        "generator_weight_sample": 0.30287415746226554,
         "instance": "prod/global",
-        "nevents": 232971613,
+        "nevents": 498143732,
+        "nevents_sample": 232971613,
         "nfiles": 1592,
         "nick": "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
@@ -1289,9 +1408,16 @@
     "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.30287338754280013,
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30296482180587103,
+        "generator_weight_sample": 0.30287338754280013,
         "instance": "prod/global",
-        "nevents": 232971613,
+        "nevents": 498143732,
+        "nevents_sample": 232971613,
         "nfiles": 1592,
         "nick": "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
@@ -3203,9 +3329,15 @@
     "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9281154783406207,
+        "extensions": [
+            "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9282208160445338,
+        "generator_weight_sample": 0.9281154783406207,
         "instance": "prod/global",
-        "nevents": 9874198,
+        "nevents": 29807834,
+        "nevents_sample": 9874198,
         "nfiles": 36,
         "nick": "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "ggh_hbb",
@@ -3214,9 +3346,15 @@
     "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
         "dbs": "/GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9282729954535138,
+        "extensions": [
+            "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9282208160445338,
+        "generator_weight_sample": 0.9282729954535138,
         "instance": "prod/global",
-        "nevents": 19933636,
+        "nevents": 29807834,
+        "nevents_sample": 19933636,
         "nfiles": 188,
         "nick": "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
         "sample_type": "ggh_hbb",
@@ -3225,9 +3363,15 @@
     "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.9281154783406207,
+        "extensions": [
+            "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9282208160445338,
+        "generator_weight_sample": 0.9281154783406207,
         "instance": "prod/global",
-        "nevents": 9874198,
+        "nevents": 29807834,
+        "nevents_sample": 9874198,
         "nfiles": 36,
         "nick": "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "ggh_hbb",
@@ -3236,9 +3380,15 @@
     "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
         "dbs": "/GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.9282729954535138,
+        "extensions": [
+            "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9282208160445338,
+        "generator_weight_sample": 0.9282729954535138,
         "instance": "prod/global",
-        "nevents": 19933636,
+        "nevents": 29807834,
+        "nevents_sample": 19933636,
         "nfiles": 188,
         "nick": "GluGluH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powhegMINLO-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
         "sample_type": "ggh_hbb",
@@ -3291,9 +3441,15 @@
     "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9376937653318557,
+        "extensions": [
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9380181852968816,
+        "generator_weight_sample": 0.9376937653318557,
         "instance": "prod/global",
-        "nevents": 988954,
+        "nevents": 4964026,
+        "nevents_sample": 988954,
         "nfiles": 55,
         "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "hh2b2tau",
@@ -3302,9 +3458,15 @@
     "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2": {
         "dbs": "/GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9380988974002328,
+        "extensions": [
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9380181852968816,
+        "generator_weight_sample": 0.9380988974002328,
         "instance": "prod/global",
-        "nevents": 3975072,
+        "nevents": 4964026,
+        "nevents_sample": 3975072,
         "nfiles": 117,
         "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2",
         "sample_type": "hh2b2tau",
@@ -3313,9 +3475,15 @@
     "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.9376937653318557,
+        "extensions": [
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9380181852968816,
+        "generator_weight_sample": 0.9376937653318557,
         "instance": "prod/global",
-        "nevents": 988954,
+        "nevents": 4964026,
+        "nevents_sample": 988954,
         "nfiles": 55,
         "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "hh2b2tau",
@@ -3324,9 +3492,15 @@
     "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2": {
         "dbs": "/GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.9380988974002328,
+        "extensions": [
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9380181852968816,
+        "generator_weight_sample": 0.9380988974002328,
         "instance": "prod/global",
-        "nevents": 3975072,
+        "nevents": 4964026,
+        "nevents_sample": 3975072,
         "nfiles": 117,
         "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-0p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2",
         "sample_type": "hh2b2tau",
@@ -3346,9 +3520,15 @@
     "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.8943957730742322,
+        "extensions": [
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.8944047385930645,
+        "generator_weight_sample": 0.8943957730742322,
         "instance": "prod/global",
-        "nevents": 957670,
+        "nevents": 4909855,
+        "nevents_sample": 957670,
         "nfiles": 101,
         "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "hh2b2tau",
@@ -3357,9 +3537,15 @@
     "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2": {
         "dbs": "/GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.8944069110643482,
+        "extensions": [
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.8944047385930645,
+        "generator_weight_sample": 0.8944069110643482,
         "instance": "prod/global",
-        "nevents": 3952185,
+        "nevents": 4909855,
+        "nevents_sample": 3952185,
         "nfiles": 96,
         "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2",
         "sample_type": "hh2b2tau",
@@ -3368,9 +3554,15 @@
     "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.8943957730742322,
+        "extensions": [
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.8944047385930645,
+        "generator_weight_sample": 0.8943957730742322,
         "instance": "prod/global",
-        "nevents": 957670,
+        "nevents": 4909855,
+        "nevents_sample": 957670,
         "nfiles": 101,
         "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "hh2b2tau",
@@ -3379,9 +3571,15 @@
     "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2": {
         "dbs": "/GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.8944069110643482,
+        "extensions": [
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.8944047385930645,
+        "generator_weight_sample": 0.8944069110643482,
         "instance": "prod/global",
-        "nevents": 3952185,
+        "nevents": 4909855,
+        "nevents_sample": 3952185,
         "nfiles": 96,
         "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-1p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2",
         "sample_type": "hh2b2tau",
@@ -3390,9 +3588,15 @@
     "GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v1": {
         "dbs": "/GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v1/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.8686263958025023,
+        "extensions": [
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v1",
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.8661999059214595,
+        "generator_weight_sample": 0.8686263958025023,
         "instance": "prod/global",
-        "nevents": 951424,
+        "nevents": 4919294,
+        "nevents_sample": 951424,
         "nfiles": 66,
         "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v1",
         "sample_type": "hh2b2tau",
@@ -3401,9 +3605,15 @@
     "GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2": {
         "dbs": "/GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.8656180772051504,
+        "extensions": [
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v1",
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.8661999059214595,
+        "generator_weight_sample": 0.8656180772051504,
         "instance": "prod/global",
-        "nevents": 3967870,
+        "nevents": 4919294,
+        "nevents_sample": 3967870,
         "nfiles": 89,
         "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-2p45-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2",
         "sample_type": "hh2b2tau",
@@ -3456,9 +3666,15 @@
     "GluGluHHto2B2Tau_Par-c2-0p00-kl-5p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/GluGluHHto2B2Tau_Par-c2-0p00-kl-5p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.984688,
+        "extensions": [
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-5p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-5p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9849074314986788,
+        "generator_weight_sample": 0.984688,
         "instance": "prod/global",
-        "nevents": 1000000,
+        "nevents": 4967258,
+        "nevents_sample": 1000000,
         "nfiles": 66,
         "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-5p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "hh2b2tau",
@@ -3467,9 +3683,15 @@
     "GluGluHHto2B2Tau_Par-c2-0p00-kl-5p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2": {
         "dbs": "/GluGluHHto2B2Tau_Par-c2-0p00-kl-5p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9849627421184263,
+        "extensions": [
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-5p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2-v2",
+            "GluGluHHto2B2Tau_Par-c2-0p00-kl-5p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9849074314986788,
+        "generator_weight_sample": 0.9849627421184263,
         "instance": "prod/global",
-        "nevents": 3967258,
+        "nevents": 4967258,
+        "nevents_sample": 3967258,
         "nfiles": 123,
         "nick": "GluGluHHto2B2Tau_Par-c2-0p00-kl-5p00-kt-1p00_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-PowhegBugFix_150X_mcRun3_2024_realistic_v2_ext1-v2",
         "sample_type": "hh2b2tau",
@@ -18303,27 +18525,37 @@
         "sample_type": "singletop",
         "xsec": 77.26
     },
-    "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
-        "dbs": "/TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
+    "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v8": {
+        "dbs": "/TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v8/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9361023654934192,
+        "generator_weight": 0.9360714285714286,
         "instance": "prod/global",
-        "nevents": 44258039,
-        "nfiles": 391,
-        "nick": "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+        "nevents": 44212000,
+        "nfiles": 319,
+        "nick": "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v8",
         "sample_type": "singletop",
-        "xsec": 47.241
+        "xsec": 47.241,
+        "xsec_ref": {
+            "calculation": "145.0 * 0.3258",
+            "order": "NNLO(QCD)",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef) t-channel, W BR 0.3258/0.6741 (PDG)"
+        }
     },
-    "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
-        "dbs": "/TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
+    "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v8": {
+        "dbs": "/TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v8/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.9361023654934192,
+        "generator_weight": 0.9360714285714286,
         "instance": "prod/global",
-        "nevents": 44258039,
-        "nfiles": 391,
-        "nick": "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+        "nevents": 44212000,
+        "nfiles": 319,
+        "nick": "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v8",
         "sample_type": "singletop",
-        "xsec": 47.241
+        "xsec": 47.241,
+        "xsec_ref": {
+            "calculation": "145.0 * 0.3258",
+            "order": "NNLO(QCD)",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef) t-channel, W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TBbarto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TBbarto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18724,9 +18956,15 @@
     "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.99190329366875,
+        "extensions": [
+            "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9918976466989003,
+        "generator_weight_sample": 0.99190329366875,
         "instance": "prod/global",
-        "nevents": 470123263,
+        "nevents": 669674262,
+        "nevents_sample": 470123263,
         "nfiles": 780,
         "nick": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "ttbar",
@@ -18735,9 +18973,15 @@
     "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.99190329366875,
+        "extensions": [
+            "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9918976466989003,
+        "generator_weight_sample": 0.99190329366875,
         "instance": "prod/global",
-        "nevents": 470123263,
+        "nevents": 669674262,
+        "nevents_sample": 470123263,
         "nfiles": 780,
         "nick": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "ttbar",
@@ -18746,9 +18990,16 @@
     "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TTto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9918955667465502,
+        "extensions": [
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.9919022986478017,
+        "generator_weight_sample": 0.9918955667465502,
         "instance": "prod/global",
-        "nevents": 472535695,
+        "nevents": 871394695,
+        "nevents_sample": 472535695,
         "nfiles": 773,
         "nick": "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "ttbar",
@@ -18757,9 +19008,16 @@
     "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TTto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.9918955667465502,
+        "extensions": [
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.9919022986478017,
+        "generator_weight_sample": 0.9918955667465502,
         "instance": "prod/global",
-        "nevents": 472535695,
+        "nevents": 871394695,
+        "nevents_sample": 472535695,
         "nfiles": 773,
         "nick": "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "ttbar",
@@ -18768,9 +19026,16 @@
     "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9918954960771076,
+        "extensions": [
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.9918981258428442,
+        "generator_weight_sample": 0.9918954960771076,
         "instance": "prod/global",
-        "nevents": 484475057,
+        "nevents": 883831057,
+        "nevents_sample": 484475057,
         "nfiles": 790,
         "nick": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "ttbar",
@@ -18779,9 +19044,16 @@
     "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.9918954960771076,
+        "extensions": [
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.9918981258428442,
+        "generator_weight_sample": 0.9918954960771076,
         "instance": "prod/global",
-        "nevents": 484475057,
+        "nevents": 883831057,
+        "nevents_sample": 484475057,
         "nfiles": 790,
         "nick": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "ttbar",
@@ -18834,9 +19106,15 @@
     "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9999649553338694,
+        "extensions": [
+            "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9999635440836305,
+        "generator_weight_sample": 0.9999649553338694,
         "instance": "prod/global",
-        "nevents": 28763293,
+        "nevents": 57548958,
+        "nevents_sample": 28763293,
         "nfiles": 252,
         "nick": "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
@@ -18845,9 +19123,15 @@
     "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.9999649553338694,
+        "extensions": [
+            "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9999635440836305,
+        "generator_weight_sample": 0.9999649553338694,
         "instance": "prod/global",
-        "nevents": 28763293,
+        "nevents": 57548958,
+        "nevents_sample": 28763293,
         "nfiles": 252,
         "nick": "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
@@ -19260,27 +19544,37 @@
         "sample_type": "singletop",
         "xsec": 46.73
     },
-    "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
-        "dbs": "/TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
+    "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v8": {
+        "dbs": "/TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v8/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9406191973997111,
+        "generator_weight": 0.9404631630857319,
         "instance": "prod/global",
-        "nevents": 22102160,
-        "nfiles": 249,
-        "nick": "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+        "nevents": 21997608,
+        "nfiles": 152,
+        "nick": "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v8",
         "sample_type": "singletop",
-        "xsec": 28.40976
+        "xsec": 28.40976,
+        "xsec_ref": {
+            "calculation": "87.2 * 0.3258",
+            "order": "NNLO(QCD)",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef) t-channel, W BR 0.3258/0.6741 (PDG)"
+        }
     },
-    "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
-        "dbs": "/TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
+    "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v8": {
+        "dbs": "/TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v8/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.9406191973997111,
+        "generator_weight": 0.9404631630857319,
         "instance": "prod/global",
-        "nevents": 22102160,
-        "nfiles": 249,
-        "nick": "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+        "nevents": 21997608,
+        "nfiles": 152,
+        "nick": "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v8",
         "sample_type": "singletop",
-        "xsec": 28.40976
+        "xsec": 28.40976,
+        "xsec_ref": {
+            "calculation": "87.2 * 0.3258",
+            "order": "NNLO(QCD)",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef) t-channel, W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TbarBto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TbarBto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -19373,9 +19667,15 @@
     "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9999645525892106,
+        "extensions": [
+            "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9999633791886815,
+        "generator_weight_sample": 0.9999645525892106,
         "instance": "prod/global",
-        "nevents": 29395659,
+        "nevents": 60293585,
+        "nevents_sample": 29395659,
         "nfiles": 252,
         "nick": "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
@@ -19384,9 +19684,15 @@
     "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.9999645525892106,
+        "extensions": [
+            "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9999633791886815,
+        "generator_weight_sample": 0.9999645525892106,
         "instance": "prod/global",
-        "nevents": 29395659,
+        "nevents": 60293585,
+        "nevents_sample": 29395659,
         "nfiles": 252,
         "nick": "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
@@ -19395,9 +19701,15 @@
     "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9987807124323286,
+        "extensions": [
+            "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9987763171323211,
+        "generator_weight_sample": 0.9987807124323286,
         "instance": "prod/global",
-        "nevents": 9989440,
+        "nevents": 29979738,
+        "nevents_sample": 9989440,
         "nfiles": 40,
         "nick": "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "vbf_hbb",
@@ -19406,9 +19718,15 @@
     "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
         "dbs": "/VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
         "era": "2024",
-        "generator_weight": 0.9987741207375647,
+        "extensions": [
+            "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9987763171323211,
+        "generator_weight_sample": 0.9987741207375647,
         "instance": "prod/global",
-        "nevents": 19990298,
+        "nevents": 29979738,
+        "nevents_sample": 19990298,
         "nfiles": 222,
         "nick": "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
         "sample_type": "vbf_hbb",
@@ -19417,9 +19735,15 @@
     "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.9987807124323286,
+        "extensions": [
+            "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9987763171323211,
+        "generator_weight_sample": 0.9987807124323286,
         "instance": "prod/global",
-        "nevents": 9989440,
+        "nevents": 29979738,
+        "nevents_sample": 9989440,
         "nfiles": 40,
         "nick": "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "vbf_hbb",
@@ -19428,9 +19752,15 @@
     "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
         "dbs": "/VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
         "era": "2025",
-        "generator_weight": 0.9987741207375647,
+        "extensions": [
+            "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9987763171323211,
+        "generator_weight_sample": 0.9987741207375647,
         "instance": "prod/global",
-        "nevents": 19990298,
+        "nevents": 29979738,
+        "nevents_sample": 19990298,
         "nfiles": 222,
         "nick": "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
         "sample_type": "vbf_hbb",
@@ -21305,5 +21635,1149 @@
         "nick": "WtoTauNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
         "xsec": 1072.0
+    },
+    "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7974243611219912,
+        "generator_weight_sample": 0.7973972709557956,
+        "instance": "prod/global",
+        "nevents": 952349235,
+        "nevents_sample": 242845763,
+        "nfiles": 1452,
+        "nick": "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7974245789360106,
+        "generator_weight_sample": 0.7973972709557956,
+        "instance": "prod/global",
+        "nevents": 952349235,
+        "nevents_sample": 242845763,
+        "nfiles": 1452,
+        "nick": "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7974243611219912,
+        "generator_weight_sample": 0.7974154871380885,
+        "instance": "prod/global",
+        "nevents": 952349235,
+        "nevents_sample": 256273205,
+        "nfiles": 2074,
+        "nick": "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7974245789360106,
+        "generator_weight_sample": 0.7974154871380885,
+        "instance": "prod/global",
+        "nevents": 952349235,
+        "nevents_sample": 256273205,
+        "nfiles": 2074,
+        "nick": "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46358695007068584,
+        "generator_weight_sample": 0.4636177268750906,
+        "instance": "prod/global",
+        "nevents": 727662662,
+        "nevents_sample": 189540777,
+        "nfiles": 1108,
+        "nick": "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.4635836649319061,
+        "generator_weight_sample": 0.4636177268750906,
+        "instance": "prod/global",
+        "nevents": 727662662,
+        "nevents_sample": 189540777,
+        "nfiles": 1108,
+        "nick": "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46358695007068584,
+        "generator_weight_sample": 0.46360600777072647,
+        "instance": "prod/global",
+        "nevents": 727662662,
+        "nevents_sample": 199253945,
+        "nfiles": 1729,
+        "nick": "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.4635836649319061,
+        "generator_weight_sample": 0.46360600777072647,
+        "instance": "prod/global",
+        "nevents": 727662662,
+        "nevents_sample": 199253945,
+        "nfiles": 1729,
+        "nick": "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30382380094638917,
+        "generator_weight_sample": 0.3038171374018437,
+        "instance": "prod/global",
+        "nevents": 612421265,
+        "nevents_sample": 158143482,
+        "nfiles": 1101,
+        "nick": "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30382380094638917,
+        "generator_weight_sample": 0.3038171374018437,
+        "instance": "prod/global",
+        "nevents": 612421265,
+        "nevents_sample": 158143482,
+        "nfiles": 1101,
+        "nick": "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30382380094638917,
+        "generator_weight_sample": 0.3036833574050213,
+        "instance": "prod/global",
+        "nevents": 612421265,
+        "nevents_sample": 147235729,
+        "nfiles": 1058,
+        "nick": "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30382380094638917,
+        "generator_weight_sample": 0.3036833574050213,
+        "instance": "prod/global",
+        "nevents": 612421265,
+        "nevents_sample": 147235729,
+        "nfiles": 1058,
+        "nick": "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7973561276898594,
+        "generator_weight_sample": 0.7973448099066951,
+        "instance": "prod/global",
+        "nevents": 947770448,
+        "nevents_sample": 239810024,
+        "nfiles": 1331,
+        "nick": "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.797358387516765,
+        "generator_weight_sample": 0.7973448099066951,
+        "instance": "prod/global",
+        "nevents": 947770448,
+        "nevents_sample": 239810024,
+        "nfiles": 1331,
+        "nick": "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7973561276898594,
+        "generator_weight_sample": 0.7973724840600152,
+        "instance": "prod/global",
+        "nevents": 947770448,
+        "nevents_sample": 241187213,
+        "nfiles": 1548,
+        "nick": "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.797358387516765,
+        "generator_weight_sample": 0.7973724840600152,
+        "instance": "prod/global",
+        "nevents": 947770448,
+        "nevents_sample": 241187213,
+        "nfiles": 1548,
+        "nick": "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1",
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46370898643157726,
+        "generator_weight_sample": 0.4637359799047016,
+        "instance": "prod/global",
+        "nevents": 824322809,
+        "nevents_sample": 203751907,
+        "nfiles": 1383,
+        "nick": "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1",
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46370966393120105,
+        "generator_weight_sample": 0.4637359799047016,
+        "instance": "prod/global",
+        "nevents": 824322809,
+        "nevents_sample": 203751907,
+        "nfiles": 1383,
+        "nick": "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1",
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46370898643157726,
+        "generator_weight_sample": 0.4637407066921211,
+        "instance": "prod/global",
+        "nevents": 824322809,
+        "nevents_sample": 215990103,
+        "nfiles": 1557,
+        "nick": "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1",
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46370966393120105,
+        "generator_weight_sample": 0.4637407066921211,
+        "instance": "prod/global",
+        "nevents": 824322809,
+        "nevents_sample": 215990103,
+        "nfiles": 1557,
+        "nick": "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30389471638830057,
+        "generator_weight_sample": 0.3038790089509531,
+        "instance": "prod/global",
+        "nevents": 576858847,
+        "nevents_sample": 153988638,
+        "nfiles": 1037,
+        "nick": "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30389278098681544,
+        "generator_weight_sample": 0.3038790089509531,
+        "instance": "prod/global",
+        "nevents": 576858847,
+        "nevents_sample": 153988638,
+        "nfiles": 1037,
+        "nick": "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30389471638830057,
+        "generator_weight_sample": 0.3037957049086478,
+        "instance": "prod/global",
+        "nevents": 576858847,
+        "nevents_sample": 146383429,
+        "nfiles": 982,
+        "nick": "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30389278098681544,
+        "generator_weight_sample": 0.3037957049086478,
+        "instance": "prod/global",
+        "nevents": 576858847,
+        "nevents_sample": 146383429,
+        "nfiles": 982,
+        "nick": "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4",
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7992919467553825,
+        "generator_weight_sample": 0.7992554923053057,
+        "instance": "prod/global",
+        "nevents": 994690667,
+        "nevents_sample": 251807636,
+        "nfiles": 1281,
+        "nick": "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4",
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7992928317012971,
+        "generator_weight_sample": 0.7992554923053057,
+        "instance": "prod/global",
+        "nevents": 994690667,
+        "nevents_sample": 251807636,
+        "nfiles": 1281,
+        "nick": "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4",
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7992919467553825,
+        "generator_weight_sample": 0.7992985548736341,
+        "instance": "prod/global",
+        "nevents": 994690667,
+        "nevents_sample": 249751014,
+        "nfiles": 1854,
+        "nick": "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4",
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.7992928317012971,
+        "generator_weight_sample": 0.7992985548736341,
+        "instance": "prod/global",
+        "nevents": 994690667,
+        "nevents_sample": 249751014,
+        "nfiles": 1854,
+        "nick": "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46416643310874184,
+        "generator_weight_sample": 0.4641768754808612,
+        "instance": "prod/global",
+        "nevents": 834043797,
+        "nevents_sample": 204543749,
+        "nfiles": 1298,
+        "nick": "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46416571097181214,
+        "generator_weight_sample": 0.4641768754808612,
+        "instance": "prod/global",
+        "nevents": 834043797,
+        "nevents_sample": 204543749,
+        "nfiles": 1298,
+        "nick": "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46416643310874184,
+        "generator_weight_sample": 0.46419218315810606,
+        "instance": "prod/global",
+        "nevents": 834043797,
+        "nevents_sample": 201112191,
+        "nfiles": 1421,
+        "nick": "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.46416571097181214,
+        "generator_weight_sample": 0.46419218315810606,
+        "instance": "prod/global",
+        "nevents": 834043797,
+        "nevents_sample": 201112191,
+        "nfiles": 1421,
+        "nick": "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.3029651818814239,
+        "generator_weight_sample": 0.303051529931586,
+        "instance": "prod/global",
+        "nevents": 498143732,
+        "nevents_sample": 141026600,
+        "nfiles": 894,
+        "nick": "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30296482180587103,
+        "generator_weight_sample": 0.303051529931586,
+        "instance": "prod/global",
+        "nevents": 498143732,
+        "nevents_sample": 141026600,
+        "nfiles": 894,
+        "nick": "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.3029651818814239,
+        "generator_weight_sample": 0.30303790890286986,
+        "instance": "prod/global",
+        "nevents": 498143732,
+        "nevents_sample": 124145519,
+        "nfiles": 894,
+        "nick": "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.30296482180587103,
+        "generator_weight_sample": 0.30303790890286986,
+        "instance": "prod/global",
+        "nevents": 498143732,
+        "nevents_sample": 124145519,
+        "nfiles": 894,
+        "nick": "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "dyjets_amcatnlo",
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
+    },
+    "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9918976466989003,
+        "generator_weight_sample": 0.9918843429725088,
+        "instance": "prod/global",
+        "nevents": 669674262,
+        "nevents_sample": 199550999,
+        "nfiles": 1331,
+        "nick": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "ttbar",
+        "xsec": 98.036113104,
+        "xsec_ref": {
+            "calculation": "923.6 * 0.3258^2",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
+    },
+    "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
+            "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9918976466989003,
+        "generator_weight_sample": 0.9918843429725088,
+        "instance": "prod/global",
+        "nevents": 669674262,
+        "nevents_sample": 199550999,
+        "nfiles": 1331,
+        "nick": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "ttbar",
+        "xsec": 98.036113104,
+        "xsec_ref": {
+            "calculation": "923.6 * 0.3258^2",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
+    },
+    "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/TTto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.9919022986478017,
+        "generator_weight_sample": 0.9919141922130511,
+        "instance": "prod/global",
+        "nevents": 871394695,
+        "nevents_sample": 199539000,
+        "nfiles": 1170,
+        "nick": "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "ttbar",
+        "xsec": 419.6938241160001,
+        "xsec_ref": {
+            "calculation": "923.6 * 0.6741^2",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
+    },
+    "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/TTto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.9919022986478017,
+        "generator_weight_sample": 0.9919141922130511,
+        "instance": "prod/global",
+        "nevents": 871394695,
+        "nevents_sample": 199539000,
+        "nfiles": 1170,
+        "nick": "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "ttbar",
+        "xsec": 419.6938241160001,
+        "xsec_ref": {
+            "calculation": "923.6 * 0.6741^2",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
+    },
+    "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/TTto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.9919022986478017,
+        "generator_weight_sample": 0.9919063515954244,
+        "instance": "prod/global",
+        "nevents": 871394695,
+        "nevents_sample": 199320000,
+        "nfiles": 1428,
+        "nick": "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "ttbar",
+        "xsec": 419.6938241160001,
+        "xsec_ref": {
+            "calculation": "923.6 * 0.6741^2",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
+    },
+    "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/TTto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.9919022986478017,
+        "generator_weight_sample": 0.9919063515954244,
+        "instance": "prod/global",
+        "nevents": 871394695,
+        "nevents_sample": 199320000,
+        "nfiles": 1428,
+        "nick": "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "ttbar",
+        "xsec": 419.6938241160001,
+        "xsec_ref": {
+            "calculation": "923.6 * 0.6741^2",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
+    },
+    "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.9918981258428442,
+        "generator_weight_sample": 0.9919092443202588,
+        "instance": "prod/global",
+        "nevents": 883831057,
+        "nevents_sample": 199701000,
+        "nfiles": 1161,
+        "nick": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "ttbar",
+        "xsec": 405.685352016,
+        "xsec_ref": {
+            "calculation": "923.6 * 2*0.3258*0.6741",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
+    },
+    "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.9918981258428442,
+        "generator_weight_sample": 0.9919092443202588,
+        "instance": "prod/global",
+        "nevents": 883831057,
+        "nevents_sample": 199701000,
+        "nfiles": 1161,
+        "nick": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "ttbar",
+        "xsec": 405.685352016,
+        "xsec_ref": {
+            "calculation": "923.6 * 2*0.3258*0.6741",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
+    },
+    "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.9918981258428442,
+        "generator_weight_sample": 0.991893386091007,
+        "instance": "prod/global",
+        "nevents": 883831057,
+        "nevents_sample": 199655000,
+        "nfiles": 1354,
+        "nick": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "ttbar",
+        "xsec": 405.685352016,
+        "xsec_ref": {
+            "calculation": "923.6 * 2*0.3258*0.6741",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
+    },
+    "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2": {
+        "dbs": "/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+            "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2"
+        ],
+        "generator_weight": 0.9918981258428442,
+        "generator_weight_sample": 0.991893386091007,
+        "instance": "prod/global",
+        "nevents": 883831057,
+        "nevents_sample": 199655000,
+        "nfiles": 1354,
+        "nick": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext2-v2",
+        "sample_type": "ttbar",
+        "xsec": 405.685352016,
+        "xsec_ref": {
+            "calculation": "923.6 * 2*0.3258*0.6741",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
+    },
+    "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9999635440836305,
+        "generator_weight_sample": 0.9999621339302045,
+        "instance": "prod/global",
+        "nevents": 57548958,
+        "nevents_sample": 28785665,
+        "nfiles": 506,
+        "nick": "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "singletop",
+        "xsec": 19.304754462000002,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 2*0.3258*0.6741",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
+    },
+    "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9999635440836305,
+        "generator_weight_sample": 0.9999621339302045,
+        "instance": "prod/global",
+        "nevents": 57548958,
+        "nevents_sample": 28785665,
+        "nfiles": 506,
+        "nick": "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "singletop",
+        "xsec": 19.304754462000002,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 2*0.3258*0.6741",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
+    },
+    "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2024",
+        "extensions": [
+            "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9999633791886815,
+        "generator_weight_sample": 0.9999622628392598,
+        "instance": "prod/global",
+        "nevents": 60293585,
+        "nevents_sample": 30897926,
+        "nfiles": 336,
+        "nick": "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "singletop",
+        "xsec": 19.304754462000002,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 2*0.3258*0.6741",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
+    },
+    "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2": {
+        "dbs": "/TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2/NANOAODSIM",
+        "era": "2025",
+        "extensions": [
+            "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
+            "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2"
+        ],
+        "generator_weight": 0.9999633791886815,
+        "generator_weight_sample": 0.9999622628392598,
+        "instance": "prod/global",
+        "nevents": 60293585,
+        "nevents_sample": 30897926,
+        "nfiles": 336,
+        "nick": "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2_ext1-v2",
+        "sample_type": "singletop",
+        "xsec": 19.304754462000002,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 2*0.3258*0.6741",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
     }
 }

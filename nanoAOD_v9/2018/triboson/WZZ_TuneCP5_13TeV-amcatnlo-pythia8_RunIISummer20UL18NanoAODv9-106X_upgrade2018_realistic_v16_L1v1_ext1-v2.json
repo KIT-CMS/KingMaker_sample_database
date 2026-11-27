@@ -1,6 +1,10 @@
 {
     "dbs": "/WZZ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2/NANOAODSIM",
     "era": "2018",
+    "extensions": [
+        "WZZ_TuneCP5_13TeV-amcatnlo-pythia8_RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1",
+        "WZZ_TuneCP5_13TeV-amcatnlo-pythia8_RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2"
+    ],
     "filelist": [
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/WZZ_TuneCP5_13TeV-amcatnlo-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1_ext1-v2/270000/B4B3FD7B-1D90-C748-B13E-5106DF7B98D7.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/WZZ_TuneCP5_13TeV-amcatnlo-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1_ext1-v2/110000/34A4CCA9-2E5A-3846-82D3-2E2DF9355FE3.root",
@@ -23,9 +27,11 @@
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/WZZ_TuneCP5_13TeV-amcatnlo-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1_ext1-v2/260000/EEEF8F90-C15C-EC45-8038-52B23F221CAB.root",
         "root://xrootd-cms.infn.it///store/mc/RunIISummer20UL18NanoAODv9/WZZ_TuneCP5_13TeV-amcatnlo-pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1_ext1-v2/130000/AE0804EE-BE24-DA4A-8CFD-B74B67D2DF5A.root"
     ],
-    "generator_weight": 0.9079713828296978,
+    "generator_weight": 0.9079203419467651,
+    "generator_weight_sample": 0.9079713828296978,
     "instance": "prod/global",
-    "nevents": 9994000,
+    "nevents": 10294000,
+    "nevents_sample": 9994000,
     "nfiles": 20,
     "nick": "WZZ_TuneCP5_13TeV-amcatnlo-pythia8_RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v2",
     "sample_type": "triboson",
