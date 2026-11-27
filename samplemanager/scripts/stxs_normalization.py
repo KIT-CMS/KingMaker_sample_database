@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Write the recommended STXS xsec*B and the per-bin factors of the signal nicks (`stxs`: family and
-{htxs_bin: [norm, R_up, R_down]}), from TAUER's analyses/smhtt/common/stxs_tools.py, into the sample database.
+Write the per-bin STXS factors of the signal nicks (`stxs`: family and {htxs_bin: [norm, R_up, R_down]}),
+from TAUER's analyses/smhtt/common/stxs_tools.py, into the sample database.
 Run after updating the nick table: python -m samplemanager.scripts.stxs_normalization
 """
 
@@ -32,7 +32,7 @@ def parse_arguments() -> argparse.Namespace:
 
 def main(sample_database_dir: Path, nick_table: Path) -> None:
     fields = {
-        nick: {"xsec": stxs["xsec"], "stxs": {"bins": stxs["bins"], "family": stxs["family"]}}
+        nick: {"stxs": {"bins": stxs["bins"], "family": stxs["family"]}}
         for nick, stxs in json.loads(nick_table.read_text()).items()
     }
     written = set()
@@ -41,6 +41,8 @@ def main(sample_database_dir: Path, nick_table: Path) -> None:
     if set(fields) - written:
         logger.warning(f"{len(set(fields) - written)} nicks of the nick table not in any database, e.g. {sorted(set(fields) - written)[:3]}")
     logger.info(f"Wrote the STXS normalisation of {len(written)} nicks to the sample database")
+    for nick in sorted(written):
+        logger.info(f"{nick}")
 
 
 if __name__ == "__main__":

@@ -40,29 +40,23 @@ def filelist_path(database_folder: str, sampledata: dict):
 
 def update_sample_fields(database_folder: str, fields: dict) -> list:
     """
-    Set the fields {nick: {field: value}} in datasets.json and the per-sample jsons of `database_folder`
-    (passed to CROWN by KingMaker); returns the nicks not in this database or without a per-sample json.
+    Set the fields {nick: {field: value}} in the per-sample jsons of `database_folder` (passed to CROWN by
+    KingMaker; datasets.json is only read to locate them); returns the nicks not in this database or without
+    a per-sample json.
     """
-    datasets_path = os.path.join(database_folder, "datasets.json")
-    with open(datasets_path) as stream:
+    with open(os.path.join(database_folder, "datasets.json")) as stream:
         database = json.load(stream)
-    missing = [
-        nick for nick in fields
-        if nick not in database or not os.path.exists(filelist_path(database_folder, database[nick]))
-    ]
+    missing = []
     for nick, values in fields.items():
-        if nick in missing:
+        sample_path = filelist_path(database_folder, database[nick]) if nick in database else None
+        if sample_path is None or not os.path.exists(sample_path):
+            missing.append(nick)
             continue
-        database[nick] = dict(sorted({**database[nick], **values}.items()))
-        sample_path = filelist_path(database_folder, database[nick])
         with open(sample_path) as stream:
             details = json.load(stream)
         details.update(values)
         with open(sample_path, "w") as stream:
             json.dump(details, stream, indent=4, sort_keys=True)
-    if len(missing) < len(fields):
-        with open(datasets_path, "w") as stream:
-            json.dump(database, stream, indent=4)
     return missing
 
 
