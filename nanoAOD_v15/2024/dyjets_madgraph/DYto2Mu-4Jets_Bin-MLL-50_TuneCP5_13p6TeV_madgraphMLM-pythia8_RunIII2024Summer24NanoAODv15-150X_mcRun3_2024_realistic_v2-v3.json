@@ -3197,7 +3197,7 @@
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/DYto2Mu-4Jets_Bin-MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v3/90000/51ea2175-f4a0-4829-bba8-ccd072854dbd.root",
         "root://xrootd-cms.infn.it///store/mc/RunIII2024Summer24NanoAODv15/DYto2Mu-4Jets_Bin-MLL-50_TuneCP5_13p6TeV_madgraphMLM-pythia8/NANOAODSIM/150X_mcRun3_2024_realistic_v2-v3/90000/c5fc0d67-16a3-49e8-8f5a-f900f43b2ba9.root"
     ],
-    "generator_weight": null,
+    "generator_weight": 1.0,
     "instance": "prod/global",
     "nevents": 530955854,
     "nfiles": 3194,

@@ -1,5 +1,6 @@
 from questionary import Style
 import argparse
+import json
 import os
 
 
@@ -36,6 +37,28 @@ def filelist_path(database_folder: str, sampledata: dict):
         sampledata["sample_type"],
         sampledata["nick"] + ".json",
     )
+
+def update_sample_fields(database_folder: str, fields: dict) -> list:
+    """
+    Set the fields {nick: {field: value}} in the per-sample jsons of `database_folder` (passed to CROWN by
+    KingMaker; datasets.json is only read to locate them); returns the nicks not in this database or without
+    a per-sample json.
+    """
+    with open(os.path.join(database_folder, "datasets.json")) as stream:
+        database = json.load(stream)
+    missing = []
+    for nick, values in fields.items():
+        sample_path = filelist_path(database_folder, database[nick]) if nick in database else None
+        if sample_path is None or not os.path.exists(sample_path):
+            missing.append(nick)
+            continue
+        with open(sample_path) as stream:
+            details = json.load(stream)
+        details.update(values)
+        with open(sample_path, "w") as stream:
+            json.dump(details, stream, indent=4, sort_keys=True)
+    return missing
+
 
 def nanoAOD_version_str(nanoAOD_version: int) -> str:
     return f"nanoAOD_v{nanoAOD_version}"
