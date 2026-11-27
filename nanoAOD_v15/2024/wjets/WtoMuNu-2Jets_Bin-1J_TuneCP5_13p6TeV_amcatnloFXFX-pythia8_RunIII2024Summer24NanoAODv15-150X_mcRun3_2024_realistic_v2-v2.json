@@ -2011,5 +2011,10 @@
     "nfiles": 2002,
     "nick": "WtoMuNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
     "sample_type": "wjets",
-    "xsec": 2827.0
+    "xsec": 2840.74781546214,
+    "xsec_ref": {
+        "calculation": "(9219.7/68584.3 * 3*(9009.5+12122.5))/3",
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+    }
 }

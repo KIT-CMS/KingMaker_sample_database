@@ -127,5 +127,10 @@
         },
         "family": 3
     },
-    "xsec": 0.019884370825031687
+    "xsec": 0.019884370825031687,
+    "xsec_ref": {
+        "calculation": "0.8872 * 0.062578 * 0.3582 = 0.01989",
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap) * BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR) * eps_F (AN2025_055 Tab. 12)"
+    }
 }

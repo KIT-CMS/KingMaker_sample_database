@@ -55,5 +55,10 @@
     "nfiles": 46,
     "nick": "TbarBQ_t-channel_4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v2",
     "sample_type": "singletop",
-    "xsec": 87.2
+    "xsec": 87.2,
+    "xsec_ref": {
+        "calculation": "87.2",
+        "order": "NNLO(QCD)",
+        "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef) t-channel"
+    }
 }

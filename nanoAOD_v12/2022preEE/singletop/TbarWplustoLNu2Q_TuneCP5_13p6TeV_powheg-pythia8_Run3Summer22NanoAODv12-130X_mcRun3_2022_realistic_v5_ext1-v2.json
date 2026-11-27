@@ -125,5 +125,10 @@
     "nfiles": 116,
     "nick": "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5_ext1-v2",
     "sample_type": "singletop",
-    "xsec": 19.304754462000002
+    "xsec": 19.304754462000002,
+    "xsec_ref": {
+        "calculation": "87.9/2 * 2*0.3258*0.6741",
+        "order": "NLO(QCD)+NNLL",
+        "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+    }
 }

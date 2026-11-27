@@ -536,7 +536,12 @@
         "nfiles": 548,
         "nick": "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 1681.9920155502393
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -547,7 +552,12 @@
         "nfiles": 548,
         "nick": "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 1681.9920155502393
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
@@ -558,7 +568,12 @@
         "nfiles": 2108,
         "nick": "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 318.0710077751196
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
@@ -569,7 +584,12 @@
         "nfiles": 2108,
         "nick": "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 318.0710077751196
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -580,7 +600,12 @@
         "nfiles": 317,
         "nick": "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 120.56673893540669
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -591,7 +616,12 @@
         "nfiles": 317,
         "nick": "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 120.56673893540669
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2E-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2E-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -602,7 +632,12 @@
         "nfiles": 694,
         "nick": "DYto2E-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 6983.33333
+        "xsec": 6983.333333333333,
+        "xsec_ref": {
+            "calculation": "20950/3",
+            "order": "NLO(QCD)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) NLO kept, the twiki has no value below 50 GeV"
+        }
     },
     "DYto2E-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2E-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -613,7 +648,12 @@
         "nfiles": 694,
         "nick": "DYto2E-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 6983.33333
+        "xsec": 6983.333333333333,
+        "xsec_ref": {
+            "calculation": "20950/3",
+            "order": "NLO(QCD)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) NLO kept, the twiki has no value below 50 GeV"
+        }
     },
     "DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4": {
         "dbs": "/DYto2E-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4/NANOAODSIM",
@@ -888,7 +928,12 @@
         "nfiles": 534,
         "nick": "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 1681.9920155502393
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
@@ -899,7 +944,12 @@
         "nfiles": 534,
         "nick": "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 1681.9920155502393
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1": {
         "dbs": "/DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1/NANOAODSIM",
@@ -910,7 +960,12 @@
         "nfiles": 327,
         "nick": "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 318.0710077751196
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1": {
         "dbs": "/DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1/NANOAODSIM",
@@ -921,7 +976,12 @@
         "nfiles": 327,
         "nick": "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v1",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 318.0710077751196
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
@@ -932,7 +992,12 @@
         "nfiles": 1674,
         "nick": "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 120.56673893540669
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
@@ -943,7 +1008,12 @@
         "nfiles": 1674,
         "nick": "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 120.56673893540669
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2Mu-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2Mu-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -954,7 +1024,12 @@
         "nfiles": 1015,
         "nick": "DYto2Mu-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 6983.33333
+        "xsec": 6983.333333333333,
+        "xsec_ref": {
+            "calculation": "20950/3",
+            "order": "NLO(QCD)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) NLO kept, the twiki has no value below 50 GeV"
+        }
     },
     "DYto2Mu-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2Mu-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -965,7 +1040,12 @@
         "nfiles": 1015,
         "nick": "DYto2Mu-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 6983.33333
+        "xsec": 6983.333333333333,
+        "xsec_ref": {
+            "calculation": "20950/3",
+            "order": "NLO(QCD)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) NLO kept, the twiki has no value below 50 GeV"
+        }
     },
     "DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v6": {
         "dbs": "/DYto2Mu-2Jets_Bin-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v6/NANOAODSIM",
@@ -1240,7 +1320,12 @@
         "nfiles": 2666,
         "nick": "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 1681.9920155502393
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4": {
         "dbs": "/DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4/NANOAODSIM",
@@ -1251,7 +1336,12 @@
         "nfiles": 2666,
         "nick": "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v4",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 1681.9920155502393
+        "xsec": 1659.0461765356533,
+        "xsec_ref": {
+            "calculation": "(5378.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -1262,7 +1352,12 @@
         "nfiles": 2026,
         "nick": "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 318.0710077751196
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -1273,7 +1368,12 @@
         "nfiles": 2026,
         "nick": "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 318.0710077751196
+        "xsec": 313.73186343190025,
+        "xsec_ref": {
+            "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -1284,7 +1384,12 @@
         "nfiles": 1592,
         "nick": "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 120.56673893540669
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -1295,7 +1400,12 @@
         "nfiles": 1592,
         "nick": "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 120.56673893540669
+        "xsec": 118.92196003244597,
+        "xsec_ref": {
+            "calculation": "(385.5/6780.5 * 3*2091.7)/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "DYto2Tau-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2Tau-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -1306,7 +1416,12 @@
         "nfiles": 715,
         "nick": "DYto2Tau-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 6983.33333
+        "xsec": 6983.333333333333,
+        "xsec_ref": {
+            "calculation": "20950/3",
+            "order": "NLO(QCD)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) NLO kept, the twiki has no value below 50 GeV"
+        }
     },
     "DYto2Tau-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2Tau-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -1317,7 +1432,12 @@
         "nfiles": 715,
         "nick": "DYto2Tau-2Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "dyjets_amcatnlo",
-        "xsec": 6983.33333
+        "xsec": 6983.333333333333,
+        "xsec_ref": {
+            "calculation": "20950/3",
+            "order": "NLO(QCD)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) NLO kept, the twiki has no value below 50 GeV"
+        }
     },
     "DYto2Tau-4Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_madgraphMLM-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/DYto2Tau-4Jets_Bin-MLL-10to50_TuneCP5_13p6TeV_madgraphMLM-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -3253,7 +3373,12 @@
         "nfiles": 529,
         "nick": "GluGluH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "ggh_htautau",
-        "xsec": 1.2632671326814817
+        "xsec": 1.2632671326814817,
+        "xsec_ref": {
+            "calculation": "52.1767 * 0.062578 * 0.3869 = 1.26327",
+            "order": "N3LO(QCD)+NLO(EW)",
+            "reference": "LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap) * BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR) * eps_F (AN2025_055 Tab. 12)"
+        }
     },
     "GluGluH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/GluGluH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -3264,7 +3389,12 @@
         "nfiles": 529,
         "nick": "GluGluH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "ggh_htautau",
-        "xsec": 1.2632671326814817
+        "xsec": 1.2632671326814817,
+        "xsec_ref": {
+            "calculation": "52.1767 * 0.062578 * 0.3869 = 1.26327",
+            "order": "N3LO(QCD)+NLO(EW)",
+            "reference": "LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap) * BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR) * eps_F (AN2025_055 Tab. 12)"
+        }
     },
     "GluGluH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/GluGluH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18290,7 +18420,12 @@
         "nfiles": 778,
         "nick": "TBbarQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 77.26
+        "xsec": 97.7445,
+        "xsec_ref": {
+            "calculation": "145.0 * 0.6741",
+            "order": "NNLO(QCD)",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef) t-channel, W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TBbarQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TBbarQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18301,7 +18436,12 @@
         "nfiles": 778,
         "nick": "TBbarQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 77.26
+        "xsec": 97.7445,
+        "xsec_ref": {
+            "calculation": "145.0 * 0.6741",
+            "order": "NNLO(QCD)",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef) t-channel, W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18312,7 +18452,12 @@
         "nfiles": 391,
         "nick": "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 47.241
+        "xsec": 47.241,
+        "xsec_ref": {
+            "calculation": "145.0 * 0.3258",
+            "order": "NNLO(QCD)",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef) t-channel, W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18323,7 +18468,12 @@
         "nfiles": 391,
         "nick": "TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 47.241
+        "xsec": 47.241,
+        "xsec_ref": {
+            "calculation": "145.0 * 0.3258",
+            "order": "NNLO(QCD)",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef) t-channel, W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TBbarto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TBbarto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18422,7 +18572,12 @@
         "nfiles": 2432,
         "nick": "TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_sgiappic-RunIII2024Summer24NanoAODv15_ReNano-00000000000000000000000000000000",
         "sample_type": "rem_higgs",
-        "xsec": 0.23834513777777777
+        "xsec": 0.23834513777777777,
+        "xsec_ref": {
+            "calculation": "0.5689 * (1-0.581067) = 0.23835",
+            "order": "NLO(QCD)+NLO(EW)",
+            "reference": "LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap), BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR)"
+        }
     },
     "TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_sgiappic-RunIII2025Summer24NanoAODv15_ReNano-00000000000000000000000000000000": {
         "dbs": "/TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/sgiappic-RunIII2024Summer24NanoAODv15_ReNano-00000000000000000000000000000000/USER",
@@ -18433,7 +18588,12 @@
         "nfiles": 2432,
         "nick": "TTH-HtoNon2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_sgiappic-RunIII2025Summer24NanoAODv15_ReNano-00000000000000000000000000000000",
         "sample_type": "rem_higgs",
-        "xsec": 0.23834513777777777
+        "xsec": 0.23834513777777777,
+        "xsec_ref": {
+            "calculation": "0.5689 * (1-0.581067) = 0.23835",
+            "order": "NLO(QCD)+NLO(EW)",
+            "reference": "LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap), BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR)"
+        }
     },
     "TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v2": {
         "dbs": "/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL16NanoAODAPVv15-150X_mcRun2_asymptotic_preVFP_v1-v2/NANOAODSIM",
@@ -18730,7 +18890,12 @@
         "nfiles": 780,
         "nick": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "ttbar",
-        "xsec": 98.036113104
+        "xsec": 98.036113104,
+        "xsec_ref": {
+            "calculation": "923.6 * 0.3258^2",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
     },
     "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3": {
         "dbs": "/TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3/NANOAODSIM",
@@ -18741,7 +18906,12 @@
         "nfiles": 780,
         "nick": "TTto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v3",
         "sample_type": "ttbar",
-        "xsec": 98.036113104
+        "xsec": 98.036113104,
+        "xsec_ref": {
+            "calculation": "923.6 * 0.3258^2",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
     },
     "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TTto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18752,7 +18922,12 @@
         "nfiles": 773,
         "nick": "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "ttbar",
-        "xsec": 419.6938241160001
+        "xsec": 419.6938241160001,
+        "xsec_ref": {
+            "calculation": "923.6 * 0.6741^2",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
     },
     "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TTto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18763,7 +18938,12 @@
         "nfiles": 773,
         "nick": "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "ttbar",
-        "xsec": 419.6938241160001
+        "xsec": 419.6938241160001,
+        "xsec_ref": {
+            "calculation": "923.6 * 0.6741^2",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
     },
     "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18774,7 +18954,12 @@
         "nfiles": 790,
         "nick": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "ttbar",
-        "xsec": 405.685352016
+        "xsec": 405.685352016,
+        "xsec_ref": {
+            "calculation": "923.6 * 2*0.3258*0.6741",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
     },
     "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18785,7 +18970,12 @@
         "nfiles": 790,
         "nick": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "ttbar",
-        "xsec": 405.685352016
+        "xsec": 405.685352016,
+        "xsec_ref": {
+            "calculation": "923.6 * 2*0.3258*0.6741",
+            "order": "NNLO(QCD)+NNLL",
+            "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+        }
     },
     "TWminusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TWminusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18796,7 +18986,12 @@
         "nfiles": 176,
         "nick": "TWminusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 4.665100878
+        "xsec": 4.665100878,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 0.3258^2",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TWminusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TWminusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18807,7 +19002,12 @@
         "nfiles": 176,
         "nick": "TWminusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 4.665100878
+        "xsec": 4.665100878,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 0.3258^2",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TWminusto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TWminusto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18818,7 +19018,12 @@
         "nfiles": 154,
         "nick": "TWminusto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 19.971355099500002
+        "xsec": 19.971355099500002,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 0.6741^2",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TWminusto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TWminusto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18829,7 +19034,12 @@
         "nfiles": 154,
         "nick": "TWminusto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 19.971355099500002
+        "xsec": 19.971355099500002,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 0.6741^2",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18840,7 +19050,12 @@
         "nfiles": 252,
         "nick": "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 19.304754462000002
+        "xsec": 19.304754462000002,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 2*0.3258*0.6741",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -18851,7 +19066,12 @@
         "nfiles": 252,
         "nick": "TWminustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 19.304754462000002
+        "xsec": 19.304754462000002,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 2*0.3258*0.6741",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "Tau_Run2016B-HIPM_UL2016_NanoAODv15_v2-v1": {
         "dbs": "/Tau/Run2016B-HIPM_UL2016_NanoAODv15_v2-v1/NANOAOD",
@@ -19247,7 +19467,12 @@
         "nfiles": 825,
         "nick": "TbarBQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 46.73
+        "xsec": 58.78152000000001,
+        "xsec_ref": {
+            "calculation": "87.2 * 0.6741",
+            "order": "NNLO(QCD)",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef) t-channel, W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TbarBQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TbarBQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -19258,7 +19483,12 @@
         "nfiles": 825,
         "nick": "TbarBQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 46.73
+        "xsec": 58.78152000000001,
+        "xsec_ref": {
+            "calculation": "87.2 * 0.6741",
+            "order": "NNLO(QCD)",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef) t-channel, W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -19269,7 +19499,12 @@
         "nfiles": 249,
         "nick": "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 28.40976
+        "xsec": 28.40976,
+        "xsec_ref": {
+            "calculation": "87.2 * 0.3258",
+            "order": "NNLO(QCD)",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef) t-channel, W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -19280,7 +19515,12 @@
         "nfiles": 249,
         "nick": "TbarBQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 28.40976
+        "xsec": 28.40976,
+        "xsec_ref": {
+            "calculation": "87.2 * 0.3258",
+            "order": "NNLO(QCD)",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef) t-channel, W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TbarBto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TbarBto2Q-s-channel_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -19335,7 +19575,12 @@
         "nfiles": 90,
         "nick": "TbarWplusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 4.665100878
+        "xsec": 4.665100878,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 0.3258^2",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TbarWplusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TbarWplusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -19346,7 +19591,12 @@
         "nfiles": 90,
         "nick": "TbarWplusto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 4.665100878
+        "xsec": 4.665100878,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 0.3258^2",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TbarWplusto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TbarWplusto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -19357,7 +19607,12 @@
         "nfiles": 195,
         "nick": "TbarWplusto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 19.971355099500002
+        "xsec": 19.971355099500002,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 0.6741^2",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TbarWplusto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TbarWplusto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -19368,7 +19623,12 @@
         "nfiles": 195,
         "nick": "TbarWplusto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 19.971355099500002
+        "xsec": 19.971355099500002,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 0.6741^2",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -19379,7 +19639,12 @@
         "nfiles": 252,
         "nick": "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 19.304754462000002
+        "xsec": 19.304754462000002,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 2*0.3258*0.6741",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -19390,7 +19655,12 @@
         "nfiles": 252,
         "nick": "TbarWplustoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "singletop",
-        "xsec": 19.304754462000002
+        "xsec": 19.304754462000002,
+        "xsec_ref": {
+            "calculation": "87.9/2 * 2*0.3258*0.6741",
+            "order": "NLO(QCD)+NNLL",
+            "reference": "SingleTopNNLORef (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef), W BR 0.3258/0.6741 (PDG)"
+        }
     },
     "VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/VBFH-Hto2B_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -19445,7 +19715,12 @@
         "nfiles": 398,
         "nick": "VBFH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "vbf_htautau",
-        "xsec": 0.10751866804148151
+        "xsec": 0.10751866804148151,
+        "xsec_ref": {
+            "calculation": "4.0753 * 0.062578 * 0.4216 = 0.10752",
+            "order": "approx. NNLO(QCD)+NLO(EW)",
+            "reference": "LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap) * BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR) * eps_F (AN2025_055 Tab. 12)"
+        }
     },
     "VBFH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/VBFH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -19456,7 +19731,12 @@
         "nfiles": 398,
         "nick": "VBFH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "vbf_htautau",
-        "xsec": 0.10751866804148151
+        "xsec": 0.10751866804148151,
+        "xsec_ref": {
+            "calculation": "4.0753 * 0.062578 * 0.4216 = 0.10752",
+            "order": "approx. NNLO(QCD)+NLO(EW)",
+            "reference": "LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap) * BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR) * eps_F (AN2025_055 Tab. 12)"
+        }
     },
     "VBFH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/VBFH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20149,7 +20429,12 @@
         "nfiles": 278,
         "nick": "WWto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 11.79
+        "xsec": 12.64996802192782,
+        "xsec_ref": {
+            "calculation": "11.79 * (1558.9-149.7)/1313.4",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "WWto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WWto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20160,7 +20445,12 @@
         "nfiles": 278,
         "nick": "WWto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 11.79
+        "xsec": 12.64996802192782,
+        "xsec_ref": {
+            "calculation": "11.79 * (1558.9-149.7)/1313.4",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "WWto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WWto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20171,7 +20461,12 @@
         "nfiles": 185,
         "nick": "WWto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 50.79
+        "xsec": 54.49464595705801,
+        "xsec_ref": {
+            "calculation": "50.79 * (1558.9-149.7)/1313.4",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "WWto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WWto4Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20182,7 +20477,12 @@
         "nfiles": 185,
         "nick": "WWto4Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 50.79
+        "xsec": 54.49464595705801,
+        "xsec_ref": {
+            "calculation": "50.79 * (1558.9-149.7)/1313.4",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "WWtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WWtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20193,7 +20493,12 @@
         "nfiles": 326,
         "nick": "WWtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 48.94
+        "xsec": 52.50970610628901,
+        "xsec_ref": {
+            "calculation": "48.94 * (1558.9-149.7)/1313.4",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "WWtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WWtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20204,7 +20509,12 @@
         "nfiles": 326,
         "nick": "WWtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 48.94
+        "xsec": 52.50970610628901,
+        "xsec_ref": {
+            "calculation": "48.94 * (1558.9-149.7)/1313.4",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "WZTo1L1Nu2Q_4f_TuneCP5_13TeV-amcatnloFXFX-pythia8_RunIISummer20UL17NanoAODv15-150X_mc2017_realistic_v1-v1": {
         "dbs": "/WZTo1L1Nu2Q_4f_TuneCP5_13TeV-amcatnloFXFX-pythia8/RunIISummer20UL17NanoAODv15-150X_mc2017_realistic_v1-v1/NANOAODSIM",
@@ -20413,7 +20723,12 @@
         "nfiles": 257,
         "nick": "WZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 7.568
+        "xsec": 7.975336336877516,
+        "xsec_ref": {
+            "calculation": "7.568 * (2*585.9+582.5)/(2*557.8+549.1)",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "WZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20424,7 +20739,12 @@
         "nfiles": 257,
         "nick": "WZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 7.658
+        "xsec": 7.975336336877516,
+        "xsec_ref": {
+            "calculation": "7.568 * (2*585.9+582.5)/(2*557.8+549.1)",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20435,7 +20755,12 @@
         "nfiles": 296,
         "nick": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 4.924
+        "xsec": 5.189026971826757,
+        "xsec_ref": {
+            "calculation": "4.924 * (2*585.9+582.5)/(2*557.8+549.1)",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20446,7 +20771,12 @@
         "nfiles": 296,
         "nick": "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 4.924
+        "xsec": 5.189026971826757,
+        "xsec_ref": {
+            "calculation": "4.924 * (2*585.9+582.5)/(2*557.8+549.1)",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "WZtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WZtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20457,7 +20787,12 @@
         "nfiles": 156,
         "nick": "WZtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 15.87
+        "xsec": 16.724179131375024,
+        "xsec_ref": {
+            "calculation": "15.87 * (2*585.9+582.5)/(2*557.8+549.1)",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "WZtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WZtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20468,7 +20803,12 @@
         "nfiles": 156,
         "nick": "WZtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 15.87
+        "xsec": 16.724179131375024,
+        "xsec_ref": {
+            "calculation": "15.87 * (2*585.9+582.5)/(2*557.8+549.1)",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "WminusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_sgiappic-RunIII2024Summer24NanoAODv15_ReNano-00000000000000000000000000000000": {
         "dbs": "/WminusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/sgiappic-RunIII2024Summer24NanoAODv15_ReNano-00000000000000000000000000000000/USER",
@@ -20479,7 +20819,12 @@
         "nfiles": 269,
         "nick": "WminusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_sgiappic-RunIII2024Summer24NanoAODv15_ReNano-00000000000000000000000000000000",
         "sample_type": "rem_htautau",
-        "xsec": 0.01371454746772071
+        "xsec": 0.01371454746772071,
+        "xsec_ref": {
+            "calculation": "0.5665 * 0.062578 * 0.3869 = 0.01372",
+            "order": "NNLO(QCD)+NLO(EW)",
+            "reference": "LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap) * BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR) * eps_F (AN2025_055 Tab. 12)"
+        }
     },
     "WminusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_sgiappic-RunIII2025Summer24NanoAODv15_ReNano-00000000000000000000000000000000": {
         "dbs": "/WminusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/sgiappic-RunIII2024Summer24NanoAODv15_ReNano-00000000000000000000000000000000/USER",
@@ -20490,7 +20835,12 @@
         "nfiles": 269,
         "nick": "WminusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_sgiappic-RunIII2025Summer24NanoAODv15_ReNano-00000000000000000000000000000000",
         "sample_type": "rem_htautau",
-        "xsec": 0.01371454746772071
+        "xsec": 0.01371454746772071,
+        "xsec_ref": {
+            "calculation": "0.5665 * 0.062578 * 0.3869 = 0.01372",
+            "order": "NNLO(QCD)+NLO(EW)",
+            "reference": "LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap) * BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR) * eps_F (AN2025_055 Tab. 12)"
+        }
     },
     "WminusH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WminusH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20534,7 +20884,12 @@
         "nfiles": 310,
         "nick": "WplusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_sgiappic-RunIII2024Summer24NanoAODv15_ReNano-00000000000000000000000000000000",
         "sample_type": "rem_htautau",
-        "xsec": 0.019884370825031687
+        "xsec": 0.019884370825031687,
+        "xsec_ref": {
+            "calculation": "0.8872 * 0.062578 * 0.3582 = 0.01989",
+            "order": "NNLO(QCD)+NLO(EW)",
+            "reference": "LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap) * BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR) * eps_F (AN2025_055 Tab. 12)"
+        }
     },
     "WplusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_sgiappic-RunIII2025Summer24NanoAODv15_ReNano-00000000000000000000000000000000": {
         "dbs": "/WplusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/sgiappic-RunIII2024Summer24NanoAODv15_ReNano-00000000000000000000000000000000/USER",
@@ -20545,7 +20900,12 @@
         "nfiles": 310,
         "nick": "WplusH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_sgiappic-RunIII2025Summer24NanoAODv15_ReNano-00000000000000000000000000000000",
         "sample_type": "rem_htautau",
-        "xsec": 0.019884370825031687
+        "xsec": 0.019884370825031687,
+        "xsec_ref": {
+            "calculation": "0.8872 * 0.062578 * 0.3582 = 0.01989",
+            "order": "NNLO(QCD)+NLO(EW)",
+            "reference": "LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap) * BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR) * eps_F (AN2025_055 Tab. 12)"
+        }
     },
     "WplusH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WplusH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20699,7 +21059,12 @@
         "nfiles": 273,
         "nick": "ZH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v6",
         "sample_type": "rem_htautau",
-        "xsec": 0.02051843279866628
+        "xsec": 0.02051843279866628,
+        "xsec_ref": {
+            "calculation": "0.81361 * 0.062578 * 0.4030 = 0.020518",
+            "order": "NNLO(QCD)+NLO(EW)",
+            "reference": "STXS qq->ZH sum * BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR) * eps_F (AN2025_055 Tab. 12); LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap) qq->ZH 0.80648 would give 0.02034"
+        }
     },
     "ZH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v6": {
         "dbs": "/ZH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v6/NANOAODSIM",
@@ -20710,7 +21075,12 @@
         "nfiles": 273,
         "nick": "ZH-Hto2TauUncorrelatedDecay_Fil-TauFilter_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v6",
         "sample_type": "rem_htautau",
-        "xsec": 0.02051843279866628
+        "xsec": 0.02051843279866628,
+        "xsec_ref": {
+            "calculation": "0.81361 * 0.062578 * 0.4030 = 0.020518",
+            "order": "NNLO(QCD)+NLO(EW)",
+            "reference": "STXS qq->ZH sum * BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR) * eps_F (AN2025_055 Tab. 12); LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap) qq->ZH 0.80648 would give 0.02034"
+        }
     },
     "ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v6": {
         "dbs": "/ZH-Hto2TauUncorrelatedDecay_Par-M-125_TuneCP5_13p6TeV_powhegMINNLO-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v6/NANOAODSIM",
@@ -20941,7 +21311,12 @@
         "nfiles": 228,
         "nick": "ZZto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 1.031
+        "xsec": 1.0631629116117849,
+        "xsec_ref": {
+            "calculation": "1.031 * (132.7-13.7)/115.4",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "ZZto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/ZZto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20952,7 +21327,12 @@
         "nfiles": 228,
         "nick": "ZZto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 1.031
+        "xsec": 1.0631629116117849,
+        "xsec_ref": {
+            "calculation": "1.031 * (132.7-13.7)/115.4",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "ZZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/ZZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20963,7 +21343,12 @@
         "nfiles": 215,
         "nick": "ZZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 6.788
+        "xsec": 6.999757365684575,
+        "xsec_ref": {
+            "calculation": "6.788 * (132.7-13.7)/115.4",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "ZZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/ZZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20974,7 +21359,12 @@
         "nfiles": 215,
         "nick": "ZZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 6.788
+        "xsec": 6.999757365684575,
+        "xsec_ref": {
+            "calculation": "6.788 * (132.7-13.7)/115.4",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "ZZto2Nu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/ZZto2Nu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20985,7 +21375,12 @@
         "nfiles": 65,
         "nick": "ZZto2Nu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 4.67
+        "xsec": 4.976551126516463,
+        "xsec_ref": {
+            "calculation": "4.826 * (132.7-13.7)/115.4",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "ZZto2Nu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/ZZto2Nu2Q_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -20996,7 +21391,12 @@
         "nfiles": 65,
         "nick": "ZZto2Nu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 4.67
+        "xsec": 4.976551126516463,
+        "xsec_ref": {
+            "calculation": "4.826 * (132.7-13.7)/115.4",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "ZZto4L_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/ZZto4L_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21007,7 +21407,12 @@
         "nfiles": 273,
         "nick": "ZZto4L_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 1.39
+        "xsec": 1.4642997648065,
+        "xsec_ref": {
+            "calculation": "1.39 * (387.0-44.3+163.3-13.3)/(322.9+144.8)",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "ZZto4L_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/ZZto4L_TuneCP5_13p6TeV_powheg-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21018,7 +21423,12 @@
         "nfiles": 273,
         "nick": "ZZto4L_TuneCP5_13p6TeV_powheg-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "diboson",
-        "xsec": 1.39
+        "xsec": 1.4642997648065,
+        "xsec_ref": {
+            "calculation": "1.39 * (387.0-44.3+163.3-13.3)/(322.9+144.8)",
+            "order": "NNLO(QCD)xNLO(EW), qq only",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+        }
     },
     "ggZH_HToBB_ZToBB_M-125_TuneCP5_13TeV-powheg-pythia8_RunIISummer20UL18NanoAODv15-150X_mc2018_realistic_v1-v1": {
         "dbs": "/ggZH_HToBB_ZToBB_M-125_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv15-150X_mc2018_realistic_v1-v1/NANOAODSIM",
@@ -21117,7 +21527,12 @@
         "nfiles": 491,
         "nick": "WtoENu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 17178.0
+        "xsec": 17219.651500416272,
+        "xsec_ref": {
+            "calculation": "(55886.7/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoENu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoENu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21128,7 +21543,12 @@
         "nfiles": 491,
         "nick": "WtoENu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 17178.0
+        "xsec": 17219.651500416272,
+        "xsec_ref": {
+            "calculation": "(55886.7/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoENu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoENu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21139,7 +21559,12 @@
         "nfiles": 2333,
         "nick": "WtoENu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 2827.0
+        "xsec": 2840.74781546214,
+        "xsec_ref": {
+            "calculation": "(9219.7/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoENu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoENu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21150,7 +21575,12 @@
         "nfiles": 2333,
         "nick": "WtoENu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 2827.0
+        "xsec": 2840.74781546214,
+        "xsec_ref": {
+            "calculation": "(9219.7/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoENu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoENu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21161,7 +21591,12 @@
         "nfiles": 1952,
         "nick": "WtoENu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 1072.0
+        "xsec": 1071.6314958379687,
+        "xsec_ref": {
+            "calculation": "(3478.0/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoENu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoENu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21172,7 +21607,12 @@
         "nfiles": 1952,
         "nick": "WtoENu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 1072.0
+        "xsec": 1071.6314958379687,
+        "xsec_ref": {
+            "calculation": "(3478.0/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoMuNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoMuNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21183,7 +21623,12 @@
         "nfiles": 495,
         "nick": "WtoMuNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 17178.0
+        "xsec": 17219.651500416272,
+        "xsec_ref": {
+            "calculation": "(55886.7/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoMuNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoMuNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21194,7 +21639,12 @@
         "nfiles": 495,
         "nick": "WtoMuNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 17178.0
+        "xsec": 17219.651500416272,
+        "xsec_ref": {
+            "calculation": "(55886.7/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoMuNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoMuNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21205,7 +21655,12 @@
         "nfiles": 2002,
         "nick": "WtoMuNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 2827.0
+        "xsec": 2840.74781546214,
+        "xsec_ref": {
+            "calculation": "(9219.7/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoMuNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoMuNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21216,7 +21671,12 @@
         "nfiles": 2002,
         "nick": "WtoMuNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 2827.0
+        "xsec": 2840.74781546214,
+        "xsec_ref": {
+            "calculation": "(9219.7/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoMuNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoMuNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21227,7 +21687,12 @@
         "nfiles": 2008,
         "nick": "WtoMuNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 1072.0
+        "xsec": 1071.6314958379687,
+        "xsec_ref": {
+            "calculation": "(3478.0/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoMuNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoMuNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21238,7 +21703,12 @@
         "nfiles": 2008,
         "nick": "WtoMuNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 1072.0
+        "xsec": 1071.6314958379687,
+        "xsec_ref": {
+            "calculation": "(3478.0/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoTauNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoTauNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21249,7 +21719,12 @@
         "nfiles": 504,
         "nick": "WtoTauNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 17178.0
+        "xsec": 17219.651500416272,
+        "xsec_ref": {
+            "calculation": "(55886.7/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoTauNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoTauNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21260,7 +21735,12 @@
         "nfiles": 504,
         "nick": "WtoTauNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 17178.0
+        "xsec": 17219.651500416272,
+        "xsec_ref": {
+            "calculation": "(55886.7/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoTauNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoTauNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21271,7 +21751,12 @@
         "nfiles": 2165,
         "nick": "WtoTauNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 2827.0
+        "xsec": 2840.74781546214,
+        "xsec_ref": {
+            "calculation": "(9219.7/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoTauNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoTauNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21282,7 +21767,12 @@
         "nfiles": 2165,
         "nick": "WtoTauNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 2827.0
+        "xsec": 2840.74781546214,
+        "xsec_ref": {
+            "calculation": "(9219.7/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoTauNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoTauNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21293,7 +21783,12 @@
         "nfiles": 1917,
         "nick": "WtoTauNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 1072.0
+        "xsec": 1071.6314958379687,
+        "xsec_ref": {
+            "calculation": "(3478.0/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     },
     "WtoTauNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2": {
         "dbs": "/WtoTauNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2/NANOAODSIM",
@@ -21304,6 +21799,11 @@
         "nfiles": 1917,
         "nick": "WtoTauNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
         "sample_type": "wjets",
-        "xsec": 1072.0
+        "xsec": 1071.6314958379687,
+        "xsec_ref": {
+            "calculation": "(3478.0/68584.3 * 3*(9009.5+12122.5))/3",
+            "order": "NNLO(QCD)xNLO(EW)",
+            "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+        }
     }
 }
