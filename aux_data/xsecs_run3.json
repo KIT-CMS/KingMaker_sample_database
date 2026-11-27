@@ -1,27 +1,30 @@
 [
     {
+        "calculation": "1792.67 / 6780.5 * 3*2091.7",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "DYto2E-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 1681.9920155502393
+        "xsec": 1659.0461765356536
     },
     {
+        "calculation": "339 / 6780.5 * 3*2091.7",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "DYto2E-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 318.0710077751196
+        "xsec": 313.73186343190025
     },
     {
+        "calculation": "128.5 / 6780.5 * 3*2091.7",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "DYto2E-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 120.56673893540669
+        "xsec": 118.92196003244598
     },
     {
         "order": "NLO(QCD)",
@@ -176,28 +179,31 @@
         "xsec": 20950
     },
     {
+        "calculation": "5378 / 6780.5 * 3*2091.7",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "DYto2L-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 5045.976046650718
+        "xsec": 4977.138529606961
     },
     {
+        "calculation": "1017 / 6780.5 * 3*2091.7",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "DYto2L-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 954.2130233253588
+        "xsec": 941.1955902957009
     },
     {
+        "calculation": "385.5 / 6780.5 * 3*2091.7",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "DYto2L-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 361.70021680622006
+        "xsec": 356.7658800973379
     },
     {
         "order": "NNLO(QCD)xNLO(EW)",
@@ -492,28 +498,31 @@
         "xsec": 0.7954352112676055
     },
     {
+        "calculation": "1792.67 / 6780.5 * 3*2091.7",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "DYto2Mu-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 1681.9920155502393
+        "xsec": 1659.0461765356536
     },
     {
+        "calculation": "339 / 6780.5 * 3*2091.7",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "DYto2Mu-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 318.0710077751196
+        "xsec": 313.73186343190025
     },
     {
+        "calculation": "128.5 / 6780.5 * 3*2091.7",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "DYto2Mu-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 120.56673893540669
+        "xsec": 118.92196003244598
     },
     {
         "order": "NLO(QCD)",
@@ -660,31 +669,34 @@
         "xsec": 0.01785031240395308
     },
     {
+        "calculation": "1792.67 / 6780.5 * 3*2091.7",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "DYto2Tau-2Jets_Bin-0J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8",
             "DYto2Tau-2Jets_MLL-50_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 1681.9920155502393
+        "xsec": 1659.0461765356536
     },
     {
+        "calculation": "339 / 6780.5 * 3*2091.7",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8",
             "DYto2Tau-2Jets_MLL-50_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 318.0710077751196
+        "xsec": 313.73186343190025
     },
     {
+        "calculation": "128.5 / 6780.5 * 3*2091.7",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "DYto2Tau-2Jets_Bin-2J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8",
             "DYto2Tau-2Jets_MLL-50_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 120.56673893540669
+        "xsec": 118.92196003244598
     },
     {
         "order": "NLO(QCD)",
@@ -896,7 +908,7 @@
         "sample_names": [
             "GluGluHto2Zto2L2Q_M-125_TuneCP5_13p6TeV_powheg-jhugenv7520-pythia8"
         ],
-        "xsec": 0.20988904809953163
+        "xsec": 0.19314612184599325
     },
     {
         "order": "N3LO(QCD)+NLO(EW)",
@@ -905,7 +917,7 @@
             "GluGluHto2Zto4L_M-125_TuneCP5_13p6TeV_powheg-jhugenv7520-pythia8",
             "GluGluHtoZZto4L_M-125_TuneCP5_13p6TeV_powheg2-JHUGenV752-pythia8"
         ],
-        "xsec": 0.016473483148650124
+        "xsec": 0.013950117480145522
     },
     {
         "order": "NNLO(QCD) FTapprox",
@@ -930,6 +942,15 @@
             "TBbarQ_t-channel_4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8"
         ],
         "xsec": 145.0
+    },
+    {
+        "calculation": "145.0 * 0.6741",
+        "order": "NNLO(QCD)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2012.01574",
+        "sample_names": [
+            "TBbarQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8"
+        ],
+        "xsec": 97.7445
     },
     {
         "order": "NNLO(QCD)",
@@ -1176,6 +1197,15 @@
         "xsec": 87.2
     },
     {
+        "calculation": "87.2 * 0.6741",
+        "order": "NNLO(QCD)",
+        "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2012.01574",
+        "sample_names": [
+            "TbarBQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8"
+        ],
+        "xsec": 58.78152000000001
+    },
+    {
         "order": "NNLO(QCD)",
         "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2012.01574",
         "sample_names": [
@@ -1297,7 +1327,7 @@
         "sample_names": [
             "VBFHto2Zto4L_M125_TuneCP5_13p6TeV_powheg-jhugenv752-pythia8"
         ],
-        "xsec": 0.0012862122205666324
+        "xsec": 0.0010891935493783926
     },
     {
         "order": [
@@ -1334,28 +1364,31 @@
         "xsec": 80.42
     },
     {
-        "order": "NLO(QCD)",
-        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "calculation": "11.79 * (1558.9-149.7)/1313.4",
+        "order": "NNLO(QCD)xNLO(EW), qq only",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
         "sample_names": [
             "WWto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
         ],
-        "xsec": 11.79
+        "xsec": 12.64996802192782
     },
     {
-        "order": "NLO(QCD)",
-        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "calculation": "50.79 * (1558.9-149.7)/1313.4",
+        "order": "NNLO(QCD)xNLO(EW), qq only",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
         "sample_names": [
             "WWto4Q_TuneCP5_13p6TeV_powheg-pythia8"
         ],
-        "xsec": 50.79
+        "xsec": 54.49464595705802
     },
     {
-        "order": "NLO(QCD)",
-        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "calculation": "48.94 * (1558.9-149.7)/1313.4",
+        "order": "NNLO(QCD)xNLO(EW), qq only",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
         "sample_names": [
             "WWtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
         ],
-        "xsec": 48.94
+        "xsec": 52.50970610628902
     },
     {
         "order": [
@@ -1379,28 +1412,31 @@
         "xsec": 29.1
     },
     {
-        "order": "NLO(QCD)",
-        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "calculation": "7.568 * (2*585.9+582.5)/(2*557.8+549.1)",
+        "order": "NNLO(QCD)xNLO(EW), qq only",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
         "sample_names": [
             "WZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8"
         ],
-        "xsec": 7.568
+        "xsec": 7.9753363368775165
     },
     {
-        "order": "NLO(QCD)",
-        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "calculation": "4.924 * (2*585.9+582.5)/(2*557.8+549.1)",
+        "order": "NNLO(QCD)xNLO(EW), qq only",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
         "sample_names": [
             "WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8"
         ],
-        "xsec": 4.924
+        "xsec": 5.189026971826757
     },
     {
-        "order": "NLO(QCD)",
-        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "calculation": "15.87 * (2*585.9+582.5)/(2*557.8+549.1)",
+        "order": "NNLO(QCD)xNLO(EW), qq only",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
         "sample_names": [
             "WZtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8"
         ],
-        "xsec": 15.87
+        "xsec": 16.724179131375024
     },
     {
         "order": "NNLO(QCD)+NLO(EW)",
@@ -1440,7 +1476,7 @@
         "sample_names": [
             "WminusH_Hto2Zto4L_M-125_TuneCP5_13p6TeV_powheg2-minlo-HWJ-JHUGenV752-pythia8"
         ],
-        "xsec": 0.00017905411417745883
+        "xsec": 0.00015162706669497633
     },
     {
         "order": "NNLO(QCD)+NLO(EW)",
@@ -1475,28 +1511,58 @@
         "xsec": 0.168665148288
     },
     {
+        "calculation": "(55886.7 / 68584.3 * 3*(9009.5+12122.5))/3",
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoENu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 17219.651500416276
+    },
+    {
+        "calculation": "(9219.7 / 68584.3 * 3*(9009.5+12122.5))/3",
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoENu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 2840.747815462139
+    },
+    {
+        "calculation": "(3478 / 68584.3 * 3*(9009.5+12122.5))/3",
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoENu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 1071.6314958379687
+    },
+    {
+        "calculation": "55886.7 / 68584.3 * 3*(9009.5+12122.5)",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "WtoLNu-2Jets_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 52207.36907399202
+        "xsec": 51658.95450124882
     },
     {
+        "calculation": "9219.7 / 68584.3 * 3*(9009.5+12122.5)",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "WtoLNu-2Jets_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 8921.879840496234
+        "xsec": 8522.243446386417
     },
     {
+        "calculation": "3478 / 68584.3 * 3*(9009.5+12122.5)",
         "order": "NNLO(QCD)xNLO(EW)",
         "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
         "sample_names": [
             "WtoLNu-2Jets_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
         ],
-        "xsec": 3306.9660611431104
+        "xsec": 3214.894487513906
     },
     {
         "order": "NNLO(QCD)xNLO(EW)",
@@ -1643,6 +1709,60 @@
         "xsec": 63396.0
     },
     {
+        "calculation": "(55886.7 / 68584.3 * 3*(9009.5+12122.5))/3",
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoMuNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 17219.651500416276
+    },
+    {
+        "calculation": "(9219.7 / 68584.3 * 3*(9009.5+12122.5))/3",
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoMuNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 2840.747815462139
+    },
+    {
+        "calculation": "(3478 / 68584.3 * 3*(9009.5+12122.5))/3",
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoMuNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 1071.6314958379687
+    },
+    {
+        "calculation": "(55886.7 / 68584.3 * 3*(9009.5+12122.5))/3",
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoTauNu-2Jets_Bin-0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 17219.651500416276
+    },
+    {
+        "calculation": "(9219.7 / 68584.3 * 3*(9009.5+12122.5))/3",
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoTauNu-2Jets_Bin-1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 2840.747815462139
+    },
+    {
+        "calculation": "(3478 / 68584.3 * 3*(9009.5+12122.5))/3",
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631",
+        "sample_names": [
+            "WtoTauNu-2Jets_Bin-2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8"
+        ],
+        "xsec": 1071.6314958379687
+    },
+    {
         "order": "NNLO(QCD)+NLO(EW)",
         "reference": "https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap; https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR; https://arxiv.org/abs/2402.09955; https://xsecdb-xsdb-official.app.cern.ch",
         "sample_names": [
@@ -1664,7 +1784,7 @@
         "sample_names": [
             "ZH_Hto2B_Zto2L_M-125_TuneCP5_13p6TeV_powheg-pythia8"
         ],
-        "xsec": 0.06032708048640001
+        "xsec": 0.05551476717696
     },
     {
         "order": "NNLO(QCD)+NLO(EW)",
@@ -1696,27 +1816,39 @@
         "xsec": 12.75
     },
     {
-        "order": "NLO(QCD)",
-        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "calculation": "1.031 * (132.7-13.7)/115.4",
+        "order": "NNLO(QCD)xNLO(EW), qq only",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
         "sample_names": [
             "ZZto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8"
         ],
-        "xsec": 1.031
+        "xsec": 1.0631629116117847
     },
     {
-        "order": "NLO(QCD)",
-        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "calculation": "6.788 * (132.7-13.7)/115.4",
+        "order": "NNLO(QCD)xNLO(EW), qq only",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
         "sample_names": [
             "ZZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8"
         ],
-        "xsec": 6.788
+        "xsec": 6.999757365684574
     },
     {
-        "order": "NLO(QCD)",
-        "reference": "https://xsecdb-xsdb-official.app.cern.ch",
+        "calculation": "4.826 * (132.7-13.7)/115.4",
+        "order": "NNLO(QCD)xNLO(EW), qq only",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
+        "sample_names": [
+            "ZZto2Nu2Q_TuneCP5_13p6TeV_powheg-pythia8"
+        ],
+        "xsec": 4.976551126516463
+    },
+    {
+        "calculation": "1.39 * (387.0-44.3+163.3-13.3)/(322.9+144.8)",
+        "order": "NNLO(QCD)xNLO(EW), qq only",
+        "reference": "https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
         "sample_names": [
             "ZZto4L_TuneCP5_13p6TeV_powheg-pythia8"
         ],
-        "xsec": 1.39
+        "xsec": 1.4642997648064997
     }
 ]

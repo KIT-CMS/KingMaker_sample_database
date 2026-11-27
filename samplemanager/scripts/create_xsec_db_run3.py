@@ -51,6 +51,7 @@ def add_cross_section(
     order: str,
     reference: str,
     sample_names: str | list[str],
+    calculation: str | None = None,
 ):
     """
     Add a cross section to the cross section database.
@@ -83,6 +84,8 @@ def add_cross_section(
 
     :param sample_names: Sample name or list of sample names.
 
+    :param calculation: Formula of the cross section with its input numbers (optional).
+
     :raises ValueError: When `sample_names` is an empty list.
     """
     # Get the global cross section database
@@ -104,6 +107,8 @@ def add_cross_section(
         "reference": reference,
         "sample_names": sample_names,
     }
+    if calculation is not None:
+        process_cross_section["calculation"] = calculation
 
     # Append the cross section to the global database
     __cross_sections.append(process_cross_section)
@@ -147,7 +152,7 @@ _br_w_hadrons = 0.6741      # W -> hadrons
 
 # Z branching fractions
 # https://pdg.lbl.gov/2022/listings/rpp2022-list-z-boson.pdf
-_br_z_leptons = 3 * 0.03658  # sum of Z -> e+ e-, mu+ mu-, tau+ tau-
+_br_z_leptons = 3 * 0.033662  # sum of Z -> e+ e-, mu+ mu-, tau+ tau-
 _br_z_inv = 0.2000           # sum of Z -> nu nu (all neutrono flavours)
 _br_z_hadrons = 0.6991       # Z -> hadrons
 
@@ -223,6 +228,22 @@ add_cross_section(
     order="NNLO(QCD)",
     reference="https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2012.01574",
     sample_names="TBbarQtoLNu-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8",
+)
+
+add_cross_section(
+    xsec=_xsec_tbq_t_total * _br_w_hadrons,
+    order="NNLO(QCD)",
+    reference="https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2012.01574",
+    sample_names="TBbarQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8",
+    calculation="145.0 * 0.6741",
+)
+
+add_cross_section(
+    xsec=_xsec_tbq_antit_total * _br_w_hadrons,
+    order="NNLO(QCD)",
+    reference="https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SingleTopNNLORef; https://arxiv.org/abs/2012.01574",
+    sample_names="TbarBQto2Q-t-channel-4FS_TuneCP5_13p6TeV_powheg-madspin-pythia8",
+    calculation="87.2 * 0.6741",
 )
 
 add_cross_section(
@@ -466,7 +487,9 @@ for _sample_name, _madgraph_xsec in [
 # they must not be multiplied with the BR of the Z boson into leptons.
 # - MadGraph AMC@NLO cross section: https://xsecdb-xsdb-official.app.cern.ch
 # - NNLO cross section: https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV
-_xsec_dy_m50_total_amcatnlo = 6688.0
+# The jet bins partition the m > 50 phase space, so the denominator is the sum of their NLO cross sections
+# (not the XSDB inclusive value 6688.0) and the bins sum to the NNLO total.
+_xsec_dy_m50_total_amcatnlo = 5378 + 1017 + 385.5
 _xsec_dy_m50_total_nnlo = 3 * 2091.7
 _k_factor_dy_m50_amcatnlo_nnlo = _xsec_dy_m50_total_nnlo / _xsec_dy_m50_total_amcatnlo
 
@@ -549,6 +572,7 @@ for _sample_name, _amcatnlo_xsec in [
         order=_order,
         reference=_reference,
         sample_names=_sample_name,
+        calculation=f"{_amcatnlo_xsec:.6g} / 6780.5 * 3*2091.7",
     )
 
 
@@ -687,7 +711,14 @@ for _sample_name, _xsec in [
 # they must not be multiplied with the BR of the W boson into leptons.
 # - MadGraph AMC@NLO cross section: https://xsecdb-xsdb-official.app.cern.ch
 # - NNLO cross section: https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV
-_xsec_w_total_amcatnlo = 67710.0
+# The jet bins are the XSDB values averaged over the single-flavour samples (each reports the all-flavour
+# cross section), renormalised to the NNLO total so that they sum to it.
+_xsec_w_bins_amcatnlo = {
+    "0J": 55886.7,  # (55850 + 55920 + 55890) / 3
+    "1J": 9219.7,  # (9177 + 9202 + 9280) / 3
+    "2J": 3478.0,  # (3474 + 3490 + 3470) / 3
+}
+_xsec_w_total_amcatnlo = 68584.3  # sum of the unrounded averages
 _xsec_w_total_nnlo = 3 * (9009.5 + 12122.5)
 _k_factor_w_nlo_nnlo = _xsec_w_total_nnlo / _xsec_w_total_amcatnlo
 
@@ -704,17 +735,22 @@ add_cross_section(
 
 _order="NNLO(QCD)xNLO(EW)"
 _reference="https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV; https://arxiv.org/abs/1711.06631"
-for _sample_name, _xsec in [
-    ("WtoLNu-2Jets_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 55760),
-    ("WtoLNu-2Jets_1J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 9529),
-    ("WtoLNu-2Jets_2J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8", 3532),
-]:
+for _bin, _xsec in _xsec_w_bins_amcatnlo.items():
     add_cross_section(
         xsec=_xsec * _k_factor_w_nlo_nnlo,
         order=_order,
         reference=_reference,
-        sample_names=_sample_name,
+        sample_names=f"WtoLNu-2Jets_{_bin}_TuneCP5_13p6TeV_amcatnloFXFX-pythia8",
+        calculation=f"{_xsec:.6g} / {_xsec_w_total_amcatnlo:.6g} * 3*(9009.5+12122.5)",
     )
+    for _flavor in ["E", "Mu", "Tau"]:
+        add_cross_section(
+            xsec=_xsec * _k_factor_w_nlo_nnlo / 3,
+            order=_order,
+            reference=_reference,
+            sample_names=f"Wto{_flavor}Nu-2Jets_Bin-{_bin}_TuneCP5_13p6TeV_amcatnloFXFX-pythia8",
+            calculation=f"({_xsec:.6g} / {_xsec_w_total_amcatnlo:.6g} * 3*(9009.5+12122.5))/3",
+        )
 
 
 #
@@ -722,7 +758,15 @@ for _sample_name, _xsec in [
 #
 
 
-# TODO The cross sections on https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV seem way too high. That's why we currently just use the cross sections from the sample database.
+# The powheg samples are scaled to MATRIX with K = sigma_nNNLO(QCD)xNLO(EW) - sigma_NLO(gg) over sigma_NLO(QCD) in
+# the same final state (fb, summed over the generated lepton flavours; the m_OSSF > 4 GeV rows are off-shell, so
+# they cannot be divided by branching ratios). The powheg values reproduce MATRIX NLO(QCD) to 0.3-1.4 %. gg -> VV
+# is not included (no sample); ZZ -> 2l2q / 2nu2q use the ZZ -> 2l2nu K.
+# https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV
+_k_ww = ("(1558.9-149.7)/1313.4", (1558.9 - 149.7) / 1313.4)
+_k_zz_4l = ("(387.0-44.3+163.3-13.3)/(322.9+144.8)", (387.0 - 44.3 + 163.3 - 13.3) / (322.9 + 144.8))
+_k_zz_2l2nu = ("(132.7-13.7)/115.4", (132.7 - 13.7) / 115.4)
+_k_wz = ("(2*585.9+582.5)/(2*557.8+549.1)", (2 * 585.9 + 582.5) / (2 * 557.8 + 549.1))
 
 ## Cross sections of WW, ZZ production at 13.6 TeV for leptonic final states
 ## N.B.: To obtain the "_xsec_zz_or_ww_x" values, we subtract the gg -> VV from the pp -> VV production cross section.
@@ -730,7 +774,7 @@ for _sample_name, _xsec in [
 ## Order: nNNLO(QCD)xNLO(EW) (subtracted gg -> X at NLO)
 
 _xsec_zz_or_ww_eemumu = 0.387 - 0.0443
-_xsec_zz_or_ww_eeee = 0.1633 - 0.013
+_xsec_zz_or_ww_eeee = 0.1633 - 0.0133
 _xsec_zz_or_ww_emunuenumu = 1.5589 - 0.1497
 _xsec_zz_or_ww_eenuenue = 1.6736 - 0.1602
 
@@ -786,70 +830,87 @@ add_cross_section(
 # WW production, split in final states (POWHEG)
 
 add_cross_section(
-    xsec=11.79,
-    order="NLO(QCD)",
-    reference="https://xsecdb-xsdb-official.app.cern.ch",
+    xsec=11.79 * _k_ww[1],
+    order="NNLO(QCD)xNLO(EW), qq only",
+    reference="https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
     sample_names="WWto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8",
+    calculation=f"11.79 * {_k_ww[0]}",
 )
 
 add_cross_section(
-    xsec=48.94,
-    order="NLO(QCD)",
-    reference="https://xsecdb-xsdb-official.app.cern.ch",
+    xsec=48.94 * _k_ww[1],
+    order="NNLO(QCD)xNLO(EW), qq only",
+    reference="https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
     sample_names="WWtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8",
+    calculation=f"48.94 * {_k_ww[0]}",
 )
 
 add_cross_section(
-    xsec=50.79,
-    order="NLO(QCD)",
-    reference="https://xsecdb-xsdb-official.app.cern.ch",
+    xsec=50.79 * _k_ww[1],
+    order="NNLO(QCD)xNLO(EW), qq only",
+    reference="https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
     sample_names="WWto4Q_TuneCP5_13p6TeV_powheg-pythia8",
+    calculation=f"50.79 * {_k_ww[0]}",
 )
 
 # WZ production, split in final states (POWHEG)
 
 add_cross_section(
-    xsec=4.924,
-    order="NLO(QCD)",
-    reference="https://xsecdb-xsdb-official.app.cern.ch",
+    xsec=4.924 * _k_wz[1],
+    order="NNLO(QCD)xNLO(EW), qq only",
+    reference="https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
     sample_names="WZto3LNu_TuneCP5_13p6TeV_powheg-pythia8",
+    calculation=f"4.924 * {_k_wz[0]}",
 )
 
 add_cross_section(
-    xsec=15.87,
-    order="NLO(QCD)",
-    reference="https://xsecdb-xsdb-official.app.cern.ch",
+    xsec=15.87 * _k_wz[1],
+    order="NNLO(QCD)xNLO(EW), qq only",
+    reference="https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
     sample_names="WZtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8",
+    calculation=f"15.87 * {_k_wz[0]}",
 )
 
 add_cross_section(
-    xsec=7.568,
-    order="NLO(QCD)",
-    reference="https://xsecdb-xsdb-official.app.cern.ch",
+    xsec=7.568 * _k_wz[1],
+    order="NNLO(QCD)xNLO(EW), qq only",
+    reference="https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
     sample_names="WZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8",
+    calculation=f"7.568 * {_k_wz[0]}",
 )
 
 # ZZ production, split in final states (POWHEG)
 
 add_cross_section(
-    xsec=1.031,
-    order="NLO(QCD)",
-    reference="https://xsecdb-xsdb-official.app.cern.ch",
+    xsec=1.031 * _k_zz_2l2nu[1],
+    order="NNLO(QCD)xNLO(EW), qq only",
+    reference="https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
     sample_names="ZZto2L2Nu_TuneCP5_13p6TeV_powheg-pythia8",
+    calculation=f"1.031 * {_k_zz_2l2nu[0]}",
 )
 
 add_cross_section(
-    xsec=6.788,
-    order="NLO(QCD)",
-    reference="https://xsecdb-xsdb-official.app.cern.ch",
+    xsec=6.788 * _k_zz_2l2nu[1],
+    order="NNLO(QCD)xNLO(EW), qq only",
+    reference="https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
     sample_names="ZZto2L2Q_TuneCP5_13p6TeV_powheg-pythia8",
+    calculation=f"6.788 * {_k_zz_2l2nu[0]}",
 )
 
 add_cross_section(
-    xsec=1.39,
-    order="NLO(QCD)",
-    reference="https://xsecdb-xsdb-official.app.cern.ch",
+    xsec=1.39 * _k_zz_4l[1],
+    order="NNLO(QCD)xNLO(EW), qq only",
+    reference="https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
     sample_names="ZZto4L_TuneCP5_13p6TeV_powheg-pythia8",
+    calculation=f"1.39 * {_k_zz_4l[0]}",
+)
+
+add_cross_section(
+    xsec=4.826 * _k_zz_2l2nu[1],
+    order="NNLO(QCD)xNLO(EW), qq only",
+    reference="https://xsecdb-xsdb-official.app.cern.ch; https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV",
+    sample_names="ZZto2Nu2Q_TuneCP5_13p6TeV_powheg-pythia8",
+    calculation=f"4.826 * {_k_zz_2l2nu[0]}",
 )
 
 

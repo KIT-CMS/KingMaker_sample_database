@@ -75,7 +75,6 @@ def main(
         / nanoaod_version
         / "datasets.json"
     )
-    force = False
 
     # Load the sample and cross section databases
     sample_lookup = load_sample_database(sample_database_file)
@@ -111,7 +110,7 @@ def main(
                 sample.xsec,
                 xsec.xsec,
                 rel_tol=1e-6,
-            ):
+            ) and sample.extra.get("xsec_ref") == xsec.ref():
                 logger.debug(
                     f"Sample {sample.nick} cross section not updated, cross "
                     + "sections within relative precision of 1e-6"
@@ -120,6 +119,7 @@ def main(
 
             # Set the sample cross section
             sample.xsec = xsec.xsec
+            sample.extra["xsec_ref"] = xsec.ref()
             samples_updated.append(sample.nick)
             logger.debug(
                 f"Set cross section of sample {sample.nick} to {xsec.xsec}"
@@ -135,7 +135,8 @@ def main(
             sample_database_dir / nanoaod_version,
             sample,
         )
-        filelist.xsec =  sample.xsec
+        filelist.xsec = sample.xsec
+        filelist.extra["xsec_ref"] = sample.extra["xsec_ref"]
         dump_sample_filelist(
             sample_database_dir / nanoaod_version,
             filelist,

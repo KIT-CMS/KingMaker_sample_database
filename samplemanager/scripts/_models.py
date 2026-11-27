@@ -1,4 +1,4 @@
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass, field, fields
 import json
 from pathlib import Path
 
@@ -15,6 +15,18 @@ class Sample:
     xsec: float | None = field(default=None)
     generator_weight: float | None = field(default=None)
     filelist: list[str] | None = field(default=None)
+    # other fields of the entry (e.g. stxs, extensions, xsec_ref), written back unchanged
+    extra: dict = field(default_factory=dict)
+
+    @classmethod
+    def from_dict(cls, data: dict) -> "Sample":
+        names = {f.name for f in fields(cls)} - {"extra"}
+        return cls(**{k: v for k, v in data.items() if k in names}, extra={k: v for k, v in data.items() if k not in names})
+
+    def to_dict(self) -> dict:
+        data = asdict(self)
+        extra = data.pop("extra")
+        return {**data, **extra}
 
 
 def load_sample_database(sample_database_file: Path):
@@ -24,7 +36,7 @@ def load_sample_database(sample_database_file: Path):
     """
     with sample_database_file.open("r") as f:
         db = json.load(f)
-    sample_lookup = {k: Sample(**v) for k, v in db.items()}
+    sample_lookup = {k: Sample.from_dict(v) for k, v in db.items()}
     return sample_lookup
 
 
@@ -36,7 +48,7 @@ def dump_sample_database(
     Dump sample database to the `datasets.json` file provided as
     `sample_database_file`.
     """
-    sample_lookup = {k: asdict(s) for k, s in sample_lookup.items()}
+    sample_lookup = {k: s.to_dict() for k, s in sample_lookup.items()}
     for s in sample_lookup.values():
         s.pop("filelist")
     with sample_database_file.open("w") as f:
@@ -58,7 +70,7 @@ def load_sample_filelist(sample_database_dir: Path, sample: Sample) -> Sample:
     # Load the filelist
     with filelist_file.open("r") as f:
         data = json.load(f)
-    filelist = Sample(**data)
+    filelist = Sample.from_dict(data)
 
     return filelist
 
@@ -77,7 +89,7 @@ def dump_sample_filelist(sample_database_dir: Path, filelist: Sample):
 
     # Dump the filelist
     with filelist_file.open("w") as f:
-        json.dump(asdict(filelist), f, indent=4, sort_keys=True)
+        json.dump(filelist.to_dict(), f, indent=4, sort_keys=True)
 
 
 @dataclass
@@ -86,6 +98,12 @@ class XSec:
     reference: str
     order: str
     xsec: float
+    calculation: str | None = None
+
+    def ref(self) -> dict:
+        """The `xsec_ref` entry of a sample with this cross section."""
+        ref = {"order": self.order, "reference": self.reference}
+        return {"calculation": self.calculation, **ref} if self.calculation else ref
 
 
 def create_xsec_lookup(xsecs: list[XSec]):
