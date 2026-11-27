@@ -101,5 +101,10 @@
     "nfiles": 92,
     "nick": "ZHto2TauUncorrelatedDecay_Filtered_M-125_CP5_13p6TeV_powheg-minnlo-pythia8_Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v4",
     "sample_type": "rem_htautau",
-    "xsec": 0.02051843279866628
+    "xsec": 0.02051843279866628,
+    "xsec_ref": {
+        "calculation": "0.81361 * 0.062578 * 0.4030 = 0.020518",
+        "order": "NNLO(QCD)+NLO(EW)",
+        "reference": "STXS qq->ZH sum * BR (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/CERNYellowReportPageBR) * eps_F (AN2025_055 Tab. 12); LHCHWG (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHWG136TeVxsec_extrap) qq->ZH 0.80648 would give 0.02034"
+    }
 }

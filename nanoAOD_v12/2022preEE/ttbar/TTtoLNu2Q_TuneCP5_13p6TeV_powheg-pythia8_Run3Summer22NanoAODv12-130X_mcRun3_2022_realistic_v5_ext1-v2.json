@@ -725,5 +725,10 @@
     "nfiles": 716,
     "nick": "TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5_ext1-v2",
     "sample_type": "ttbar",
-    "xsec": 405.685352016
+    "xsec": 405.685352016,
+    "xsec_ref": {
+        "calculation": "923.6 * 2*0.3258*0.6741",
+        "order": "NNLO(QCD)+NNLL",
+        "reference": "TtbarNNLO (https://twiki.cern.ch/twiki/bin/view/LHCPhysics/TtbarNNLO), W BR 0.3258/0.6741"
+    }
 }

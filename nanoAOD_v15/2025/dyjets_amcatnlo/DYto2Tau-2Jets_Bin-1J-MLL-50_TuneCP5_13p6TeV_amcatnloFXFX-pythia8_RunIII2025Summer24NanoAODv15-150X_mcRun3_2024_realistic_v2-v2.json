@@ -2035,5 +2035,10 @@
     "nfiles": 2026,
     "nick": "DYto2Tau-2Jets_Bin-1J-MLL-50_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_RunIII2025Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
     "sample_type": "dyjets_amcatnlo",
-    "xsec": 318.0710077751196
+    "xsec": 313.73186343190025,
+    "xsec_ref": {
+        "calculation": "(1017.0/6780.5 * 3*2091.7)/3",
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch), MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+    }
 }

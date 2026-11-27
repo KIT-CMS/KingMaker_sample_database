@@ -3441,5 +3441,10 @@
     "nfiles": 3432,
     "nick": "WtoLNu-2Jets_0J_TuneCP5_13p6TeV_amcatnloFXFX-pythia8_Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v3",
     "sample_type": "wjets_amcatnlo",
-    "xsec": 51534.0
+    "xsec": 51658.954501248816,
+    "xsec_ref": {
+        "calculation": "55886.7/68584.3 * 3*(9009.5+12122.5)",
+        "order": "NNLO(QCD)xNLO(EW)",
+        "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) flavour average, MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV)"
+    }
 }

@@ -74,5 +74,10 @@
     "nfiles": 65,
     "nick": "ZZto2Nu2Q_TuneCP5_13p6TeV_powheg-pythia8_RunIII2024Summer24NanoAODv15-150X_mcRun3_2024_realistic_v2-v2",
     "sample_type": "diboson",
-    "xsec": 4.67
+    "xsec": 4.976551126516463,
+    "xsec_ref": {
+        "calculation": "4.826 * (132.7-13.7)/115.4",
+        "order": "NNLO(QCD)xNLO(EW), qq only",
+        "reference": "XSDB (https://xsecdb-xsdb-official.app.cern.ch) * MATRIX (https://twiki.cern.ch/twiki/bin/viewauth/CMS/MATRIXCrossSectionsat13p6TeV) K"
+    }
 }
